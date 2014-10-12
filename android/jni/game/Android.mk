@@ -6,7 +6,7 @@ MY_THIRD_PARTY_RELATIVE_PATH := /Users/jamesfolk/Dropbox/GameDevelopment/mygames
 
 LOCAL_MODULE := game
 
-LOCAL_C_INCLUDES := #$(MY_THIRD_PARTY_RELATIVE_PATH)/platform/android/ \
+LOCAL_C_INCLUDES := $(MY_THIRD_PARTY_RELATIVE_PATH)/platform/android/ \
                     $(MY_THIRD_PARTY_RELATIVE_PATH)/platform/core/ \
                     $(MY_THIRD_PARTY_RELATIVE_PATH)/bullet/ \
                     $(MY_THIRD_PARTY_RELATIVE_PATH)/jli_game_engine/ \
@@ -15,7 +15,7 @@ LOCAL_C_INCLUDES := #$(MY_THIRD_PARTY_RELATIVE_PATH)/platform/android/ \
                     $(MY_THIRD_PARTY_RELATIVE_PATH)/png/ \
                     $(MY_THIRD_PARTY_RELATIVE_PATH)/zlib/
                     
-LOCAL_STATIC_LIBRARIES := #platformlib \
+LOCAL_STATIC_LIBRARIES := platformlib \
                           corelib \
                           bulletlib \
                           jlilib \

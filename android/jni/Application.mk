@@ -1,5 +1,5 @@
 APP_MODULES      := game \
-                    #platformlib \
+                    platformlib \
                     corelib \
                     bulletlib \
                     jlilib \
