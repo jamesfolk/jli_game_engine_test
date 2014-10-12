@@ -1,17 +1,15 @@
 #include <jni.h>
 /* Header for class com_example_jligameenginetest_JLIGameEngineTestLib */
 
-#include <android/log.h>
+
 
 #include "./../../../../../third_party/platform/core/Game.h"
+#include "Log.h"
 
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
 
-#define  LOG_TAG    "JLIGameEngineTest"
-#define  LOGI(...)  __android_log_print(ANDROID_LOG_INFO,LOG_TAG,__VA_ARGS__)
-#define  LOGE(...)  __android_log_print(ANDROID_LOG_ERROR,LOG_TAG,__VA_ARGS__)
 
 /*
  * Class:     com_example_jligameenginetest_JLIGameEngineTestLib
@@ -21,7 +19,7 @@
 JNIEXPORT void JNICALL Java_com_example_jligameenginetest_JLIGameEngineTestLib_create
   (JNIEnv *env, jclass cls)
 {
-	LOGI("create();");
+	Log("create();");
 //	create();
 }
 
@@ -33,7 +31,7 @@ JNIEXPORT void JNICALL Java_com_example_jligameenginetest_JLIGameEngineTestLib_c
 JNIEXPORT void JNICALL Java_com_example_jligameenginetest_JLIGameEngineTestLib_resize
   (JNIEnv *env, jclass cls, jint x, jint y, jint width, jint height)
 {
-	LOGI("resize();");
+//	LOGI("resize();");
 //	resize(x, y, width, height);
 }
 
@@ -45,7 +43,7 @@ JNIEXPORT void JNICALL Java_com_example_jligameenginetest_JLIGameEngineTestLib_r
 JNIEXPORT void JNICALL Java_com_example_jligameenginetest_JLIGameEngineTestLib_update
   (JNIEnv *env, jclass cls, jfloat step)
 {
-	LOGI("update();");
+//	LOGI("update();");
 //	update(step);
 }
 
@@ -57,7 +55,7 @@ JNIEXPORT void JNICALL Java_com_example_jligameenginetest_JLIGameEngineTestLib_u
 JNIEXPORT void JNICALL Java_com_example_jligameenginetest_JLIGameEngineTestLib_render
   (JNIEnv *env, jclass cls)
 {
-	LOGI("render();");
+//	LOGI("render();");
 //	render();
 }
 
@@ -69,7 +67,7 @@ JNIEXPORT void JNICALL Java_com_example_jligameenginetest_JLIGameEngineTestLib_r
 JNIEXPORT void JNICALL Java_com_example_jligameenginetest_JLIGameEngineTestLib_destroy
   (JNIEnv * env, jclass cls)
 {
-	LOGI("destroy();");
+//	LOGI("destroy();");
 //	destroy();
 }
 
@@ -81,7 +79,7 @@ JNIEXPORT void JNICALL Java_com_example_jligameenginetest_JLIGameEngineTestLib_d
 JNIEXPORT void JNICALL Java_com_example_jligameenginetest_JLIGameEngineTestLib_pause
   (JNIEnv *env, jclass cls)
 {
-	LOGI("pause();");
+//	LOGI("pause();");
 //	pause();
 }
 
