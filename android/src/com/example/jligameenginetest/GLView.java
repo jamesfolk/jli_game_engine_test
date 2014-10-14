@@ -174,7 +174,7 @@ class GLView extends GLSurfaceView {
                 printConfig(egl, display, configs[i]);
             }
         }
-
+        
         private void printConfig(EGL10 egl, EGLDisplay display,
                 EGLConfig config) {
             int[] attributes = {
@@ -269,18 +269,39 @@ class GLView extends GLSurfaceView {
         protected int mStencilSize;
         private int[] mValue = new int[1];
     }
+    
+    public void onPause ()
+    {
+    	super.onPause();
+    	JLIGameEngineTestLib.pause();
+    }
+    
+    public void onResume()
+    {
+    	super.onResume();
+    	JLIGameEngineTestLib.unpause();
+    }
 
     private static class Renderer implements GLSurfaceView.Renderer {
+    	private long currentTime = System.nanoTime();
+    	
         public void onDrawFrame(GL10 gl) {
+        	long time = System.nanoTime();
+        	double difference = (time - currentTime)/1e6;
+        	JLIGameEngineTestLib.update((float)difference);
+        	currentTime = time;
+        	
         	JLIGameEngineTestLib.render();
         }
 
         public void onSurfaceChanged(GL10 gl, int width, int height) {
+        	
         	JLIGameEngineTestLib.resize(0, 0, width, height);
         }
 
         public void onSurfaceCreated(GL10 gl, EGLConfig config) {
             // Do nothing.
+        	JLIGameEngineTestLib.create();
         }
     }
 }
