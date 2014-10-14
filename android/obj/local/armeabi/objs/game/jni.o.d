@@ -1,4 +1,4 @@
-obj/local/armeabi/objs/game/jni.o: jni/..//jni/game/jni.c \
+obj/local/armeabi/objs/game/jni.o: jni/..//jni/game/jni.cpp \
  /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/jni.h \
  /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/sys/cdefs.h \
  /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/sys/cdefs_elf.h \
@@ -17,42 +17,7 @@ obj/local/armeabi/objs/game/jni.o: jni/..//jni/game/jni.c \
  /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/config/_native_headers.h \
  /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_epilog.h \
  /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_config_compat_post.h \
- jni/..//jni/game/./../../../../../third_party/platform/core/Game.h \
- /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/platform/core/Log.h \
- /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stdio.h \
- /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/../include/stdio.h \
- /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/sys/types.h \
- /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stddef.h \
- /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/stdint.h \
- /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/machine/wchar_limits.h \
- /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/linux/types.h \
- /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/asm/types.h \
- /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/asm-generic/types.h \
- /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/asm-generic/int-ll64.h \
- /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/asm/bitsperlong.h \
- /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/asm-generic/bitsperlong.h \
- /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/linux/posix_types.h \
- /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/linux/stddef.h \
- /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/linux/compiler.h \
- /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/asm/posix_types.h \
- /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/asm-generic/posix_types.h \
- /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/sys/sysmacros.h \
- /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stdlib.h \
- /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/../include/stdlib.h \
- /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/string.h \
- /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/../include/string.h \
- /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/malloc.h \
- /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/xlocale.h \
- /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/alloca.h \
- /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/strings.h \
- /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/memory.h \
- /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/math.h \
- /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/../include/math.h \
- /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/limits.h \
- /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/../include/limits.h \
- /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/sys/limits.h \
- /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/linux/limits.h \
- /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/sys/syslimits.h
+ /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/platform/core/Game.h
 
 /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/jni.h:
 
@@ -90,74 +55,4 @@ obj/local/armeabi/objs/game/jni.o: jni/..//jni/game/jni.c \
 
 /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_config_compat_post.h:
 
-jni/..//jni/game/./../../../../../third_party/platform/core/Game.h:
-
-/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/platform/core/Log.h:
-
-/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stdio.h:
-
-/Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/../include/stdio.h:
-
-/Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/sys/types.h:
-
-/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stddef.h:
-
-/Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/stdint.h:
-
-/Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/machine/wchar_limits.h:
-
-/Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/linux/types.h:
-
-/Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/asm/types.h:
-
-/Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/asm-generic/types.h:
-
-/Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/asm-generic/int-ll64.h:
-
-/Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/asm/bitsperlong.h:
-
-/Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/asm-generic/bitsperlong.h:
-
-/Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/linux/posix_types.h:
-
-/Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/linux/stddef.h:
-
-/Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/linux/compiler.h:
-
-/Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/asm/posix_types.h:
-
-/Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/asm-generic/posix_types.h:
-
-/Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/sys/sysmacros.h:
-
-/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stdlib.h:
-
-/Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/../include/stdlib.h:
-
-/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/string.h:
-
-/Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/../include/string.h:
-
-/Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/malloc.h:
-
-/Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/xlocale.h:
-
-/Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/alloca.h:
-
-/Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/strings.h:
-
-/Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/memory.h:
-
-/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/math.h:
-
-/Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/../include/math.h:
-
-/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/limits.h:
-
-/Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/../include/limits.h:
-
-/Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/sys/limits.h:
-
-/Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/linux/limits.h:
-
-/Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/sys/syslimits.h:
+/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/platform/core/Game.h:

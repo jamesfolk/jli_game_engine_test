@@ -1,12 +1,10 @@
 APP_MODULES      := game \
-                    platformlib \
-                    corelib \
-                    bulletlib \
-                    jlilib \
-                    jpglib \
-                    lualib \
-                    pnglib \
-                    zlib
+                    bullet \
+                    jli \
+                    jpg \
+                    lua \
+                    png \
+                    zip
 
 APP_PROJECT_PATH := $(call my-dir)/../
 APP_STL          := stlport_shared

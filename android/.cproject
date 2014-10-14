@@ -32,7 +32,7 @@
 							<tool id="com.android.gcc.compiler.1635328754" name="Android GCC Compiler" superClass="com.android.gcc.compiler">
 								<option id="com.android.gcc.option.includePath.702716435" superClass="com.android.gcc.option.includePath" valueType="includePath">
 									<listOptionValue builtIn="false" value="/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/platform/core"/>
-									<listOptionValue builtIn="false" value="/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/platform/android"/>
+									<listOptionValue builtIn="false" value="/Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include"/>
 								</option>
 								<inputType id="com.android.gcc.inputType.230737914" superClass="com.android.gcc.inputType"/>
 							</tool>
@@ -56,4 +56,5 @@
 			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.android.AndroidPerProjectProfile"/>
 		</scannerConfigBuildInfo>
 	</storageModule>
+	<storageModule moduleId="refreshScope"/>
 </cproject>

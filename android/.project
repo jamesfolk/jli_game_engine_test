@@ -53,39 +53,15 @@
 			<location>/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/platform/android</location>
 		</link>
 		<link>
-			<name>jni/bullet</name>
-			<type>2</type>
-			<location>/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/bullet</location>
-		</link>
-		<link>
 			<name>jni/core</name>
 			<type>2</type>
 			<location>/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/platform/core</location>
 		</link>
-		<link>
-			<name>jni/jli_game_engine</name>
-			<type>2</type>
-			<location>/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/jli_game_engine</location>
-		</link>
-		<link>
-			<name>jni/jpg</name>
-			<type>2</type>
-			<location>/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/jpg</location>
-		</link>
-		<link>
-			<name>jni/lua</name>
-			<type>2</type>
-			<location>/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/lua</location>
-		</link>
-		<link>
-			<name>jni/png</name>
-			<type>2</type>
-			<location>/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/png</location>
-		</link>
-		<link>
-			<name>jni/zlib</name>
-			<type>2</type>
-			<location>/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/zlib</location>
-		</link>
 	</linkedResources>
+	<variableList>
+		<variable>
+			<name>MY_THIRD_PARTY_RELATIVE_PATH</name>
+			<value>file:/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party</value>
+		</variable>
+	</variableList>
 </projectDescription>
