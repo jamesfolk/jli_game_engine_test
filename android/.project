@@ -48,6 +48,16 @@
 	</natures>
 	<linkedResources>
 		<link>
+			<name>assets</name>
+			<type>2</type>
+			<location>/Users/jamesfolk/Dropbox/GameDevelopment/mygames/games/jli_game_engine_test/COMMON/assets</location>
+		</link>
+		<link>
+			<name>script</name>
+			<type>2</type>
+			<location>/Users/jamesfolk/Dropbox/GameDevelopment/mygames/games/jli_game_engine_test/COMMON/script</location>
+		</link>
+		<link>
 			<name>jni/android</name>
 			<type>2</type>
 			<location>/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/platform/android</location>

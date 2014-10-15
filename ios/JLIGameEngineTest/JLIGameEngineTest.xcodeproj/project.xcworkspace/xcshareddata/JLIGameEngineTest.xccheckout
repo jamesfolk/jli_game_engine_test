@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C454BE4E-6D7E-4E67-8205-01BF04DEF76E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>JLIGameEngineTest</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1B6F9B42068F606B71A1F95CCFD92D15A5452526</key>
+		<string>https://github.com/JLIGames/GameThirdPartyLibs.git</string>
+		<key>A7C24B7D7BB9995AE4FEDA94D48D55B99798D2BF</key>
+		<string>https://github.com/jamesfolk/jli_game_engine_test.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ios/JLIGameEngineTest/JLIGameEngineTest.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1B6F9B42068F606B71A1F95CCFD92D15A5452526</key>
+		<string>../../../../../../third_party</string>
+		<key>A7C24B7D7BB9995AE4FEDA94D48D55B99798D2BF</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jamesfolk/jli_game_engine_test.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>A7C24B7D7BB9995AE4FEDA94D48D55B99798D2BF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>A7C24B7D7BB9995AE4FEDA94D48D55B99798D2BF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>jli_game_engine_test</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1B6F9B42068F606B71A1F95CCFD92D15A5452526</string>
+			<key>IDESourceControlWCCName</key>
+			<string>third_party</string>
+		</dict>
+	</array>
+</dict>
+</plist>

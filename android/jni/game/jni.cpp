@@ -71,7 +71,7 @@ JNIEXPORT void JNICALL Java_com_example_jligameenginetest_JLIGameEngineTestLib_d
 JNIEXPORT void JNICALL Java_com_example_jligameenginetest_JLIGameEngineTestLib_pause
   (JNIEnv *env, jclass cls)
 {
-	pause();
+//	pause();
 }
 
 /*
@@ -82,7 +82,7 @@ JNIEXPORT void JNICALL Java_com_example_jligameenginetest_JLIGameEngineTestLib_p
 JNIEXPORT void JNICALL Java_com_example_jligameenginetest_JLIGameEngineTestLib_unpause
   (JNIEnv *env, jclass cls)
 {
-	unpause();
+//	unpause();
 }
 
 #ifdef __cplusplus

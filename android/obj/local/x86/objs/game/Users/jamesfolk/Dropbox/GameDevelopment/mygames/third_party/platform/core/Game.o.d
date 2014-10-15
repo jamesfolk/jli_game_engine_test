@@ -5,8 +5,15 @@ obj/local/x86/objs/game//Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_p
  /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/platform/core/Log.h \
  /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/platform/core/Sound.h \
  /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/platform/core/Game.h \
- /Applications/adt-bundle/ndk/platforms/android-L/arch-x86/usr/include/android/log.h \
- /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stdarg.h \
+ /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/platform/android/GLPlatform.h \
+ /Applications/adt-bundle/ndk/platforms/android-L/arch-x86/usr/include/GLES2/gl2.h \
+ /Applications/adt-bundle/ndk/platforms/android-L/arch-x86/usr/include/GLES2/gl2platform.h \
+ /Applications/adt-bundle/ndk/platforms/android-L/arch-x86/usr/include/KHR/khrplatform.h \
+ /Applications/adt-bundle/ndk/platforms/android-L/arch-x86/usr/include/sys/cdefs.h \
+ /Applications/adt-bundle/ndk/platforms/android-L/arch-x86/usr/include/sys/cdefs_elf.h \
+ /Applications/adt-bundle/ndk/platforms/android-L/arch-x86/usr/include/android/api-level.h \
+ /Applications/adt-bundle/ndk/platforms/android-L/arch-x86/usr/include/stdint.h \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stddef.h \
  /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_cprolog.h \
  /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/config/features.h \
  /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_stlport_version.h \
@@ -15,20 +22,11 @@ obj/local/x86/objs/game//Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_p
  /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/config/host.h \
  /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/config/_system.h \
  /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/config/_android.h \
- /Applications/adt-bundle/ndk/platforms/android-L/arch-x86/usr/include/sys/cdefs.h \
- /Applications/adt-bundle/ndk/platforms/android-L/arch-x86/usr/include/sys/cdefs_elf.h \
- /Applications/adt-bundle/ndk/platforms/android-L/arch-x86/usr/include/android/api-level.h \
  /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/config/_gcc.h \
  /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/config/stl_confix.h \
  /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/config/_native_headers.h \
  /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_epilog.h \
  /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_config_compat_post.h \
- /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/platform/android/GLPlatform.h \
- /Applications/adt-bundle/ndk/platforms/android-L/arch-x86/usr/include/GLES2/gl2.h \
- /Applications/adt-bundle/ndk/platforms/android-L/arch-x86/usr/include/GLES2/gl2platform.h \
- /Applications/adt-bundle/ndk/platforms/android-L/arch-x86/usr/include/KHR/khrplatform.h \
- /Applications/adt-bundle/ndk/platforms/android-L/arch-x86/usr/include/stdint.h \
- /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stddef.h \
  /Applications/adt-bundle/ndk/platforms/android-L/arch-x86/usr/include/machine/wchar_limits.h \
  /Applications/adt-bundle/ndk/platforms/android-L/arch-x86/usr/include/GLES2/gl2ext.h \
  /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stdio.h \
@@ -47,6 +45,7 @@ obj/local/x86/objs/game//Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_p
  /Applications/adt-bundle/ndk/platforms/android-L/arch-x86/usr/include/asm/posix_types_32.h \
  /Applications/adt-bundle/ndk/platforms/android-L/arch-x86/usr/include/asm-generic/posix_types.h \
  /Applications/adt-bundle/ndk/platforms/android-L/arch-x86/usr/include/sys/sysmacros.h \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stdarg.h \
  /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stdlib.h \
  /Applications/adt-bundle/ndk/platforms/android-L/arch-x86/usr/include/../include/stdlib.h \
  /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/string.h \
@@ -74,9 +73,23 @@ obj/local/x86/objs/game//Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_p
 
 /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/platform/core/Game.h:
 
-/Applications/adt-bundle/ndk/platforms/android-L/arch-x86/usr/include/android/log.h:
+/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/platform/android/GLPlatform.h:
 
-/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stdarg.h:
+/Applications/adt-bundle/ndk/platforms/android-L/arch-x86/usr/include/GLES2/gl2.h:
+
+/Applications/adt-bundle/ndk/platforms/android-L/arch-x86/usr/include/GLES2/gl2platform.h:
+
+/Applications/adt-bundle/ndk/platforms/android-L/arch-x86/usr/include/KHR/khrplatform.h:
+
+/Applications/adt-bundle/ndk/platforms/android-L/arch-x86/usr/include/sys/cdefs.h:
+
+/Applications/adt-bundle/ndk/platforms/android-L/arch-x86/usr/include/sys/cdefs_elf.h:
+
+/Applications/adt-bundle/ndk/platforms/android-L/arch-x86/usr/include/android/api-level.h:
+
+/Applications/adt-bundle/ndk/platforms/android-L/arch-x86/usr/include/stdint.h:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stddef.h:
 
 /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_cprolog.h:
 
@@ -94,12 +107,6 @@ obj/local/x86/objs/game//Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_p
 
 /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/config/_android.h:
 
-/Applications/adt-bundle/ndk/platforms/android-L/arch-x86/usr/include/sys/cdefs.h:
-
-/Applications/adt-bundle/ndk/platforms/android-L/arch-x86/usr/include/sys/cdefs_elf.h:
-
-/Applications/adt-bundle/ndk/platforms/android-L/arch-x86/usr/include/android/api-level.h:
-
 /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/config/_gcc.h:
 
 /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/config/stl_confix.h:
@@ -109,18 +116,6 @@ obj/local/x86/objs/game//Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_p
 /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_epilog.h:
 
 /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_config_compat_post.h:
-
-/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/platform/android/GLPlatform.h:
-
-/Applications/adt-bundle/ndk/platforms/android-L/arch-x86/usr/include/GLES2/gl2.h:
-
-/Applications/adt-bundle/ndk/platforms/android-L/arch-x86/usr/include/GLES2/gl2platform.h:
-
-/Applications/adt-bundle/ndk/platforms/android-L/arch-x86/usr/include/KHR/khrplatform.h:
-
-/Applications/adt-bundle/ndk/platforms/android-L/arch-x86/usr/include/stdint.h:
-
-/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stddef.h:
 
 /Applications/adt-bundle/ndk/platforms/android-L/arch-x86/usr/include/machine/wchar_limits.h:
 
@@ -157,6 +152,8 @@ obj/local/x86/objs/game//Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_p
 /Applications/adt-bundle/ndk/platforms/android-L/arch-x86/usr/include/asm-generic/posix_types.h:
 
 /Applications/adt-bundle/ndk/platforms/android-L/arch-x86/usr/include/sys/sysmacros.h:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stdarg.h:
 
 /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stdlib.h:
 
