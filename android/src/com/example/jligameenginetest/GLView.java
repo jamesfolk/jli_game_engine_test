@@ -1,5 +1,7 @@
 package com.example.jligameenginetest;
 
+import java.util.concurrent.TimeUnit;
+
 import javax.microedition.khronos.egl.EGL10;
 import javax.microedition.khronos.egl.EGLConfig;
 import javax.microedition.khronos.egl.EGLContext;
@@ -283,11 +285,12 @@ class GLView extends GLSurfaceView {
     }
 
     private static class Renderer implements GLSurfaceView.Renderer {
-    	private long currentTime = System.nanoTime();
+    	private long currentTime = TimeUnit.MILLISECONDS.convert(System.nanoTime(), TimeUnit.NANOSECONDS);
     	
-        public void onDrawFrame(GL10 gl) {
-        	long time = System.nanoTime();
-        	double difference = (time - currentTime)/1e6;
+        public void onDrawFrame(GL10 gl) 
+        {
+        	long time = TimeUnit.MILLISECONDS.convert(System.nanoTime(), TimeUnit.NANOSECONDS);
+        	double difference = (time - currentTime)/1000.0;
         	JLIGameEngineTestLib.update((float)difference);
         	currentTime = time;
         	
@@ -297,6 +300,7 @@ class GLView extends GLSurfaceView {
         public void onSurfaceChanged(GL10 gl, int width, int height) {
         	
         	JLIGameEngineTestLib.resize(0, 0, width, height);
+        	
         }
 
         public void onSurfaceCreated(GL10 gl, EGLConfig config) {

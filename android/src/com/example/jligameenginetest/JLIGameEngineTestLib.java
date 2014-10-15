@@ -2,6 +2,7 @@ package com.example.jligameenginetest;
 
 public class JLIGameEngineTestLib {
 	static {
+		System.loadLibrary("stlport_shared");
         System.loadLibrary("game");
     }
 
