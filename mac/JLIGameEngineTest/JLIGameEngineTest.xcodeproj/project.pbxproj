@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C17DE44719EF93DB005D1313 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C17DE44619EF93DB005D1313 /* main.cpp */; };
+		C17DE44E19EF941D005D1313 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C17DE44D19EF941D005D1313 /* GLUT.framework */; };
+		C17DE45019EF9424005D1313 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C17DE44F19EF9424005D1313 /* OpenGL.framework */; };
+		C17DE49E19EF95DF005D1313 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C17DE45919EF94B5005D1313 /* Game.cpp */; };
+		C17DE49F19EF966A005D1313 /* File.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C17DE45219EF94AB005D1313 /* File.cpp */; };
+		C17DE4A019EF966A005D1313 /* Input.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C17DE45419EF94AB005D1313 /* Input.cpp */; };
+		C17DE4A119EF966A005D1313 /* Log.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C17DE45519EF94AB005D1313 /* Log.cpp */; };
+		C17DE4A219EF966A005D1313 /* Sound.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C17DE45619EF94AB005D1313 /* Sound.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C17DE44119EF93DB005D1313 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C17DE44319EF93DB005D1313 /* JLIGameEngineTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = JLIGameEngineTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C17DE44619EF93DB005D1313 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C17DE44D19EF941D005D1313 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		C17DE44F19EF9424005D1313 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		C17DE45219EF94AB005D1313 /* File.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = File.cpp; sourceTree = "<group>"; };
+		C17DE45319EF94AB005D1313 /* GLPlatform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLPlatform.h; sourceTree = "<group>"; };
+		C17DE45419EF94AB005D1313 /* Input.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Input.cpp; sourceTree = "<group>"; };
+		C17DE45519EF94AB005D1313 /* Log.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Log.cpp; sourceTree = "<group>"; };
+		C17DE45619EF94AB005D1313 /* Sound.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Sound.cpp; sourceTree = "<group>"; };
+		C17DE45819EF94B5005D1313 /* File.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = File.h; sourceTree = "<group>"; };
+		C17DE45919EF94B5005D1313 /* Game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		C17DE45A19EF94B5005D1313 /* Game.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		C17DE45B19EF94B5005D1313 /* Input.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Input.h; sourceTree = "<group>"; };
+		C17DE45C19EF94B5005D1313 /* Log.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Log.h; sourceTree = "<group>"; };
+		C17DE45D19EF94B5005D1313 /* Lua.i */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c.preprocessed; path = Lua.i; sourceTree = "<group>"; };
+		C17DE45E19EF94B5005D1313 /* Sound.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sound.h; sourceTree = "<group>"; };
+		C17DE46019EF94CA005D1313 /* Android.mk */ = {isa = PBXFileReference; lastKnownFileType = text; path = Android.mk; sourceTree = "<group>"; };
+		C17DE46219EF94CA005D1313 /* Android.mk */ = {isa = PBXFileReference; lastKnownFileType = text; path = Android.mk; sourceTree = "<group>"; };
+		C17DE46319EF94CA005D1313 /* Lua.i */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c.preprocessed; path = Lua.i; sourceTree = "<group>"; };
+		C17DE46619EF94CA005D1313 /* Android.mk */ = {isa = PBXFileReference; lastKnownFileType = text; path = Android.mk; sourceTree = "<group>"; };
+		C17DE46919EF94CA005D1313 /* JLIGameEngine_Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLIGameEngine_Common.h; sourceTree = "<group>"; };
+		C17DE46A19EF94CA005D1313 /* Lua.i */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c.preprocessed; path = Lua.i; sourceTree = "<group>"; };
+		C17DE46E19EF94CA005D1313 /* basic.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = basic.fsh; sourceTree = "<group>"; };
+		C17DE46F19EF94CA005D1313 /* basic.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = basic.vsh; sourceTree = "<group>"; };
+		C17DE47119EF94CA005D1313 /* Android.mk */ = {isa = PBXFileReference; lastKnownFileType = text; path = Android.mk; sourceTree = "<group>"; };
+		C17DE47219EF94CA005D1313 /* Lua.i */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c.preprocessed; path = Lua.i; sourceTree = "<group>"; };
+		C17DE47419EF94CA005D1313 /* Android.mk */ = {isa = PBXFileReference; lastKnownFileType = text; path = Android.mk; sourceTree = "<group>"; };
+		C17DE47519EF94CA005D1313 /* Lua.i */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c.preprocessed; path = Lua.i; sourceTree = "<group>"; };
+		C17DE49819EF94CA005D1313 /* Android.mk */ = {isa = PBXFileReference; lastKnownFileType = text; path = Android.mk; sourceTree = "<group>"; };
+		C17DE49919EF94CA005D1313 /* Lua.i */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c.preprocessed; path = Lua.i; sourceTree = "<group>"; };
+		C17DE49C19EF94CA005D1313 /* Android.mk */ = {isa = PBXFileReference; lastKnownFileType = text; path = Android.mk; sourceTree = "<group>"; };
+		C17DE49D19EF94CA005D1313 /* Lua.i */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c.preprocessed; path = Lua.i; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C17DE44019EF93DB005D1313 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C17DE45019EF9424005D1313 /* OpenGL.framework in Frameworks */,
+				C17DE44E19EF941D005D1313 /* GLUT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C17DE43A19EF93DB005D1313 = {
+			isa = PBXGroup;
+			children = (
+				C17DE45F19EF94CA005D1313 /* third_party */,
+				C17DE45719EF94B5005D1313 /* core */,
+				C17DE45119EF94AB005D1313 /* mac */,
+				C17DE44F19EF9424005D1313 /* OpenGL.framework */,
+				C17DE44D19EF941D005D1313 /* GLUT.framework */,
+				C17DE44519EF93DB005D1313 /* JLIGameEngineTest */,
+				C17DE44419EF93DB005D1313 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C17DE44419EF93DB005D1313 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C17DE44319EF93DB005D1313 /* JLIGameEngineTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C17DE44519EF93DB005D1313 /* JLIGameEngineTest */ = {
+			isa = PBXGroup;
+			children = (
+				C17DE44619EF93DB005D1313 /* main.cpp */,
+			);
+			path = JLIGameEngineTest;
+			sourceTree = "<group>";
+		};
+		C17DE45119EF94AB005D1313 /* mac */ = {
+			isa = PBXGroup;
+			children = (
+				C17DE45219EF94AB005D1313 /* File.cpp */,
+				C17DE45319EF94AB005D1313 /* GLPlatform.h */,
+				C17DE45419EF94AB005D1313 /* Input.cpp */,
+				C17DE45519EF94AB005D1313 /* Log.cpp */,
+				C17DE45619EF94AB005D1313 /* Sound.cpp */,
+			);
+			name = mac;
+			path = ../../../../third_party/platform/mac;
+			sourceTree = "<group>";
+		};
+		C17DE45719EF94B5005D1313 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				C17DE45819EF94B5005D1313 /* File.h */,
+				C17DE45919EF94B5005D1313 /* Game.cpp */,
+				C17DE45A19EF94B5005D1313 /* Game.h */,
+				C17DE45B19EF94B5005D1313 /* Input.h */,
+				C17DE45C19EF94B5005D1313 /* Log.h */,
+				C17DE45D19EF94B5005D1313 /* Lua.i */,
+				C17DE45E19EF94B5005D1313 /* Sound.h */,
+			);
+			name = core;
+			path = ../../../../third_party/platform/core;
+			sourceTree = "<group>";
+		};
+		C17DE45F19EF94CA005D1313 /* third_party */ = {
+			isa = PBXGroup;
+			children = (
+				C17DE46019EF94CA005D1313 /* Android.mk */,
+				C17DE46119EF94CA005D1313 /* bullet */,
+				C17DE46419EF94CA005D1313 /* jli_game_engine */,
+				C17DE47019EF94CA005D1313 /* jpg */,
+				C17DE47319EF94CA005D1313 /* lua */,
+				C17DE49719EF94CA005D1313 /* png */,
+				C17DE49B19EF94CA005D1313 /* zlib */,
+			);
+			name = third_party;
+			path = ../../../../third_party;
+			sourceTree = "<group>";
+		};
+		C17DE46119EF94CA005D1313 /* bullet */ = {
+			isa = PBXGroup;
+			children = (
+				C17DE46219EF94CA005D1313 /* Android.mk */,
+				C17DE46319EF94CA005D1313 /* Lua.i */,
+			);
+			path = bullet;
+			sourceTree = "<group>";
+		};
+		C17DE46419EF94CA005D1313 /* jli_game_engine */ = {
+			isa = PBXGroup;
+			children = (
+				C17DE46519EF94CA005D1313 /* abstract */,
+				C17DE46619EF94CA005D1313 /* Android.mk */,
+				C17DE46719EF94CA005D1313 /* controller */,
+				C17DE46819EF94CA005D1313 /* doc */,
+				C17DE46919EF94CA005D1313 /* JLIGameEngine_Common.h */,
+				C17DE46A19EF94CA005D1313 /* Lua.i */,
+				C17DE46B19EF94CA005D1313 /* model */,
+				C17DE46C19EF94CA005D1313 /* view */,
+			);
+			path = jli_game_engine;
+			sourceTree = "<group>";
+		};
+		C17DE46519EF94CA005D1313 /* abstract */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = abstract;
+			sourceTree = "<group>";
+		};
+		C17DE46719EF94CA005D1313 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		C17DE46819EF94CA005D1313 /* doc */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = doc;
+			sourceTree = "<group>";
+		};
+		C17DE46B19EF94CA005D1313 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		C17DE46C19EF94CA005D1313 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				C17DE46D19EF94CA005D1313 /* shaders */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		C17DE46D19EF94CA005D1313 /* shaders */ = {
+			isa = PBXGroup;
+			children = (
+				C17DE46E19EF94CA005D1313 /* basic.fsh */,
+				C17DE46F19EF94CA005D1313 /* basic.vsh */,
+			);
+			path = shaders;
+			sourceTree = "<group>";
+		};
+		C17DE47019EF94CA005D1313 /* jpg */ = {
+			isa = PBXGroup;
+			children = (
+				C17DE47119EF94CA005D1313 /* Android.mk */,
+				C17DE47219EF94CA005D1313 /* Lua.i */,
+			);
+			path = jpg;
+			sourceTree = "<group>";
+		};
+		C17DE47319EF94CA005D1313 /* lua */ = {
+			isa = PBXGroup;
+			children = (
+				C17DE47419EF94CA005D1313 /* Android.mk */,
+				C17DE47519EF94CA005D1313 /* Lua.i */,
+			);
+			path = lua;
+			sourceTree = "<group>";
+		};
+		C17DE49719EF94CA005D1313 /* png */ = {
+			isa = PBXGroup;
+			children = (
+				C17DE49819EF94CA005D1313 /* Android.mk */,
+				C17DE49919EF94CA005D1313 /* Lua.i */,
+			);
+			path = png;
+			sourceTree = "<group>";
+		};
+		C17DE49B19EF94CA005D1313 /* zlib */ = {
+			isa = PBXGroup;
+			children = (
+				C17DE49C19EF94CA005D1313 /* Android.mk */,
+				C17DE49D19EF94CA005D1313 /* Lua.i */,
+			);
+			path = zlib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C17DE44219EF93DB005D1313 /* JLIGameEngineTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C17DE44A19EF93DB005D1313 /* Build configuration list for PBXNativeTarget "JLIGameEngineTest" */;
+			buildPhases = (
+				C17DE43F19EF93DB005D1313 /* Sources */,
+				C17DE44019EF93DB005D1313 /* Frameworks */,
+				C17DE44119EF93DB005D1313 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JLIGameEngineTest;
+			productName = JLIGameEngineTest;
+			productReference = C17DE44319EF93DB005D1313 /* JLIGameEngineTest */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C17DE43B19EF93DB005D1313 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "James Folk";
+				TargetAttributes = {
+					C17DE44219EF93DB005D1313 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = C17DE43E19EF93DB005D1313 /* Build configuration list for PBXProject "JLIGameEngineTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C17DE43A19EF93DB005D1313;
+			productRefGroup = C17DE44419EF93DB005D1313 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C17DE44219EF93DB005D1313 /* JLIGameEngineTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C17DE43F19EF93DB005D1313 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C17DE49F19EF966A005D1313 /* File.cpp in Sources */,
+				C17DE4A019EF966A005D1313 /* Input.cpp in Sources */,
+				C17DE4A119EF966A005D1313 /* Log.cpp in Sources */,
+				C17DE4A219EF966A005D1313 /* Sound.cpp in Sources */,
+				C17DE49E19EF95DF005D1313 /* Game.cpp in Sources */,
+				C17DE44719EF93DB005D1313 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C17DE44819EF93DB005D1313 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C17DE44919EF93DB005D1313 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C17DE44B19EF93DB005D1313 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C17DE44C19EF93DB005D1313 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C17DE43E19EF93DB005D1313 /* Build configuration list for PBXProject "JLIGameEngineTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C17DE44819EF93DB005D1313 /* Debug */,
+				C17DE44919EF93DB005D1313 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C17DE44A19EF93DB005D1313 /* Build configuration list for PBXNativeTarget "JLIGameEngineTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C17DE44B19EF93DB005D1313 /* Debug */,
+				C17DE44C19EF93DB005D1313 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C17DE43B19EF93DB005D1313 /* Project object */;
+}
