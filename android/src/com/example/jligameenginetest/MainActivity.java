@@ -10,7 +10,7 @@ public class MainActivity extends Activity {
 
     @Override protected void onCreate(Bundle icicle) {
         super.onCreate(icicle);
-//        JLIGameEngineTestLib.initAssetManager(getAssets());
+        JLIGameEngineTestLib.initAssetManager(getAssets());
         mView = new GLView(getApplication());
 	setContentView(mView);
     }
