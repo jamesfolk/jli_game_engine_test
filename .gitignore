@@ -1,2 +1,5 @@
 android/bin
+*.o
+*.d
+*.so
 

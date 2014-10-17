@@ -68,6 +68,17 @@
 			<location>/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/platform/core</location>
 		</link>
 	</linkedResources>
+	<filteredResources>
+		<filter>
+			<id>1413521292145</id>
+			<name>jni/core</name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.o</arguments>
+			</matcher>
+		</filter>
+	</filteredResources>
 	<variableList>
 		<variable>
 			<name>MY_THIRD_PARTY_RELATIVE_PATH</name>

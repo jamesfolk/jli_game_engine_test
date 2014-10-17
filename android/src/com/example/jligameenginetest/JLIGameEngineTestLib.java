@@ -1,5 +1,7 @@
 package com.example.jligameenginetest;
 
+import android.content.res.AssetManager;
+
 public class JLIGameEngineTestLib {
 	static {
 		System.loadLibrary("stlport_shared");
@@ -30,4 +32,6 @@ public class JLIGameEngineTestLib {
 	public static native void pause();
 	
 	public static native void unpause();
+	
+	public static native void initAssetManager(AssetManager assetManager);
 }
