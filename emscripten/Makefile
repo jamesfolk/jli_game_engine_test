@@ -5,14 +5,17 @@ MY_EMSCRIPTEN_PATH=$(MY_THIRD_PARTY_RELATIVE_PATH)/platform/emscripten
 MY_CORE_PATH=$(MY_THIRD_PARTY_RELATIVE_PATH)/platform/core
 
 CFLAGS = -I../../../third_party/platform/emscripten/GLPlatform.h -I$(MY_EMSCRIPTEN_PATH) -I$(MY_CORE_PATH) -Wall -Wextra
+LDFLAGS = --embed-file $(MY_ASSET_DIR)@/
 
 SOURCES = main.cpp \
 $(MY_CORE_PATH)/Game.cpp \
-$(MY_EMSCRIPTEN_PATH)/Log.cpp
+$(MY_EMSCRIPTEN_PATH)/Log.cpp \
+$(MY_EMSCRIPTEN_PATH)/File.cpp
 
 OBJECTS = main.o \
 $(MY_CORE_PATH)/Game.o \
-$(MY_EMSCRIPTEN_PATH)/Log.o
+$(MY_EMSCRIPTEN_PATH)/Log.o \
+$(MY_EMSCRIPTEN_PATH)/File.o
 
 TARGET = $(MY_APP_NAME).html
 
@@ -41,3 +44,7 @@ Game.o: ../../../third_party/platform/core/Game.cpp \
   ../../../third_party/platform/core/Sound.h \
   ../../../third_party/platform/core/Game.h \
   ../../../third_party/platform/emscripten/GLPlatform.h
+Log.o: ../../../third_party/platform/emscripten/Log.cpp \
+  ../../../third_party/platform/emscripten/../core/Log.h
+File.o: ../../../third_party/platform/emscripten/File.cpp \
+  ../../../third_party/platform/emscripten/../core/File.h
