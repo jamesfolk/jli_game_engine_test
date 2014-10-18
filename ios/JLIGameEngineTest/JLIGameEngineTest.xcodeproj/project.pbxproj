@@ -23,6 +23,10 @@
 		C17DE41219EEBA58005D1313 /* Sound.mm in Sources */ = {isa = PBXBuildFile; fileRef = C17DE3EC19EEBA58005D1313 /* Sound.mm */; };
 		C17DE41D19EEBCA0005D1313 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C17DE41C19EEBCA0005D1313 /* GLKit.framework */; };
 		C17DE41F19EEBCA8005D1313 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C17DE41E19EEBCA8005D1313 /* OpenGLES.framework */; };
+		C17DE4B219F2202A005D1313 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = C17DE4B119F2202A005D1313 /* assets */; };
+		C17DE4B319F22040005D1313 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = C17DE4B119F2202A005D1313 /* assets */; };
+		C17DE4B519F220F1005D1313 /* script in Resources */ = {isa = PBXBuildFile; fileRef = C17DE4B419F220F1005D1313 /* script */; };
+		C17DE4B619F22103005D1313 /* script in Resources */ = {isa = PBXBuildFile; fileRef = C17DE4B419F220F1005D1313 /* script */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +76,8 @@
 		C17DE3F919EEBA58005D1313 /* Lua.i */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c.preprocessed; path = Lua.i; sourceTree = "<group>"; };
 		C17DE41C19EEBCA0005D1313 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		C17DE41E19EEBCA8005D1313 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		C17DE4B119F2202A005D1313 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = assets; path = ../../../COMMON/assets; sourceTree = "<group>"; };
+		C17DE4B419F220F1005D1313 /* script */ = {isa = PBXFileReference; lastKnownFileType = folder; name = script; path = ../../../COMMON/script; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,8 +124,8 @@
 		C17DE37719EEB881005D1313 /* JLIGameEngineTest */ = {
 			isa = PBXGroup;
 			children = (
-				C17DE43119EEBE77005D1313 /* assets */,
-				C17DE43019EEBE34005D1313 /* script */,
+				C17DE4B419F220F1005D1313 /* script */,
+				C17DE4B119F2202A005D1313 /* assets */,
 				C17DE37C19EEB881005D1313 /* AppDelegate.h */,
 				C17DE37D19EEB881005D1313 /* AppDelegate.mm */,
 				C17DE38319EEB881005D1313 /* GameViewController.h */,
@@ -307,86 +313,6 @@
 			path = zlib;
 			sourceTree = "<group>";
 		};
-		C17DE43019EEBE34005D1313 /* script */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = script;
-			path = ../../../COMMON/script;
-			sourceTree = "<group>";
-		};
-		C17DE43119EEBE77005D1313 /* assets */ = {
-			isa = PBXGroup;
-			children = (
-				C17DE43219EEBE77005D1313 /* cameras */,
-				C17DE43319EEBE77005D1313 /* curves */,
-				C17DE43419EEBE77005D1313 /* images */,
-				C17DE43519EEBE77005D1313 /* lamps */,
-				C17DE43619EEBE77005D1313 /* materials */,
-				C17DE43719EEBE77005D1313 /* meshes */,
-				C17DE43819EEBE77005D1313 /* sounds */,
-				C17DE43919EEBE77005D1313 /* strings */,
-			);
-			name = assets;
-			path = ../../../COMMON/assets;
-			sourceTree = "<group>";
-		};
-		C17DE43219EEBE77005D1313 /* cameras */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = cameras;
-			sourceTree = "<group>";
-		};
-		C17DE43319EEBE77005D1313 /* curves */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = curves;
-			sourceTree = "<group>";
-		};
-		C17DE43419EEBE77005D1313 /* images */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = images;
-			sourceTree = "<group>";
-		};
-		C17DE43519EEBE77005D1313 /* lamps */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = lamps;
-			sourceTree = "<group>";
-		};
-		C17DE43619EEBE77005D1313 /* materials */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = materials;
-			sourceTree = "<group>";
-		};
-		C17DE43719EEBE77005D1313 /* meshes */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = meshes;
-			sourceTree = "<group>";
-		};
-		C17DE43819EEBE77005D1313 /* sounds */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = sounds;
-			sourceTree = "<group>";
-		};
-		C17DE43919EEBE77005D1313 /* strings */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = strings;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -467,9 +393,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C17DE4B519F220F1005D1313 /* script in Resources */,
 				C17DE3FF19EEBA58005D1313 /* basic.fsh in Resources */,
 				C17DE38D19EEB881005D1313 /* LaunchScreen.xib in Resources */,
 				C17DE38819EEB881005D1313 /* Main.storyboard in Resources */,
+				C17DE4B219F2202A005D1313 /* assets in Resources */,
 				C17DE38A19EEB881005D1313 /* Images.xcassets in Resources */,
 				C17DE40019EEBA58005D1313 /* basic.vsh in Resources */,
 			);
@@ -479,6 +407,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C17DE4B619F22103005D1313 /* script in Resources */,
+				C17DE4B319F22040005D1313 /* assets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
