@@ -74,6 +74,26 @@
 		C1266C8419F543D800DDF17D /* uncompr.c in Sources */ = {isa = PBXBuildFile; fileRef = C1266C7219F543D800DDF17D /* uncompr.c */; };
 		C1266C8519F543D800DDF17D /* zutil.c in Sources */ = {isa = PBXBuildFile; fileRef = C1266C7519F543D800DDF17D /* zutil.c */; };
 		C1266C8819F544FC00DDF17D /* zpipe.c in Sources */ = {isa = PBXBuildFile; fileRef = C1266C8719F544FC00DDF17D /* zpipe.c */; };
+		C1266C8A19F5521200DDF17D /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1266C8919F5521200DDF17D /* CoreAudio.framework */; };
+		C1266C8C19F5521900DDF17D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1266C8B19F5521900DDF17D /* AudioToolbox.framework */; };
+		C1266C8F19F558B200DDF17D /* inc in Resources */ = {isa = PBXBuildFile; fileRef = C1266C8E19F558B200DDF17D /* inc */; };
+		C1266CBB19F55E0600DDF17D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1266CAB19F55E0600DDF17D /* main.cpp */; };
+		C1266CBC19F55E0600DDF17D /* sconscript in Resources */ = {isa = PBXBuildFile; fileRef = C1266CAC19F55E0600DDF17D /* sconscript */; };
+		C1266CBD19F55E0600DDF17D /* json_internalarray.inl in Resources */ = {isa = PBXBuildFile; fileRef = C1266CAF19F55E0600DDF17D /* json_internalarray.inl */; };
+		C1266CBE19F55E0600DDF17D /* json_internalmap.inl in Resources */ = {isa = PBXBuildFile; fileRef = C1266CB019F55E0600DDF17D /* json_internalmap.inl */; };
+		C1266CBF19F55E0600DDF17D /* json_reader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1266CB119F55E0600DDF17D /* json_reader.cpp */; };
+		C1266CC019F55E0600DDF17D /* json_value.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1266CB219F55E0600DDF17D /* json_value.cpp */; };
+		C1266CC119F55E0600DDF17D /* json_valueiterator.inl in Resources */ = {isa = PBXBuildFile; fileRef = C1266CB319F55E0600DDF17D /* json_valueiterator.inl */; };
+		C1266CC219F55E0600DDF17D /* json_writer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1266CB419F55E0600DDF17D /* json_writer.cpp */; };
+		C1266CC319F55E0600DDF17D /* sconscript in Resources */ = {isa = PBXBuildFile; fileRef = C1266CB519F55E0600DDF17D /* sconscript */; };
+		C1266CC419F55E0600DDF17D /* jsontest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1266CB719F55E0600DDF17D /* jsontest.cpp */; };
+		C1266CC519F55E0600DDF17D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1266CB919F55E0600DDF17D /* main.cpp */; };
+		C1266CC619F55E0600DDF17D /* sconscript in Resources */ = {isa = PBXBuildFile; fileRef = C1266CBA19F55E0600DDF17D /* sconscript */; };
+		C1266CCF19F5603000DDF17D /* tinystr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1266CC819F5603000DDF17D /* tinystr.cpp */; };
+		C1266CD019F5603000DDF17D /* tinyxml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1266CCA19F5603000DDF17D /* tinyxml.cpp */; };
+		C1266CD119F5603000DDF17D /* tinyxmlerror.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1266CCC19F5603000DDF17D /* tinyxmlerror.cpp */; };
+		C1266CD219F5603000DDF17D /* tinyxmlparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1266CCD19F5603000DDF17D /* tinyxmlparser.cpp */; };
+		C1266CD319F5603000DDF17D /* xmltest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1266CCE19F5603000DDF17D /* xmltest.cpp */; };
 		C17DE37B19EEB881005D1313 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C17DE37A19EEB881005D1313 /* main.m */; };
 		C17DE37E19EEB881005D1313 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = C17DE37D19EEB881005D1313 /* AppDelegate.mm */; };
 		C17DE38519EEB881005D1313 /* GameViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = C17DE38419EEB881005D1313 /* GameViewController.mm */; };
@@ -360,6 +380,40 @@
 		C1266C7619F543D800DDF17D /* zutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = zutil.h; path = "zlib-1.2.8/zutil.h"; sourceTree = "<group>"; };
 		C1266C8619F544E200DDF17D /* zlib_test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zlib_test.h; sourceTree = "<group>"; };
 		C1266C8719F544FC00DDF17D /* zpipe.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zpipe.c; sourceTree = "<group>"; };
+		C1266C8919F5521200DDF17D /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		C1266C8B19F5521900DDF17D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C1266C8E19F558B200DDF17D /* inc */ = {isa = PBXFileReference; lastKnownFileType = folder; name = inc; path = "fmod/ios/FMOD Programmers API/api/lowlevel/inc"; sourceTree = "<group>"; };
+		C1266CA119F55DF900DDF17D /* autolink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = autolink.h; sourceTree = "<group>"; };
+		C1266CA219F55DF900DDF17D /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		C1266CA319F55DF900DDF17D /* features.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = features.h; sourceTree = "<group>"; };
+		C1266CA419F55DF900DDF17D /* forwards.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = forwards.h; sourceTree = "<group>"; };
+		C1266CA519F55DF900DDF17D /* json.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = json.h; sourceTree = "<group>"; };
+		C1266CA619F55DF900DDF17D /* reader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = reader.h; sourceTree = "<group>"; };
+		C1266CA719F55DF900DDF17D /* value.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = value.h; sourceTree = "<group>"; };
+		C1266CA819F55DF900DDF17D /* writer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = writer.h; sourceTree = "<group>"; };
+		C1266CAB19F55E0600DDF17D /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C1266CAC19F55E0600DDF17D /* sconscript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sconscript; sourceTree = "<group>"; };
+		C1266CAE19F55E0600DDF17D /* json_batchallocator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = json_batchallocator.h; sourceTree = "<group>"; };
+		C1266CAF19F55E0600DDF17D /* json_internalarray.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = json_internalarray.inl; sourceTree = "<group>"; };
+		C1266CB019F55E0600DDF17D /* json_internalmap.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = json_internalmap.inl; sourceTree = "<group>"; };
+		C1266CB119F55E0600DDF17D /* json_reader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = json_reader.cpp; sourceTree = "<group>"; };
+		C1266CB219F55E0600DDF17D /* json_value.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = json_value.cpp; sourceTree = "<group>"; };
+		C1266CB319F55E0600DDF17D /* json_valueiterator.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = json_valueiterator.inl; sourceTree = "<group>"; };
+		C1266CB419F55E0600DDF17D /* json_writer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = json_writer.cpp; sourceTree = "<group>"; };
+		C1266CB519F55E0600DDF17D /* sconscript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sconscript; sourceTree = "<group>"; };
+		C1266CB719F55E0600DDF17D /* jsontest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = jsontest.cpp; sourceTree = "<group>"; };
+		C1266CB819F55E0600DDF17D /* jsontest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jsontest.h; sourceTree = "<group>"; };
+		C1266CB919F55E0600DDF17D /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C1266CBA19F55E0600DDF17D /* sconscript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sconscript; sourceTree = "<group>"; };
+		C1266CC719F55ECE00DDF17D /* json_test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = json_test.h; path = json/json_test.h; sourceTree = "<group>"; };
+		C1266CC819F5603000DDF17D /* tinystr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tinystr.cpp; path = xml/tinyxml/tinystr.cpp; sourceTree = "<group>"; };
+		C1266CC919F5603000DDF17D /* tinystr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tinystr.h; path = xml/tinyxml/tinystr.h; sourceTree = "<group>"; };
+		C1266CCA19F5603000DDF17D /* tinyxml.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tinyxml.cpp; path = xml/tinyxml/tinyxml.cpp; sourceTree = "<group>"; };
+		C1266CCB19F5603000DDF17D /* tinyxml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tinyxml.h; path = xml/tinyxml/tinyxml.h; sourceTree = "<group>"; };
+		C1266CCC19F5603000DDF17D /* tinyxmlerror.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tinyxmlerror.cpp; path = xml/tinyxml/tinyxmlerror.cpp; sourceTree = "<group>"; };
+		C1266CCD19F5603000DDF17D /* tinyxmlparser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tinyxmlparser.cpp; path = xml/tinyxml/tinyxmlparser.cpp; sourceTree = "<group>"; };
+		C1266CCE19F5603000DDF17D /* xmltest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xmltest.cpp; path = xml/tinyxml/xmltest.cpp; sourceTree = "<group>"; };
+		C1266CD419F5611700DDF17D /* xml_test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = xml_test.h; path = xml/xml_test.h; sourceTree = "<group>"; };
 		C17DE37519EEB881005D1313 /* JLIGameEngineTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JLIGameEngineTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C17DE37919EEB881005D1313 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C17DE37A19EEB881005D1313 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -758,6 +812,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1266C8C19F5521900DDF17D /* AudioToolbox.framework in Frameworks */,
+				C1266C8A19F5521200DDF17D /* CoreAudio.framework in Frameworks */,
 				C17DE41F19EEBCA8005D1313 /* OpenGLES.framework in Frameworks */,
 				C17DE41D19EEBCA0005D1313 /* GLKit.framework in Frameworks */,
 			);
@@ -773,9 +829,106 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C1266C9019F55C0600DDF17D /* json */ = {
+			isa = PBXGroup;
+			children = (
+				C1266CC719F55ECE00DDF17D /* json_test.h */,
+				C1266C9F19F55DF900DDF17D /* include */,
+				C1266CA919F55E0600DDF17D /* src */,
+			);
+			name = json;
+			sourceTree = "<group>";
+		};
+		C1266C9119F55C0F00DDF17D /* xml */ = {
+			isa = PBXGroup;
+			children = (
+				C1266CD419F5611700DDF17D /* xml_test.h */,
+				C1266CC819F5603000DDF17D /* tinystr.cpp */,
+				C1266CC919F5603000DDF17D /* tinystr.h */,
+				C1266CCA19F5603000DDF17D /* tinyxml.cpp */,
+				C1266CCB19F5603000DDF17D /* tinyxml.h */,
+				C1266CCC19F5603000DDF17D /* tinyxmlerror.cpp */,
+				C1266CCD19F5603000DDF17D /* tinyxmlparser.cpp */,
+				C1266CCE19F5603000DDF17D /* xmltest.cpp */,
+			);
+			name = xml;
+			sourceTree = "<group>";
+		};
+		C1266C9F19F55DF900DDF17D /* include */ = {
+			isa = PBXGroup;
+			children = (
+				C1266CA019F55DF900DDF17D /* json */,
+			);
+			name = include;
+			path = "json/jsoncpp-src-0.5.0/include";
+			sourceTree = "<group>";
+		};
+		C1266CA019F55DF900DDF17D /* json */ = {
+			isa = PBXGroup;
+			children = (
+				C1266CA119F55DF900DDF17D /* autolink.h */,
+				C1266CA219F55DF900DDF17D /* config.h */,
+				C1266CA319F55DF900DDF17D /* features.h */,
+				C1266CA419F55DF900DDF17D /* forwards.h */,
+				C1266CA519F55DF900DDF17D /* json.h */,
+				C1266CA619F55DF900DDF17D /* reader.h */,
+				C1266CA719F55DF900DDF17D /* value.h */,
+				C1266CA819F55DF900DDF17D /* writer.h */,
+			);
+			path = json;
+			sourceTree = "<group>";
+		};
+		C1266CA919F55E0600DDF17D /* src */ = {
+			isa = PBXGroup;
+			children = (
+				C1266CAA19F55E0600DDF17D /* jsontestrunner */,
+				C1266CAD19F55E0600DDF17D /* lib_json */,
+				C1266CB619F55E0600DDF17D /* test_lib_json */,
+			);
+			name = src;
+			path = "json/jsoncpp-src-0.5.0/src";
+			sourceTree = "<group>";
+		};
+		C1266CAA19F55E0600DDF17D /* jsontestrunner */ = {
+			isa = PBXGroup;
+			children = (
+				C1266CAB19F55E0600DDF17D /* main.cpp */,
+				C1266CAC19F55E0600DDF17D /* sconscript */,
+			);
+			path = jsontestrunner;
+			sourceTree = "<group>";
+		};
+		C1266CAD19F55E0600DDF17D /* lib_json */ = {
+			isa = PBXGroup;
+			children = (
+				C1266CAE19F55E0600DDF17D /* json_batchallocator.h */,
+				C1266CAF19F55E0600DDF17D /* json_internalarray.inl */,
+				C1266CB019F55E0600DDF17D /* json_internalmap.inl */,
+				C1266CB119F55E0600DDF17D /* json_reader.cpp */,
+				C1266CB219F55E0600DDF17D /* json_value.cpp */,
+				C1266CB319F55E0600DDF17D /* json_valueiterator.inl */,
+				C1266CB419F55E0600DDF17D /* json_writer.cpp */,
+				C1266CB519F55E0600DDF17D /* sconscript */,
+			);
+			path = lib_json;
+			sourceTree = "<group>";
+		};
+		C1266CB619F55E0600DDF17D /* test_lib_json */ = {
+			isa = PBXGroup;
+			children = (
+				C1266CB719F55E0600DDF17D /* jsontest.cpp */,
+				C1266CB819F55E0600DDF17D /* jsontest.h */,
+				C1266CB919F55E0600DDF17D /* main.cpp */,
+				C1266CBA19F55E0600DDF17D /* sconscript */,
+			);
+			path = test_lib_json;
+			sourceTree = "<group>";
+		};
 		C17DE36C19EEB881005D1313 = {
 			isa = PBXGroup;
 			children = (
+				C1266C8B19F5521900DDF17D /* AudioToolbox.framework */,
+				C1266C8919F5521200DDF17D /* CoreAudio.framework */,
 				C1266C4E19F53FD800DDF17D /* libz.dylib */,
 				C17DE41E19EEBCA8005D1313 /* OpenGLES.framework */,
 				C17DE41C19EEBCA0005D1313 /* GLKit.framework */,
@@ -840,12 +993,15 @@
 		C17DE3BB19EEBA58005D1313 /* third_party */ = {
 			isa = PBXGroup;
 			children = (
+				C1266C8E19F558B200DDF17D /* inc */,
 				C17DE3BD19EEBA58005D1313 /* bullet */,
 				C17DE3C019EEBA58005D1313 /* jli_game_engine */,
 				C17DE3CC19EEBA58005D1313 /* jpg */,
+				C1266C9019F55C0600DDF17D /* json */,
 				C17DE3CF19EEBA58005D1313 /* lua */,
 				C17DE3D219EEBA58005D1313 /* platform */,
 				C17DE3F319EEBA58005D1313 /* png */,
+				C1266C9119F55C0F00DDF17D /* xml */,
 				C17DE3F719EEBA58005D1313 /* zlib */,
 			);
 			name = third_party;
@@ -1659,10 +1815,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				C17DE3FF19EEBA58005D1313 /* basic.fsh in Resources */,
+				C1266CBD19F55E0600DDF17D /* json_internalarray.inl in Resources */,
 				C17DE38D19EEB881005D1313 /* LaunchScreen.xib in Resources */,
+				C1266CBC19F55E0600DDF17D /* sconscript in Resources */,
 				C17DE38819EEB881005D1313 /* Main.storyboard in Resources */,
+				C1266CBE19F55E0600DDF17D /* json_internalmap.inl in Resources */,
+				C1266CC319F55E0600DDF17D /* sconscript in Resources */,
 				C17DE4B219F2202A005D1313 /* assets in Resources */,
+				C1266CC619F55E0600DDF17D /* sconscript in Resources */,
+				C1266C8F19F558B200DDF17D /* inc in Resources */,
 				C17DE38A19EEB881005D1313 /* Images.xcassets in Resources */,
+				C1266CC119F55E0600DDF17D /* json_valueiterator.inl in Resources */,
 				C17DE40019EEBA58005D1313 /* basic.vsh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1703,15 +1866,18 @@
 				C19894A419F4D08F00E16B3A /* btStridingMeshInterface.cpp in Sources */,
 				C17DE41019EEBA58005D1313 /* Input.mm in Sources */,
 				C19894AE19F4D08F00E16B3A /* btContactProcessing.cpp in Sources */,
+				C1266CD019F5603000DDF17D /* tinyxml.cpp in Sources */,
 				C1266C0E19F53CD200DDF17D /* ldo.c in Sources */,
 				C19894D519F4D08F00E16B3A /* btUniversalConstraint.cpp in Sources */,
 				C19894C219F4D08F00E16B3A /* btRaycastCallback.cpp in Sources */,
 				C19894D019F4D08F00E16B3A /* btPoint2PointConstraint.cpp in Sources */,
 				C19894C019F4D08F00E16B3A /* btPersistentManifold.cpp in Sources */,
 				C198949819F4D08F00E16B3A /* btCylinderShape.cpp in Sources */,
+				C1266CD219F5603000DDF17D /* tinyxmlparser.cpp in Sources */,
 				C19894CC19F4D08F00E16B3A /* btGeneric6DofConstraint.cpp in Sources */,
 				C198946819F4D08F00E16B3A /* btDbvt.cpp in Sources */,
 				C1266C7D19F543D800DDF17D /* gzread.c in Sources */,
+				C1266CBF19F55E0600DDF17D /* json_reader.cpp in Sources */,
 				C1266C2519F53CD200DDF17D /* lvm.c in Sources */,
 				C17DE37E19EEB881005D1313 /* AppDelegate.mm in Sources */,
 				C19894D719F4D08F00E16B3A /* btRigidBody.cpp in Sources */,
@@ -1762,6 +1928,7 @@
 				C19894F119F4D08F00E16B3A /* btConvexHull.cpp in Sources */,
 				C1266C0919F53CD200DDF17D /* lcode.c in Sources */,
 				C1266C4919F53ED500DDF17D /* pngtrans.c in Sources */,
+				C1266CD319F5603000DDF17D /* xmltest.cpp in Sources */,
 				C19894F719F4D08F00E16B3A /* btVector3.cpp in Sources */,
 				C1266C7C19F543D800DDF17D /* gzlib.c in Sources */,
 				C1266C7A19F543D800DDF17D /* deflate.c in Sources */,
@@ -1776,6 +1943,7 @@
 				C19894B919F4D08F00E16B3A /* btContinuousConvexCollision.cpp in Sources */,
 				C198947B19F4D08F00E16B3A /* btConvexConvexAlgorithm.cpp in Sources */,
 				C19894C819F4D08F00E16B3A /* btConeTwistConstraint.cpp in Sources */,
+				C1266CD119F5603000DDF17D /* tinyxmlerror.cpp in Sources */,
 				C1266C2419F53CD200DDF17D /* lundump.c in Sources */,
 				C1266C8019F543D800DDF17D /* inffast.c in Sources */,
 				C198948019F4D08F00E16B3A /* btHashedSimplePairCache.cpp in Sources */,
@@ -1784,6 +1952,7 @@
 				C198946719F4D08F00E16B3A /* btCollisionAlgorithm.cpp in Sources */,
 				C198947219F4D08F00E16B3A /* btBoxBoxCollisionAlgorithm.cpp in Sources */,
 				C1266C5B19F5431500DDF17D /* pngtest.c in Sources */,
+				C1266CC419F55E0600DDF17D /* jsontest.cpp in Sources */,
 				C198948819F4D08F00E16B3A /* SphereTriangleDetector.cpp in Sources */,
 				C17DE38519EEB881005D1313 /* GameViewController.mm in Sources */,
 				C19894F219F4D08F00E16B3A /* btConvexHullComputer.cpp in Sources */,
@@ -1792,6 +1961,7 @@
 				C1266C8219F543D800DDF17D /* inftrees.c in Sources */,
 				C1266C4419F53ED500DDF17D /* pngrio.c in Sources */,
 				C1266C7919F543D800DDF17D /* crc32.c in Sources */,
+				C1266CBB19F55E0600DDF17D /* main.cpp in Sources */,
 				C1266C0619F53CD200DDF17D /* lauxlib.c in Sources */,
 				C198947119F4D08F00E16B3A /* btBox2dBox2dCollisionAlgorithm.cpp in Sources */,
 				C19894BF19F4D08F00E16B3A /* btMinkowskiPenetrationDepthSolver.cpp in Sources */,
@@ -1827,6 +1997,8 @@
 				C198951519F4D16B00E16B3A /* btMultiBody.cpp in Sources */,
 				C19894B419F4D08F00E16B3A /* btTriangleShapeEx.cpp in Sources */,
 				C19894D319F4D08F00E16B3A /* btSolve2LinearConstraint.cpp in Sources */,
+				C1266CC019F55E0600DDF17D /* json_value.cpp in Sources */,
+				C1266CC219F55E0600DDF17D /* json_writer.cpp in Sources */,
 				C19894C919F4D08F00E16B3A /* btContactConstraint.cpp in Sources */,
 				C19894B819F4D08F00E16B3A /* gim_tri_collision.cpp in Sources */,
 				C19894B519F4D08F00E16B3A /* gim_box_set.cpp in Sources */,
@@ -1869,6 +2041,7 @@
 				C19894A719F4D08F00E16B3A /* btTriangleCallback.cpp in Sources */,
 				C19894F019F4D08F00E16B3A /* btAlignedAllocator.cpp in Sources */,
 				C19894B319F4D08F00E16B3A /* btGImpactShape.cpp in Sources */,
+				C1266CC519F55E0600DDF17D /* main.cpp in Sources */,
 				C19894C119F4D08F00E16B3A /* btPolyhedralContactClipping.cpp in Sources */,
 				C1266C7F19F543D800DDF17D /* infback.c in Sources */,
 				C1266C8819F544FC00DDF17D /* zpipe.c in Sources */,
@@ -1881,6 +2054,7 @@
 				C198948619F4D08F00E16B3A /* btSphereTriangleCollisionAlgorithm.cpp in Sources */,
 				C198948319F4D08F00E16B3A /* btSimulationIslandManager.cpp in Sources */,
 				C1266C5A19F5431500DDF17D /* example.c in Sources */,
+				C1266CCF19F5603000DDF17D /* tinystr.cpp in Sources */,
 				C19894A819F4D08F00E16B3A /* btTriangleIndexVertexArray.cpp in Sources */,
 				C1266C8319F543D800DDF17D /* trees.c in Sources */,
 				C1266C4319F53ED500DDF17D /* pngread.c in Sources */,
@@ -2034,16 +2208,23 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DELETEME = "";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(SRCROOT)/../../../../third_party/bullet/bullet-2.82-r2704/src/**",
-					"$(SRCROOT)/../../../../third_party/png/lpng1612",
-					"$(SRCROOT)/../../../../third_party/lua/lua-5.2.3",
-					"$(SRCROOT)/../../../../third_party/zlib/zlib-1.2.8",
+					"\"$(SRCROOT)/../../../../third_party/bullet/bullet-2.82-r2704/src\"/**",
+					"\"$(SRCROOT)/../../../../third_party/png/lpng1612\"",
+					"\"$(SRCROOT)/../../../../third_party/lua/lua-5.2.3\"",
+					"\"$(SRCROOT)/../../../../third_party/zlib/zlib-1.2.8\"",
+					"\"$(SRCROOT)/../../../../third_party/fmod/ios/FMOD Programmers API/api/lowlevel/inc\"",
+					"\"$(SRCROOT)/../../../../third_party/json/jsoncpp-src-0.5.0/src/lib_json\"",
+					"\"$(SRCROOT)/../../../../third_party/json/jsoncpp-src-0.5.0/include\"",
+					"\"$(SRCROOT)/../../../../third_party/xml/tinyxml\"",
 				);
 				INFOPLIST_FILE = JLIGameEngineTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../../../../third_party/fmod/ios/FMOD Programmers API/api/lowlevel/lib/\"";
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -2052,16 +2233,23 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DELETEME = "";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(SRCROOT)/../../../../third_party/bullet/bullet-2.82-r2704/src/**",
-					"$(SRCROOT)/../../../../third_party/png/lpng1612",
-					"$(SRCROOT)/../../../../third_party/lua/lua-5.2.3",
-					"$(SRCROOT)/../../../../third_party/zlib/zlib-1.2.8",
+					"\"$(SRCROOT)/../../../../third_party/bullet/bullet-2.82-r2704/src\"/**",
+					"\"$(SRCROOT)/../../../../third_party/png/lpng1612\"",
+					"\"$(SRCROOT)/../../../../third_party/lua/lua-5.2.3\"",
+					"\"$(SRCROOT)/../../../../third_party/zlib/zlib-1.2.8\"",
+					"\"$(SRCROOT)/../../../../third_party/fmod/ios/FMOD Programmers API/api/lowlevel/inc\"",
+					"\"$(SRCROOT)/../../../../third_party/json/jsoncpp-src-0.5.0/src/lib_json\"",
+					"\"$(SRCROOT)/../../../../third_party/json/jsoncpp-src-0.5.0/include\"",
+					"\"$(SRCROOT)/../../../../third_party/xml/tinyxml\"",
 				);
 				INFOPLIST_FILE = JLIGameEngineTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../../../../third_party/fmod/ios/FMOD Programmers API/api/lowlevel/lib/\"";
+				OTHER_LDFLAGS = "-fmodex_$PLATFORM_NAME";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
