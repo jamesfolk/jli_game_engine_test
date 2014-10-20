@@ -157,6 +157,11 @@ obj/local/armeabi/objs/game//Users/jamesfolk/Dropbox/GameDevelopment/mygames/thi
  /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/platform/core/Log.h \
  /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/platform/core/Sound.h \
  /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/platform/core/Game.h \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/vector \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_vector.h \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_vector.c \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_bvector.h \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_relops_cont.h \
  /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/platform/android/GLPlatform.h \
  /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/GLES2/gl2.h \
  /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/GLES2/gl2platform.h \
@@ -476,6 +481,16 @@ obj/local/armeabi/objs/game//Users/jamesfolk/Dropbox/GameDevelopment/mygames/thi
 /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/platform/core/Sound.h:
 
 /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/platform/core/Game.h:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/vector:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_vector.h:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_vector.c:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_bvector.h:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_relops_cont.h:
 
 /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/platform/android/GLPlatform.h:
 

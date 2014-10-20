@@ -1,6 +1,9 @@
 package com.example.jligameenginetest;
 
+import java.util.Vector;
+
 import android.content.res.AssetManager;
+import android.view.MotionEvent.PointerCoords;
 
 public class JLIGameEngineTestLib {
 	static {
@@ -34,4 +37,9 @@ public class JLIGameEngineTestLib {
 	public static native void unpause();
 	
 	public static native void initAssetManager(AssetManager assetManager);
+	
+	public static native void onTouchDown(Vector<PointerCoords> points);
+	public static native void onTouchUp(Vector<PointerCoords> points);
+	public static native void onTouchMove(Vector<PointerCoords> points);
+	public static native void onTouchCancel(Vector<PointerCoords> points);
 }

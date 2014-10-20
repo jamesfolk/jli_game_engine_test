@@ -1,5 +1,6 @@
 package com.example.jligameenginetest;
 
+import java.util.Vector;
 import java.util.concurrent.TimeUnit;
 
 import javax.microedition.khronos.egl.EGL10;
@@ -12,11 +13,55 @@ import android.content.Context;
 import android.graphics.PixelFormat;
 import android.opengl.GLSurfaceView;
 import android.util.Log;
+import android.view.MotionEvent;
+import android.view.MotionEvent.PointerCoords;
+import android.view.View;
 
 class GLView extends GLSurfaceView {
     private static String TAG = "GLView";
     private static final boolean DEBUG = false;
 
+    @Override
+    public boolean onTouchEvent(MotionEvent e) {
+        // MotionEvent reports input details from the touch screen
+        // and other input controls. In this case, you are only
+        // interested in events where the touch position changed.
+    	
+    	final MotionEvent event = e;
+    	
+    	switch (e.getAction()) {
+        case MotionEvent.ACTION_DOWN:
+        	queueEvent(new Runnable() {
+                @Override
+                public void run() {
+                	getRenderer().handleTouchDown(event);
+                }});
+        	break;
+        case MotionEvent.ACTION_UP:
+        	queueEvent(new Runnable() {
+                @Override
+                public void run() {
+                	getRenderer().handleTouchUp(event);
+                }});
+        	break;
+        case MotionEvent.ACTION_MOVE:
+        	queueEvent(new Runnable() {
+                @Override
+                public void run() {
+                	getRenderer().handleTouchMove(event);
+                }});
+        	break;
+        	default:
+    		queueEvent(new Runnable() {
+                @Override
+                public void run() {
+                	getRenderer().handleCancel(event);
+                }});
+        	break;
+        }
+    	return true;
+    }
+    
     public GLView(Context context) {
         super(context);
         init(false, 0, 0);
@@ -25,6 +70,13 @@ class GLView extends GLSurfaceView {
     public GLView(Context context, boolean translucent, int depth, int stencil) {
         super(context);
         init(translucent, depth, stencil);
+    }
+    
+    private Renderer renderer;
+    
+    public Renderer getRenderer()
+    {
+    	return renderer;
     }
 
     private void init(boolean translucent, int depth, int stencil) {
@@ -53,7 +105,8 @@ class GLView extends GLSurfaceView {
                              new ConfigChooser(5, 6, 5, 0, depth, stencil) );
 
         /* Set the renderer responsible for frame rendering */
-        setRenderer(new Renderer());
+        renderer = new Renderer();
+        setRenderer(renderer);
     }
 
     private static class ContextFactory implements GLSurfaceView.EGLContextFactory {
@@ -306,6 +359,46 @@ class GLView extends GLSurfaceView {
         public void onSurfaceCreated(GL10 gl, EGLConfig config) {
             // Do nothing.
         	JLIGameEngineTestLib.create();
+        }
+        
+        private Vector<PointerCoords> createTouchVector(MotionEvent e)
+        {
+    		Vector<PointerCoords> points = new Vector<MotionEvent.PointerCoords>();
+        	
+        	PointerCoords outPointerCoords = null;
+        	for(int pointerIndex = 0; pointerIndex < e.getPointerCount(); ++pointerIndex)
+        	{
+        		outPointerCoords = new PointerCoords();
+        		
+        		e.getPointerCoords(pointerIndex, outPointerCoords);
+        		
+        		points.add(outPointerCoords);
+        	}
+        	return points;
+        }
+        
+        public void handleTouchDown(MotionEvent e)
+        {
+        	Vector<PointerCoords> points = createTouchVector(e);
+        	JLIGameEngineTestLib.onTouchDown(points);
+        }
+        
+        public void handleTouchUp(MotionEvent e)
+        {
+        	Vector<PointerCoords> points = createTouchVector(e);	
+        	JLIGameEngineTestLib.onTouchUp(points);
+        }
+        
+        public void handleTouchMove(MotionEvent e)
+        {
+        	Vector<PointerCoords> points = createTouchVector(e);	
+        	JLIGameEngineTestLib.onTouchMove(points);
+        }
+        
+        public void handleCancel(MotionEvent e)
+        {
+        	Vector<PointerCoords> points = createTouchVector(e);	
+        	JLIGameEngineTestLib.onTouchCancel(points);
         }
     }
 }
