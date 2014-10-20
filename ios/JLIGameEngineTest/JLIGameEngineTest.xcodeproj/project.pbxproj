@@ -78,17 +78,14 @@
 		C1266C8C19F5521900DDF17D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1266C8B19F5521900DDF17D /* AudioToolbox.framework */; };
 		C1266C8F19F558B200DDF17D /* inc in Resources */ = {isa = PBXBuildFile; fileRef = C1266C8E19F558B200DDF17D /* inc */; };
 		C1266CBB19F55E0600DDF17D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1266CAB19F55E0600DDF17D /* main.cpp */; };
-		C1266CBC19F55E0600DDF17D /* sconscript in Resources */ = {isa = PBXBuildFile; fileRef = C1266CAC19F55E0600DDF17D /* sconscript */; };
 		C1266CBD19F55E0600DDF17D /* json_internalarray.inl in Resources */ = {isa = PBXBuildFile; fileRef = C1266CAF19F55E0600DDF17D /* json_internalarray.inl */; };
 		C1266CBE19F55E0600DDF17D /* json_internalmap.inl in Resources */ = {isa = PBXBuildFile; fileRef = C1266CB019F55E0600DDF17D /* json_internalmap.inl */; };
 		C1266CBF19F55E0600DDF17D /* json_reader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1266CB119F55E0600DDF17D /* json_reader.cpp */; };
 		C1266CC019F55E0600DDF17D /* json_value.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1266CB219F55E0600DDF17D /* json_value.cpp */; };
 		C1266CC119F55E0600DDF17D /* json_valueiterator.inl in Resources */ = {isa = PBXBuildFile; fileRef = C1266CB319F55E0600DDF17D /* json_valueiterator.inl */; };
 		C1266CC219F55E0600DDF17D /* json_writer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1266CB419F55E0600DDF17D /* json_writer.cpp */; };
-		C1266CC319F55E0600DDF17D /* sconscript in Resources */ = {isa = PBXBuildFile; fileRef = C1266CB519F55E0600DDF17D /* sconscript */; };
 		C1266CC419F55E0600DDF17D /* jsontest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1266CB719F55E0600DDF17D /* jsontest.cpp */; };
 		C1266CC519F55E0600DDF17D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1266CB919F55E0600DDF17D /* main.cpp */; };
-		C1266CC619F55E0600DDF17D /* sconscript in Resources */ = {isa = PBXBuildFile; fileRef = C1266CBA19F55E0600DDF17D /* sconscript */; };
 		C1266CCF19F5603000DDF17D /* tinystr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1266CC819F5603000DDF17D /* tinystr.cpp */; };
 		C1266CD019F5603000DDF17D /* tinyxml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1266CCA19F5603000DDF17D /* tinyxml.cpp */; };
 		C1266CD119F5603000DDF17D /* tinyxmlerror.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1266CCC19F5603000DDF17D /* tinyxmlerror.cpp */; };
@@ -392,7 +389,6 @@
 		C1266CA719F55DF900DDF17D /* value.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = value.h; sourceTree = "<group>"; };
 		C1266CA819F55DF900DDF17D /* writer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = writer.h; sourceTree = "<group>"; };
 		C1266CAB19F55E0600DDF17D /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		C1266CAC19F55E0600DDF17D /* sconscript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sconscript; sourceTree = "<group>"; };
 		C1266CAE19F55E0600DDF17D /* json_batchallocator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = json_batchallocator.h; sourceTree = "<group>"; };
 		C1266CAF19F55E0600DDF17D /* json_internalarray.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = json_internalarray.inl; sourceTree = "<group>"; };
 		C1266CB019F55E0600DDF17D /* json_internalmap.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = json_internalmap.inl; sourceTree = "<group>"; };
@@ -400,11 +396,9 @@
 		C1266CB219F55E0600DDF17D /* json_value.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = json_value.cpp; sourceTree = "<group>"; };
 		C1266CB319F55E0600DDF17D /* json_valueiterator.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = json_valueiterator.inl; sourceTree = "<group>"; };
 		C1266CB419F55E0600DDF17D /* json_writer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = json_writer.cpp; sourceTree = "<group>"; };
-		C1266CB519F55E0600DDF17D /* sconscript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sconscript; sourceTree = "<group>"; };
 		C1266CB719F55E0600DDF17D /* jsontest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = jsontest.cpp; sourceTree = "<group>"; };
 		C1266CB819F55E0600DDF17D /* jsontest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jsontest.h; sourceTree = "<group>"; };
 		C1266CB919F55E0600DDF17D /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		C1266CBA19F55E0600DDF17D /* sconscript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sconscript; sourceTree = "<group>"; };
 		C1266CC719F55ECE00DDF17D /* json_test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = json_test.h; path = json/json_test.h; sourceTree = "<group>"; };
 		C1266CC819F5603000DDF17D /* tinystr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tinystr.cpp; path = xml/tinyxml/tinystr.cpp; sourceTree = "<group>"; };
 		C1266CC919F5603000DDF17D /* tinystr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tinystr.h; path = xml/tinyxml/tinystr.h; sourceTree = "<group>"; };
@@ -893,7 +887,6 @@
 			isa = PBXGroup;
 			children = (
 				C1266CAB19F55E0600DDF17D /* main.cpp */,
-				C1266CAC19F55E0600DDF17D /* sconscript */,
 			);
 			path = jsontestrunner;
 			sourceTree = "<group>";
@@ -908,7 +901,6 @@
 				C1266CB219F55E0600DDF17D /* json_value.cpp */,
 				C1266CB319F55E0600DDF17D /* json_valueiterator.inl */,
 				C1266CB419F55E0600DDF17D /* json_writer.cpp */,
-				C1266CB519F55E0600DDF17D /* sconscript */,
 			);
 			path = lib_json;
 			sourceTree = "<group>";
@@ -919,7 +911,6 @@
 				C1266CB719F55E0600DDF17D /* jsontest.cpp */,
 				C1266CB819F55E0600DDF17D /* jsontest.h */,
 				C1266CB919F55E0600DDF17D /* main.cpp */,
-				C1266CBA19F55E0600DDF17D /* sconscript */,
 			);
 			path = test_lib_json;
 			sourceTree = "<group>";
@@ -1817,12 +1808,9 @@
 				C17DE3FF19EEBA58005D1313 /* basic.fsh in Resources */,
 				C1266CBD19F55E0600DDF17D /* json_internalarray.inl in Resources */,
 				C17DE38D19EEB881005D1313 /* LaunchScreen.xib in Resources */,
-				C1266CBC19F55E0600DDF17D /* sconscript in Resources */,
 				C17DE38819EEB881005D1313 /* Main.storyboard in Resources */,
 				C1266CBE19F55E0600DDF17D /* json_internalmap.inl in Resources */,
-				C1266CC319F55E0600DDF17D /* sconscript in Resources */,
 				C17DE4B219F2202A005D1313 /* assets in Resources */,
-				C1266CC619F55E0600DDF17D /* sconscript in Resources */,
 				C1266C8F19F558B200DDF17D /* inc in Resources */,
 				C17DE38A19EEB881005D1313 /* Images.xcassets in Resources */,
 				C1266CC119F55E0600DDF17D /* json_valueiterator.inl in Resources */,
