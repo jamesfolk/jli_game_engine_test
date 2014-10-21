@@ -165,7 +165,8 @@ obj/local/mips/objs/game//Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_
  /Applications/adt-bundle/ndk/platforms/android-L/arch-mips/usr/include/GLES2/gl2.h \
  /Applications/adt-bundle/ndk/platforms/android-L/arch-mips/usr/include/GLES2/gl2platform.h \
  /Applications/adt-bundle/ndk/platforms/android-L/arch-mips/usr/include/KHR/khrplatform.h \
- /Applications/adt-bundle/ndk/platforms/android-L/arch-mips/usr/include/GLES2/gl2ext.h
+ /Applications/adt-bundle/ndk/platforms/android-L/arch-mips/usr/include/GLES2/gl2ext.h \
+ /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/platform/core/lib_tests.h
 
 /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/platform/core/File.h:
 
@@ -498,3 +499,5 @@ obj/local/mips/objs/game//Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_
 /Applications/adt-bundle/ndk/platforms/android-L/arch-mips/usr/include/KHR/khrplatform.h:
 
 /Applications/adt-bundle/ndk/platforms/android-L/arch-mips/usr/include/GLES2/gl2ext.h:
+
+/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/platform/core/lib_tests.h:

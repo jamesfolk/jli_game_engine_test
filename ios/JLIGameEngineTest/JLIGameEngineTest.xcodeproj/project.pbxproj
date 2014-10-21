@@ -77,11 +77,8 @@
 		C1266C8A19F5521200DDF17D /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1266C8919F5521200DDF17D /* CoreAudio.framework */; };
 		C1266C8C19F5521900DDF17D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1266C8B19F5521900DDF17D /* AudioToolbox.framework */; };
 		C1266CBB19F55E0600DDF17D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1266CAB19F55E0600DDF17D /* main.cpp */; };
-		C1266CBD19F55E0600DDF17D /* json_internalarray.inl in Resources */ = {isa = PBXBuildFile; fileRef = C1266CAF19F55E0600DDF17D /* json_internalarray.inl */; };
-		C1266CBE19F55E0600DDF17D /* json_internalmap.inl in Resources */ = {isa = PBXBuildFile; fileRef = C1266CB019F55E0600DDF17D /* json_internalmap.inl */; };
 		C1266CBF19F55E0600DDF17D /* json_reader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1266CB119F55E0600DDF17D /* json_reader.cpp */; };
 		C1266CC019F55E0600DDF17D /* json_value.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1266CB219F55E0600DDF17D /* json_value.cpp */; };
-		C1266CC119F55E0600DDF17D /* json_valueiterator.inl in Resources */ = {isa = PBXBuildFile; fileRef = C1266CB319F55E0600DDF17D /* json_valueiterator.inl */; };
 		C1266CC219F55E0600DDF17D /* json_writer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1266CB419F55E0600DDF17D /* json_writer.cpp */; };
 		C1266CC419F55E0600DDF17D /* jsontest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1266CB719F55E0600DDF17D /* jsontest.cpp */; };
 		C1266CC519F55E0600DDF17D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1266CB919F55E0600DDF17D /* main.cpp */; };
@@ -250,13 +247,6 @@
 		C198951D19F4D16B00E16B3A /* btMLCPSolver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C198951019F4D16B00E16B3A /* btMLCPSolver.cpp */; };
 		C1C338B819F6ACC00055CA83 /* shell.c in Sources */ = {isa = PBXBuildFile; fileRef = C1C338B419F6ACC00055CA83 /* shell.c */; };
 		C1C338B919F6ACC00055CA83 /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = C1C338B519F6ACC00055CA83 /* sqlite3.c */; };
-		C1F0A8A919F6BCD4003DB53B /* color4.inl in Resources */ = {isa = PBXBuildFile; fileRef = C1F0A88319F6BCD4003DB53B /* color4.inl */; };
-		C1F0A8AA19F6BCD4003DB53B /* material.inl in Resources */ = {isa = PBXBuildFile; fileRef = C1F0A89419F6BCD4003DB53B /* material.inl */; };
-		C1F0A8AB19F6BCD4003DB53B /* matrix3x3.inl in Resources */ = {isa = PBXBuildFile; fileRef = C1F0A89619F6BCD4003DB53B /* matrix3x3.inl */; };
-		C1F0A8AC19F6BCD4003DB53B /* matrix4x4.inl in Resources */ = {isa = PBXBuildFile; fileRef = C1F0A89819F6BCD4003DB53B /* matrix4x4.inl */; };
-		C1F0A8AD19F6BCD4003DB53B /* quaternion.inl in Resources */ = {isa = PBXBuildFile; fileRef = C1F0A89F19F6BCD4003DB53B /* quaternion.inl */; };
-		C1F0A8AE19F6BCD4003DB53B /* vector2.inl in Resources */ = {isa = PBXBuildFile; fileRef = C1F0A8A519F6BCD4003DB53B /* vector2.inl */; };
-		C1F0A8AF19F6BCD4003DB53B /* vector3.inl in Resources */ = {isa = PBXBuildFile; fileRef = C1F0A8A719F6BCD4003DB53B /* vector3.inl */; };
 		C1F0AA1619F6BD00003DB53B /* 3DSConverter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A8B119F6BCFF003DB53B /* 3DSConverter.cpp */; };
 		C1F0AA1719F6BD00003DB53B /* 3DSLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A8B319F6BCFF003DB53B /* 3DSLoader.cpp */; };
 		C1F0AA1819F6BD00003DB53B /* ACLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A8B519F6BCFF003DB53B /* ACLoader.cpp */; };
@@ -271,12 +261,10 @@
 		C1F0AA2119F6BD00003DB53B /* Bitmap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A8C619F6BCFF003DB53B /* Bitmap.cpp */; };
 		C1F0AA2219F6BD00003DB53B /* BlenderBMesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A8C819F6BCFF003DB53B /* BlenderBMesh.cpp */; };
 		C1F0AA2319F6BD00003DB53B /* BlenderDNA.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A8CA19F6BCFF003DB53B /* BlenderDNA.cpp */; };
-		C1F0AA2419F6BD00003DB53B /* BlenderDNA.inl in Resources */ = {isa = PBXBuildFile; fileRef = C1F0A8CC19F6BCFF003DB53B /* BlenderDNA.inl */; };
 		C1F0AA2519F6BD00003DB53B /* BlenderLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A8CE19F6BCFF003DB53B /* BlenderLoader.cpp */; };
 		C1F0AA2619F6BD00003DB53B /* BlenderModifier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A8D019F6BCFF003DB53B /* BlenderModifier.cpp */; };
 		C1F0AA2719F6BD00003DB53B /* BlenderScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A8D219F6BCFF003DB53B /* BlenderScene.cpp */; };
 		C1F0AA2819F6BD00003DB53B /* BlenderTessellator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A8D519F6BCFF003DB53B /* BlenderTessellator.cpp */; };
-		C1F0AA2919F6BD00003DB53B /* LICENSE_1_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = C1F0A8DD19F6BCFF003DB53B /* LICENSE_1_0.txt */; };
 		C1F0AA2A19F6BD00003DB53B /* BVHLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A8EB19F6BCFF003DB53B /* BVHLoader.cpp */; };
 		C1F0AA2B19F6BD00003DB53B /* CalcTangentsProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A8EE19F6BCFF003DB53B /* CalcTangentsProcess.cpp */; };
 		C1F0AA3719F6BD00003DB53B /* COBLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A90819F6BCFF003DB53B /* COBLoader.cpp */; };
@@ -379,7 +367,6 @@
 		C1F0AA9A19F6BD00003DB53B /* SGSpatialSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A9DE19F6BD00003DB53B /* SGSpatialSort.cpp */; };
 		C1F0AA9B19F6BD00003DB53B /* SkeletonMeshBuilder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A9E019F6BD00003DB53B /* SkeletonMeshBuilder.cpp */; };
 		C1F0AA9C19F6BD00003DB53B /* SMDLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A9E219F6BD00003DB53B /* SMDLoader.cpp */; };
-		C1F0AA9D19F6BD00003DB53B /* SmoothingGroups.inl in Resources */ = {isa = PBXBuildFile; fileRef = C1F0A9E519F6BD00003DB53B /* SmoothingGroups.inl */; };
 		C1F0AA9E19F6BD00003DB53B /* SortByPTypeProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A9E619F6BD00003DB53B /* SortByPTypeProcess.cpp */; };
 		C1F0AA9F19F6BD00003DB53B /* SpatialSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A9E819F6BD00003DB53B /* SpatialSort.cpp */; };
 		C1F0AAA019F6BD00003DB53B /* SplitByBoneCountProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A9EA19F6BD00003DB53B /* SplitByBoneCountProcess.cpp */; };
@@ -401,9 +388,7 @@
 		C1F0AAB019F6BD00003DB53B /* XFileParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0AA1219F6BD00003DB53B /* XFileParser.cpp */; };
 		C1F0AAB119F6BD00003DB53B /* XGLLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0AA1419F6BD00003DB53B /* XGLLoader.cpp */; };
 		C1F0AAB719F6BFBF003DB53B /* ConvertUTF.c in Sources */ = {isa = PBXBuildFile; fileRef = C1F0AAB419F6BFBF003DB53B /* ConvertUTF.c */; };
-		C1F0AAB819F6BFBF003DB53B /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = C1F0AAB619F6BFBF003DB53B /* readme.txt */; };
 		C1F0AABD19F6C05A003DB53B /* clipper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0AABA19F6C05A003DB53B /* clipper.cpp */; };
-		C1F0AABE19F6C05A003DB53B /* License.txt in Resources */ = {isa = PBXBuildFile; fileRef = C1F0AABC19F6C05A003DB53B /* License.txt */; };
 		C1F0AAC719F6C0ED003DB53B /* irrXML.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0AAC519F6C0ED003DB53B /* irrXML.cpp */; };
 		C1F0AAD719F6C192003DB53B /* shapes.cc in Sources */ = {isa = PBXBuildFile; fileRef = C1F0AACA19F6C192003DB53B /* shapes.cc */; };
 		C1F0AAD819F6C192003DB53B /* advancing_front.cc in Sources */ = {isa = PBXBuildFile; fileRef = C1F0AACF19F6C192003DB53B /* advancing_front.cc */; };
@@ -2946,26 +2931,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C17DE3FF19EEBA58005D1313 /* basic.fsh in Resources */,
-				C1F0AA9D19F6BD00003DB53B /* SmoothingGroups.inl in Resources */,
-				C1F0A8AE19F6BCD4003DB53B /* vector2.inl in Resources */,
-				C1266CBD19F55E0600DDF17D /* json_internalarray.inl in Resources */,
-				C1F0A8AF19F6BCD4003DB53B /* vector3.inl in Resources */,
 				C17DE38D19EEB881005D1313 /* LaunchScreen.xib in Resources */,
-				C1F0A8AD19F6BCD4003DB53B /* quaternion.inl in Resources */,
 				C17DE38819EEB881005D1313 /* Main.storyboard in Resources */,
-				C1F0AABE19F6C05A003DB53B /* License.txt in Resources */,
-				C1266CBE19F55E0600DDF17D /* json_internalmap.inl in Resources */,
-				C1F0AA2419F6BD00003DB53B /* BlenderDNA.inl in Resources */,
 				C17DE4B219F2202A005D1313 /* assets in Resources */,
 				C17DE38A19EEB881005D1313 /* Images.xcassets in Resources */,
-				C1F0A8AB19F6BCD4003DB53B /* matrix3x3.inl in Resources */,
-				C1F0A8AA19F6BCD4003DB53B /* material.inl in Resources */,
-				C1F0AA2919F6BD00003DB53B /* LICENSE_1_0.txt in Resources */,
-				C1266CC119F55E0600DDF17D /* json_valueiterator.inl in Resources */,
-				C1F0A8A919F6BCD4003DB53B /* color4.inl in Resources */,
-				C1F0AAB819F6BFBF003DB53B /* readme.txt in Resources */,
 				C17DE40019EEBA58005D1313 /* basic.vsh in Resources */,
-				C1F0A8AC19F6BCD4003DB53B /* matrix4x4.inl in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
