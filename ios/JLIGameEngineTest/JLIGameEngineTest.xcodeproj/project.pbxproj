@@ -76,7 +76,6 @@
 		C1266C8819F544FC00DDF17D /* zpipe.c in Sources */ = {isa = PBXBuildFile; fileRef = C1266C8719F544FC00DDF17D /* zpipe.c */; };
 		C1266C8A19F5521200DDF17D /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1266C8919F5521200DDF17D /* CoreAudio.framework */; };
 		C1266C8C19F5521900DDF17D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1266C8B19F5521900DDF17D /* AudioToolbox.framework */; };
-		C1266C8F19F558B200DDF17D /* inc in Resources */ = {isa = PBXBuildFile; fileRef = C1266C8E19F558B200DDF17D /* inc */; };
 		C1266CBB19F55E0600DDF17D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1266CAB19F55E0600DDF17D /* main.cpp */; };
 		C1266CBD19F55E0600DDF17D /* json_internalarray.inl in Resources */ = {isa = PBXBuildFile; fileRef = C1266CAF19F55E0600DDF17D /* json_internalarray.inl */; };
 		C1266CBE19F55E0600DDF17D /* json_internalmap.inl in Resources */ = {isa = PBXBuildFile; fileRef = C1266CB019F55E0600DDF17D /* json_internalmap.inl */; };
@@ -251,6 +250,168 @@
 		C198951D19F4D16B00E16B3A /* btMLCPSolver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C198951019F4D16B00E16B3A /* btMLCPSolver.cpp */; };
 		C1C338B819F6ACC00055CA83 /* shell.c in Sources */ = {isa = PBXBuildFile; fileRef = C1C338B419F6ACC00055CA83 /* shell.c */; };
 		C1C338B919F6ACC00055CA83 /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = C1C338B519F6ACC00055CA83 /* sqlite3.c */; };
+		C1F0A8A919F6BCD4003DB53B /* color4.inl in Resources */ = {isa = PBXBuildFile; fileRef = C1F0A88319F6BCD4003DB53B /* color4.inl */; };
+		C1F0A8AA19F6BCD4003DB53B /* material.inl in Resources */ = {isa = PBXBuildFile; fileRef = C1F0A89419F6BCD4003DB53B /* material.inl */; };
+		C1F0A8AB19F6BCD4003DB53B /* matrix3x3.inl in Resources */ = {isa = PBXBuildFile; fileRef = C1F0A89619F6BCD4003DB53B /* matrix3x3.inl */; };
+		C1F0A8AC19F6BCD4003DB53B /* matrix4x4.inl in Resources */ = {isa = PBXBuildFile; fileRef = C1F0A89819F6BCD4003DB53B /* matrix4x4.inl */; };
+		C1F0A8AD19F6BCD4003DB53B /* quaternion.inl in Resources */ = {isa = PBXBuildFile; fileRef = C1F0A89F19F6BCD4003DB53B /* quaternion.inl */; };
+		C1F0A8AE19F6BCD4003DB53B /* vector2.inl in Resources */ = {isa = PBXBuildFile; fileRef = C1F0A8A519F6BCD4003DB53B /* vector2.inl */; };
+		C1F0A8AF19F6BCD4003DB53B /* vector3.inl in Resources */ = {isa = PBXBuildFile; fileRef = C1F0A8A719F6BCD4003DB53B /* vector3.inl */; };
+		C1F0AA1619F6BD00003DB53B /* 3DSConverter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A8B119F6BCFF003DB53B /* 3DSConverter.cpp */; };
+		C1F0AA1719F6BD00003DB53B /* 3DSLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A8B319F6BCFF003DB53B /* 3DSLoader.cpp */; };
+		C1F0AA1819F6BD00003DB53B /* ACLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A8B519F6BCFF003DB53B /* ACLoader.cpp */; };
+		C1F0AA1919F6BD00003DB53B /* ASELoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A8B719F6BCFF003DB53B /* ASELoader.cpp */; };
+		C1F0AA1A19F6BD00003DB53B /* ASEParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A8B919F6BCFF003DB53B /* ASEParser.cpp */; };
+		C1F0AA1B19F6BD00003DB53B /* Assimp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A8BC19F6BCFF003DB53B /* Assimp.cpp */; };
+		C1F0AA1C19F6BD00003DB53B /* AssimpCExport.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A8BD19F6BCFF003DB53B /* AssimpCExport.cpp */; };
+		C1F0AA1D19F6BD00003DB53B /* AssimpPCH.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A8BE19F6BCFF003DB53B /* AssimpPCH.cpp */; };
+		C1F0AA1E19F6BD00003DB53B /* B3DImporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A8C019F6BCFF003DB53B /* B3DImporter.cpp */; };
+		C1F0AA1F19F6BD00003DB53B /* BaseImporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A8C219F6BCFF003DB53B /* BaseImporter.cpp */; };
+		C1F0AA2019F6BD00003DB53B /* BaseProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A8C419F6BCFF003DB53B /* BaseProcess.cpp */; };
+		C1F0AA2119F6BD00003DB53B /* Bitmap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A8C619F6BCFF003DB53B /* Bitmap.cpp */; };
+		C1F0AA2219F6BD00003DB53B /* BlenderBMesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A8C819F6BCFF003DB53B /* BlenderBMesh.cpp */; };
+		C1F0AA2319F6BD00003DB53B /* BlenderDNA.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A8CA19F6BCFF003DB53B /* BlenderDNA.cpp */; };
+		C1F0AA2419F6BD00003DB53B /* BlenderDNA.inl in Resources */ = {isa = PBXBuildFile; fileRef = C1F0A8CC19F6BCFF003DB53B /* BlenderDNA.inl */; };
+		C1F0AA2519F6BD00003DB53B /* BlenderLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A8CE19F6BCFF003DB53B /* BlenderLoader.cpp */; };
+		C1F0AA2619F6BD00003DB53B /* BlenderModifier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A8D019F6BCFF003DB53B /* BlenderModifier.cpp */; };
+		C1F0AA2719F6BD00003DB53B /* BlenderScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A8D219F6BCFF003DB53B /* BlenderScene.cpp */; };
+		C1F0AA2819F6BD00003DB53B /* BlenderTessellator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A8D519F6BCFF003DB53B /* BlenderTessellator.cpp */; };
+		C1F0AA2919F6BD00003DB53B /* LICENSE_1_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = C1F0A8DD19F6BCFF003DB53B /* LICENSE_1_0.txt */; };
+		C1F0AA2A19F6BD00003DB53B /* BVHLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A8EB19F6BCFF003DB53B /* BVHLoader.cpp */; };
+		C1F0AA2B19F6BD00003DB53B /* CalcTangentsProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A8EE19F6BCFF003DB53B /* CalcTangentsProcess.cpp */; };
+		C1F0AA3719F6BD00003DB53B /* COBLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A90819F6BCFF003DB53B /* COBLoader.cpp */; };
+		C1F0AA3819F6BD00003DB53B /* ColladaExporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A90B19F6BCFF003DB53B /* ColladaExporter.cpp */; };
+		C1F0AA3919F6BD00003DB53B /* ColladaLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A90E19F6BCFF003DB53B /* ColladaLoader.cpp */; };
+		C1F0AA3A19F6BD00003DB53B /* ColladaParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A91019F6BCFF003DB53B /* ColladaParser.cpp */; };
+		C1F0AA3B19F6BD00003DB53B /* ComputeUVMappingProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A91219F6BCFF003DB53B /* ComputeUVMappingProcess.cpp */; };
+		C1F0AA3C19F6BD00003DB53B /* ConvertToLHProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A91419F6BCFF003DB53B /* ConvertToLHProcess.cpp */; };
+		C1F0AA3D19F6BD00003DB53B /* CSMLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A91619F6BCFF003DB53B /* CSMLoader.cpp */; };
+		C1F0AA3E19F6BD00003DB53B /* DeboneProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A91819F6BCFF003DB53B /* DeboneProcess.cpp */; };
+		C1F0AA3F19F6BD00003DB53B /* DefaultIOStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A91A19F6BCFF003DB53B /* DefaultIOStream.cpp */; };
+		C1F0AA4019F6BD00003DB53B /* DefaultIOSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A91C19F6BCFF003DB53B /* DefaultIOSystem.cpp */; };
+		C1F0AA4119F6BD00003DB53B /* DefaultLogger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A91E19F6BCFF003DB53B /* DefaultLogger.cpp */; };
+		C1F0AA4219F6BD00003DB53B /* DXFLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A92119F6BCFF003DB53B /* DXFLoader.cpp */; };
+		C1F0AA4319F6BD00003DB53B /* Exporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A92419F6BCFF003DB53B /* Exporter.cpp */; };
+		C1F0AA4419F6BD00003DB53B /* FBXAnimation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A92619F6BCFF003DB53B /* FBXAnimation.cpp */; };
+		C1F0AA4519F6BD00003DB53B /* FBXBinaryTokenizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A92719F6BCFF003DB53B /* FBXBinaryTokenizer.cpp */; };
+		C1F0AA4619F6BD00003DB53B /* FBXConverter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A92919F6BCFF003DB53B /* FBXConverter.cpp */; };
+		C1F0AA4719F6BD00003DB53B /* FBXDeformer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A92B19F6BCFF003DB53B /* FBXDeformer.cpp */; };
+		C1F0AA4819F6BD00003DB53B /* FBXDocument.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A92C19F6BCFF003DB53B /* FBXDocument.cpp */; };
+		C1F0AA4919F6BD00003DB53B /* FBXDocumentUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A92E19F6BCFF003DB53B /* FBXDocumentUtil.cpp */; };
+		C1F0AA4A19F6BD00003DB53B /* FBXImporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A93019F6BCFF003DB53B /* FBXImporter.cpp */; };
+		C1F0AA4B19F6BD00003DB53B /* FBXMaterial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A93319F6BCFF003DB53B /* FBXMaterial.cpp */; };
+		C1F0AA4C19F6BD00003DB53B /* FBXMeshGeometry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A93419F6BCFF003DB53B /* FBXMeshGeometry.cpp */; };
+		C1F0AA4D19F6BD00003DB53B /* FBXModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A93519F6BCFF003DB53B /* FBXModel.cpp */; };
+		C1F0AA4E19F6BD00003DB53B /* FBXNodeAttribute.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A93619F6BCFF003DB53B /* FBXNodeAttribute.cpp */; };
+		C1F0AA4F19F6BD00003DB53B /* FBXParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A93719F6BCFF003DB53B /* FBXParser.cpp */; };
+		C1F0AA5019F6BD00003DB53B /* FBXProperties.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A93919F6BCFF003DB53B /* FBXProperties.cpp */; };
+		C1F0AA5119F6BD00003DB53B /* FBXTokenizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A93B19F6BCFF003DB53B /* FBXTokenizer.cpp */; };
+		C1F0AA5219F6BD00003DB53B /* FBXUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A93D19F6BCFF003DB53B /* FBXUtil.cpp */; };
+		C1F0AA5319F6BD00003DB53B /* FindDegenerates.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A94119F6BCFF003DB53B /* FindDegenerates.cpp */; };
+		C1F0AA5419F6BD00003DB53B /* FindInstancesProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A94319F6BCFF003DB53B /* FindInstancesProcess.cpp */; };
+		C1F0AA5519F6BD00003DB53B /* FindInvalidDataProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A94519F6BCFF003DB53B /* FindInvalidDataProcess.cpp */; };
+		C1F0AA5619F6BD00003DB53B /* FixNormalsStep.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A94719F6BCFF003DB53B /* FixNormalsStep.cpp */; };
+		C1F0AA5719F6BD00003DB53B /* GenFaceNormalsProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A94A19F6BCFF003DB53B /* GenFaceNormalsProcess.cpp */; };
+		C1F0AA5819F6BD00003DB53B /* GenVertexNormalsProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A94C19F6BCFF003DB53B /* GenVertexNormalsProcess.cpp */; };
+		C1F0AA5919F6BD00003DB53B /* HMPLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A95119F6BCFF003DB53B /* HMPLoader.cpp */; };
+		C1F0AA5A19F6BD00003DB53B /* IFCBoolean.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A95319F6BCFF003DB53B /* IFCBoolean.cpp */; };
+		C1F0AA5B19F6BD00003DB53B /* IFCCurve.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A95419F6BCFF003DB53B /* IFCCurve.cpp */; };
+		C1F0AA5C19F6BD00003DB53B /* IFCGeometry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A95519F6BCFF003DB53B /* IFCGeometry.cpp */; };
+		C1F0AA5D19F6BD00003DB53B /* IFCLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A95619F6BCFF003DB53B /* IFCLoader.cpp */; };
+		C1F0AA5E19F6BD00003DB53B /* IFCMaterial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A95819F6BCFF003DB53B /* IFCMaterial.cpp */; };
+		C1F0AA5F19F6BD00003DB53B /* IFCOpenings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A95919F6BCFF003DB53B /* IFCOpenings.cpp */; };
+		C1F0AA6019F6BD00003DB53B /* IFCProfile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A95A19F6BCFF003DB53B /* IFCProfile.cpp */; };
+		C1F0AA6119F6BD00003DB53B /* IFCReaderGen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A95B19F6BCFF003DB53B /* IFCReaderGen.cpp */; };
+		C1F0AA6219F6BD00003DB53B /* IFCUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A95D19F6BCFF003DB53B /* IFCUtil.cpp */; };
+		C1F0AA6319F6BD00003DB53B /* Importer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A96019F6BCFF003DB53B /* Importer.cpp */; };
+		C1F0AA6419F6BD00003DB53B /* ImporterRegistry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A96219F6BCFF003DB53B /* ImporterRegistry.cpp */; };
+		C1F0AA6519F6BD00003DB53B /* ImproveCacheLocality.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A96319F6BCFF003DB53B /* ImproveCacheLocality.cpp */; };
+		C1F0AA6619F6BD00003DB53B /* IRRLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A96519F6BCFF003DB53B /* IRRLoader.cpp */; };
+		C1F0AA6719F6BD00003DB53B /* IRRMeshLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A96719F6BCFF003DB53B /* IRRMeshLoader.cpp */; };
+		C1F0AA6819F6BD00003DB53B /* IRRShared.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A96919F6BCFF003DB53B /* IRRShared.cpp */; };
+		C1F0AA6919F6BD00003DB53B /* JoinVerticesProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A96C19F6BCFF003DB53B /* JoinVerticesProcess.cpp */; };
+		C1F0AA6A19F6BD00003DB53B /* LimitBoneWeightsProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A96E19F6BCFF003DB53B /* LimitBoneWeightsProcess.cpp */; };
+		C1F0AA6B19F6BD00003DB53B /* LWOAnimation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A97219F6BCFF003DB53B /* LWOAnimation.cpp */; };
+		C1F0AA6C19F6BD00003DB53B /* LWOBLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A97419F6BCFF003DB53B /* LWOBLoader.cpp */; };
+		C1F0AA6D19F6BD00003DB53B /* LWOLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A97619F6BCFF003DB53B /* LWOLoader.cpp */; };
+		C1F0AA6E19F6BD00003DB53B /* LWOMaterial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A97819F6BCFF003DB53B /* LWOMaterial.cpp */; };
+		C1F0AA6F19F6BD00003DB53B /* LWSLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A97919F6BCFF003DB53B /* LWSLoader.cpp */; };
+		C1F0AA7119F6BD00003DB53B /* MakeVerboseFormat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A97C19F6BCFF003DB53B /* MakeVerboseFormat.cpp */; };
+		C1F0AA7219F6BD00003DB53B /* MaterialSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A97E19F6BCFF003DB53B /* MaterialSystem.cpp */; };
+		C1F0AA7319F6BD00003DB53B /* MD2Loader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A98119F6BCFF003DB53B /* MD2Loader.cpp */; };
+		C1F0AA7419F6BD00003DB53B /* MD3Loader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A98519F6BCFF003DB53B /* MD3Loader.cpp */; };
+		C1F0AA7519F6BD00003DB53B /* MD5Loader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A98819F6BCFF003DB53B /* MD5Loader.cpp */; };
+		C1F0AA7619F6BD00003DB53B /* MD5Parser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A98A19F6BCFF003DB53B /* MD5Parser.cpp */; };
+		C1F0AA7719F6BD00003DB53B /* MDCLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A98D19F6BCFF003DB53B /* MDCLoader.cpp */; };
+		C1F0AA7819F6BD00003DB53B /* MDLLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A99219F6BCFF003DB53B /* MDLLoader.cpp */; };
+		C1F0AA7919F6BD00003DB53B /* MDLMaterialLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A99419F6BCFF003DB53B /* MDLMaterialLoader.cpp */; };
+		C1F0AA7A19F6BD00003DB53B /* MS3DLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A99619F6BCFF003DB53B /* MS3DLoader.cpp */; };
+		C1F0AA7B19F6BD00003DB53B /* NDOLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A99819F6BCFF003DB53B /* NDOLoader.cpp */; };
+		C1F0AA7C19F6BD00003DB53B /* NFFLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A99A19F6BCFF003DB53B /* NFFLoader.cpp */; };
+		C1F0AA7D19F6BD00003DB53B /* ObjExporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A99C19F6BCFF003DB53B /* ObjExporter.cpp */; };
+		C1F0AA7E19F6BD00003DB53B /* ObjFileImporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A99F19F6BCFF003DB53B /* ObjFileImporter.cpp */; };
+		C1F0AA7F19F6BD00003DB53B /* ObjFileMtlImporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A9A119F6BCFF003DB53B /* ObjFileMtlImporter.cpp */; };
+		C1F0AA8019F6BD00003DB53B /* ObjFileParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A9A319F6BCFF003DB53B /* ObjFileParser.cpp */; };
+		C1F0AA8119F6BD00003DB53B /* OFFLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A9A619F6BCFF003DB53B /* OFFLoader.cpp */; };
+		C1F0AA8219F6BD00003DB53B /* OgreBinarySerializer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A9A819F6BCFF003DB53B /* OgreBinarySerializer.cpp */; };
+		C1F0AA8319F6BD00003DB53B /* OgreImporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A9AA19F6BCFF003DB53B /* OgreImporter.cpp */; };
+		C1F0AA8419F6BD00003DB53B /* OgreMaterial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A9AC19F6BCFF003DB53B /* OgreMaterial.cpp */; };
+		C1F0AA8519F6BD00003DB53B /* OgreStructs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A9AE19F6BCFF003DB53B /* OgreStructs.cpp */; };
+		C1F0AA8619F6BD00003DB53B /* OgreXmlSerializer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A9B019F6BCFF003DB53B /* OgreXmlSerializer.cpp */; };
+		C1F0AA8719F6BD00003DB53B /* OptimizeGraph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A9B219F6BCFF003DB53B /* OptimizeGraph.cpp */; };
+		C1F0AA8819F6BD00003DB53B /* OptimizeMeshes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A9B419F6BD00003DB53B /* OptimizeMeshes.cpp */; };
+		C1F0AA8919F6BD00003DB53B /* PlyExporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A9B719F6BD00003DB53B /* PlyExporter.cpp */; };
+		C1F0AA8A19F6BD00003DB53B /* PlyLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A9B919F6BD00003DB53B /* PlyLoader.cpp */; };
+		C1F0AA8B19F6BD00003DB53B /* PlyParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A9BB19F6BD00003DB53B /* PlyParser.cpp */; };
+		C1F0AA8C19F6BD00003DB53B /* PostStepRegistry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A9BE19F6BD00003DB53B /* PostStepRegistry.cpp */; };
+		C1F0AA8D19F6BD00003DB53B /* PretransformVertices.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A9BF19F6BD00003DB53B /* PretransformVertices.cpp */; };
+		C1F0AA8E19F6BD00003DB53B /* ProcessHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A9C119F6BD00003DB53B /* ProcessHelper.cpp */; };
+		C1F0AA8F19F6BD00003DB53B /* Q3BSPFileImporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A9C519F6BD00003DB53B /* Q3BSPFileImporter.cpp */; };
+		C1F0AA9019F6BD00003DB53B /* Q3BSPFileParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A9C719F6BD00003DB53B /* Q3BSPFileParser.cpp */; };
+		C1F0AA9119F6BD00003DB53B /* Q3BSPZipArchive.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A9C919F6BD00003DB53B /* Q3BSPZipArchive.cpp */; };
+		C1F0AA9219F6BD00003DB53B /* Q3DLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A9CB19F6BD00003DB53B /* Q3DLoader.cpp */; };
+		C1F0AA9319F6BD00003DB53B /* RawLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A9CE19F6BD00003DB53B /* RawLoader.cpp */; };
+		C1F0AA9419F6BD00003DB53B /* RemoveComments.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A9D019F6BD00003DB53B /* RemoveComments.cpp */; };
+		C1F0AA9519F6BD00003DB53B /* RemoveRedundantMaterials.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A9D219F6BD00003DB53B /* RemoveRedundantMaterials.cpp */; };
+		C1F0AA9619F6BD00003DB53B /* RemoveVCProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A9D419F6BD00003DB53B /* RemoveVCProcess.cpp */; };
+		C1F0AA9819F6BD00003DB53B /* SceneCombiner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A9D919F6BD00003DB53B /* SceneCombiner.cpp */; };
+		C1F0AA9919F6BD00003DB53B /* ScenePreprocessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A9DB19F6BD00003DB53B /* ScenePreprocessor.cpp */; };
+		C1F0AA9A19F6BD00003DB53B /* SGSpatialSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A9DE19F6BD00003DB53B /* SGSpatialSort.cpp */; };
+		C1F0AA9B19F6BD00003DB53B /* SkeletonMeshBuilder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A9E019F6BD00003DB53B /* SkeletonMeshBuilder.cpp */; };
+		C1F0AA9C19F6BD00003DB53B /* SMDLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A9E219F6BD00003DB53B /* SMDLoader.cpp */; };
+		C1F0AA9D19F6BD00003DB53B /* SmoothingGroups.inl in Resources */ = {isa = PBXBuildFile; fileRef = C1F0A9E519F6BD00003DB53B /* SmoothingGroups.inl */; };
+		C1F0AA9E19F6BD00003DB53B /* SortByPTypeProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A9E619F6BD00003DB53B /* SortByPTypeProcess.cpp */; };
+		C1F0AA9F19F6BD00003DB53B /* SpatialSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A9E819F6BD00003DB53B /* SpatialSort.cpp */; };
+		C1F0AAA019F6BD00003DB53B /* SplitByBoneCountProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A9EA19F6BD00003DB53B /* SplitByBoneCountProcess.cpp */; };
+		C1F0AAA119F6BD00003DB53B /* SplitLargeMeshes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A9EC19F6BD00003DB53B /* SplitLargeMeshes.cpp */; };
+		C1F0AAA219F6BD00003DB53B /* StandardShapes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A9EE19F6BD00003DB53B /* StandardShapes.cpp */; };
+		C1F0AAA319F6BD00003DB53B /* STEPFileEncoding.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A9F219F6BD00003DB53B /* STEPFileEncoding.cpp */; };
+		C1F0AAA419F6BD00003DB53B /* STEPFileReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A9F419F6BD00003DB53B /* STEPFileReader.cpp */; };
+		C1F0AAA519F6BD00003DB53B /* STLExporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A9F619F6BD00003DB53B /* STLExporter.cpp */; };
+		C1F0AAA619F6BD00003DB53B /* STLLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A9F819F6BD00003DB53B /* STLLoader.cpp */; };
+		C1F0AAA719F6BD00003DB53B /* Subdivision.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A9FC19F6BD00003DB53B /* Subdivision.cpp */; };
+		C1F0AAA819F6BD00003DB53B /* TargetAnimation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0A9FE19F6BD00003DB53B /* TargetAnimation.cpp */; };
+		C1F0AAA919F6BD00003DB53B /* TerragenLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0AA0019F6BD00003DB53B /* TerragenLoader.cpp */; };
+		C1F0AAAA19F6BD00003DB53B /* TextureTransform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0AA0219F6BD00003DB53B /* TextureTransform.cpp */; };
+		C1F0AAAB19F6BD00003DB53B /* TriangulateProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0AA0519F6BD00003DB53B /* TriangulateProcess.cpp */; };
+		C1F0AAAC19F6BD00003DB53B /* UnrealLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0AA0719F6BD00003DB53B /* UnrealLoader.cpp */; };
+		C1F0AAAD19F6BD00003DB53B /* ValidateDataStructure.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0AA0919F6BD00003DB53B /* ValidateDataStructure.cpp */; };
+		C1F0AAAE19F6BD00003DB53B /* VertexTriangleAdjacency.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0AA0C19F6BD00003DB53B /* VertexTriangleAdjacency.cpp */; };
+		C1F0AAAF19F6BD00003DB53B /* XFileImporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0AA1019F6BD00003DB53B /* XFileImporter.cpp */; };
+		C1F0AAB019F6BD00003DB53B /* XFileParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0AA1219F6BD00003DB53B /* XFileParser.cpp */; };
+		C1F0AAB119F6BD00003DB53B /* XGLLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0AA1419F6BD00003DB53B /* XGLLoader.cpp */; };
+		C1F0AAB719F6BFBF003DB53B /* ConvertUTF.c in Sources */ = {isa = PBXBuildFile; fileRef = C1F0AAB419F6BFBF003DB53B /* ConvertUTF.c */; };
+		C1F0AAB819F6BFBF003DB53B /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = C1F0AAB619F6BFBF003DB53B /* readme.txt */; };
+		C1F0AABD19F6C05A003DB53B /* clipper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0AABA19F6C05A003DB53B /* clipper.cpp */; };
+		C1F0AABE19F6C05A003DB53B /* License.txt in Resources */ = {isa = PBXBuildFile; fileRef = C1F0AABC19F6C05A003DB53B /* License.txt */; };
+		C1F0AAC719F6C0ED003DB53B /* irrXML.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F0AAC519F6C0ED003DB53B /* irrXML.cpp */; };
+		C1F0AAD719F6C192003DB53B /* shapes.cc in Sources */ = {isa = PBXBuildFile; fileRef = C1F0AACA19F6C192003DB53B /* shapes.cc */; };
+		C1F0AAD819F6C192003DB53B /* advancing_front.cc in Sources */ = {isa = PBXBuildFile; fileRef = C1F0AACF19F6C192003DB53B /* advancing_front.cc */; };
+		C1F0AAD919F6C192003DB53B /* cdt.cc in Sources */ = {isa = PBXBuildFile; fileRef = C1F0AAD119F6C192003DB53B /* cdt.cc */; };
+		C1F0AADA19F6C192003DB53B /* sweep.cc in Sources */ = {isa = PBXBuildFile; fileRef = C1F0AAD319F6C192003DB53B /* sweep.cc */; };
+		C1F0AADB19F6C192003DB53B /* sweep_context.cc in Sources */ = {isa = PBXBuildFile; fileRef = C1F0AAD519F6C192003DB53B /* sweep_context.cc */; };
+		C1F0AAE219F6C268003DB53B /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = C1F0AADE19F6C268003DB53B /* ioapi.c */; };
+		C1F0AAE319F6C268003DB53B /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = C1F0AAE019F6C268003DB53B /* unzip.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -343,7 +504,6 @@
 		C1266C3B19F53ED500DDF17D /* pngwrite.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pngwrite.c; path = lpng1612/pngwrite.c; sourceTree = "<group>"; };
 		C1266C3C19F53ED500DDF17D /* pngwtran.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pngwtran.c; path = lpng1612/pngwtran.c; sourceTree = "<group>"; };
 		C1266C3D19F53ED500DDF17D /* pngwutil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pngwutil.c; path = lpng1612/pngwutil.c; sourceTree = "<group>"; };
-		C1266C4E19F53FD800DDF17D /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		C1266C5019F5403000DDF17D /* lib_tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lib_tests.h; sourceTree = "<group>"; };
 		C1266C5319F5422B00DDF17D /* lua.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = lua.c; path = "lua-5.2.3/src/lua.c"; sourceTree = "<group>"; };
 		C1266C5419F5422B00DDF17D /* luac.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = luac.c; path = "lua-5.2.3/src/luac.c"; sourceTree = "<group>"; };
@@ -381,7 +541,6 @@
 		C1266C8719F544FC00DDF17D /* zpipe.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zpipe.c; sourceTree = "<group>"; };
 		C1266C8919F5521200DDF17D /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 		C1266C8B19F5521900DDF17D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		C1266C8E19F558B200DDF17D /* inc */ = {isa = PBXFileReference; lastKnownFileType = folder; name = inc; path = "fmod/ios/FMOD Programmers API/api/lowlevel/inc"; sourceTree = "<group>"; };
 		C1266CA119F55DF900DDF17D /* autolink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = autolink.h; sourceTree = "<group>"; };
 		C1266CA219F55DF900DDF17D /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
 		C1266CA319F55DF900DDF17D /* features.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = features.h; sourceTree = "<group>"; };
@@ -806,6 +965,415 @@
 		C1C338B619F6ACC00055CA83 /* sqlite3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sqlite3.h; path = "sqlite/sqlite-amalgamation-3080700/sqlite3.h"; sourceTree = "<group>"; };
 		C1C338B719F6ACC00055CA83 /* sqlite3ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sqlite3ext.h; path = "sqlite/sqlite-amalgamation-3080700/sqlite3ext.h"; sourceTree = "<group>"; };
 		C1C338BA19F6AD760055CA83 /* sqlite_test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = sqlite_test.h; path = sqlite/sqlite_test.h; sourceTree = "<group>"; };
+		C1F0A87C19F6BCD4003DB53B /* ai_assert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ai_assert.h; sourceTree = "<group>"; };
+		C1F0A87D19F6BCD4003DB53B /* anim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = anim.h; sourceTree = "<group>"; };
+		C1F0A87E19F6BCD4003DB53B /* camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = camera.h; sourceTree = "<group>"; };
+		C1F0A87F19F6BCD4003DB53B /* cexport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cexport.h; sourceTree = "<group>"; };
+		C1F0A88019F6BCD4003DB53B /* cfileio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cfileio.h; sourceTree = "<group>"; };
+		C1F0A88119F6BCD4003DB53B /* cimport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cimport.h; sourceTree = "<group>"; };
+		C1F0A88219F6BCD4003DB53B /* color4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = color4.h; sourceTree = "<group>"; };
+		C1F0A88319F6BCD4003DB53B /* color4.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = color4.inl; sourceTree = "<group>"; };
+		C1F0A88519F6BCD4003DB53B /* poppack1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = poppack1.h; sourceTree = "<group>"; };
+		C1F0A88619F6BCD4003DB53B /* pstdint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pstdint.h; sourceTree = "<group>"; };
+		C1F0A88719F6BCD4003DB53B /* pushpack1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pushpack1.h; sourceTree = "<group>"; };
+		C1F0A88819F6BCD4003DB53B /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		C1F0A88919F6BCD4003DB53B /* DefaultLogger.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = DefaultLogger.hpp; sourceTree = "<group>"; };
+		C1F0A88A19F6BCD4003DB53B /* defs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = defs.h; sourceTree = "<group>"; };
+		C1F0A88B19F6BCD4003DB53B /* Exporter.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Exporter.hpp; sourceTree = "<group>"; };
+		C1F0A88C19F6BCD4003DB53B /* Importer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Importer.hpp; sourceTree = "<group>"; };
+		C1F0A88D19F6BCD4003DB53B /* importerdesc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = importerdesc.h; sourceTree = "<group>"; };
+		C1F0A88E19F6BCD4003DB53B /* IOStream.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = IOStream.hpp; sourceTree = "<group>"; };
+		C1F0A88F19F6BCD4003DB53B /* IOSystem.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = IOSystem.hpp; sourceTree = "<group>"; };
+		C1F0A89019F6BCD4003DB53B /* light.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = light.h; sourceTree = "<group>"; };
+		C1F0A89119F6BCD4003DB53B /* Logger.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Logger.hpp; sourceTree = "<group>"; };
+		C1F0A89219F6BCD4003DB53B /* LogStream.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = LogStream.hpp; sourceTree = "<group>"; };
+		C1F0A89319F6BCD4003DB53B /* material.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = material.h; sourceTree = "<group>"; };
+		C1F0A89419F6BCD4003DB53B /* material.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = material.inl; sourceTree = "<group>"; };
+		C1F0A89519F6BCD4003DB53B /* matrix3x3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = matrix3x3.h; sourceTree = "<group>"; };
+		C1F0A89619F6BCD4003DB53B /* matrix3x3.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = matrix3x3.inl; sourceTree = "<group>"; };
+		C1F0A89719F6BCD4003DB53B /* matrix4x4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = matrix4x4.h; sourceTree = "<group>"; };
+		C1F0A89819F6BCD4003DB53B /* matrix4x4.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = matrix4x4.inl; sourceTree = "<group>"; };
+		C1F0A89919F6BCD4003DB53B /* mesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mesh.h; sourceTree = "<group>"; };
+		C1F0A89A19F6BCD4003DB53B /* metadata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = metadata.h; sourceTree = "<group>"; };
+		C1F0A89B19F6BCD4003DB53B /* NullLogger.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = NullLogger.hpp; sourceTree = "<group>"; };
+		C1F0A89C19F6BCD4003DB53B /* postprocess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = postprocess.h; sourceTree = "<group>"; };
+		C1F0A89D19F6BCD4003DB53B /* ProgressHandler.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ProgressHandler.hpp; sourceTree = "<group>"; };
+		C1F0A89E19F6BCD4003DB53B /* quaternion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = quaternion.h; sourceTree = "<group>"; };
+		C1F0A89F19F6BCD4003DB53B /* quaternion.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = quaternion.inl; sourceTree = "<group>"; };
+		C1F0A8A019F6BCD4003DB53B /* revision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = revision.h; sourceTree = "<group>"; };
+		C1F0A8A119F6BCD4003DB53B /* scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scene.h; sourceTree = "<group>"; };
+		C1F0A8A219F6BCD4003DB53B /* texture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = texture.h; sourceTree = "<group>"; };
+		C1F0A8A319F6BCD4003DB53B /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
+		C1F0A8A419F6BCD4003DB53B /* vector2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vector2.h; sourceTree = "<group>"; };
+		C1F0A8A519F6BCD4003DB53B /* vector2.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = vector2.inl; sourceTree = "<group>"; };
+		C1F0A8A619F6BCD4003DB53B /* vector3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vector3.h; sourceTree = "<group>"; };
+		C1F0A8A719F6BCD4003DB53B /* vector3.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = vector3.inl; sourceTree = "<group>"; };
+		C1F0A8A819F6BCD4003DB53B /* version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
+		C1F0A8B119F6BCFF003DB53B /* 3DSConverter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = 3DSConverter.cpp; path = "assimp-3.1.1/code/3DSConverter.cpp"; sourceTree = "<group>"; };
+		C1F0A8B219F6BCFF003DB53B /* 3DSHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = 3DSHelper.h; path = "assimp-3.1.1/code/3DSHelper.h"; sourceTree = "<group>"; };
+		C1F0A8B319F6BCFF003DB53B /* 3DSLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = 3DSLoader.cpp; path = "assimp-3.1.1/code/3DSLoader.cpp"; sourceTree = "<group>"; };
+		C1F0A8B419F6BCFF003DB53B /* 3DSLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = 3DSLoader.h; path = "assimp-3.1.1/code/3DSLoader.h"; sourceTree = "<group>"; };
+		C1F0A8B519F6BCFF003DB53B /* ACLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ACLoader.cpp; path = "assimp-3.1.1/code/ACLoader.cpp"; sourceTree = "<group>"; };
+		C1F0A8B619F6BCFF003DB53B /* ACLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ACLoader.h; path = "assimp-3.1.1/code/ACLoader.h"; sourceTree = "<group>"; };
+		C1F0A8B719F6BCFF003DB53B /* ASELoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ASELoader.cpp; path = "assimp-3.1.1/code/ASELoader.cpp"; sourceTree = "<group>"; };
+		C1F0A8B819F6BCFF003DB53B /* ASELoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASELoader.h; path = "assimp-3.1.1/code/ASELoader.h"; sourceTree = "<group>"; };
+		C1F0A8B919F6BCFF003DB53B /* ASEParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ASEParser.cpp; path = "assimp-3.1.1/code/ASEParser.cpp"; sourceTree = "<group>"; };
+		C1F0A8BA19F6BCFF003DB53B /* ASEParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASEParser.h; path = "assimp-3.1.1/code/ASEParser.h"; sourceTree = "<group>"; };
+		C1F0A8BB19F6BCFF003DB53B /* assbin_chunks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = assbin_chunks.h; path = "assimp-3.1.1/code/assbin_chunks.h"; sourceTree = "<group>"; };
+		C1F0A8BC19F6BCFF003DB53B /* Assimp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Assimp.cpp; path = "assimp-3.1.1/code/Assimp.cpp"; sourceTree = "<group>"; };
+		C1F0A8BD19F6BCFF003DB53B /* AssimpCExport.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AssimpCExport.cpp; path = "assimp-3.1.1/code/AssimpCExport.cpp"; sourceTree = "<group>"; };
+		C1F0A8BE19F6BCFF003DB53B /* AssimpPCH.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AssimpPCH.cpp; path = "assimp-3.1.1/code/AssimpPCH.cpp"; sourceTree = "<group>"; };
+		C1F0A8BF19F6BCFF003DB53B /* AssimpPCH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AssimpPCH.h; path = "assimp-3.1.1/code/AssimpPCH.h"; sourceTree = "<group>"; };
+		C1F0A8C019F6BCFF003DB53B /* B3DImporter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = B3DImporter.cpp; path = "assimp-3.1.1/code/B3DImporter.cpp"; sourceTree = "<group>"; };
+		C1F0A8C119F6BCFF003DB53B /* B3DImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = B3DImporter.h; path = "assimp-3.1.1/code/B3DImporter.h"; sourceTree = "<group>"; };
+		C1F0A8C219F6BCFF003DB53B /* BaseImporter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BaseImporter.cpp; path = "assimp-3.1.1/code/BaseImporter.cpp"; sourceTree = "<group>"; };
+		C1F0A8C319F6BCFF003DB53B /* BaseImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseImporter.h; path = "assimp-3.1.1/code/BaseImporter.h"; sourceTree = "<group>"; };
+		C1F0A8C419F6BCFF003DB53B /* BaseProcess.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BaseProcess.cpp; path = "assimp-3.1.1/code/BaseProcess.cpp"; sourceTree = "<group>"; };
+		C1F0A8C519F6BCFF003DB53B /* BaseProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseProcess.h; path = "assimp-3.1.1/code/BaseProcess.h"; sourceTree = "<group>"; };
+		C1F0A8C619F6BCFF003DB53B /* Bitmap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Bitmap.cpp; path = "assimp-3.1.1/code/Bitmap.cpp"; sourceTree = "<group>"; };
+		C1F0A8C719F6BCFF003DB53B /* Bitmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Bitmap.h; path = "assimp-3.1.1/code/Bitmap.h"; sourceTree = "<group>"; };
+		C1F0A8C819F6BCFF003DB53B /* BlenderBMesh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BlenderBMesh.cpp; path = "assimp-3.1.1/code/BlenderBMesh.cpp"; sourceTree = "<group>"; };
+		C1F0A8C919F6BCFF003DB53B /* BlenderBMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BlenderBMesh.h; path = "assimp-3.1.1/code/BlenderBMesh.h"; sourceTree = "<group>"; };
+		C1F0A8CA19F6BCFF003DB53B /* BlenderDNA.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BlenderDNA.cpp; path = "assimp-3.1.1/code/BlenderDNA.cpp"; sourceTree = "<group>"; };
+		C1F0A8CB19F6BCFF003DB53B /* BlenderDNA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BlenderDNA.h; path = "assimp-3.1.1/code/BlenderDNA.h"; sourceTree = "<group>"; };
+		C1F0A8CC19F6BCFF003DB53B /* BlenderDNA.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = BlenderDNA.inl; path = "assimp-3.1.1/code/BlenderDNA.inl"; sourceTree = "<group>"; };
+		C1F0A8CD19F6BCFF003DB53B /* BlenderIntermediate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BlenderIntermediate.h; path = "assimp-3.1.1/code/BlenderIntermediate.h"; sourceTree = "<group>"; };
+		C1F0A8CE19F6BCFF003DB53B /* BlenderLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BlenderLoader.cpp; path = "assimp-3.1.1/code/BlenderLoader.cpp"; sourceTree = "<group>"; };
+		C1F0A8CF19F6BCFF003DB53B /* BlenderLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BlenderLoader.h; path = "assimp-3.1.1/code/BlenderLoader.h"; sourceTree = "<group>"; };
+		C1F0A8D019F6BCFF003DB53B /* BlenderModifier.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BlenderModifier.cpp; path = "assimp-3.1.1/code/BlenderModifier.cpp"; sourceTree = "<group>"; };
+		C1F0A8D119F6BCFF003DB53B /* BlenderModifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BlenderModifier.h; path = "assimp-3.1.1/code/BlenderModifier.h"; sourceTree = "<group>"; };
+		C1F0A8D219F6BCFF003DB53B /* BlenderScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BlenderScene.cpp; path = "assimp-3.1.1/code/BlenderScene.cpp"; sourceTree = "<group>"; };
+		C1F0A8D319F6BCFF003DB53B /* BlenderScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BlenderScene.h; path = "assimp-3.1.1/code/BlenderScene.h"; sourceTree = "<group>"; };
+		C1F0A8D419F6BCFF003DB53B /* BlenderSceneGen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BlenderSceneGen.h; path = "assimp-3.1.1/code/BlenderSceneGen.h"; sourceTree = "<group>"; };
+		C1F0A8D519F6BCFF003DB53B /* BlenderTessellator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BlenderTessellator.cpp; path = "assimp-3.1.1/code/BlenderTessellator.cpp"; sourceTree = "<group>"; };
+		C1F0A8D619F6BCFF003DB53B /* BlenderTessellator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BlenderTessellator.h; path = "assimp-3.1.1/code/BlenderTessellator.h"; sourceTree = "<group>"; };
+		C1F0A8D719F6BCFF003DB53B /* BlobIOSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BlobIOSystem.h; path = "assimp-3.1.1/code/BlobIOSystem.h"; sourceTree = "<group>"; };
+		C1F0A8DA19F6BCFF003DB53B /* foreach.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = foreach.hpp; sourceTree = "<group>"; };
+		C1F0A8DB19F6BCFF003DB53B /* format.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = format.hpp; sourceTree = "<group>"; };
+		C1F0A8DC19F6BCFF003DB53B /* lexical_cast.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = lexical_cast.hpp; sourceTree = "<group>"; };
+		C1F0A8DD19F6BCFF003DB53B /* LICENSE_1_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE_1_0.txt; sourceTree = "<group>"; };
+		C1F0A8DE19F6BCFF003DB53B /* make_shared.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = make_shared.hpp; sourceTree = "<group>"; };
+		C1F0A8E019F6BCFF003DB53B /* common_factor_rt.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = common_factor_rt.hpp; sourceTree = "<group>"; };
+		C1F0A8E119F6BCFF003DB53B /* noncopyable.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = noncopyable.hpp; sourceTree = "<group>"; };
+		C1F0A8E219F6BCFF003DB53B /* pointer_cast.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = pointer_cast.hpp; sourceTree = "<group>"; };
+		C1F0A8E319F6BCFF003DB53B /* scoped_array.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = scoped_array.hpp; sourceTree = "<group>"; };
+		C1F0A8E419F6BCFF003DB53B /* scoped_ptr.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = scoped_ptr.hpp; sourceTree = "<group>"; };
+		C1F0A8E519F6BCFF003DB53B /* shared_array.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = shared_array.hpp; sourceTree = "<group>"; };
+		C1F0A8E619F6BCFF003DB53B /* shared_ptr.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = shared_ptr.hpp; sourceTree = "<group>"; };
+		C1F0A8E719F6BCFF003DB53B /* static_assert.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = static_assert.hpp; sourceTree = "<group>"; };
+		C1F0A8E819F6BCFF003DB53B /* timer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = timer.hpp; sourceTree = "<group>"; };
+		C1F0A8EA19F6BCFF003DB53B /* tuple.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = tuple.hpp; sourceTree = "<group>"; };
+		C1F0A8EB19F6BCFF003DB53B /* BVHLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BVHLoader.cpp; path = "assimp-3.1.1/code/BVHLoader.cpp"; sourceTree = "<group>"; };
+		C1F0A8EC19F6BCFF003DB53B /* BVHLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BVHLoader.h; path = "assimp-3.1.1/code/BVHLoader.h"; sourceTree = "<group>"; };
+		C1F0A8ED19F6BCFF003DB53B /* ByteSwap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ByteSwap.h; path = "assimp-3.1.1/code/ByteSwap.h"; sourceTree = "<group>"; };
+		C1F0A8EE19F6BCFF003DB53B /* CalcTangentsProcess.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CalcTangentsProcess.cpp; path = "assimp-3.1.1/code/CalcTangentsProcess.cpp"; sourceTree = "<group>"; };
+		C1F0A8EF19F6BCFF003DB53B /* CalcTangentsProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CalcTangentsProcess.h; path = "assimp-3.1.1/code/CalcTangentsProcess.h"; sourceTree = "<group>"; };
+		C1F0A8F019F6BCFF003DB53B /* CInterfaceIOWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CInterfaceIOWrapper.h; path = "assimp-3.1.1/code/CInterfaceIOWrapper.h"; sourceTree = "<group>"; };
+		C1F0A90819F6BCFF003DB53B /* COBLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = COBLoader.cpp; path = "assimp-3.1.1/code/COBLoader.cpp"; sourceTree = "<group>"; };
+		C1F0A90919F6BCFF003DB53B /* COBLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = COBLoader.h; path = "assimp-3.1.1/code/COBLoader.h"; sourceTree = "<group>"; };
+		C1F0A90A19F6BCFF003DB53B /* COBScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = COBScene.h; path = "assimp-3.1.1/code/COBScene.h"; sourceTree = "<group>"; };
+		C1F0A90B19F6BCFF003DB53B /* ColladaExporter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ColladaExporter.cpp; path = "assimp-3.1.1/code/ColladaExporter.cpp"; sourceTree = "<group>"; };
+		C1F0A90C19F6BCFF003DB53B /* ColladaExporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColladaExporter.h; path = "assimp-3.1.1/code/ColladaExporter.h"; sourceTree = "<group>"; };
+		C1F0A90D19F6BCFF003DB53B /* ColladaHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColladaHelper.h; path = "assimp-3.1.1/code/ColladaHelper.h"; sourceTree = "<group>"; };
+		C1F0A90E19F6BCFF003DB53B /* ColladaLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ColladaLoader.cpp; path = "assimp-3.1.1/code/ColladaLoader.cpp"; sourceTree = "<group>"; };
+		C1F0A90F19F6BCFF003DB53B /* ColladaLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColladaLoader.h; path = "assimp-3.1.1/code/ColladaLoader.h"; sourceTree = "<group>"; };
+		C1F0A91019F6BCFF003DB53B /* ColladaParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ColladaParser.cpp; path = "assimp-3.1.1/code/ColladaParser.cpp"; sourceTree = "<group>"; };
+		C1F0A91119F6BCFF003DB53B /* ColladaParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColladaParser.h; path = "assimp-3.1.1/code/ColladaParser.h"; sourceTree = "<group>"; };
+		C1F0A91219F6BCFF003DB53B /* ComputeUVMappingProcess.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ComputeUVMappingProcess.cpp; path = "assimp-3.1.1/code/ComputeUVMappingProcess.cpp"; sourceTree = "<group>"; };
+		C1F0A91319F6BCFF003DB53B /* ComputeUVMappingProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComputeUVMappingProcess.h; path = "assimp-3.1.1/code/ComputeUVMappingProcess.h"; sourceTree = "<group>"; };
+		C1F0A91419F6BCFF003DB53B /* ConvertToLHProcess.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ConvertToLHProcess.cpp; path = "assimp-3.1.1/code/ConvertToLHProcess.cpp"; sourceTree = "<group>"; };
+		C1F0A91519F6BCFF003DB53B /* ConvertToLHProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConvertToLHProcess.h; path = "assimp-3.1.1/code/ConvertToLHProcess.h"; sourceTree = "<group>"; };
+		C1F0A91619F6BCFF003DB53B /* CSMLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CSMLoader.cpp; path = "assimp-3.1.1/code/CSMLoader.cpp"; sourceTree = "<group>"; };
+		C1F0A91719F6BCFF003DB53B /* CSMLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CSMLoader.h; path = "assimp-3.1.1/code/CSMLoader.h"; sourceTree = "<group>"; };
+		C1F0A91819F6BCFF003DB53B /* DeboneProcess.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DeboneProcess.cpp; path = "assimp-3.1.1/code/DeboneProcess.cpp"; sourceTree = "<group>"; };
+		C1F0A91919F6BCFF003DB53B /* DeboneProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DeboneProcess.h; path = "assimp-3.1.1/code/DeboneProcess.h"; sourceTree = "<group>"; };
+		C1F0A91A19F6BCFF003DB53B /* DefaultIOStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DefaultIOStream.cpp; path = "assimp-3.1.1/code/DefaultIOStream.cpp"; sourceTree = "<group>"; };
+		C1F0A91B19F6BCFF003DB53B /* DefaultIOStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DefaultIOStream.h; path = "assimp-3.1.1/code/DefaultIOStream.h"; sourceTree = "<group>"; };
+		C1F0A91C19F6BCFF003DB53B /* DefaultIOSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DefaultIOSystem.cpp; path = "assimp-3.1.1/code/DefaultIOSystem.cpp"; sourceTree = "<group>"; };
+		C1F0A91D19F6BCFF003DB53B /* DefaultIOSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DefaultIOSystem.h; path = "assimp-3.1.1/code/DefaultIOSystem.h"; sourceTree = "<group>"; };
+		C1F0A91E19F6BCFF003DB53B /* DefaultLogger.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DefaultLogger.cpp; path = "assimp-3.1.1/code/DefaultLogger.cpp"; sourceTree = "<group>"; };
+		C1F0A91F19F6BCFF003DB53B /* DefaultProgressHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DefaultProgressHandler.h; path = "assimp-3.1.1/code/DefaultProgressHandler.h"; sourceTree = "<group>"; };
+		C1F0A92019F6BCFF003DB53B /* DXFHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DXFHelper.h; path = "assimp-3.1.1/code/DXFHelper.h"; sourceTree = "<group>"; };
+		C1F0A92119F6BCFF003DB53B /* DXFLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DXFLoader.cpp; path = "assimp-3.1.1/code/DXFLoader.cpp"; sourceTree = "<group>"; };
+		C1F0A92219F6BCFF003DB53B /* DXFLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DXFLoader.h; path = "assimp-3.1.1/code/DXFLoader.h"; sourceTree = "<group>"; };
+		C1F0A92319F6BCFF003DB53B /* Exceptional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Exceptional.h; path = "assimp-3.1.1/code/Exceptional.h"; sourceTree = "<group>"; };
+		C1F0A92419F6BCFF003DB53B /* Exporter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Exporter.cpp; path = "assimp-3.1.1/code/Exporter.cpp"; sourceTree = "<group>"; };
+		C1F0A92519F6BCFF003DB53B /* fast_atof.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fast_atof.h; path = "assimp-3.1.1/code/fast_atof.h"; sourceTree = "<group>"; };
+		C1F0A92619F6BCFF003DB53B /* FBXAnimation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FBXAnimation.cpp; path = "assimp-3.1.1/code/FBXAnimation.cpp"; sourceTree = "<group>"; };
+		C1F0A92719F6BCFF003DB53B /* FBXBinaryTokenizer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FBXBinaryTokenizer.cpp; path = "assimp-3.1.1/code/FBXBinaryTokenizer.cpp"; sourceTree = "<group>"; };
+		C1F0A92819F6BCFF003DB53B /* FBXCompileConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBXCompileConfig.h; path = "assimp-3.1.1/code/FBXCompileConfig.h"; sourceTree = "<group>"; };
+		C1F0A92919F6BCFF003DB53B /* FBXConverter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FBXConverter.cpp; path = "assimp-3.1.1/code/FBXConverter.cpp"; sourceTree = "<group>"; };
+		C1F0A92A19F6BCFF003DB53B /* FBXConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBXConverter.h; path = "assimp-3.1.1/code/FBXConverter.h"; sourceTree = "<group>"; };
+		C1F0A92B19F6BCFF003DB53B /* FBXDeformer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FBXDeformer.cpp; path = "assimp-3.1.1/code/FBXDeformer.cpp"; sourceTree = "<group>"; };
+		C1F0A92C19F6BCFF003DB53B /* FBXDocument.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FBXDocument.cpp; path = "assimp-3.1.1/code/FBXDocument.cpp"; sourceTree = "<group>"; };
+		C1F0A92D19F6BCFF003DB53B /* FBXDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBXDocument.h; path = "assimp-3.1.1/code/FBXDocument.h"; sourceTree = "<group>"; };
+		C1F0A92E19F6BCFF003DB53B /* FBXDocumentUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FBXDocumentUtil.cpp; path = "assimp-3.1.1/code/FBXDocumentUtil.cpp"; sourceTree = "<group>"; };
+		C1F0A92F19F6BCFF003DB53B /* FBXDocumentUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBXDocumentUtil.h; path = "assimp-3.1.1/code/FBXDocumentUtil.h"; sourceTree = "<group>"; };
+		C1F0A93019F6BCFF003DB53B /* FBXImporter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FBXImporter.cpp; path = "assimp-3.1.1/code/FBXImporter.cpp"; sourceTree = "<group>"; };
+		C1F0A93119F6BCFF003DB53B /* FBXImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBXImporter.h; path = "assimp-3.1.1/code/FBXImporter.h"; sourceTree = "<group>"; };
+		C1F0A93219F6BCFF003DB53B /* FBXImportSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBXImportSettings.h; path = "assimp-3.1.1/code/FBXImportSettings.h"; sourceTree = "<group>"; };
+		C1F0A93319F6BCFF003DB53B /* FBXMaterial.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FBXMaterial.cpp; path = "assimp-3.1.1/code/FBXMaterial.cpp"; sourceTree = "<group>"; };
+		C1F0A93419F6BCFF003DB53B /* FBXMeshGeometry.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FBXMeshGeometry.cpp; path = "assimp-3.1.1/code/FBXMeshGeometry.cpp"; sourceTree = "<group>"; };
+		C1F0A93519F6BCFF003DB53B /* FBXModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FBXModel.cpp; path = "assimp-3.1.1/code/FBXModel.cpp"; sourceTree = "<group>"; };
+		C1F0A93619F6BCFF003DB53B /* FBXNodeAttribute.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FBXNodeAttribute.cpp; path = "assimp-3.1.1/code/FBXNodeAttribute.cpp"; sourceTree = "<group>"; };
+		C1F0A93719F6BCFF003DB53B /* FBXParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FBXParser.cpp; path = "assimp-3.1.1/code/FBXParser.cpp"; sourceTree = "<group>"; };
+		C1F0A93819F6BCFF003DB53B /* FBXParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBXParser.h; path = "assimp-3.1.1/code/FBXParser.h"; sourceTree = "<group>"; };
+		C1F0A93919F6BCFF003DB53B /* FBXProperties.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FBXProperties.cpp; path = "assimp-3.1.1/code/FBXProperties.cpp"; sourceTree = "<group>"; };
+		C1F0A93A19F6BCFF003DB53B /* FBXProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBXProperties.h; path = "assimp-3.1.1/code/FBXProperties.h"; sourceTree = "<group>"; };
+		C1F0A93B19F6BCFF003DB53B /* FBXTokenizer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FBXTokenizer.cpp; path = "assimp-3.1.1/code/FBXTokenizer.cpp"; sourceTree = "<group>"; };
+		C1F0A93C19F6BCFF003DB53B /* FBXTokenizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBXTokenizer.h; path = "assimp-3.1.1/code/FBXTokenizer.h"; sourceTree = "<group>"; };
+		C1F0A93D19F6BCFF003DB53B /* FBXUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FBXUtil.cpp; path = "assimp-3.1.1/code/FBXUtil.cpp"; sourceTree = "<group>"; };
+		C1F0A93E19F6BCFF003DB53B /* FBXUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBXUtil.h; path = "assimp-3.1.1/code/FBXUtil.h"; sourceTree = "<group>"; };
+		C1F0A93F19F6BCFF003DB53B /* FileLogStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FileLogStream.h; path = "assimp-3.1.1/code/FileLogStream.h"; sourceTree = "<group>"; };
+		C1F0A94019F6BCFF003DB53B /* FileSystemFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FileSystemFilter.h; path = "assimp-3.1.1/code/FileSystemFilter.h"; sourceTree = "<group>"; };
+		C1F0A94119F6BCFF003DB53B /* FindDegenerates.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FindDegenerates.cpp; path = "assimp-3.1.1/code/FindDegenerates.cpp"; sourceTree = "<group>"; };
+		C1F0A94219F6BCFF003DB53B /* FindDegenerates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FindDegenerates.h; path = "assimp-3.1.1/code/FindDegenerates.h"; sourceTree = "<group>"; };
+		C1F0A94319F6BCFF003DB53B /* FindInstancesProcess.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FindInstancesProcess.cpp; path = "assimp-3.1.1/code/FindInstancesProcess.cpp"; sourceTree = "<group>"; };
+		C1F0A94419F6BCFF003DB53B /* FindInstancesProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FindInstancesProcess.h; path = "assimp-3.1.1/code/FindInstancesProcess.h"; sourceTree = "<group>"; };
+		C1F0A94519F6BCFF003DB53B /* FindInvalidDataProcess.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FindInvalidDataProcess.cpp; path = "assimp-3.1.1/code/FindInvalidDataProcess.cpp"; sourceTree = "<group>"; };
+		C1F0A94619F6BCFF003DB53B /* FindInvalidDataProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FindInvalidDataProcess.h; path = "assimp-3.1.1/code/FindInvalidDataProcess.h"; sourceTree = "<group>"; };
+		C1F0A94719F6BCFF003DB53B /* FixNormalsStep.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FixNormalsStep.cpp; path = "assimp-3.1.1/code/FixNormalsStep.cpp"; sourceTree = "<group>"; };
+		C1F0A94819F6BCFF003DB53B /* FixNormalsStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FixNormalsStep.h; path = "assimp-3.1.1/code/FixNormalsStep.h"; sourceTree = "<group>"; };
+		C1F0A94919F6BCFF003DB53B /* GenericProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GenericProperty.h; path = "assimp-3.1.1/code/GenericProperty.h"; sourceTree = "<group>"; };
+		C1F0A94A19F6BCFF003DB53B /* GenFaceNormalsProcess.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GenFaceNormalsProcess.cpp; path = "assimp-3.1.1/code/GenFaceNormalsProcess.cpp"; sourceTree = "<group>"; };
+		C1F0A94B19F6BCFF003DB53B /* GenFaceNormalsProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GenFaceNormalsProcess.h; path = "assimp-3.1.1/code/GenFaceNormalsProcess.h"; sourceTree = "<group>"; };
+		C1F0A94C19F6BCFF003DB53B /* GenVertexNormalsProcess.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GenVertexNormalsProcess.cpp; path = "assimp-3.1.1/code/GenVertexNormalsProcess.cpp"; sourceTree = "<group>"; };
+		C1F0A94D19F6BCFF003DB53B /* GenVertexNormalsProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GenVertexNormalsProcess.h; path = "assimp-3.1.1/code/GenVertexNormalsProcess.h"; sourceTree = "<group>"; };
+		C1F0A94E19F6BCFF003DB53B /* HalfLifeFileData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HalfLifeFileData.h; path = "assimp-3.1.1/code/HalfLifeFileData.h"; sourceTree = "<group>"; };
+		C1F0A94F19F6BCFF003DB53B /* Hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Hash.h; path = "assimp-3.1.1/code/Hash.h"; sourceTree = "<group>"; };
+		C1F0A95019F6BCFF003DB53B /* HMPFileData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HMPFileData.h; path = "assimp-3.1.1/code/HMPFileData.h"; sourceTree = "<group>"; };
+		C1F0A95119F6BCFF003DB53B /* HMPLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HMPLoader.cpp; path = "assimp-3.1.1/code/HMPLoader.cpp"; sourceTree = "<group>"; };
+		C1F0A95219F6BCFF003DB53B /* HMPLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HMPLoader.h; path = "assimp-3.1.1/code/HMPLoader.h"; sourceTree = "<group>"; };
+		C1F0A95319F6BCFF003DB53B /* IFCBoolean.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IFCBoolean.cpp; path = "assimp-3.1.1/code/IFCBoolean.cpp"; sourceTree = "<group>"; };
+		C1F0A95419F6BCFF003DB53B /* IFCCurve.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IFCCurve.cpp; path = "assimp-3.1.1/code/IFCCurve.cpp"; sourceTree = "<group>"; };
+		C1F0A95519F6BCFF003DB53B /* IFCGeometry.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IFCGeometry.cpp; path = "assimp-3.1.1/code/IFCGeometry.cpp"; sourceTree = "<group>"; };
+		C1F0A95619F6BCFF003DB53B /* IFCLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IFCLoader.cpp; path = "assimp-3.1.1/code/IFCLoader.cpp"; sourceTree = "<group>"; };
+		C1F0A95719F6BCFF003DB53B /* IFCLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IFCLoader.h; path = "assimp-3.1.1/code/IFCLoader.h"; sourceTree = "<group>"; };
+		C1F0A95819F6BCFF003DB53B /* IFCMaterial.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IFCMaterial.cpp; path = "assimp-3.1.1/code/IFCMaterial.cpp"; sourceTree = "<group>"; };
+		C1F0A95919F6BCFF003DB53B /* IFCOpenings.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IFCOpenings.cpp; path = "assimp-3.1.1/code/IFCOpenings.cpp"; sourceTree = "<group>"; };
+		C1F0A95A19F6BCFF003DB53B /* IFCProfile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IFCProfile.cpp; path = "assimp-3.1.1/code/IFCProfile.cpp"; sourceTree = "<group>"; };
+		C1F0A95B19F6BCFF003DB53B /* IFCReaderGen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IFCReaderGen.cpp; path = "assimp-3.1.1/code/IFCReaderGen.cpp"; sourceTree = "<group>"; };
+		C1F0A95C19F6BCFF003DB53B /* IFCReaderGen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IFCReaderGen.h; path = "assimp-3.1.1/code/IFCReaderGen.h"; sourceTree = "<group>"; };
+		C1F0A95D19F6BCFF003DB53B /* IFCUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IFCUtil.cpp; path = "assimp-3.1.1/code/IFCUtil.cpp"; sourceTree = "<group>"; };
+		C1F0A95E19F6BCFF003DB53B /* IFCUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IFCUtil.h; path = "assimp-3.1.1/code/IFCUtil.h"; sourceTree = "<group>"; };
+		C1F0A95F19F6BCFF003DB53B /* IFF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IFF.h; path = "assimp-3.1.1/code/IFF.h"; sourceTree = "<group>"; };
+		C1F0A96019F6BCFF003DB53B /* Importer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Importer.cpp; path = "assimp-3.1.1/code/Importer.cpp"; sourceTree = "<group>"; };
+		C1F0A96119F6BCFF003DB53B /* Importer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Importer.h; path = "assimp-3.1.1/code/Importer.h"; sourceTree = "<group>"; };
+		C1F0A96219F6BCFF003DB53B /* ImporterRegistry.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImporterRegistry.cpp; path = "assimp-3.1.1/code/ImporterRegistry.cpp"; sourceTree = "<group>"; };
+		C1F0A96319F6BCFF003DB53B /* ImproveCacheLocality.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImproveCacheLocality.cpp; path = "assimp-3.1.1/code/ImproveCacheLocality.cpp"; sourceTree = "<group>"; };
+		C1F0A96419F6BCFF003DB53B /* ImproveCacheLocality.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImproveCacheLocality.h; path = "assimp-3.1.1/code/ImproveCacheLocality.h"; sourceTree = "<group>"; };
+		C1F0A96519F6BCFF003DB53B /* IRRLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IRRLoader.cpp; path = "assimp-3.1.1/code/IRRLoader.cpp"; sourceTree = "<group>"; };
+		C1F0A96619F6BCFF003DB53B /* IRRLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IRRLoader.h; path = "assimp-3.1.1/code/IRRLoader.h"; sourceTree = "<group>"; };
+		C1F0A96719F6BCFF003DB53B /* IRRMeshLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IRRMeshLoader.cpp; path = "assimp-3.1.1/code/IRRMeshLoader.cpp"; sourceTree = "<group>"; };
+		C1F0A96819F6BCFF003DB53B /* IRRMeshLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IRRMeshLoader.h; path = "assimp-3.1.1/code/IRRMeshLoader.h"; sourceTree = "<group>"; };
+		C1F0A96919F6BCFF003DB53B /* IRRShared.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IRRShared.cpp; path = "assimp-3.1.1/code/IRRShared.cpp"; sourceTree = "<group>"; };
+		C1F0A96A19F6BCFF003DB53B /* IRRShared.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IRRShared.h; path = "assimp-3.1.1/code/IRRShared.h"; sourceTree = "<group>"; };
+		C1F0A96B19F6BCFF003DB53B /* irrXMLWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = irrXMLWrapper.h; path = "assimp-3.1.1/code/irrXMLWrapper.h"; sourceTree = "<group>"; };
+		C1F0A96C19F6BCFF003DB53B /* JoinVerticesProcess.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = JoinVerticesProcess.cpp; path = "assimp-3.1.1/code/JoinVerticesProcess.cpp"; sourceTree = "<group>"; };
+		C1F0A96D19F6BCFF003DB53B /* JoinVerticesProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JoinVerticesProcess.h; path = "assimp-3.1.1/code/JoinVerticesProcess.h"; sourceTree = "<group>"; };
+		C1F0A96E19F6BCFF003DB53B /* LimitBoneWeightsProcess.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LimitBoneWeightsProcess.cpp; path = "assimp-3.1.1/code/LimitBoneWeightsProcess.cpp"; sourceTree = "<group>"; };
+		C1F0A96F19F6BCFF003DB53B /* LimitBoneWeightsProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LimitBoneWeightsProcess.h; path = "assimp-3.1.1/code/LimitBoneWeightsProcess.h"; sourceTree = "<group>"; };
+		C1F0A97019F6BCFF003DB53B /* LineSplitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LineSplitter.h; path = "assimp-3.1.1/code/LineSplitter.h"; sourceTree = "<group>"; };
+		C1F0A97119F6BCFF003DB53B /* LogAux.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LogAux.h; path = "assimp-3.1.1/code/LogAux.h"; sourceTree = "<group>"; };
+		C1F0A97219F6BCFF003DB53B /* LWOAnimation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LWOAnimation.cpp; path = "assimp-3.1.1/code/LWOAnimation.cpp"; sourceTree = "<group>"; };
+		C1F0A97319F6BCFF003DB53B /* LWOAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LWOAnimation.h; path = "assimp-3.1.1/code/LWOAnimation.h"; sourceTree = "<group>"; };
+		C1F0A97419F6BCFF003DB53B /* LWOBLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LWOBLoader.cpp; path = "assimp-3.1.1/code/LWOBLoader.cpp"; sourceTree = "<group>"; };
+		C1F0A97519F6BCFF003DB53B /* LWOFileData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LWOFileData.h; path = "assimp-3.1.1/code/LWOFileData.h"; sourceTree = "<group>"; };
+		C1F0A97619F6BCFF003DB53B /* LWOLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LWOLoader.cpp; path = "assimp-3.1.1/code/LWOLoader.cpp"; sourceTree = "<group>"; };
+		C1F0A97719F6BCFF003DB53B /* LWOLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LWOLoader.h; path = "assimp-3.1.1/code/LWOLoader.h"; sourceTree = "<group>"; };
+		C1F0A97819F6BCFF003DB53B /* LWOMaterial.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LWOMaterial.cpp; path = "assimp-3.1.1/code/LWOMaterial.cpp"; sourceTree = "<group>"; };
+		C1F0A97919F6BCFF003DB53B /* LWSLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LWSLoader.cpp; path = "assimp-3.1.1/code/LWSLoader.cpp"; sourceTree = "<group>"; };
+		C1F0A97A19F6BCFF003DB53B /* LWSLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LWSLoader.h; path = "assimp-3.1.1/code/LWSLoader.h"; sourceTree = "<group>"; };
+		C1F0A97C19F6BCFF003DB53B /* MakeVerboseFormat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MakeVerboseFormat.cpp; path = "assimp-3.1.1/code/MakeVerboseFormat.cpp"; sourceTree = "<group>"; };
+		C1F0A97D19F6BCFF003DB53B /* MakeVerboseFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MakeVerboseFormat.h; path = "assimp-3.1.1/code/MakeVerboseFormat.h"; sourceTree = "<group>"; };
+		C1F0A97E19F6BCFF003DB53B /* MaterialSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MaterialSystem.cpp; path = "assimp-3.1.1/code/MaterialSystem.cpp"; sourceTree = "<group>"; };
+		C1F0A97F19F6BCFF003DB53B /* MaterialSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MaterialSystem.h; path = "assimp-3.1.1/code/MaterialSystem.h"; sourceTree = "<group>"; };
+		C1F0A98019F6BCFF003DB53B /* MD2FileData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MD2FileData.h; path = "assimp-3.1.1/code/MD2FileData.h"; sourceTree = "<group>"; };
+		C1F0A98119F6BCFF003DB53B /* MD2Loader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MD2Loader.cpp; path = "assimp-3.1.1/code/MD2Loader.cpp"; sourceTree = "<group>"; };
+		C1F0A98219F6BCFF003DB53B /* MD2Loader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MD2Loader.h; path = "assimp-3.1.1/code/MD2Loader.h"; sourceTree = "<group>"; };
+		C1F0A98319F6BCFF003DB53B /* MD2NormalTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MD2NormalTable.h; path = "assimp-3.1.1/code/MD2NormalTable.h"; sourceTree = "<group>"; };
+		C1F0A98419F6BCFF003DB53B /* MD3FileData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MD3FileData.h; path = "assimp-3.1.1/code/MD3FileData.h"; sourceTree = "<group>"; };
+		C1F0A98519F6BCFF003DB53B /* MD3Loader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MD3Loader.cpp; path = "assimp-3.1.1/code/MD3Loader.cpp"; sourceTree = "<group>"; };
+		C1F0A98619F6BCFF003DB53B /* MD3Loader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MD3Loader.h; path = "assimp-3.1.1/code/MD3Loader.h"; sourceTree = "<group>"; };
+		C1F0A98719F6BCFF003DB53B /* MD4FileData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MD4FileData.h; path = "assimp-3.1.1/code/MD4FileData.h"; sourceTree = "<group>"; };
+		C1F0A98819F6BCFF003DB53B /* MD5Loader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MD5Loader.cpp; path = "assimp-3.1.1/code/MD5Loader.cpp"; sourceTree = "<group>"; };
+		C1F0A98919F6BCFF003DB53B /* MD5Loader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MD5Loader.h; path = "assimp-3.1.1/code/MD5Loader.h"; sourceTree = "<group>"; };
+		C1F0A98A19F6BCFF003DB53B /* MD5Parser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MD5Parser.cpp; path = "assimp-3.1.1/code/MD5Parser.cpp"; sourceTree = "<group>"; };
+		C1F0A98B19F6BCFF003DB53B /* MD5Parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MD5Parser.h; path = "assimp-3.1.1/code/MD5Parser.h"; sourceTree = "<group>"; };
+		C1F0A98C19F6BCFF003DB53B /* MDCFileData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MDCFileData.h; path = "assimp-3.1.1/code/MDCFileData.h"; sourceTree = "<group>"; };
+		C1F0A98D19F6BCFF003DB53B /* MDCLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MDCLoader.cpp; path = "assimp-3.1.1/code/MDCLoader.cpp"; sourceTree = "<group>"; };
+		C1F0A98E19F6BCFF003DB53B /* MDCLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MDCLoader.h; path = "assimp-3.1.1/code/MDCLoader.h"; sourceTree = "<group>"; };
+		C1F0A98F19F6BCFF003DB53B /* MDCNormalTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MDCNormalTable.h; path = "assimp-3.1.1/code/MDCNormalTable.h"; sourceTree = "<group>"; };
+		C1F0A99019F6BCFF003DB53B /* MDLDefaultColorMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MDLDefaultColorMap.h; path = "assimp-3.1.1/code/MDLDefaultColorMap.h"; sourceTree = "<group>"; };
+		C1F0A99119F6BCFF003DB53B /* MDLFileData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MDLFileData.h; path = "assimp-3.1.1/code/MDLFileData.h"; sourceTree = "<group>"; };
+		C1F0A99219F6BCFF003DB53B /* MDLLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MDLLoader.cpp; path = "assimp-3.1.1/code/MDLLoader.cpp"; sourceTree = "<group>"; };
+		C1F0A99319F6BCFF003DB53B /* MDLLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MDLLoader.h; path = "assimp-3.1.1/code/MDLLoader.h"; sourceTree = "<group>"; };
+		C1F0A99419F6BCFF003DB53B /* MDLMaterialLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MDLMaterialLoader.cpp; path = "assimp-3.1.1/code/MDLMaterialLoader.cpp"; sourceTree = "<group>"; };
+		C1F0A99519F6BCFF003DB53B /* MemoryIOWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MemoryIOWrapper.h; path = "assimp-3.1.1/code/MemoryIOWrapper.h"; sourceTree = "<group>"; };
+		C1F0A99619F6BCFF003DB53B /* MS3DLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MS3DLoader.cpp; path = "assimp-3.1.1/code/MS3DLoader.cpp"; sourceTree = "<group>"; };
+		C1F0A99719F6BCFF003DB53B /* MS3DLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MS3DLoader.h; path = "assimp-3.1.1/code/MS3DLoader.h"; sourceTree = "<group>"; };
+		C1F0A99819F6BCFF003DB53B /* NDOLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = NDOLoader.cpp; path = "assimp-3.1.1/code/NDOLoader.cpp"; sourceTree = "<group>"; };
+		C1F0A99919F6BCFF003DB53B /* NDOLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NDOLoader.h; path = "assimp-3.1.1/code/NDOLoader.h"; sourceTree = "<group>"; };
+		C1F0A99A19F6BCFF003DB53B /* NFFLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = NFFLoader.cpp; path = "assimp-3.1.1/code/NFFLoader.cpp"; sourceTree = "<group>"; };
+		C1F0A99B19F6BCFF003DB53B /* NFFLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NFFLoader.h; path = "assimp-3.1.1/code/NFFLoader.h"; sourceTree = "<group>"; };
+		C1F0A99C19F6BCFF003DB53B /* ObjExporter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ObjExporter.cpp; path = "assimp-3.1.1/code/ObjExporter.cpp"; sourceTree = "<group>"; };
+		C1F0A99D19F6BCFF003DB53B /* ObjExporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ObjExporter.h; path = "assimp-3.1.1/code/ObjExporter.h"; sourceTree = "<group>"; };
+		C1F0A99E19F6BCFF003DB53B /* ObjFileData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ObjFileData.h; path = "assimp-3.1.1/code/ObjFileData.h"; sourceTree = "<group>"; };
+		C1F0A99F19F6BCFF003DB53B /* ObjFileImporter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ObjFileImporter.cpp; path = "assimp-3.1.1/code/ObjFileImporter.cpp"; sourceTree = "<group>"; };
+		C1F0A9A019F6BCFF003DB53B /* ObjFileImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ObjFileImporter.h; path = "assimp-3.1.1/code/ObjFileImporter.h"; sourceTree = "<group>"; };
+		C1F0A9A119F6BCFF003DB53B /* ObjFileMtlImporter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ObjFileMtlImporter.cpp; path = "assimp-3.1.1/code/ObjFileMtlImporter.cpp"; sourceTree = "<group>"; };
+		C1F0A9A219F6BCFF003DB53B /* ObjFileMtlImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ObjFileMtlImporter.h; path = "assimp-3.1.1/code/ObjFileMtlImporter.h"; sourceTree = "<group>"; };
+		C1F0A9A319F6BCFF003DB53B /* ObjFileParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ObjFileParser.cpp; path = "assimp-3.1.1/code/ObjFileParser.cpp"; sourceTree = "<group>"; };
+		C1F0A9A419F6BCFF003DB53B /* ObjFileParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ObjFileParser.h; path = "assimp-3.1.1/code/ObjFileParser.h"; sourceTree = "<group>"; };
+		C1F0A9A519F6BCFF003DB53B /* ObjTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ObjTools.h; path = "assimp-3.1.1/code/ObjTools.h"; sourceTree = "<group>"; };
+		C1F0A9A619F6BCFF003DB53B /* OFFLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = OFFLoader.cpp; path = "assimp-3.1.1/code/OFFLoader.cpp"; sourceTree = "<group>"; };
+		C1F0A9A719F6BCFF003DB53B /* OFFLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OFFLoader.h; path = "assimp-3.1.1/code/OFFLoader.h"; sourceTree = "<group>"; };
+		C1F0A9A819F6BCFF003DB53B /* OgreBinarySerializer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = OgreBinarySerializer.cpp; path = "assimp-3.1.1/code/OgreBinarySerializer.cpp"; sourceTree = "<group>"; };
+		C1F0A9A919F6BCFF003DB53B /* OgreBinarySerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OgreBinarySerializer.h; path = "assimp-3.1.1/code/OgreBinarySerializer.h"; sourceTree = "<group>"; };
+		C1F0A9AA19F6BCFF003DB53B /* OgreImporter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = OgreImporter.cpp; path = "assimp-3.1.1/code/OgreImporter.cpp"; sourceTree = "<group>"; };
+		C1F0A9AB19F6BCFF003DB53B /* OgreImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OgreImporter.h; path = "assimp-3.1.1/code/OgreImporter.h"; sourceTree = "<group>"; };
+		C1F0A9AC19F6BCFF003DB53B /* OgreMaterial.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = OgreMaterial.cpp; path = "assimp-3.1.1/code/OgreMaterial.cpp"; sourceTree = "<group>"; };
+		C1F0A9AD19F6BCFF003DB53B /* OgreParsingUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OgreParsingUtils.h; path = "assimp-3.1.1/code/OgreParsingUtils.h"; sourceTree = "<group>"; };
+		C1F0A9AE19F6BCFF003DB53B /* OgreStructs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = OgreStructs.cpp; path = "assimp-3.1.1/code/OgreStructs.cpp"; sourceTree = "<group>"; };
+		C1F0A9AF19F6BCFF003DB53B /* OgreStructs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OgreStructs.h; path = "assimp-3.1.1/code/OgreStructs.h"; sourceTree = "<group>"; };
+		C1F0A9B019F6BCFF003DB53B /* OgreXmlSerializer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = OgreXmlSerializer.cpp; path = "assimp-3.1.1/code/OgreXmlSerializer.cpp"; sourceTree = "<group>"; };
+		C1F0A9B119F6BCFF003DB53B /* OgreXmlSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OgreXmlSerializer.h; path = "assimp-3.1.1/code/OgreXmlSerializer.h"; sourceTree = "<group>"; };
+		C1F0A9B219F6BCFF003DB53B /* OptimizeGraph.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = OptimizeGraph.cpp; path = "assimp-3.1.1/code/OptimizeGraph.cpp"; sourceTree = "<group>"; };
+		C1F0A9B319F6BCFF003DB53B /* OptimizeGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OptimizeGraph.h; path = "assimp-3.1.1/code/OptimizeGraph.h"; sourceTree = "<group>"; };
+		C1F0A9B419F6BD00003DB53B /* OptimizeMeshes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = OptimizeMeshes.cpp; path = "assimp-3.1.1/code/OptimizeMeshes.cpp"; sourceTree = "<group>"; };
+		C1F0A9B519F6BD00003DB53B /* OptimizeMeshes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OptimizeMeshes.h; path = "assimp-3.1.1/code/OptimizeMeshes.h"; sourceTree = "<group>"; };
+		C1F0A9B619F6BD00003DB53B /* ParsingUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ParsingUtils.h; path = "assimp-3.1.1/code/ParsingUtils.h"; sourceTree = "<group>"; };
+		C1F0A9B719F6BD00003DB53B /* PlyExporter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PlyExporter.cpp; path = "assimp-3.1.1/code/PlyExporter.cpp"; sourceTree = "<group>"; };
+		C1F0A9B819F6BD00003DB53B /* PlyExporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlyExporter.h; path = "assimp-3.1.1/code/PlyExporter.h"; sourceTree = "<group>"; };
+		C1F0A9B919F6BD00003DB53B /* PlyLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PlyLoader.cpp; path = "assimp-3.1.1/code/PlyLoader.cpp"; sourceTree = "<group>"; };
+		C1F0A9BA19F6BD00003DB53B /* PlyLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlyLoader.h; path = "assimp-3.1.1/code/PlyLoader.h"; sourceTree = "<group>"; };
+		C1F0A9BB19F6BD00003DB53B /* PlyParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PlyParser.cpp; path = "assimp-3.1.1/code/PlyParser.cpp"; sourceTree = "<group>"; };
+		C1F0A9BC19F6BD00003DB53B /* PlyParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlyParser.h; path = "assimp-3.1.1/code/PlyParser.h"; sourceTree = "<group>"; };
+		C1F0A9BD19F6BD00003DB53B /* PolyTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PolyTools.h; path = "assimp-3.1.1/code/PolyTools.h"; sourceTree = "<group>"; };
+		C1F0A9BE19F6BD00003DB53B /* PostStepRegistry.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PostStepRegistry.cpp; path = "assimp-3.1.1/code/PostStepRegistry.cpp"; sourceTree = "<group>"; };
+		C1F0A9BF19F6BD00003DB53B /* PretransformVertices.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PretransformVertices.cpp; path = "assimp-3.1.1/code/PretransformVertices.cpp"; sourceTree = "<group>"; };
+		C1F0A9C019F6BD00003DB53B /* PretransformVertices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PretransformVertices.h; path = "assimp-3.1.1/code/PretransformVertices.h"; sourceTree = "<group>"; };
+		C1F0A9C119F6BD00003DB53B /* ProcessHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ProcessHelper.cpp; path = "assimp-3.1.1/code/ProcessHelper.cpp"; sourceTree = "<group>"; };
+		C1F0A9C219F6BD00003DB53B /* ProcessHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProcessHelper.h; path = "assimp-3.1.1/code/ProcessHelper.h"; sourceTree = "<group>"; };
+		C1F0A9C319F6BD00003DB53B /* Profiler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Profiler.h; path = "assimp-3.1.1/code/Profiler.h"; sourceTree = "<group>"; };
+		C1F0A9C419F6BD00003DB53B /* Q3BSPFileData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Q3BSPFileData.h; path = "assimp-3.1.1/code/Q3BSPFileData.h"; sourceTree = "<group>"; };
+		C1F0A9C519F6BD00003DB53B /* Q3BSPFileImporter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Q3BSPFileImporter.cpp; path = "assimp-3.1.1/code/Q3BSPFileImporter.cpp"; sourceTree = "<group>"; };
+		C1F0A9C619F6BD00003DB53B /* Q3BSPFileImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Q3BSPFileImporter.h; path = "assimp-3.1.1/code/Q3BSPFileImporter.h"; sourceTree = "<group>"; };
+		C1F0A9C719F6BD00003DB53B /* Q3BSPFileParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Q3BSPFileParser.cpp; path = "assimp-3.1.1/code/Q3BSPFileParser.cpp"; sourceTree = "<group>"; };
+		C1F0A9C819F6BD00003DB53B /* Q3BSPFileParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Q3BSPFileParser.h; path = "assimp-3.1.1/code/Q3BSPFileParser.h"; sourceTree = "<group>"; };
+		C1F0A9C919F6BD00003DB53B /* Q3BSPZipArchive.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Q3BSPZipArchive.cpp; path = "assimp-3.1.1/code/Q3BSPZipArchive.cpp"; sourceTree = "<group>"; };
+		C1F0A9CA19F6BD00003DB53B /* Q3BSPZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Q3BSPZipArchive.h; path = "assimp-3.1.1/code/Q3BSPZipArchive.h"; sourceTree = "<group>"; };
+		C1F0A9CB19F6BD00003DB53B /* Q3DLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Q3DLoader.cpp; path = "assimp-3.1.1/code/Q3DLoader.cpp"; sourceTree = "<group>"; };
+		C1F0A9CC19F6BD00003DB53B /* Q3DLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Q3DLoader.h; path = "assimp-3.1.1/code/Q3DLoader.h"; sourceTree = "<group>"; };
+		C1F0A9CD19F6BD00003DB53B /* qnan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = qnan.h; path = "assimp-3.1.1/code/qnan.h"; sourceTree = "<group>"; };
+		C1F0A9CE19F6BD00003DB53B /* RawLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RawLoader.cpp; path = "assimp-3.1.1/code/RawLoader.cpp"; sourceTree = "<group>"; };
+		C1F0A9CF19F6BD00003DB53B /* RawLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RawLoader.h; path = "assimp-3.1.1/code/RawLoader.h"; sourceTree = "<group>"; };
+		C1F0A9D019F6BD00003DB53B /* RemoveComments.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RemoveComments.cpp; path = "assimp-3.1.1/code/RemoveComments.cpp"; sourceTree = "<group>"; };
+		C1F0A9D119F6BD00003DB53B /* RemoveComments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RemoveComments.h; path = "assimp-3.1.1/code/RemoveComments.h"; sourceTree = "<group>"; };
+		C1F0A9D219F6BD00003DB53B /* RemoveRedundantMaterials.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RemoveRedundantMaterials.cpp; path = "assimp-3.1.1/code/RemoveRedundantMaterials.cpp"; sourceTree = "<group>"; };
+		C1F0A9D319F6BD00003DB53B /* RemoveRedundantMaterials.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RemoveRedundantMaterials.h; path = "assimp-3.1.1/code/RemoveRedundantMaterials.h"; sourceTree = "<group>"; };
+		C1F0A9D419F6BD00003DB53B /* RemoveVCProcess.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RemoveVCProcess.cpp; path = "assimp-3.1.1/code/RemoveVCProcess.cpp"; sourceTree = "<group>"; };
+		C1F0A9D519F6BD00003DB53B /* RemoveVCProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RemoveVCProcess.h; path = "assimp-3.1.1/code/RemoveVCProcess.h"; sourceTree = "<group>"; };
+		C1F0A9D919F6BD00003DB53B /* SceneCombiner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SceneCombiner.cpp; path = "assimp-3.1.1/code/SceneCombiner.cpp"; sourceTree = "<group>"; };
+		C1F0A9DA19F6BD00003DB53B /* SceneCombiner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SceneCombiner.h; path = "assimp-3.1.1/code/SceneCombiner.h"; sourceTree = "<group>"; };
+		C1F0A9DB19F6BD00003DB53B /* ScenePreprocessor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ScenePreprocessor.cpp; path = "assimp-3.1.1/code/ScenePreprocessor.cpp"; sourceTree = "<group>"; };
+		C1F0A9DC19F6BD00003DB53B /* ScenePreprocessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScenePreprocessor.h; path = "assimp-3.1.1/code/ScenePreprocessor.h"; sourceTree = "<group>"; };
+		C1F0A9DD19F6BD00003DB53B /* ScenePrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScenePrivate.h; path = "assimp-3.1.1/code/ScenePrivate.h"; sourceTree = "<group>"; };
+		C1F0A9DE19F6BD00003DB53B /* SGSpatialSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SGSpatialSort.cpp; path = "assimp-3.1.1/code/SGSpatialSort.cpp"; sourceTree = "<group>"; };
+		C1F0A9DF19F6BD00003DB53B /* SGSpatialSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SGSpatialSort.h; path = "assimp-3.1.1/code/SGSpatialSort.h"; sourceTree = "<group>"; };
+		C1F0A9E019F6BD00003DB53B /* SkeletonMeshBuilder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SkeletonMeshBuilder.cpp; path = "assimp-3.1.1/code/SkeletonMeshBuilder.cpp"; sourceTree = "<group>"; };
+		C1F0A9E119F6BD00003DB53B /* SkeletonMeshBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SkeletonMeshBuilder.h; path = "assimp-3.1.1/code/SkeletonMeshBuilder.h"; sourceTree = "<group>"; };
+		C1F0A9E219F6BD00003DB53B /* SMDLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SMDLoader.cpp; path = "assimp-3.1.1/code/SMDLoader.cpp"; sourceTree = "<group>"; };
+		C1F0A9E319F6BD00003DB53B /* SMDLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMDLoader.h; path = "assimp-3.1.1/code/SMDLoader.h"; sourceTree = "<group>"; };
+		C1F0A9E419F6BD00003DB53B /* SmoothingGroups.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SmoothingGroups.h; path = "assimp-3.1.1/code/SmoothingGroups.h"; sourceTree = "<group>"; };
+		C1F0A9E519F6BD00003DB53B /* SmoothingGroups.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = SmoothingGroups.inl; path = "assimp-3.1.1/code/SmoothingGroups.inl"; sourceTree = "<group>"; };
+		C1F0A9E619F6BD00003DB53B /* SortByPTypeProcess.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SortByPTypeProcess.cpp; path = "assimp-3.1.1/code/SortByPTypeProcess.cpp"; sourceTree = "<group>"; };
+		C1F0A9E719F6BD00003DB53B /* SortByPTypeProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SortByPTypeProcess.h; path = "assimp-3.1.1/code/SortByPTypeProcess.h"; sourceTree = "<group>"; };
+		C1F0A9E819F6BD00003DB53B /* SpatialSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SpatialSort.cpp; path = "assimp-3.1.1/code/SpatialSort.cpp"; sourceTree = "<group>"; };
+		C1F0A9E919F6BD00003DB53B /* SpatialSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SpatialSort.h; path = "assimp-3.1.1/code/SpatialSort.h"; sourceTree = "<group>"; };
+		C1F0A9EA19F6BD00003DB53B /* SplitByBoneCountProcess.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SplitByBoneCountProcess.cpp; path = "assimp-3.1.1/code/SplitByBoneCountProcess.cpp"; sourceTree = "<group>"; };
+		C1F0A9EB19F6BD00003DB53B /* SplitByBoneCountProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SplitByBoneCountProcess.h; path = "assimp-3.1.1/code/SplitByBoneCountProcess.h"; sourceTree = "<group>"; };
+		C1F0A9EC19F6BD00003DB53B /* SplitLargeMeshes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SplitLargeMeshes.cpp; path = "assimp-3.1.1/code/SplitLargeMeshes.cpp"; sourceTree = "<group>"; };
+		C1F0A9ED19F6BD00003DB53B /* SplitLargeMeshes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SplitLargeMeshes.h; path = "assimp-3.1.1/code/SplitLargeMeshes.h"; sourceTree = "<group>"; };
+		C1F0A9EE19F6BD00003DB53B /* StandardShapes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = StandardShapes.cpp; path = "assimp-3.1.1/code/StandardShapes.cpp"; sourceTree = "<group>"; };
+		C1F0A9EF19F6BD00003DB53B /* StandardShapes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StandardShapes.h; path = "assimp-3.1.1/code/StandardShapes.h"; sourceTree = "<group>"; };
+		C1F0A9F019F6BD00003DB53B /* StdOStreamLogStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StdOStreamLogStream.h; path = "assimp-3.1.1/code/StdOStreamLogStream.h"; sourceTree = "<group>"; };
+		C1F0A9F119F6BD00003DB53B /* STEPFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STEPFile.h; path = "assimp-3.1.1/code/STEPFile.h"; sourceTree = "<group>"; };
+		C1F0A9F219F6BD00003DB53B /* STEPFileEncoding.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = STEPFileEncoding.cpp; path = "assimp-3.1.1/code/STEPFileEncoding.cpp"; sourceTree = "<group>"; };
+		C1F0A9F319F6BD00003DB53B /* STEPFileEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STEPFileEncoding.h; path = "assimp-3.1.1/code/STEPFileEncoding.h"; sourceTree = "<group>"; };
+		C1F0A9F419F6BD00003DB53B /* STEPFileReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = STEPFileReader.cpp; path = "assimp-3.1.1/code/STEPFileReader.cpp"; sourceTree = "<group>"; };
+		C1F0A9F519F6BD00003DB53B /* STEPFileReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STEPFileReader.h; path = "assimp-3.1.1/code/STEPFileReader.h"; sourceTree = "<group>"; };
+		C1F0A9F619F6BD00003DB53B /* STLExporter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = STLExporter.cpp; path = "assimp-3.1.1/code/STLExporter.cpp"; sourceTree = "<group>"; };
+		C1F0A9F719F6BD00003DB53B /* STLExporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STLExporter.h; path = "assimp-3.1.1/code/STLExporter.h"; sourceTree = "<group>"; };
+		C1F0A9F819F6BD00003DB53B /* STLLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = STLLoader.cpp; path = "assimp-3.1.1/code/STLLoader.cpp"; sourceTree = "<group>"; };
+		C1F0A9F919F6BD00003DB53B /* STLLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STLLoader.h; path = "assimp-3.1.1/code/STLLoader.h"; sourceTree = "<group>"; };
+		C1F0A9FA19F6BD00003DB53B /* StreamReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StreamReader.h; path = "assimp-3.1.1/code/StreamReader.h"; sourceTree = "<group>"; };
+		C1F0A9FB19F6BD00003DB53B /* StringComparison.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StringComparison.h; path = "assimp-3.1.1/code/StringComparison.h"; sourceTree = "<group>"; };
+		C1F0A9FC19F6BD00003DB53B /* Subdivision.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Subdivision.cpp; path = "assimp-3.1.1/code/Subdivision.cpp"; sourceTree = "<group>"; };
+		C1F0A9FD19F6BD00003DB53B /* Subdivision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Subdivision.h; path = "assimp-3.1.1/code/Subdivision.h"; sourceTree = "<group>"; };
+		C1F0A9FE19F6BD00003DB53B /* TargetAnimation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TargetAnimation.cpp; path = "assimp-3.1.1/code/TargetAnimation.cpp"; sourceTree = "<group>"; };
+		C1F0A9FF19F6BD00003DB53B /* TargetAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TargetAnimation.h; path = "assimp-3.1.1/code/TargetAnimation.h"; sourceTree = "<group>"; };
+		C1F0AA0019F6BD00003DB53B /* TerragenLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TerragenLoader.cpp; path = "assimp-3.1.1/code/TerragenLoader.cpp"; sourceTree = "<group>"; };
+		C1F0AA0119F6BD00003DB53B /* TerragenLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TerragenLoader.h; path = "assimp-3.1.1/code/TerragenLoader.h"; sourceTree = "<group>"; };
+		C1F0AA0219F6BD00003DB53B /* TextureTransform.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TextureTransform.cpp; path = "assimp-3.1.1/code/TextureTransform.cpp"; sourceTree = "<group>"; };
+		C1F0AA0319F6BD00003DB53B /* TextureTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TextureTransform.h; path = "assimp-3.1.1/code/TextureTransform.h"; sourceTree = "<group>"; };
+		C1F0AA0419F6BD00003DB53B /* TinyFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TinyFormatter.h; path = "assimp-3.1.1/code/TinyFormatter.h"; sourceTree = "<group>"; };
+		C1F0AA0519F6BD00003DB53B /* TriangulateProcess.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TriangulateProcess.cpp; path = "assimp-3.1.1/code/TriangulateProcess.cpp"; sourceTree = "<group>"; };
+		C1F0AA0619F6BD00003DB53B /* TriangulateProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TriangulateProcess.h; path = "assimp-3.1.1/code/TriangulateProcess.h"; sourceTree = "<group>"; };
+		C1F0AA0719F6BD00003DB53B /* UnrealLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = UnrealLoader.cpp; path = "assimp-3.1.1/code/UnrealLoader.cpp"; sourceTree = "<group>"; };
+		C1F0AA0819F6BD00003DB53B /* UnrealLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UnrealLoader.h; path = "assimp-3.1.1/code/UnrealLoader.h"; sourceTree = "<group>"; };
+		C1F0AA0919F6BD00003DB53B /* ValidateDataStructure.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ValidateDataStructure.cpp; path = "assimp-3.1.1/code/ValidateDataStructure.cpp"; sourceTree = "<group>"; };
+		C1F0AA0A19F6BD00003DB53B /* ValidateDataStructure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ValidateDataStructure.h; path = "assimp-3.1.1/code/ValidateDataStructure.h"; sourceTree = "<group>"; };
+		C1F0AA0B19F6BD00003DB53B /* Vertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Vertex.h; path = "assimp-3.1.1/code/Vertex.h"; sourceTree = "<group>"; };
+		C1F0AA0C19F6BD00003DB53B /* VertexTriangleAdjacency.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VertexTriangleAdjacency.cpp; path = "assimp-3.1.1/code/VertexTriangleAdjacency.cpp"; sourceTree = "<group>"; };
+		C1F0AA0D19F6BD00003DB53B /* VertexTriangleAdjacency.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VertexTriangleAdjacency.h; path = "assimp-3.1.1/code/VertexTriangleAdjacency.h"; sourceTree = "<group>"; };
+		C1F0AA0E19F6BD00003DB53B /* Win32DebugLogStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Win32DebugLogStream.h; path = "assimp-3.1.1/code/Win32DebugLogStream.h"; sourceTree = "<group>"; };
+		C1F0AA0F19F6BD00003DB53B /* XFileHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XFileHelper.h; path = "assimp-3.1.1/code/XFileHelper.h"; sourceTree = "<group>"; };
+		C1F0AA1019F6BD00003DB53B /* XFileImporter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = XFileImporter.cpp; path = "assimp-3.1.1/code/XFileImporter.cpp"; sourceTree = "<group>"; };
+		C1F0AA1119F6BD00003DB53B /* XFileImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XFileImporter.h; path = "assimp-3.1.1/code/XFileImporter.h"; sourceTree = "<group>"; };
+		C1F0AA1219F6BD00003DB53B /* XFileParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = XFileParser.cpp; path = "assimp-3.1.1/code/XFileParser.cpp"; sourceTree = "<group>"; };
+		C1F0AA1319F6BD00003DB53B /* XFileParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XFileParser.h; path = "assimp-3.1.1/code/XFileParser.h"; sourceTree = "<group>"; };
+		C1F0AA1419F6BD00003DB53B /* XGLLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = XGLLoader.cpp; path = "assimp-3.1.1/code/XGLLoader.cpp"; sourceTree = "<group>"; };
+		C1F0AA1519F6BD00003DB53B /* XGLLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XGLLoader.h; path = "assimp-3.1.1/code/XGLLoader.h"; sourceTree = "<group>"; };
+		C1F0AAB419F6BFBF003DB53B /* ConvertUTF.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ConvertUTF.c; sourceTree = "<group>"; };
+		C1F0AAB519F6BFBF003DB53B /* ConvertUTF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConvertUTF.h; sourceTree = "<group>"; };
+		C1F0AAB619F6BFBF003DB53B /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
+		C1F0AABA19F6C05A003DB53B /* clipper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = clipper.cpp; sourceTree = "<group>"; };
+		C1F0AABB19F6C05A003DB53B /* clipper.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = clipper.hpp; sourceTree = "<group>"; };
+		C1F0AABC19F6C05A003DB53B /* License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
+		C1F0AAC019F6C0ED003DB53B /* CXMLReaderImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLReaderImpl.h; sourceTree = "<group>"; };
+		C1F0AAC119F6C0ED003DB53B /* heapsort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = heapsort.h; sourceTree = "<group>"; };
+		C1F0AAC219F6C0ED003DB53B /* irrArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = irrArray.h; sourceTree = "<group>"; };
+		C1F0AAC319F6C0ED003DB53B /* irrString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = irrString.h; sourceTree = "<group>"; };
+		C1F0AAC419F6C0ED003DB53B /* irrTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = irrTypes.h; sourceTree = "<group>"; };
+		C1F0AAC519F6C0ED003DB53B /* irrXML.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = irrXML.cpp; sourceTree = "<group>"; };
+		C1F0AAC619F6C0ED003DB53B /* irrXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = irrXML.h; sourceTree = "<group>"; };
+		C1F0AACA19F6C192003DB53B /* shapes.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = shapes.cc; sourceTree = "<group>"; };
+		C1F0AACB19F6C192003DB53B /* shapes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shapes.h; sourceTree = "<group>"; };
+		C1F0AACC19F6C192003DB53B /* utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
+		C1F0AACD19F6C192003DB53B /* poly2tri.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = poly2tri.h; sourceTree = "<group>"; };
+		C1F0AACF19F6C192003DB53B /* advancing_front.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = advancing_front.cc; sourceTree = "<group>"; };
+		C1F0AAD019F6C192003DB53B /* advancing_front.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = advancing_front.h; sourceTree = "<group>"; };
+		C1F0AAD119F6C192003DB53B /* cdt.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cdt.cc; sourceTree = "<group>"; };
+		C1F0AAD219F6C192003DB53B /* cdt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cdt.h; sourceTree = "<group>"; };
+		C1F0AAD319F6C192003DB53B /* sweep.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sweep.cc; sourceTree = "<group>"; };
+		C1F0AAD419F6C192003DB53B /* sweep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sweep.h; sourceTree = "<group>"; };
+		C1F0AAD519F6C192003DB53B /* sweep_context.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sweep_context.cc; sourceTree = "<group>"; };
+		C1F0AAD619F6C192003DB53B /* sweep_context.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sweep_context.h; sourceTree = "<group>"; };
+		C1F0AADD19F6C268003DB53B /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		C1F0AADE19F6C268003DB53B /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		C1F0AADF19F6C268003DB53B /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		C1F0AAE019F6C268003DB53B /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		C1F0AAE119F6C268003DB53B /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		C1F0AAE519F6C2F7003DB53B /* fmod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod.h; sourceTree = "<group>"; };
+		C1F0AAE619F6C2F7003DB53B /* fmod.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = fmod.hpp; sourceTree = "<group>"; };
+		C1F0AAE719F6C2F7003DB53B /* fmod_codec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_codec.h; sourceTree = "<group>"; };
+		C1F0AAE819F6C2F7003DB53B /* fmod_common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_common.h; sourceTree = "<group>"; };
+		C1F0AAE919F6C2F7003DB53B /* fmod_dsp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_dsp.h; sourceTree = "<group>"; };
+		C1F0AAEA19F6C2F7003DB53B /* fmod_dsp_effects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_dsp_effects.h; sourceTree = "<group>"; };
+		C1F0AAEB19F6C2F7003DB53B /* fmod_errors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_errors.h; sourceTree = "<group>"; };
+		C1F0AAEC19F6C2F7003DB53B /* fmod_ios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_ios.h; sourceTree = "<group>"; };
+		C1F0AAED19F6C2F7003DB53B /* fmod_output.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_output.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -927,7 +1495,6 @@
 			children = (
 				C1266C8B19F5521900DDF17D /* AudioToolbox.framework */,
 				C1266C8919F5521200DDF17D /* CoreAudio.framework */,
-				C1266C4E19F53FD800DDF17D /* libz.dylib */,
 				C17DE41E19EEBCA8005D1313 /* OpenGLES.framework */,
 				C17DE41C19EEBCA0005D1313 /* GLKit.framework */,
 				C17DE3BB19EEBA58005D1313 /* third_party */,
@@ -992,8 +1559,8 @@
 			isa = PBXGroup;
 			children = (
 				C1F09B4A19F6BBA9003DB53B /* assimp */,
-				C1266C8E19F558B200DDF17D /* inc */,
 				C17DE3BD19EEBA58005D1313 /* bullet */,
+				C1F0AAE419F6C2F7003DB53B /* fmod */,
 				C17DE3C019EEBA58005D1313 /* jli_game_engine */,
 				C17DE3CC19EEBA58005D1313 /* jpg */,
 				C1266C9019F55C0600DDF17D /* json */,
@@ -1749,8 +2316,552 @@
 		C1F09B4A19F6BBA9003DB53B /* assimp */ = {
 			isa = PBXGroup;
 			children = (
+				C1F0AADC19F6C268003DB53B /* unzip */,
+				C1F0AAC819F6C192003DB53B /* poly2tri */,
+				C1F0AABF19F6C0ED003DB53B /* irrXML */,
+				C1F0AAB919F6C05A003DB53B /* clipper */,
+				C1F0AAB319F6BFBF003DB53B /* ConvertUTF */,
+				C1F0A8B019F6BCEA003DB53B /* src */,
+				C1F0A87A19F6BCD4003DB53B /* include */,
 			);
 			path = assimp;
+			sourceTree = "<group>";
+		};
+		C1F0A87A19F6BCD4003DB53B /* include */ = {
+			isa = PBXGroup;
+			children = (
+				C1F0A87B19F6BCD4003DB53B /* assimp */,
+			);
+			name = include;
+			path = "assimp-3.1.1/include";
+			sourceTree = "<group>";
+		};
+		C1F0A87B19F6BCD4003DB53B /* assimp */ = {
+			isa = PBXGroup;
+			children = (
+				C1F0A87C19F6BCD4003DB53B /* ai_assert.h */,
+				C1F0A87D19F6BCD4003DB53B /* anim.h */,
+				C1F0A87E19F6BCD4003DB53B /* camera.h */,
+				C1F0A87F19F6BCD4003DB53B /* cexport.h */,
+				C1F0A88019F6BCD4003DB53B /* cfileio.h */,
+				C1F0A88119F6BCD4003DB53B /* cimport.h */,
+				C1F0A88219F6BCD4003DB53B /* color4.h */,
+				C1F0A88319F6BCD4003DB53B /* color4.inl */,
+				C1F0A88419F6BCD4003DB53B /* Compiler */,
+				C1F0A88819F6BCD4003DB53B /* config.h */,
+				C1F0A88919F6BCD4003DB53B /* DefaultLogger.hpp */,
+				C1F0A88A19F6BCD4003DB53B /* defs.h */,
+				C1F0A88B19F6BCD4003DB53B /* Exporter.hpp */,
+				C1F0A88C19F6BCD4003DB53B /* Importer.hpp */,
+				C1F0A88D19F6BCD4003DB53B /* importerdesc.h */,
+				C1F0A88E19F6BCD4003DB53B /* IOStream.hpp */,
+				C1F0A88F19F6BCD4003DB53B /* IOSystem.hpp */,
+				C1F0A89019F6BCD4003DB53B /* light.h */,
+				C1F0A89119F6BCD4003DB53B /* Logger.hpp */,
+				C1F0A89219F6BCD4003DB53B /* LogStream.hpp */,
+				C1F0A89319F6BCD4003DB53B /* material.h */,
+				C1F0A89419F6BCD4003DB53B /* material.inl */,
+				C1F0A89519F6BCD4003DB53B /* matrix3x3.h */,
+				C1F0A89619F6BCD4003DB53B /* matrix3x3.inl */,
+				C1F0A89719F6BCD4003DB53B /* matrix4x4.h */,
+				C1F0A89819F6BCD4003DB53B /* matrix4x4.inl */,
+				C1F0A89919F6BCD4003DB53B /* mesh.h */,
+				C1F0A89A19F6BCD4003DB53B /* metadata.h */,
+				C1F0A89B19F6BCD4003DB53B /* NullLogger.hpp */,
+				C1F0A89C19F6BCD4003DB53B /* postprocess.h */,
+				C1F0A89D19F6BCD4003DB53B /* ProgressHandler.hpp */,
+				C1F0A89E19F6BCD4003DB53B /* quaternion.h */,
+				C1F0A89F19F6BCD4003DB53B /* quaternion.inl */,
+				C1F0A8A019F6BCD4003DB53B /* revision.h */,
+				C1F0A8A119F6BCD4003DB53B /* scene.h */,
+				C1F0A8A219F6BCD4003DB53B /* texture.h */,
+				C1F0A8A319F6BCD4003DB53B /* types.h */,
+				C1F0A8A419F6BCD4003DB53B /* vector2.h */,
+				C1F0A8A519F6BCD4003DB53B /* vector2.inl */,
+				C1F0A8A619F6BCD4003DB53B /* vector3.h */,
+				C1F0A8A719F6BCD4003DB53B /* vector3.inl */,
+				C1F0A8A819F6BCD4003DB53B /* version.h */,
+			);
+			path = assimp;
+			sourceTree = "<group>";
+		};
+		C1F0A88419F6BCD4003DB53B /* Compiler */ = {
+			isa = PBXGroup;
+			children = (
+				C1F0A88519F6BCD4003DB53B /* poppack1.h */,
+				C1F0A88619F6BCD4003DB53B /* pstdint.h */,
+				C1F0A88719F6BCD4003DB53B /* pushpack1.h */,
+			);
+			path = Compiler;
+			sourceTree = "<group>";
+		};
+		C1F0A8B019F6BCEA003DB53B /* src */ = {
+			isa = PBXGroup;
+			children = (
+				C1F0A8B119F6BCFF003DB53B /* 3DSConverter.cpp */,
+				C1F0A8B219F6BCFF003DB53B /* 3DSHelper.h */,
+				C1F0A8B319F6BCFF003DB53B /* 3DSLoader.cpp */,
+				C1F0A8B419F6BCFF003DB53B /* 3DSLoader.h */,
+				C1F0A8B519F6BCFF003DB53B /* ACLoader.cpp */,
+				C1F0A8B619F6BCFF003DB53B /* ACLoader.h */,
+				C1F0A8B719F6BCFF003DB53B /* ASELoader.cpp */,
+				C1F0A8B819F6BCFF003DB53B /* ASELoader.h */,
+				C1F0A8B919F6BCFF003DB53B /* ASEParser.cpp */,
+				C1F0A8BA19F6BCFF003DB53B /* ASEParser.h */,
+				C1F0A8BB19F6BCFF003DB53B /* assbin_chunks.h */,
+				C1F0A8BC19F6BCFF003DB53B /* Assimp.cpp */,
+				C1F0A8BD19F6BCFF003DB53B /* AssimpCExport.cpp */,
+				C1F0A8BE19F6BCFF003DB53B /* AssimpPCH.cpp */,
+				C1F0A8BF19F6BCFF003DB53B /* AssimpPCH.h */,
+				C1F0A8C019F6BCFF003DB53B /* B3DImporter.cpp */,
+				C1F0A8C119F6BCFF003DB53B /* B3DImporter.h */,
+				C1F0A8C219F6BCFF003DB53B /* BaseImporter.cpp */,
+				C1F0A8C319F6BCFF003DB53B /* BaseImporter.h */,
+				C1F0A8C419F6BCFF003DB53B /* BaseProcess.cpp */,
+				C1F0A8C519F6BCFF003DB53B /* BaseProcess.h */,
+				C1F0A8C619F6BCFF003DB53B /* Bitmap.cpp */,
+				C1F0A8C719F6BCFF003DB53B /* Bitmap.h */,
+				C1F0A8C819F6BCFF003DB53B /* BlenderBMesh.cpp */,
+				C1F0A8C919F6BCFF003DB53B /* BlenderBMesh.h */,
+				C1F0A8CA19F6BCFF003DB53B /* BlenderDNA.cpp */,
+				C1F0A8CB19F6BCFF003DB53B /* BlenderDNA.h */,
+				C1F0A8CC19F6BCFF003DB53B /* BlenderDNA.inl */,
+				C1F0A8CD19F6BCFF003DB53B /* BlenderIntermediate.h */,
+				C1F0A8CE19F6BCFF003DB53B /* BlenderLoader.cpp */,
+				C1F0A8CF19F6BCFF003DB53B /* BlenderLoader.h */,
+				C1F0A8D019F6BCFF003DB53B /* BlenderModifier.cpp */,
+				C1F0A8D119F6BCFF003DB53B /* BlenderModifier.h */,
+				C1F0A8D219F6BCFF003DB53B /* BlenderScene.cpp */,
+				C1F0A8D319F6BCFF003DB53B /* BlenderScene.h */,
+				C1F0A8D419F6BCFF003DB53B /* BlenderSceneGen.h */,
+				C1F0A8D519F6BCFF003DB53B /* BlenderTessellator.cpp */,
+				C1F0A8D619F6BCFF003DB53B /* BlenderTessellator.h */,
+				C1F0A8D719F6BCFF003DB53B /* BlobIOSystem.h */,
+				C1F0A8D819F6BCFF003DB53B /* BoostWorkaround */,
+				C1F0A8EB19F6BCFF003DB53B /* BVHLoader.cpp */,
+				C1F0A8EC19F6BCFF003DB53B /* BVHLoader.h */,
+				C1F0A8ED19F6BCFF003DB53B /* ByteSwap.h */,
+				C1F0A8EE19F6BCFF003DB53B /* CalcTangentsProcess.cpp */,
+				C1F0A8EF19F6BCFF003DB53B /* CalcTangentsProcess.h */,
+				C1F0A8F019F6BCFF003DB53B /* CInterfaceIOWrapper.h */,
+				C1F0A90819F6BCFF003DB53B /* COBLoader.cpp */,
+				C1F0A90919F6BCFF003DB53B /* COBLoader.h */,
+				C1F0A90A19F6BCFF003DB53B /* COBScene.h */,
+				C1F0A90B19F6BCFF003DB53B /* ColladaExporter.cpp */,
+				C1F0A90C19F6BCFF003DB53B /* ColladaExporter.h */,
+				C1F0A90D19F6BCFF003DB53B /* ColladaHelper.h */,
+				C1F0A90E19F6BCFF003DB53B /* ColladaLoader.cpp */,
+				C1F0A90F19F6BCFF003DB53B /* ColladaLoader.h */,
+				C1F0A91019F6BCFF003DB53B /* ColladaParser.cpp */,
+				C1F0A91119F6BCFF003DB53B /* ColladaParser.h */,
+				C1F0A91219F6BCFF003DB53B /* ComputeUVMappingProcess.cpp */,
+				C1F0A91319F6BCFF003DB53B /* ComputeUVMappingProcess.h */,
+				C1F0A91419F6BCFF003DB53B /* ConvertToLHProcess.cpp */,
+				C1F0A91519F6BCFF003DB53B /* ConvertToLHProcess.h */,
+				C1F0A91619F6BCFF003DB53B /* CSMLoader.cpp */,
+				C1F0A91719F6BCFF003DB53B /* CSMLoader.h */,
+				C1F0A91819F6BCFF003DB53B /* DeboneProcess.cpp */,
+				C1F0A91919F6BCFF003DB53B /* DeboneProcess.h */,
+				C1F0A91A19F6BCFF003DB53B /* DefaultIOStream.cpp */,
+				C1F0A91B19F6BCFF003DB53B /* DefaultIOStream.h */,
+				C1F0A91C19F6BCFF003DB53B /* DefaultIOSystem.cpp */,
+				C1F0A91D19F6BCFF003DB53B /* DefaultIOSystem.h */,
+				C1F0A91E19F6BCFF003DB53B /* DefaultLogger.cpp */,
+				C1F0A91F19F6BCFF003DB53B /* DefaultProgressHandler.h */,
+				C1F0A92019F6BCFF003DB53B /* DXFHelper.h */,
+				C1F0A92119F6BCFF003DB53B /* DXFLoader.cpp */,
+				C1F0A92219F6BCFF003DB53B /* DXFLoader.h */,
+				C1F0A92319F6BCFF003DB53B /* Exceptional.h */,
+				C1F0A92419F6BCFF003DB53B /* Exporter.cpp */,
+				C1F0A92519F6BCFF003DB53B /* fast_atof.h */,
+				C1F0A92619F6BCFF003DB53B /* FBXAnimation.cpp */,
+				C1F0A92719F6BCFF003DB53B /* FBXBinaryTokenizer.cpp */,
+				C1F0A92819F6BCFF003DB53B /* FBXCompileConfig.h */,
+				C1F0A92919F6BCFF003DB53B /* FBXConverter.cpp */,
+				C1F0A92A19F6BCFF003DB53B /* FBXConverter.h */,
+				C1F0A92B19F6BCFF003DB53B /* FBXDeformer.cpp */,
+				C1F0A92C19F6BCFF003DB53B /* FBXDocument.cpp */,
+				C1F0A92D19F6BCFF003DB53B /* FBXDocument.h */,
+				C1F0A92E19F6BCFF003DB53B /* FBXDocumentUtil.cpp */,
+				C1F0A92F19F6BCFF003DB53B /* FBXDocumentUtil.h */,
+				C1F0A93019F6BCFF003DB53B /* FBXImporter.cpp */,
+				C1F0A93119F6BCFF003DB53B /* FBXImporter.h */,
+				C1F0A93219F6BCFF003DB53B /* FBXImportSettings.h */,
+				C1F0A93319F6BCFF003DB53B /* FBXMaterial.cpp */,
+				C1F0A93419F6BCFF003DB53B /* FBXMeshGeometry.cpp */,
+				C1F0A93519F6BCFF003DB53B /* FBXModel.cpp */,
+				C1F0A93619F6BCFF003DB53B /* FBXNodeAttribute.cpp */,
+				C1F0A93719F6BCFF003DB53B /* FBXParser.cpp */,
+				C1F0A93819F6BCFF003DB53B /* FBXParser.h */,
+				C1F0A93919F6BCFF003DB53B /* FBXProperties.cpp */,
+				C1F0A93A19F6BCFF003DB53B /* FBXProperties.h */,
+				C1F0A93B19F6BCFF003DB53B /* FBXTokenizer.cpp */,
+				C1F0A93C19F6BCFF003DB53B /* FBXTokenizer.h */,
+				C1F0A93D19F6BCFF003DB53B /* FBXUtil.cpp */,
+				C1F0A93E19F6BCFF003DB53B /* FBXUtil.h */,
+				C1F0A93F19F6BCFF003DB53B /* FileLogStream.h */,
+				C1F0A94019F6BCFF003DB53B /* FileSystemFilter.h */,
+				C1F0A94119F6BCFF003DB53B /* FindDegenerates.cpp */,
+				C1F0A94219F6BCFF003DB53B /* FindDegenerates.h */,
+				C1F0A94319F6BCFF003DB53B /* FindInstancesProcess.cpp */,
+				C1F0A94419F6BCFF003DB53B /* FindInstancesProcess.h */,
+				C1F0A94519F6BCFF003DB53B /* FindInvalidDataProcess.cpp */,
+				C1F0A94619F6BCFF003DB53B /* FindInvalidDataProcess.h */,
+				C1F0A94719F6BCFF003DB53B /* FixNormalsStep.cpp */,
+				C1F0A94819F6BCFF003DB53B /* FixNormalsStep.h */,
+				C1F0A94919F6BCFF003DB53B /* GenericProperty.h */,
+				C1F0A94A19F6BCFF003DB53B /* GenFaceNormalsProcess.cpp */,
+				C1F0A94B19F6BCFF003DB53B /* GenFaceNormalsProcess.h */,
+				C1F0A94C19F6BCFF003DB53B /* GenVertexNormalsProcess.cpp */,
+				C1F0A94D19F6BCFF003DB53B /* GenVertexNormalsProcess.h */,
+				C1F0A94E19F6BCFF003DB53B /* HalfLifeFileData.h */,
+				C1F0A94F19F6BCFF003DB53B /* Hash.h */,
+				C1F0A95019F6BCFF003DB53B /* HMPFileData.h */,
+				C1F0A95119F6BCFF003DB53B /* HMPLoader.cpp */,
+				C1F0A95219F6BCFF003DB53B /* HMPLoader.h */,
+				C1F0A95319F6BCFF003DB53B /* IFCBoolean.cpp */,
+				C1F0A95419F6BCFF003DB53B /* IFCCurve.cpp */,
+				C1F0A95519F6BCFF003DB53B /* IFCGeometry.cpp */,
+				C1F0A95619F6BCFF003DB53B /* IFCLoader.cpp */,
+				C1F0A95719F6BCFF003DB53B /* IFCLoader.h */,
+				C1F0A95819F6BCFF003DB53B /* IFCMaterial.cpp */,
+				C1F0A95919F6BCFF003DB53B /* IFCOpenings.cpp */,
+				C1F0A95A19F6BCFF003DB53B /* IFCProfile.cpp */,
+				C1F0A95B19F6BCFF003DB53B /* IFCReaderGen.cpp */,
+				C1F0A95C19F6BCFF003DB53B /* IFCReaderGen.h */,
+				C1F0A95D19F6BCFF003DB53B /* IFCUtil.cpp */,
+				C1F0A95E19F6BCFF003DB53B /* IFCUtil.h */,
+				C1F0A95F19F6BCFF003DB53B /* IFF.h */,
+				C1F0A96019F6BCFF003DB53B /* Importer.cpp */,
+				C1F0A96119F6BCFF003DB53B /* Importer.h */,
+				C1F0A96219F6BCFF003DB53B /* ImporterRegistry.cpp */,
+				C1F0A96319F6BCFF003DB53B /* ImproveCacheLocality.cpp */,
+				C1F0A96419F6BCFF003DB53B /* ImproveCacheLocality.h */,
+				C1F0A96519F6BCFF003DB53B /* IRRLoader.cpp */,
+				C1F0A96619F6BCFF003DB53B /* IRRLoader.h */,
+				C1F0A96719F6BCFF003DB53B /* IRRMeshLoader.cpp */,
+				C1F0A96819F6BCFF003DB53B /* IRRMeshLoader.h */,
+				C1F0A96919F6BCFF003DB53B /* IRRShared.cpp */,
+				C1F0A96A19F6BCFF003DB53B /* IRRShared.h */,
+				C1F0A96B19F6BCFF003DB53B /* irrXMLWrapper.h */,
+				C1F0A96C19F6BCFF003DB53B /* JoinVerticesProcess.cpp */,
+				C1F0A96D19F6BCFF003DB53B /* JoinVerticesProcess.h */,
+				C1F0A96E19F6BCFF003DB53B /* LimitBoneWeightsProcess.cpp */,
+				C1F0A96F19F6BCFF003DB53B /* LimitBoneWeightsProcess.h */,
+				C1F0A97019F6BCFF003DB53B /* LineSplitter.h */,
+				C1F0A97119F6BCFF003DB53B /* LogAux.h */,
+				C1F0A97219F6BCFF003DB53B /* LWOAnimation.cpp */,
+				C1F0A97319F6BCFF003DB53B /* LWOAnimation.h */,
+				C1F0A97419F6BCFF003DB53B /* LWOBLoader.cpp */,
+				C1F0A97519F6BCFF003DB53B /* LWOFileData.h */,
+				C1F0A97619F6BCFF003DB53B /* LWOLoader.cpp */,
+				C1F0A97719F6BCFF003DB53B /* LWOLoader.h */,
+				C1F0A97819F6BCFF003DB53B /* LWOMaterial.cpp */,
+				C1F0A97919F6BCFF003DB53B /* LWSLoader.cpp */,
+				C1F0A97A19F6BCFF003DB53B /* LWSLoader.h */,
+				C1F0A97C19F6BCFF003DB53B /* MakeVerboseFormat.cpp */,
+				C1F0A97D19F6BCFF003DB53B /* MakeVerboseFormat.h */,
+				C1F0A97E19F6BCFF003DB53B /* MaterialSystem.cpp */,
+				C1F0A97F19F6BCFF003DB53B /* MaterialSystem.h */,
+				C1F0A98019F6BCFF003DB53B /* MD2FileData.h */,
+				C1F0A98119F6BCFF003DB53B /* MD2Loader.cpp */,
+				C1F0A98219F6BCFF003DB53B /* MD2Loader.h */,
+				C1F0A98319F6BCFF003DB53B /* MD2NormalTable.h */,
+				C1F0A98419F6BCFF003DB53B /* MD3FileData.h */,
+				C1F0A98519F6BCFF003DB53B /* MD3Loader.cpp */,
+				C1F0A98619F6BCFF003DB53B /* MD3Loader.h */,
+				C1F0A98719F6BCFF003DB53B /* MD4FileData.h */,
+				C1F0A98819F6BCFF003DB53B /* MD5Loader.cpp */,
+				C1F0A98919F6BCFF003DB53B /* MD5Loader.h */,
+				C1F0A98A19F6BCFF003DB53B /* MD5Parser.cpp */,
+				C1F0A98B19F6BCFF003DB53B /* MD5Parser.h */,
+				C1F0A98C19F6BCFF003DB53B /* MDCFileData.h */,
+				C1F0A98D19F6BCFF003DB53B /* MDCLoader.cpp */,
+				C1F0A98E19F6BCFF003DB53B /* MDCLoader.h */,
+				C1F0A98F19F6BCFF003DB53B /* MDCNormalTable.h */,
+				C1F0A99019F6BCFF003DB53B /* MDLDefaultColorMap.h */,
+				C1F0A99119F6BCFF003DB53B /* MDLFileData.h */,
+				C1F0A99219F6BCFF003DB53B /* MDLLoader.cpp */,
+				C1F0A99319F6BCFF003DB53B /* MDLLoader.h */,
+				C1F0A99419F6BCFF003DB53B /* MDLMaterialLoader.cpp */,
+				C1F0A99519F6BCFF003DB53B /* MemoryIOWrapper.h */,
+				C1F0A99619F6BCFF003DB53B /* MS3DLoader.cpp */,
+				C1F0A99719F6BCFF003DB53B /* MS3DLoader.h */,
+				C1F0A99819F6BCFF003DB53B /* NDOLoader.cpp */,
+				C1F0A99919F6BCFF003DB53B /* NDOLoader.h */,
+				C1F0A99A19F6BCFF003DB53B /* NFFLoader.cpp */,
+				C1F0A99B19F6BCFF003DB53B /* NFFLoader.h */,
+				C1F0A99C19F6BCFF003DB53B /* ObjExporter.cpp */,
+				C1F0A99D19F6BCFF003DB53B /* ObjExporter.h */,
+				C1F0A99E19F6BCFF003DB53B /* ObjFileData.h */,
+				C1F0A99F19F6BCFF003DB53B /* ObjFileImporter.cpp */,
+				C1F0A9A019F6BCFF003DB53B /* ObjFileImporter.h */,
+				C1F0A9A119F6BCFF003DB53B /* ObjFileMtlImporter.cpp */,
+				C1F0A9A219F6BCFF003DB53B /* ObjFileMtlImporter.h */,
+				C1F0A9A319F6BCFF003DB53B /* ObjFileParser.cpp */,
+				C1F0A9A419F6BCFF003DB53B /* ObjFileParser.h */,
+				C1F0A9A519F6BCFF003DB53B /* ObjTools.h */,
+				C1F0A9A619F6BCFF003DB53B /* OFFLoader.cpp */,
+				C1F0A9A719F6BCFF003DB53B /* OFFLoader.h */,
+				C1F0A9A819F6BCFF003DB53B /* OgreBinarySerializer.cpp */,
+				C1F0A9A919F6BCFF003DB53B /* OgreBinarySerializer.h */,
+				C1F0A9AA19F6BCFF003DB53B /* OgreImporter.cpp */,
+				C1F0A9AB19F6BCFF003DB53B /* OgreImporter.h */,
+				C1F0A9AC19F6BCFF003DB53B /* OgreMaterial.cpp */,
+				C1F0A9AD19F6BCFF003DB53B /* OgreParsingUtils.h */,
+				C1F0A9AE19F6BCFF003DB53B /* OgreStructs.cpp */,
+				C1F0A9AF19F6BCFF003DB53B /* OgreStructs.h */,
+				C1F0A9B019F6BCFF003DB53B /* OgreXmlSerializer.cpp */,
+				C1F0A9B119F6BCFF003DB53B /* OgreXmlSerializer.h */,
+				C1F0A9B219F6BCFF003DB53B /* OptimizeGraph.cpp */,
+				C1F0A9B319F6BCFF003DB53B /* OptimizeGraph.h */,
+				C1F0A9B419F6BD00003DB53B /* OptimizeMeshes.cpp */,
+				C1F0A9B519F6BD00003DB53B /* OptimizeMeshes.h */,
+				C1F0A9B619F6BD00003DB53B /* ParsingUtils.h */,
+				C1F0A9B719F6BD00003DB53B /* PlyExporter.cpp */,
+				C1F0A9B819F6BD00003DB53B /* PlyExporter.h */,
+				C1F0A9B919F6BD00003DB53B /* PlyLoader.cpp */,
+				C1F0A9BA19F6BD00003DB53B /* PlyLoader.h */,
+				C1F0A9BB19F6BD00003DB53B /* PlyParser.cpp */,
+				C1F0A9BC19F6BD00003DB53B /* PlyParser.h */,
+				C1F0A9BD19F6BD00003DB53B /* PolyTools.h */,
+				C1F0A9BE19F6BD00003DB53B /* PostStepRegistry.cpp */,
+				C1F0A9BF19F6BD00003DB53B /* PretransformVertices.cpp */,
+				C1F0A9C019F6BD00003DB53B /* PretransformVertices.h */,
+				C1F0A9C119F6BD00003DB53B /* ProcessHelper.cpp */,
+				C1F0A9C219F6BD00003DB53B /* ProcessHelper.h */,
+				C1F0A9C319F6BD00003DB53B /* Profiler.h */,
+				C1F0A9C419F6BD00003DB53B /* Q3BSPFileData.h */,
+				C1F0A9C519F6BD00003DB53B /* Q3BSPFileImporter.cpp */,
+				C1F0A9C619F6BD00003DB53B /* Q3BSPFileImporter.h */,
+				C1F0A9C719F6BD00003DB53B /* Q3BSPFileParser.cpp */,
+				C1F0A9C819F6BD00003DB53B /* Q3BSPFileParser.h */,
+				C1F0A9C919F6BD00003DB53B /* Q3BSPZipArchive.cpp */,
+				C1F0A9CA19F6BD00003DB53B /* Q3BSPZipArchive.h */,
+				C1F0A9CB19F6BD00003DB53B /* Q3DLoader.cpp */,
+				C1F0A9CC19F6BD00003DB53B /* Q3DLoader.h */,
+				C1F0A9CD19F6BD00003DB53B /* qnan.h */,
+				C1F0A9CE19F6BD00003DB53B /* RawLoader.cpp */,
+				C1F0A9CF19F6BD00003DB53B /* RawLoader.h */,
+				C1F0A9D019F6BD00003DB53B /* RemoveComments.cpp */,
+				C1F0A9D119F6BD00003DB53B /* RemoveComments.h */,
+				C1F0A9D219F6BD00003DB53B /* RemoveRedundantMaterials.cpp */,
+				C1F0A9D319F6BD00003DB53B /* RemoveRedundantMaterials.h */,
+				C1F0A9D419F6BD00003DB53B /* RemoveVCProcess.cpp */,
+				C1F0A9D519F6BD00003DB53B /* RemoveVCProcess.h */,
+				C1F0A9D919F6BD00003DB53B /* SceneCombiner.cpp */,
+				C1F0A9DA19F6BD00003DB53B /* SceneCombiner.h */,
+				C1F0A9DB19F6BD00003DB53B /* ScenePreprocessor.cpp */,
+				C1F0A9DC19F6BD00003DB53B /* ScenePreprocessor.h */,
+				C1F0A9DD19F6BD00003DB53B /* ScenePrivate.h */,
+				C1F0A9DE19F6BD00003DB53B /* SGSpatialSort.cpp */,
+				C1F0A9DF19F6BD00003DB53B /* SGSpatialSort.h */,
+				C1F0A9E019F6BD00003DB53B /* SkeletonMeshBuilder.cpp */,
+				C1F0A9E119F6BD00003DB53B /* SkeletonMeshBuilder.h */,
+				C1F0A9E219F6BD00003DB53B /* SMDLoader.cpp */,
+				C1F0A9E319F6BD00003DB53B /* SMDLoader.h */,
+				C1F0A9E419F6BD00003DB53B /* SmoothingGroups.h */,
+				C1F0A9E519F6BD00003DB53B /* SmoothingGroups.inl */,
+				C1F0A9E619F6BD00003DB53B /* SortByPTypeProcess.cpp */,
+				C1F0A9E719F6BD00003DB53B /* SortByPTypeProcess.h */,
+				C1F0A9E819F6BD00003DB53B /* SpatialSort.cpp */,
+				C1F0A9E919F6BD00003DB53B /* SpatialSort.h */,
+				C1F0A9EA19F6BD00003DB53B /* SplitByBoneCountProcess.cpp */,
+				C1F0A9EB19F6BD00003DB53B /* SplitByBoneCountProcess.h */,
+				C1F0A9EC19F6BD00003DB53B /* SplitLargeMeshes.cpp */,
+				C1F0A9ED19F6BD00003DB53B /* SplitLargeMeshes.h */,
+				C1F0A9EE19F6BD00003DB53B /* StandardShapes.cpp */,
+				C1F0A9EF19F6BD00003DB53B /* StandardShapes.h */,
+				C1F0A9F019F6BD00003DB53B /* StdOStreamLogStream.h */,
+				C1F0A9F119F6BD00003DB53B /* STEPFile.h */,
+				C1F0A9F219F6BD00003DB53B /* STEPFileEncoding.cpp */,
+				C1F0A9F319F6BD00003DB53B /* STEPFileEncoding.h */,
+				C1F0A9F419F6BD00003DB53B /* STEPFileReader.cpp */,
+				C1F0A9F519F6BD00003DB53B /* STEPFileReader.h */,
+				C1F0A9F619F6BD00003DB53B /* STLExporter.cpp */,
+				C1F0A9F719F6BD00003DB53B /* STLExporter.h */,
+				C1F0A9F819F6BD00003DB53B /* STLLoader.cpp */,
+				C1F0A9F919F6BD00003DB53B /* STLLoader.h */,
+				C1F0A9FA19F6BD00003DB53B /* StreamReader.h */,
+				C1F0A9FB19F6BD00003DB53B /* StringComparison.h */,
+				C1F0A9FC19F6BD00003DB53B /* Subdivision.cpp */,
+				C1F0A9FD19F6BD00003DB53B /* Subdivision.h */,
+				C1F0A9FE19F6BD00003DB53B /* TargetAnimation.cpp */,
+				C1F0A9FF19F6BD00003DB53B /* TargetAnimation.h */,
+				C1F0AA0019F6BD00003DB53B /* TerragenLoader.cpp */,
+				C1F0AA0119F6BD00003DB53B /* TerragenLoader.h */,
+				C1F0AA0219F6BD00003DB53B /* TextureTransform.cpp */,
+				C1F0AA0319F6BD00003DB53B /* TextureTransform.h */,
+				C1F0AA0419F6BD00003DB53B /* TinyFormatter.h */,
+				C1F0AA0519F6BD00003DB53B /* TriangulateProcess.cpp */,
+				C1F0AA0619F6BD00003DB53B /* TriangulateProcess.h */,
+				C1F0AA0719F6BD00003DB53B /* UnrealLoader.cpp */,
+				C1F0AA0819F6BD00003DB53B /* UnrealLoader.h */,
+				C1F0AA0919F6BD00003DB53B /* ValidateDataStructure.cpp */,
+				C1F0AA0A19F6BD00003DB53B /* ValidateDataStructure.h */,
+				C1F0AA0B19F6BD00003DB53B /* Vertex.h */,
+				C1F0AA0C19F6BD00003DB53B /* VertexTriangleAdjacency.cpp */,
+				C1F0AA0D19F6BD00003DB53B /* VertexTriangleAdjacency.h */,
+				C1F0AA0E19F6BD00003DB53B /* Win32DebugLogStream.h */,
+				C1F0AA0F19F6BD00003DB53B /* XFileHelper.h */,
+				C1F0AA1019F6BD00003DB53B /* XFileImporter.cpp */,
+				C1F0AA1119F6BD00003DB53B /* XFileImporter.h */,
+				C1F0AA1219F6BD00003DB53B /* XFileParser.cpp */,
+				C1F0AA1319F6BD00003DB53B /* XFileParser.h */,
+				C1F0AA1419F6BD00003DB53B /* XGLLoader.cpp */,
+				C1F0AA1519F6BD00003DB53B /* XGLLoader.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		C1F0A8D819F6BCFF003DB53B /* BoostWorkaround */ = {
+			isa = PBXGroup;
+			children = (
+				C1F0A8D919F6BCFF003DB53B /* boost */,
+			);
+			name = BoostWorkaround;
+			path = "assimp-3.1.1/code/BoostWorkaround";
+			sourceTree = "<group>";
+		};
+		C1F0A8D919F6BCFF003DB53B /* boost */ = {
+			isa = PBXGroup;
+			children = (
+				C1F0A8DA19F6BCFF003DB53B /* foreach.hpp */,
+				C1F0A8DB19F6BCFF003DB53B /* format.hpp */,
+				C1F0A8DC19F6BCFF003DB53B /* lexical_cast.hpp */,
+				C1F0A8DD19F6BCFF003DB53B /* LICENSE_1_0.txt */,
+				C1F0A8DE19F6BCFF003DB53B /* make_shared.hpp */,
+				C1F0A8DF19F6BCFF003DB53B /* math */,
+				C1F0A8E119F6BCFF003DB53B /* noncopyable.hpp */,
+				C1F0A8E219F6BCFF003DB53B /* pointer_cast.hpp */,
+				C1F0A8E319F6BCFF003DB53B /* scoped_array.hpp */,
+				C1F0A8E419F6BCFF003DB53B /* scoped_ptr.hpp */,
+				C1F0A8E519F6BCFF003DB53B /* shared_array.hpp */,
+				C1F0A8E619F6BCFF003DB53B /* shared_ptr.hpp */,
+				C1F0A8E719F6BCFF003DB53B /* static_assert.hpp */,
+				C1F0A8E819F6BCFF003DB53B /* timer.hpp */,
+				C1F0A8E919F6BCFF003DB53B /* tuple */,
+			);
+			path = boost;
+			sourceTree = "<group>";
+		};
+		C1F0A8DF19F6BCFF003DB53B /* math */ = {
+			isa = PBXGroup;
+			children = (
+				C1F0A8E019F6BCFF003DB53B /* common_factor_rt.hpp */,
+			);
+			path = math;
+			sourceTree = "<group>";
+		};
+		C1F0A8E919F6BCFF003DB53B /* tuple */ = {
+			isa = PBXGroup;
+			children = (
+				C1F0A8EA19F6BCFF003DB53B /* tuple.hpp */,
+			);
+			path = tuple;
+			sourceTree = "<group>";
+		};
+		C1F0AAB319F6BFBF003DB53B /* ConvertUTF */ = {
+			isa = PBXGroup;
+			children = (
+				C1F0AAB419F6BFBF003DB53B /* ConvertUTF.c */,
+				C1F0AAB519F6BFBF003DB53B /* ConvertUTF.h */,
+				C1F0AAB619F6BFBF003DB53B /* readme.txt */,
+			);
+			name = ConvertUTF;
+			path = "assimp-3.1.1/contrib/ConvertUTF";
+			sourceTree = "<group>";
+		};
+		C1F0AAB919F6C05A003DB53B /* clipper */ = {
+			isa = PBXGroup;
+			children = (
+				C1F0AABA19F6C05A003DB53B /* clipper.cpp */,
+				C1F0AABB19F6C05A003DB53B /* clipper.hpp */,
+				C1F0AABC19F6C05A003DB53B /* License.txt */,
+			);
+			name = clipper;
+			path = "assimp-3.1.1/contrib/clipper";
+			sourceTree = "<group>";
+		};
+		C1F0AABF19F6C0ED003DB53B /* irrXML */ = {
+			isa = PBXGroup;
+			children = (
+				C1F0AAC019F6C0ED003DB53B /* CXMLReaderImpl.h */,
+				C1F0AAC119F6C0ED003DB53B /* heapsort.h */,
+				C1F0AAC219F6C0ED003DB53B /* irrArray.h */,
+				C1F0AAC319F6C0ED003DB53B /* irrString.h */,
+				C1F0AAC419F6C0ED003DB53B /* irrTypes.h */,
+				C1F0AAC519F6C0ED003DB53B /* irrXML.cpp */,
+				C1F0AAC619F6C0ED003DB53B /* irrXML.h */,
+			);
+			name = irrXML;
+			path = "assimp-3.1.1/contrib/irrXML";
+			sourceTree = "<group>";
+		};
+		C1F0AAC819F6C192003DB53B /* poly2tri */ = {
+			isa = PBXGroup;
+			children = (
+				C1F0AAC919F6C192003DB53B /* common */,
+				C1F0AACD19F6C192003DB53B /* poly2tri.h */,
+				C1F0AACE19F6C192003DB53B /* sweep */,
+			);
+			name = poly2tri;
+			path = "assimp-3.1.1/contrib/poly2tri/poly2tri";
+			sourceTree = "<group>";
+		};
+		C1F0AAC919F6C192003DB53B /* common */ = {
+			isa = PBXGroup;
+			children = (
+				C1F0AACA19F6C192003DB53B /* shapes.cc */,
+				C1F0AACB19F6C192003DB53B /* shapes.h */,
+				C1F0AACC19F6C192003DB53B /* utils.h */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		C1F0AACE19F6C192003DB53B /* sweep */ = {
+			isa = PBXGroup;
+			children = (
+				C1F0AACF19F6C192003DB53B /* advancing_front.cc */,
+				C1F0AAD019F6C192003DB53B /* advancing_front.h */,
+				C1F0AAD119F6C192003DB53B /* cdt.cc */,
+				C1F0AAD219F6C192003DB53B /* cdt.h */,
+				C1F0AAD319F6C192003DB53B /* sweep.cc */,
+				C1F0AAD419F6C192003DB53B /* sweep.h */,
+				C1F0AAD519F6C192003DB53B /* sweep_context.cc */,
+				C1F0AAD619F6C192003DB53B /* sweep_context.h */,
+			);
+			path = sweep;
+			sourceTree = "<group>";
+		};
+		C1F0AADC19F6C268003DB53B /* unzip */ = {
+			isa = PBXGroup;
+			children = (
+				C1F0AADD19F6C268003DB53B /* crypt.h */,
+				C1F0AADE19F6C268003DB53B /* ioapi.c */,
+				C1F0AADF19F6C268003DB53B /* ioapi.h */,
+				C1F0AAE019F6C268003DB53B /* unzip.c */,
+				C1F0AAE119F6C268003DB53B /* unzip.h */,
+			);
+			name = unzip;
+			path = "assimp-3.1.1/contrib/unzip";
+			sourceTree = "<group>";
+		};
+		C1F0AAE419F6C2F7003DB53B /* fmod */ = {
+			isa = PBXGroup;
+			children = (
+				C1F0AAE519F6C2F7003DB53B /* fmod.h */,
+				C1F0AAE619F6C2F7003DB53B /* fmod.hpp */,
+				C1F0AAE719F6C2F7003DB53B /* fmod_codec.h */,
+				C1F0AAE819F6C2F7003DB53B /* fmod_common.h */,
+				C1F0AAE919F6C2F7003DB53B /* fmod_dsp.h */,
+				C1F0AAEA19F6C2F7003DB53B /* fmod_dsp_effects.h */,
+				C1F0AAEB19F6C2F7003DB53B /* fmod_errors.h */,
+				C1F0AAEC19F6C2F7003DB53B /* fmod_ios.h */,
+				C1F0AAED19F6C2F7003DB53B /* fmod_output.h */,
+			);
+			name = fmod;
+			path = "fmod/ios/FMOD Programmers API/api/lowlevel/inc";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1835,15 +2946,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				C17DE3FF19EEBA58005D1313 /* basic.fsh in Resources */,
+				C1F0AA9D19F6BD00003DB53B /* SmoothingGroups.inl in Resources */,
+				C1F0A8AE19F6BCD4003DB53B /* vector2.inl in Resources */,
 				C1266CBD19F55E0600DDF17D /* json_internalarray.inl in Resources */,
+				C1F0A8AF19F6BCD4003DB53B /* vector3.inl in Resources */,
 				C17DE38D19EEB881005D1313 /* LaunchScreen.xib in Resources */,
+				C1F0A8AD19F6BCD4003DB53B /* quaternion.inl in Resources */,
 				C17DE38819EEB881005D1313 /* Main.storyboard in Resources */,
+				C1F0AABE19F6C05A003DB53B /* License.txt in Resources */,
 				C1266CBE19F55E0600DDF17D /* json_internalmap.inl in Resources */,
+				C1F0AA2419F6BD00003DB53B /* BlenderDNA.inl in Resources */,
 				C17DE4B219F2202A005D1313 /* assets in Resources */,
-				C1266C8F19F558B200DDF17D /* inc in Resources */,
 				C17DE38A19EEB881005D1313 /* Images.xcassets in Resources */,
+				C1F0A8AB19F6BCD4003DB53B /* matrix3x3.inl in Resources */,
+				C1F0A8AA19F6BCD4003DB53B /* material.inl in Resources */,
+				C1F0AA2919F6BD00003DB53B /* LICENSE_1_0.txt in Resources */,
 				C1266CC119F55E0600DDF17D /* json_valueiterator.inl in Resources */,
+				C1F0A8A919F6BCD4003DB53B /* color4.inl in Resources */,
+				C1F0AAB819F6BFBF003DB53B /* readme.txt in Resources */,
 				C17DE40019EEBA58005D1313 /* basic.vsh in Resources */,
+				C1F0A8AC19F6BCD4003DB53B /* matrix4x4.inl in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1862,51 +2984,89 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1F0AAA019F6BD00003DB53B /* SplitByBoneCountProcess.cpp in Sources */,
 				C1266C0819F53CD200DDF17D /* lbitlib.c in Sources */,
 				C198949D19F4D08F00E16B3A /* btMultiSphereShape.cpp in Sources */,
 				C1266C2119F53CD200DDF17D /* ltm.c in Sources */,
 				C19894A219F4D08F00E16B3A /* btSphereShape.cpp in Sources */,
 				C19894BC19F4D08F00E16B3A /* btGjkEpa2.cpp in Sources */,
 				C19894F319F4D08F00E16B3A /* btGeometryUtil.cpp in Sources */,
+				C1F0AAD919F6C192003DB53B /* cdt.cc in Sources */,
 				C1C338B819F6ACC00055CA83 /* shell.c in Sources */,
 				C19894F519F4D08F00E16B3A /* btQuickprof.cpp in Sources */,
+				C1F0AA8419F6BD00003DB53B /* OgreMaterial.cpp in Sources */,
+				C1F0AA8319F6BD00003DB53B /* OgreImporter.cpp in Sources */,
+				C1F0AA1619F6BD00003DB53B /* 3DSConverter.cpp in Sources */,
 				C198946919F4D08F00E16B3A /* btDbvtBroadphase.cpp in Sources */,
 				C19894B119F4D08F00E16B3A /* btGImpactCollisionAlgorithm.cpp in Sources */,
 				C1266C0C19F53CD200DDF17D /* ldblib.c in Sources */,
 				C198951719F4D16B00E16B3A /* btMultiBodyConstraintSolver.cpp in Sources */,
+				C1F0AA9B19F6BD00003DB53B /* SkeletonMeshBuilder.cpp in Sources */,
+				C1F0AA7E19F6BD00003DB53B /* ObjFileImporter.cpp in Sources */,
 				C198948419F4D08F00E16B3A /* btSphereBoxCollisionAlgorithm.cpp in Sources */,
+				C1F0AA6819F6BD00003DB53B /* IRRShared.cpp in Sources */,
+				C1F0AA2B19F6BD00003DB53B /* CalcTangentsProcess.cpp in Sources */,
 				C19894D919F4D08F00E16B3A /* Bullet-C-API.cpp in Sources */,
 				C19894BB19F4D08F00E16B3A /* btGjkConvexCast.cpp in Sources */,
 				C19894D219F4D08F00E16B3A /* btSliderConstraint.cpp in Sources */,
+				C1F0AA5219F6BD00003DB53B /* FBXUtil.cpp in Sources */,
 				C1266C0F19F53CD200DDF17D /* ldump.c in Sources */,
+				C1F0AA5119F6BD00003DB53B /* FBXTokenizer.cpp in Sources */,
 				C19894B019F4D08F00E16B3A /* btGImpactBvh.cpp in Sources */,
 				C198947319F4D08F00E16B3A /* btBoxBoxDetector.cpp in Sources */,
+				C1F0AA9319F6BD00003DB53B /* RawLoader.cpp in Sources */,
+				C1F0AA6919F6BD00003DB53B /* JoinVerticesProcess.cpp in Sources */,
+				C1F0AA7919F6BD00003DB53B /* MDLMaterialLoader.cpp in Sources */,
 				C19894A419F4D08F00E16B3A /* btStridingMeshInterface.cpp in Sources */,
 				C17DE41019EEBA58005D1313 /* Input.mm in Sources */,
+				C1F0AA9C19F6BD00003DB53B /* SMDLoader.cpp in Sources */,
+				C1F0AA2319F6BD00003DB53B /* BlenderDNA.cpp in Sources */,
 				C19894AE19F4D08F00E16B3A /* btContactProcessing.cpp in Sources */,
 				C1266CD019F5603000DDF17D /* tinyxml.cpp in Sources */,
+				C1F0AA6219F6BD00003DB53B /* IFCUtil.cpp in Sources */,
+				C1F0AAE219F6C268003DB53B /* ioapi.c in Sources */,
 				C1266C0E19F53CD200DDF17D /* ldo.c in Sources */,
+				C1F0AA8819F6BD00003DB53B /* OptimizeMeshes.cpp in Sources */,
+				C1F0AA7319F6BD00003DB53B /* MD2Loader.cpp in Sources */,
+				C1F0AA2719F6BD00003DB53B /* BlenderScene.cpp in Sources */,
 				C19894D519F4D08F00E16B3A /* btUniversalConstraint.cpp in Sources */,
 				C19894C219F4D08F00E16B3A /* btRaycastCallback.cpp in Sources */,
+				C1F0AA9519F6BD00003DB53B /* RemoveRedundantMaterials.cpp in Sources */,
+				C1F0AA4F19F6BD00003DB53B /* FBXParser.cpp in Sources */,
 				C19894D019F4D08F00E16B3A /* btPoint2PointConstraint.cpp in Sources */,
 				C19894C019F4D08F00E16B3A /* btPersistentManifold.cpp in Sources */,
+				C1F0AA3719F6BD00003DB53B /* COBLoader.cpp in Sources */,
+				C1F0AA6119F6BD00003DB53B /* IFCReaderGen.cpp in Sources */,
 				C198949819F4D08F00E16B3A /* btCylinderShape.cpp in Sources */,
+				C1F0AA5D19F6BD00003DB53B /* IFCLoader.cpp in Sources */,
 				C1266CD219F5603000DDF17D /* tinyxmlparser.cpp in Sources */,
 				C19894CC19F4D08F00E16B3A /* btGeneric6DofConstraint.cpp in Sources */,
 				C198946819F4D08F00E16B3A /* btDbvt.cpp in Sources */,
 				C1266C7D19F543D800DDF17D /* gzread.c in Sources */,
+				C1F0AA4A19F6BD00003DB53B /* FBXImporter.cpp in Sources */,
+				C1F0AA4B19F6BD00003DB53B /* FBXMaterial.cpp in Sources */,
 				C1266CBF19F55E0600DDF17D /* json_reader.cpp in Sources */,
+				C1F0AA6E19F6BD00003DB53B /* LWOMaterial.cpp in Sources */,
 				C1266C2519F53CD200DDF17D /* lvm.c in Sources */,
+				C1F0AA5A19F6BD00003DB53B /* IFCBoolean.cpp in Sources */,
+				C1F0AA8A19F6BD00003DB53B /* PlyLoader.cpp in Sources */,
 				C17DE37E19EEB881005D1313 /* AppDelegate.mm in Sources */,
 				C19894D719F4D08F00E16B3A /* btRigidBody.cpp in Sources */,
 				C1266C5619F5422B00DDF17D /* luac.c in Sources */,
+				C1F0AADB19F6C192003DB53B /* sweep_context.cc in Sources */,
 				C198951B19F4D16B00E16B3A /* btMultiBodyPoint2Point.cpp in Sources */,
 				C198946E19F4D08F00E16B3A /* btSimpleBroadphase.cpp in Sources */,
+				C1F0AA6419F6BD00003DB53B /* ImporterRegistry.cpp in Sources */,
 				C1266C1919F53CD200DDF17D /* lopcodes.c in Sources */,
 				C1266C3E19F53ED500DDF17D /* png.c in Sources */,
+				C1F0AA1E19F6BD00003DB53B /* B3DImporter.cpp in Sources */,
+				C1F0AA1719F6BD00003DB53B /* 3DSLoader.cpp in Sources */,
+				C1F0AA9919F6BD00003DB53B /* ScenePreprocessor.cpp in Sources */,
 				C1266C1B19F53CD200DDF17D /* lparser.c in Sources */,
+				C1F0AA5F19F6BD00003DB53B /* IFCOpenings.cpp in Sources */,
 				C198948E19F4D08F00E16B3A /* btCompoundShape.cpp in Sources */,
 				C19894D619F4D08F00E16B3A /* btDiscreteDynamicsWorld.cpp in Sources */,
+				C1F0AA9A19F6BD00003DB53B /* SGSpatialSort.cpp in Sources */,
 				C1266C1319F53CD200DDF17D /* liolib.c in Sources */,
 				C19894AB19F4D08F00E16B3A /* btTriangleMeshShape.cpp in Sources */,
 				C19894BD19F4D08F00E16B3A /* btGjkEpaPenetrationDepthSolver.cpp in Sources */,
@@ -1914,36 +3074,61 @@
 				C1266C4C19F53ED500DDF17D /* pngwtran.c in Sources */,
 				C198949C19F4D08F00E16B3A /* btMultimaterialTriangleMeshShape.cpp in Sources */,
 				C1266C4D19F53ED500DDF17D /* pngwutil.c in Sources */,
+				C1F0AA9219F6BD00003DB53B /* Q3DLoader.cpp in Sources */,
 				C1266C1119F53CD200DDF17D /* lgc.c in Sources */,
+				C1F0AA2119F6BD00003DB53B /* Bitmap.cpp in Sources */,
 				C19894E919F4D08F00E16B3A /* btSoftBodyHelpers.cpp in Sources */,
 				C19894E819F4D08F00E16B3A /* btSoftBodyConcaveCollisionAlgorithm.cpp in Sources */,
 				C198951A19F4D16B00E16B3A /* btMultiBodyJointMotor.cpp in Sources */,
 				C1266C7819F543D800DDF17D /* compress.c in Sources */,
+				C1F0AA4619F6BD00003DB53B /* FBXConverter.cpp in Sources */,
+				C1F0AA5819F6BD00003DB53B /* GenVertexNormalsProcess.cpp in Sources */,
 				C1266C0719F53CD200DDF17D /* lbaselib.c in Sources */,
 				C1266C7B19F543D800DDF17D /* gzclose.c in Sources */,
+				C1F0AAB719F6BFBF003DB53B /* ConvertUTF.c in Sources */,
 				C198948D19F4D08F00E16B3A /* btCollisionShape.cpp in Sources */,
 				C1266C5519F5422B00DDF17D /* lua.c in Sources */,
+				C1F0AA3F19F6BD00003DB53B /* DefaultIOStream.cpp in Sources */,
+				C1F0AA4519F6BD00003DB53B /* FBXBinaryTokenizer.cpp in Sources */,
 				C17DE40919EEBA58005D1313 /* Game.cpp in Sources */,
 				C19894EA19F4D08F00E16B3A /* btSoftBodyRigidBodyCollisionConfiguration.cpp in Sources */,
 				C198946619F4D08F00E16B3A /* btBroadphaseProxy.cpp in Sources */,
 				C198946519F4D08F00E16B3A /* btAxisSweep3.cpp in Sources */,
+				C1F0AA7819F6BD00003DB53B /* MDLLoader.cpp in Sources */,
 				C198948919F4D08F00E16B3A /* btBox2dShape.cpp in Sources */,
+				C1F0AA4E19F6BD00003DB53B /* FBXNodeAttribute.cpp in Sources */,
+				C1F0AA7F19F6BD00003DB53B /* ObjFileMtlImporter.cpp in Sources */,
 				C1266C1519F53CD200DDF17D /* lmathlib.c in Sources */,
+				C1F0AAB019F6BD00003DB53B /* XFileParser.cpp in Sources */,
 				C19894A919F4D08F00E16B3A /* btTriangleIndexVertexMaterialArray.cpp in Sources */,
+				C1F0AA7B19F6BD00003DB53B /* NDOLoader.cpp in Sources */,
+				C1F0AA6319F6BD00003DB53B /* Importer.cpp in Sources */,
+				C1F0AA7719F6BD00003DB53B /* MDCLoader.cpp in Sources */,
+				C1F0AA1919F6BD00003DB53B /* ASELoader.cpp in Sources */,
 				C19894B619F4D08F00E16B3A /* gim_contact.cpp in Sources */,
 				C198947719F4D08F00E16B3A /* btCompoundCollisionAlgorithm.cpp in Sources */,
 				C198951D19F4D16B00E16B3A /* btMLCPSolver.cpp in Sources */,
+				C1F0AA8019F6BD00003DB53B /* ObjFileParser.cpp in Sources */,
 				C198947D19F4D08F00E16B3A /* btDefaultCollisionConfiguration.cpp in Sources */,
+				C1F0AA6619F6BD00003DB53B /* IRRLoader.cpp in Sources */,
 				C19894BE19F4D08F00E16B3A /* btGjkPairDetector.cpp in Sources */,
 				C198947E19F4D08F00E16B3A /* btEmptyCollisionAlgorithm.cpp in Sources */,
 				C1266C4519F53ED500DDF17D /* pngrtran.c in Sources */,
 				C1266C2619F53CD200DDF17D /* lzio.c in Sources */,
 				C19894C419F4D08F00E16B3A /* btVoronoiSimplexSolver.cpp in Sources */,
 				C1266C0B19F53CD200DDF17D /* lctype.c in Sources */,
+				C1F0AA7519F6BD00003DB53B /* MD5Loader.cpp in Sources */,
+				C1F0AABD19F6C05A003DB53B /* clipper.cpp in Sources */,
+				C1F0AAAC19F6BD00003DB53B /* UnrealLoader.cpp in Sources */,
+				C1F0AA7A19F6BD00003DB53B /* MS3DLoader.cpp in Sources */,
+				C1F0AA2019F6BD00003DB53B /* BaseProcess.cpp in Sources */,
+				C1F0AA1C19F6BD00003DB53B /* AssimpCExport.cpp in Sources */,
 				C198946C19F4D08F00E16B3A /* btOverlappingPairCache.cpp in Sources */,
 				C19894E719F4D08F00E16B3A /* btSoftBody.cpp in Sources */,
+				C1F0AA8E19F6BD00003DB53B /* ProcessHelper.cpp in Sources */,
 				C1266C0D19F53CD200DDF17D /* ldebug.c in Sources */,
 				C19894F119F4D08F00E16B3A /* btConvexHull.cpp in Sources */,
+				C1F0AADA19F6C192003DB53B /* sweep.cc in Sources */,
 				C1266C0919F53CD200DDF17D /* lcode.c in Sources */,
 				C1266C4919F53ED500DDF17D /* pngtrans.c in Sources */,
 				C1266CD319F5603000DDF17D /* xmltest.cpp in Sources */,
@@ -1953,35 +3138,57 @@
 				C198947F19F4D08F00E16B3A /* btGhostObject.cpp in Sources */,
 				C198948719F4D08F00E16B3A /* btUnionFind.cpp in Sources */,
 				C17DE41119EEBA58005D1313 /* Log.mm in Sources */,
+				C1F0AAA919F6BD00003DB53B /* TerragenLoader.cpp in Sources */,
+				C1F0AA6B19F6BD00003DB53B /* LWOAnimation.cpp in Sources */,
 				C19894E619F4D08F00E16B3A /* btDefaultSoftBodySolver.cpp in Sources */,
+				C1F0AA1819F6BD00003DB53B /* ACLoader.cpp in Sources */,
+				C1F0AA5419F6BD00003DB53B /* FindInstancesProcess.cpp in Sources */,
 				C198947819F4D08F00E16B3A /* btCompoundCompoundCollisionAlgorithm.cpp in Sources */,
 				C19894A319F4D08F00E16B3A /* btStaticPlaneShape.cpp in Sources */,
+				C1F0AA6C19F6BD00003DB53B /* LWOBLoader.cpp in Sources */,
+				C1F0AA8F19F6BD00003DB53B /* Q3BSPFileImporter.cpp in Sources */,
 				C198947019F4D08F00E16B3A /* btActivatingCollisionAlgorithm.cpp in Sources */,
 				C198949F19F4D08F00E16B3A /* btPolyhedralConvexShape.cpp in Sources */,
 				C19894B919F4D08F00E16B3A /* btContinuousConvexCollision.cpp in Sources */,
+				C1F0AAB119F6BD00003DB53B /* XGLLoader.cpp in Sources */,
+				C1F0AA8619F6BD00003DB53B /* OgreXmlSerializer.cpp in Sources */,
 				C198947B19F4D08F00E16B3A /* btConvexConvexAlgorithm.cpp in Sources */,
+				C1F0AA4419F6BD00003DB53B /* FBXAnimation.cpp in Sources */,
+				C1F0AA2519F6BD00003DB53B /* BlenderLoader.cpp in Sources */,
+				C1F0AAC719F6C0ED003DB53B /* irrXML.cpp in Sources */,
+				C1F0AAA119F6BD00003DB53B /* SplitLargeMeshes.cpp in Sources */,
+				C1F0AA6019F6BD00003DB53B /* IFCProfile.cpp in Sources */,
 				C19894C819F4D08F00E16B3A /* btConeTwistConstraint.cpp in Sources */,
+				C1F0AA8D19F6BD00003DB53B /* PretransformVertices.cpp in Sources */,
 				C1266CD119F5603000DDF17D /* tinyxmlerror.cpp in Sources */,
 				C1266C2419F53CD200DDF17D /* lundump.c in Sources */,
 				C1266C8019F543D800DDF17D /* inffast.c in Sources */,
 				C198948019F4D08F00E16B3A /* btHashedSimplePairCache.cpp in Sources */,
 				C198949719F4D08F00E16B3A /* btConvexTriangleMeshShape.cpp in Sources */,
 				C1266C3F19F53ED500DDF17D /* pngerror.c in Sources */,
+				C1F0AAD819F6C192003DB53B /* advancing_front.cc in Sources */,
 				C198946719F4D08F00E16B3A /* btCollisionAlgorithm.cpp in Sources */,
 				C198947219F4D08F00E16B3A /* btBoxBoxCollisionAlgorithm.cpp in Sources */,
+				C1F0AA7419F6BD00003DB53B /* MD3Loader.cpp in Sources */,
 				C1266C5B19F5431500DDF17D /* pngtest.c in Sources */,
+				C1F0AAA619F6BD00003DB53B /* STLLoader.cpp in Sources */,
+				C1F0AA8919F6BD00003DB53B /* PlyExporter.cpp in Sources */,
+				C1F0AAA319F6BD00003DB53B /* STEPFileEncoding.cpp in Sources */,
 				C1266CC419F55E0600DDF17D /* jsontest.cpp in Sources */,
 				C198948819F4D08F00E16B3A /* SphereTriangleDetector.cpp in Sources */,
 				C17DE38519EEB881005D1313 /* GameViewController.mm in Sources */,
 				C19894F219F4D08F00E16B3A /* btConvexHullComputer.cpp in Sources */,
 				C19894D819F4D08F00E16B3A /* btSimpleDynamicsWorld.cpp in Sources */,
+				C1F0AAA819F6BD00003DB53B /* TargetAnimation.cpp in Sources */,
 				C19894CE19F4D08F00E16B3A /* btHinge2Constraint.cpp in Sources */,
 				C1266C8219F543D800DDF17D /* inftrees.c in Sources */,
 				C1266C4419F53ED500DDF17D /* pngrio.c in Sources */,
+				C1F0AA1B19F6BD00003DB53B /* Assimp.cpp in Sources */,
 				C1266C7919F543D800DDF17D /* crc32.c in Sources */,
 				C1266CBB19F55E0600DDF17D /* main.cpp in Sources */,
 				C1266C0619F53CD200DDF17D /* lauxlib.c in Sources */,
 				C198947119F4D08F00E16B3A /* btBox2dBox2dCollisionAlgorithm.cpp in Sources */,
+				C1F0AAA719F6BD00003DB53B /* Subdivision.cpp in Sources */,
 				C19894BF19F4D08F00E16B3A /* btMinkowskiPenetrationDepthSolver.cpp in Sources */,
 				C198951819F4D16B00E16B3A /* btMultiBodyDynamicsWorld.cpp in Sources */,
 				C1266C1219F53CD200DDF17D /* linit.c in Sources */,
@@ -1991,61 +3198,102 @@
 				C19894A119F4D08F00E16B3A /* btShapeHull.cpp in Sources */,
 				C1266C7E19F543D800DDF17D /* gzwrite.c in Sources */,
 				C198951C19F4D16B00E16B3A /* btDantzigLCP.cpp in Sources */,
+				C1F0AA4019F6BD00003DB53B /* DefaultIOSystem.cpp in Sources */,
 				C1266C1D19F53CD200DDF17D /* lstring.c in Sources */,
+				C1F0AA2A19F6BD00003DB53B /* BVHLoader.cpp in Sources */,
 				C198947919F4D08F00E16B3A /* btConvex2dConvex2dAlgorithm.cpp in Sources */,
 				C19894C319F4D08F00E16B3A /* btSubSimplexConvexCast.cpp in Sources */,
 				C198948B19F4D08F00E16B3A /* btBvhTriangleMeshShape.cpp in Sources */,
+				C1F0AA4D19F6BD00003DB53B /* FBXModel.cpp in Sources */,
 				C19894D419F4D08F00E16B3A /* btTypedConstraint.cpp in Sources */,
+				C1F0AA8119F6BD00003DB53B /* OFFLoader.cpp in Sources */,
 				C198947619F4D08F00E16B3A /* btCollisionWorld.cpp in Sources */,
 				C19894C619F4D08F00E16B3A /* btKinematicCharacterController.cpp in Sources */,
 				C1266C8519F543D800DDF17D /* zutil.c in Sources */,
 				C198949919F4D08F00E16B3A /* btEmptyShape.cpp in Sources */,
+				C1F0AAAB19F6BD00003DB53B /* TriangulateProcess.cpp in Sources */,
+				C1F0AA8519F6BD00003DB53B /* OgreStructs.cpp in Sources */,
 				C1266C1619F53CD200DDF17D /* lmem.c in Sources */,
 				C1C338B919F6ACC00055CA83 /* sqlite3.c in Sources */,
+				C1F0AA3919F6BD00003DB53B /* ColladaLoader.cpp in Sources */,
 				C198951619F4D16B00E16B3A /* btMultiBodyConstraint.cpp in Sources */,
 				C1266C8419F543D800DDF17D /* uncompr.c in Sources */,
 				C19894A619F4D08F00E16B3A /* btTriangleBuffer.cpp in Sources */,
 				C1266C1C19F53CD200DDF17D /* lstate.c in Sources */,
+				C1F0AA6519F6BD00003DB53B /* ImproveCacheLocality.cpp in Sources */,
 				C1266C7719F543D800DDF17D /* adler32.c in Sources */,
 				C1266C0519F53CD200DDF17D /* lapi.c in Sources */,
+				C1F0AA4719F6BD00003DB53B /* FBXDeformer.cpp in Sources */,
 				C19894CF19F4D08F00E16B3A /* btHingeConstraint.cpp in Sources */,
+				C1F0AA9619F6BD00003DB53B /* RemoveVCProcess.cpp in Sources */,
 				C198948119F4D08F00E16B3A /* btInternalEdgeUtility.cpp in Sources */,
+				C1F0AA7D19F6BD00003DB53B /* ObjExporter.cpp in Sources */,
 				C1266C2019F53CD200DDF17D /* ltablib.c in Sources */,
 				C198949219F4D08F00E16B3A /* btConvexHullShape.cpp in Sources */,
 				C1266C4B19F53ED500DDF17D /* pngwrite.c in Sources */,
 				C198951519F4D16B00E16B3A /* btMultiBody.cpp in Sources */,
+				C1F0AA1D19F6BD00003DB53B /* AssimpPCH.cpp in Sources */,
 				C19894B419F4D08F00E16B3A /* btTriangleShapeEx.cpp in Sources */,
+				C1F0AA1A19F6BD00003DB53B /* ASEParser.cpp in Sources */,
 				C19894D319F4D08F00E16B3A /* btSolve2LinearConstraint.cpp in Sources */,
 				C1266CC019F55E0600DDF17D /* json_value.cpp in Sources */,
+				C1F0AA9F19F6BD00003DB53B /* SpatialSort.cpp in Sources */,
+				C1F0AA9019F6BD00003DB53B /* Q3BSPFileParser.cpp in Sources */,
 				C1266CC219F55E0600DDF17D /* json_writer.cpp in Sources */,
+				C1F0AA3E19F6BD00003DB53B /* DeboneProcess.cpp in Sources */,
+				C1F0AA8219F6BD00003DB53B /* OgreBinarySerializer.cpp in Sources */,
+				C1F0AA6F19F6BD00003DB53B /* LWSLoader.cpp in Sources */,
 				C19894C919F4D08F00E16B3A /* btContactConstraint.cpp in Sources */,
 				C19894B819F4D08F00E16B3A /* gim_tri_collision.cpp in Sources */,
 				C19894B519F4D08F00E16B3A /* gim_box_set.cpp in Sources */,
+				C1F0AA5019F6BD00003DB53B /* FBXProperties.cpp in Sources */,
 				C19894BA19F4D08F00E16B3A /* btConvexCast.cpp in Sources */,
+				C1F0AA8719F6BD00003DB53B /* OptimizeGraph.cpp in Sources */,
+				C1F0AA9419F6BD00003DB53B /* RemoveComments.cpp in Sources */,
+				C1F0AA3C19F6BD00003DB53B /* ConvertToLHProcess.cpp in Sources */,
+				C1F0AA5919F6BD00003DB53B /* HMPLoader.cpp in Sources */,
+				C1F0AA6A19F6BD00003DB53B /* LimitBoneWeightsProcess.cpp in Sources */,
 				C198949619F4D08F00E16B3A /* btConvexShape.cpp in Sources */,
+				C1F0AAAF19F6BD00003DB53B /* XFileImporter.cpp in Sources */,
 				C198949E19F4D08F00E16B3A /* btOptimizedBvh.cpp in Sources */,
 				C19894E419F4D08F00E16B3A /* btRaycastVehicle.cpp in Sources */,
 				C1266C1419F53CD200DDF17D /* llex.c in Sources */,
 				C19894B219F4D08F00E16B3A /* btGImpactQuantizedBvh.cpp in Sources */,
 				C1266C1719F53CD200DDF17D /* loadlib.c in Sources */,
 				C19894CD19F4D08F00E16B3A /* btGeneric6DofSpringConstraint.cpp in Sources */,
+				C1F0AA3D19F6BD00003DB53B /* CSMLoader.cpp in Sources */,
+				C1F0AAAD19F6BD00003DB53B /* ValidateDataStructure.cpp in Sources */,
+				C1F0AAA419F6BD00003DB53B /* STEPFileReader.cpp in Sources */,
+				C1F0AA7619F6BD00003DB53B /* MD5Parser.cpp in Sources */,
 				C17DE41219EEBA58005D1313 /* Sound.mm in Sources */,
+				C1F0AA3B19F6BD00003DB53B /* ComputeUVMappingProcess.cpp in Sources */,
 				C19894CB19F4D08F00E16B3A /* btGearConstraint.cpp in Sources */,
+				C1F0AA4919F6BD00003DB53B /* FBXDocumentUtil.cpp in Sources */,
 				C19894ED19F4D08F00E16B3A /* btSoftSoftCollisionAlgorithm.cpp in Sources */,
 				C1266C4219F53ED500DDF17D /* pngpread.c in Sources */,
+				C1F0AA6D19F6BD00003DB53B /* LWOLoader.cpp in Sources */,
+				C1F0AAE319F6C268003DB53B /* unzip.c in Sources */,
 				C198946D19F4D08F00E16B3A /* btQuantizedBvh.cpp in Sources */,
 				C198949A19F4D08F00E16B3A /* btHeightfieldTerrainShape.cpp in Sources */,
 				C198949419F4D08F00E16B3A /* btConvexPointCloudShape.cpp in Sources */,
+				C1F0AA4319F6BD00003DB53B /* Exporter.cpp in Sources */,
 				C1266C4719F53ED500DDF17D /* pngset.c in Sources */,
 				C1266C4119F53ED500DDF17D /* pngmem.c in Sources */,
 				C1266C1E19F53CD200DDF17D /* lstrlib.c in Sources */,
 				C17DE40F19EEBA58005D1313 /* File.mm in Sources */,
 				C198948C19F4D08F00E16B3A /* btCapsuleShape.cpp in Sources */,
+				C1F0AA1F19F6BD00003DB53B /* BaseImporter.cpp in Sources */,
+				C1F0AA7C19F6BD00003DB53B /* NFFLoader.cpp in Sources */,
+				C1F0AA5719F6BD00003DB53B /* GenFaceNormalsProcess.cpp in Sources */,
+				C1F0AAAE19F6BD00003DB53B /* VertexTriangleAdjacency.cpp in Sources */,
 				C1266C8119F543D800DDF17D /* inflate.c in Sources */,
 				C198949319F4D08F00E16B3A /* btConvexInternalShape.cpp in Sources */,
 				C198947A19F4D08F00E16B3A /* btConvexConcaveCollisionAlgorithm.cpp in Sources */,
 				C198947419F4D08F00E16B3A /* btCollisionDispatcher.cpp in Sources */,
+				C1F0AA7219F6BD00003DB53B /* MaterialSystem.cpp in Sources */,
 				C1266C4619F53ED500DDF17D /* pngrutil.c in Sources */,
+				C1F0AAA519F6BD00003DB53B /* STLExporter.cpp in Sources */,
+				C1F0AA6719F6BD00003DB53B /* IRRMeshLoader.cpp in Sources */,
 				C198949119F4D08F00E16B3A /* btConvex2dShape.cpp in Sources */,
 				C19894E519F4D08F00E16B3A /* btWheelInfo.cpp in Sources */,
 				C198951919F4D16B00E16B3A /* btMultiBodyJointLimitConstraint.cpp in Sources */,
@@ -2055,35 +3303,59 @@
 				C19894F619F4D08F00E16B3A /* btSerializer.cpp in Sources */,
 				C19894F419F4D08F00E16B3A /* btPolarDecomposition.cpp in Sources */,
 				C19894B719F4D08F00E16B3A /* gim_memory.cpp in Sources */,
+				C1F0AA8C19F6BD00003DB53B /* PostStepRegistry.cpp in Sources */,
 				C19894AA19F4D08F00E16B3A /* btTriangleMesh.cpp in Sources */,
+				C1F0AAA219F6BD00003DB53B /* StandardShapes.cpp in Sources */,
 				C198948219F4D08F00E16B3A /* btManifoldResult.cpp in Sources */,
 				C19894A719F4D08F00E16B3A /* btTriangleCallback.cpp in Sources */,
+				C1F0AA4119F6BD00003DB53B /* DefaultLogger.cpp in Sources */,
+				C1F0AA4819F6BD00003DB53B /* FBXDocument.cpp in Sources */,
 				C19894F019F4D08F00E16B3A /* btAlignedAllocator.cpp in Sources */,
+				C1F0AA7119F6BD00003DB53B /* MakeVerboseFormat.cpp in Sources */,
+				C1F0AA2219F6BD00003DB53B /* BlenderBMesh.cpp in Sources */,
 				C19894B319F4D08F00E16B3A /* btGImpactShape.cpp in Sources */,
 				C1266CC519F55E0600DDF17D /* main.cpp in Sources */,
+				C1F0AAD719F6C192003DB53B /* shapes.cc in Sources */,
+				C1F0AA5619F6BD00003DB53B /* FixNormalsStep.cpp in Sources */,
 				C19894C119F4D08F00E16B3A /* btPolyhedralContactClipping.cpp in Sources */,
+				C1F0AA2619F6BD00003DB53B /* BlenderModifier.cpp in Sources */,
 				C1266C7F19F543D800DDF17D /* infback.c in Sources */,
 				C1266C8819F544FC00DDF17D /* zpipe.c in Sources */,
+				C1F0AA3A19F6BD00003DB53B /* ColladaParser.cpp in Sources */,
 				C198947C19F4D08F00E16B3A /* btConvexPlaneCollisionAlgorithm.cpp in Sources */,
 				C198948A19F4D08F00E16B3A /* btBoxShape.cpp in Sources */,
+				C1F0AA5C19F6BD00003DB53B /* IFCGeometry.cpp in Sources */,
 				C198949B19F4D08F00E16B3A /* btMinkowskiSumShape.cpp in Sources */,
+				C1F0AAAA19F6BD00003DB53B /* TextureTransform.cpp in Sources */,
+				C1F0AA5E19F6BD00003DB53B /* IFCMaterial.cpp in Sources */,
+				C1F0AA9819F6BD00003DB53B /* SceneCombiner.cpp in Sources */,
 				C1266C0A19F53CD200DDF17D /* lcorolib.c in Sources */,
+				C1F0AA4219F6BD00003DB53B /* DXFLoader.cpp in Sources */,
+				C1F0AA9E19F6BD00003DB53B /* SortByPTypeProcess.cpp in Sources */,
 				C19894D119F4D08F00E16B3A /* btSequentialImpulseConstraintSolver.cpp in Sources */,
 				C198948519F4D08F00E16B3A /* btSphereSphereCollisionAlgorithm.cpp in Sources */,
+				C1F0AA5B19F6BD00003DB53B /* IFCCurve.cpp in Sources */,
 				C198948619F4D08F00E16B3A /* btSphereTriangleCollisionAlgorithm.cpp in Sources */,
 				C198948319F4D08F00E16B3A /* btSimulationIslandManager.cpp in Sources */,
 				C1266C5A19F5431500DDF17D /* example.c in Sources */,
+				C1F0AA9119F6BD00003DB53B /* Q3BSPZipArchive.cpp in Sources */,
+				C1F0AA5519F6BD00003DB53B /* FindInvalidDataProcess.cpp in Sources */,
 				C1266CCF19F5603000DDF17D /* tinystr.cpp in Sources */,
 				C19894A819F4D08F00E16B3A /* btTriangleIndexVertexArray.cpp in Sources */,
 				C1266C8319F543D800DDF17D /* trees.c in Sources */,
 				C1266C4319F53ED500DDF17D /* pngread.c in Sources */,
 				C198949519F4D08F00E16B3A /* btConvexPolyhedron.cpp in Sources */,
 				C198948F19F4D08F00E16B3A /* btConcaveShape.cpp in Sources */,
+				C1F0AA8B19F6BD00003DB53B /* PlyParser.cpp in Sources */,
 				C19894CA19F4D08F00E16B3A /* btFixedConstraint.cpp in Sources */,
 				C1266C4A19F53ED500DDF17D /* pngwio.c in Sources */,
+				C1F0AA3819F6BD00003DB53B /* ColladaExporter.cpp in Sources */,
+				C1F0AA5319F6BD00003DB53B /* FindDegenerates.cpp in Sources */,
 				C17DE37B19EEB881005D1313 /* main.m in Sources */,
 				C1266C1019F53CD200DDF17D /* lfunc.c in Sources */,
+				C1F0AA4C19F6BD00003DB53B /* FBXMeshGeometry.cpp in Sources */,
 				C1266C4019F53ED500DDF17D /* pngget.c in Sources */,
+				C1F0AA2819F6BD00003DB53B /* BlenderTessellator.cpp in Sources */,
 				C1266C1A19F53CD200DDF17D /* loslib.c in Sources */,
 				C1266C1819F53CD200DDF17D /* lobject.c in Sources */,
 				C19894EC19F4D08F00E16B3A /* btSoftRigidDynamicsWorld.cpp in Sources */,
@@ -2240,14 +3512,16 @@
 					"\"$(SRCROOT)/../../../../third_party/json/jsoncpp-src-0.5.0/include\"",
 					"\"$(SRCROOT)/../../../../third_party/xml/tinyxml\"",
 					"\"$(SRCROOT)/../../../../third_party/sqlite/sqlite-amalgamation-3080700\"",
+					"\"$(SRCROOT)/../../../../third_party/assimp/assimp-3.1.1/code\"/**",
+					"\"$(SRCROOT)/../../../../third_party/assimp/assimp-3.1.1/contrib/ConvertUTF\"",
+					"\"$(SRCROOT)/../../../../third_party/assimp/assimp-3.1.1/contrib/clipper\"",
+					"\"$(SRCROOT)/../../../../third_party/assimp/assimp-3.1.1/contrib/irrXML\"",
+					"\"$(SRCROOT)/../../../../third_party/assimp/assimp-3.1.1/contrib/poly2tri/poly2tri\"/**",
+					"\"$(SRCROOT)/../../../../third_party/assimp/assimp-3.1.1/contrib/unzip\"",
 				);
 				INFOPLIST_FILE = JLIGameEngineTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"\"$(SRCROOT)/../../../../third_party/fmod/ios/FMOD Programmers API/api/lowlevel/lib/\"",
-					"/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/assimp/assimp-3.1.1/samples/DevIL/lib",
-					"/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/assimp/assimp-3.1.1/samples/glut",
-				);
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../../../../third_party/fmod/ios/FMOD Programmers API/api/lowlevel/lib/\"";
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -2270,14 +3544,16 @@
 					"\"$(SRCROOT)/../../../../third_party/json/jsoncpp-src-0.5.0/include\"",
 					"\"$(SRCROOT)/../../../../third_party/xml/tinyxml\"",
 					"\"$(SRCROOT)/../../../../third_party/sqlite/sqlite-amalgamation-3080700\"",
+					"\"$(SRCROOT)/../../../../third_party/assimp/assimp-3.1.1/code\"/**",
+					"\"$(SRCROOT)/../../../../third_party/assimp/assimp-3.1.1/contrib/ConvertUTF\"",
+					"\"$(SRCROOT)/../../../../third_party/assimp/assimp-3.1.1/contrib/clipper\"",
+					"\"$(SRCROOT)/../../../../third_party/assimp/assimp-3.1.1/contrib/irrXML\"",
+					"\"$(SRCROOT)/../../../../third_party/assimp/assimp-3.1.1/contrib/poly2tri/poly2tri\"/**",
+					"\"$(SRCROOT)/../../../../third_party/assimp/assimp-3.1.1/contrib/unzip\"",
 				);
 				INFOPLIST_FILE = JLIGameEngineTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"\"$(SRCROOT)/../../../../third_party/fmod/ios/FMOD Programmers API/api/lowlevel/lib/\"",
-					"/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/assimp/assimp-3.1.1/samples/DevIL/lib",
-					"/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/assimp/assimp-3.1.1/samples/glut",
-				);
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../../../../third_party/fmod/ios/FMOD Programmers API/api/lowlevel/lib/\"";
 				OTHER_LDFLAGS = "-fmodex_$PLATFORM_NAME";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
