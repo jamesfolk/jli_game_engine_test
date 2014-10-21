@@ -249,6 +249,8 @@
 		C198951B19F4D16B00E16B3A /* btMultiBodyPoint2Point.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C198950919F4D16B00E16B3A /* btMultiBodyPoint2Point.cpp */; };
 		C198951C19F4D16B00E16B3A /* btDantzigLCP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C198950D19F4D16B00E16B3A /* btDantzigLCP.cpp */; };
 		C198951D19F4D16B00E16B3A /* btMLCPSolver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C198951019F4D16B00E16B3A /* btMLCPSolver.cpp */; };
+		C1C338B819F6ACC00055CA83 /* shell.c in Sources */ = {isa = PBXBuildFile; fileRef = C1C338B419F6ACC00055CA83 /* shell.c */; };
+		C1C338B919F6ACC00055CA83 /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = C1C338B519F6ACC00055CA83 /* sqlite3.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -799,6 +801,11 @@
 		C198951319F4D16B00E16B3A /* btPATHSolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = btPATHSolver.h; sourceTree = "<group>"; };
 		C198951419F4D16B00E16B3A /* btSolveProjectedGaussSeidel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = btSolveProjectedGaussSeidel.h; sourceTree = "<group>"; };
 		C198951E19F4D22400E16B3A /* btVector2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = btVector2.h; sourceTree = "<group>"; };
+		C1C338B419F6ACC00055CA83 /* shell.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = shell.c; path = "sqlite/sqlite-amalgamation-3080700/shell.c"; sourceTree = "<group>"; };
+		C1C338B519F6ACC00055CA83 /* sqlite3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sqlite3.c; path = "sqlite/sqlite-amalgamation-3080700/sqlite3.c"; sourceTree = "<group>"; };
+		C1C338B619F6ACC00055CA83 /* sqlite3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sqlite3.h; path = "sqlite/sqlite-amalgamation-3080700/sqlite3.h"; sourceTree = "<group>"; };
+		C1C338B719F6ACC00055CA83 /* sqlite3ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sqlite3ext.h; path = "sqlite/sqlite-amalgamation-3080700/sqlite3ext.h"; sourceTree = "<group>"; };
+		C1C338BA19F6AD760055CA83 /* sqlite_test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = sqlite_test.h; path = sqlite/sqlite_test.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -992,6 +999,7 @@
 				C17DE3CF19EEBA58005D1313 /* lua */,
 				C17DE3D219EEBA58005D1313 /* platform */,
 				C17DE3F319EEBA58005D1313 /* png */,
+				C1C338B319F6AC9A0055CA83 /* sqlite */,
 				C1266C9119F55C0F00DDF17D /* xml */,
 				C17DE3F719EEBA58005D1313 /* zlib */,
 			);
@@ -1725,6 +1733,18 @@
 			path = MLCPSolvers;
 			sourceTree = "<group>";
 		};
+		C1C338B319F6AC9A0055CA83 /* sqlite */ = {
+			isa = PBXGroup;
+			children = (
+				C1C338BA19F6AD760055CA83 /* sqlite_test.h */,
+				C1C338B419F6ACC00055CA83 /* shell.c */,
+				C1C338B519F6ACC00055CA83 /* sqlite3.c */,
+				C1C338B619F6ACC00055CA83 /* sqlite3.h */,
+				C1C338B719F6ACC00055CA83 /* sqlite3ext.h */,
+			);
+			name = sqlite;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1839,6 +1859,7 @@
 				C19894A219F4D08F00E16B3A /* btSphereShape.cpp in Sources */,
 				C19894BC19F4D08F00E16B3A /* btGjkEpa2.cpp in Sources */,
 				C19894F319F4D08F00E16B3A /* btGeometryUtil.cpp in Sources */,
+				C1C338B819F6ACC00055CA83 /* shell.c in Sources */,
 				C19894F519F4D08F00E16B3A /* btQuickprof.cpp in Sources */,
 				C198946919F4D08F00E16B3A /* btDbvtBroadphase.cpp in Sources */,
 				C19894B119F4D08F00E16B3A /* btGImpactCollisionAlgorithm.cpp in Sources */,
@@ -1971,6 +1992,7 @@
 				C1266C8519F543D800DDF17D /* zutil.c in Sources */,
 				C198949919F4D08F00E16B3A /* btEmptyShape.cpp in Sources */,
 				C1266C1619F53CD200DDF17D /* lmem.c in Sources */,
+				C1C338B919F6ACC00055CA83 /* sqlite3.c in Sources */,
 				C198951619F4D16B00E16B3A /* btMultiBodyConstraint.cpp in Sources */,
 				C1266C8419F543D800DDF17D /* uncompr.c in Sources */,
 				C19894A619F4D08F00E16B3A /* btTriangleBuffer.cpp in Sources */,
@@ -2208,6 +2230,7 @@
 					"\"$(SRCROOT)/../../../../third_party/json/jsoncpp-src-0.5.0/src/lib_json\"",
 					"\"$(SRCROOT)/../../../../third_party/json/jsoncpp-src-0.5.0/include\"",
 					"\"$(SRCROOT)/../../../../third_party/xml/tinyxml\"",
+					"\"$(SRCROOT)/../../../../third_party/sqlite/sqlite-amalgamation-3080700\"",
 				);
 				INFOPLIST_FILE = JLIGameEngineTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -2233,6 +2256,7 @@
 					"\"$(SRCROOT)/../../../../third_party/json/jsoncpp-src-0.5.0/src/lib_json\"",
 					"\"$(SRCROOT)/../../../../third_party/json/jsoncpp-src-0.5.0/include\"",
 					"\"$(SRCROOT)/../../../../third_party/xml/tinyxml\"",
+					"\"$(SRCROOT)/../../../../third_party/sqlite/sqlite-amalgamation-3080700\"",
 				);
 				INFOPLIST_FILE = JLIGameEngineTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
