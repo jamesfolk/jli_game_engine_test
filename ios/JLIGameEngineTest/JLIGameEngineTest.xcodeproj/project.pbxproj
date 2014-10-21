@@ -991,6 +991,7 @@
 		C17DE3BB19EEBA58005D1313 /* third_party */ = {
 			isa = PBXGroup;
 			children = (
+				C1F09B4A19F6BBA9003DB53B /* assimp */,
 				C1266C8E19F558B200DDF17D /* inc */,
 				C17DE3BD19EEBA58005D1313 /* bullet */,
 				C17DE3C019EEBA58005D1313 /* jli_game_engine */,
@@ -1745,6 +1746,13 @@
 			name = sqlite;
 			sourceTree = "<group>";
 		};
+		C1F09B4A19F6BBA9003DB53B /* assimp */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = assimp;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1808,6 +1816,7 @@
 			knownRegions = (
 				en,
 				Base,
+				English,
 			);
 			mainGroup = C17DE36C19EEB881005D1313;
 			productRefGroup = C17DE37619EEB881005D1313 /* Products */;
@@ -2234,7 +2243,11 @@
 				);
 				INFOPLIST_FILE = JLIGameEngineTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../../../../third_party/fmod/ios/FMOD Programmers API/api/lowlevel/lib/\"";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../../../../third_party/fmod/ios/FMOD Programmers API/api/lowlevel/lib/\"",
+					"/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/assimp/assimp-3.1.1/samples/DevIL/lib",
+					"/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/assimp/assimp-3.1.1/samples/glut",
+				);
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -2260,7 +2273,11 @@
 				);
 				INFOPLIST_FILE = JLIGameEngineTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../../../../third_party/fmod/ios/FMOD Programmers API/api/lowlevel/lib/\"";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../../../../third_party/fmod/ios/FMOD Programmers API/api/lowlevel/lib/\"",
+					"/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/assimp/assimp-3.1.1/samples/DevIL/lib",
+					"/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/assimp/assimp-3.1.1/samples/glut",
+				);
 				OTHER_LDFLAGS = "-fmodex_$PLATFORM_NAME";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
