@@ -1359,6 +1359,17 @@
 		C1F0AAEB19F6C2F7003DB53B /* fmod_errors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_errors.h; sourceTree = "<group>"; };
 		C1F0AAEC19F6C2F7003DB53B /* fmod_ios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_ios.h; sourceTree = "<group>"; };
 		C1F0AAED19F6C2F7003DB53B /* fmod_output.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_output.h; sourceTree = "<group>"; };
+		C1F0AB8A19F7389D003DB53B /* ogg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ogg.h; path = "ogg/libogg-1.3.1/include/ogg/ogg.h"; sourceTree = "<group>"; };
+		C1F0AB8B19F7389D003DB53B /* os_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = os_types.h; path = "ogg/libogg-1.3.1/include/ogg/os_types.h"; sourceTree = "<group>"; };
+		C1F0AB9019F73B1F003DB53B /* config_types.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = config_types.h; path = "ogg/libogg-1.3.1/include/ogg/config_types.h"; sourceTree = "<group>"; };
+		C1F0AB9119F73BCF003DB53B /* ogg_test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ogg_test.h; path = ogg/ogg_test.h; sourceTree = "<group>"; };
+		C1F0AC0419F7421A003DB53B /* codec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = codec.h; path = "theora/libtheora-1.1.1/include/theora/codec.h"; sourceTree = "<group>"; };
+		C1F0AC0519F7421A003DB53B /* theora.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = theora.h; path = "theora/libtheora-1.1.1/include/theora/theora.h"; sourceTree = "<group>"; };
+		C1F0AC0619F7421A003DB53B /* theoradec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = theoradec.h; path = "theora/libtheora-1.1.1/include/theora/theoradec.h"; sourceTree = "<group>"; };
+		C1F0AC0719F7421A003DB53B /* theoraenc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = theoraenc.h; path = "theora/libtheora-1.1.1/include/theora/theoraenc.h"; sourceTree = "<group>"; };
+		C1F0AC0A19F7432D003DB53B /* codec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = codec.h; path = "vorbis/libvorbis-1.3.3/include/vorbis/codec.h"; sourceTree = "<group>"; };
+		C1F0AC0B19F7432D003DB53B /* vorbisenc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vorbisenc.h; path = "vorbis/libvorbis-1.3.3/include/vorbis/vorbisenc.h"; sourceTree = "<group>"; };
+		C1F0AC0C19F7432D003DB53B /* vorbisfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vorbisfile.h; path = "vorbis/libvorbis-1.3.3/include/vorbis/vorbisfile.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1550,9 +1561,12 @@
 				C17DE3CC19EEBA58005D1313 /* jpg */,
 				C1266C9019F55C0600DDF17D /* json */,
 				C17DE3CF19EEBA58005D1313 /* lua */,
+				C1F0AB8719F737C0003DB53B /* ogg */,
 				C17DE3D219EEBA58005D1313 /* platform */,
 				C17DE3F319EEBA58005D1313 /* png */,
 				C1C338B319F6AC9A0055CA83 /* sqlite */,
+				C1F0AB8819F737E0003DB53B /* theora */,
+				C1F0AB8919F737E7003DB53B /* vorbis */,
 				C1266C9119F55C0F00DDF17D /* xml */,
 				C17DE3F719EEBA58005D1313 /* zlib */,
 			);
@@ -2849,6 +2863,38 @@
 			path = "fmod/ios/FMOD Programmers API/api/lowlevel/inc";
 			sourceTree = "<group>";
 		};
+		C1F0AB8719F737C0003DB53B /* ogg */ = {
+			isa = PBXGroup;
+			children = (
+				C1F0AB9119F73BCF003DB53B /* ogg_test.h */,
+				C1F0AB9019F73B1F003DB53B /* config_types.h */,
+				C1F0AB8A19F7389D003DB53B /* ogg.h */,
+				C1F0AB8B19F7389D003DB53B /* os_types.h */,
+			);
+			name = ogg;
+			sourceTree = "<group>";
+		};
+		C1F0AB8819F737E0003DB53B /* theora */ = {
+			isa = PBXGroup;
+			children = (
+				C1F0AC0419F7421A003DB53B /* codec.h */,
+				C1F0AC0519F7421A003DB53B /* theora.h */,
+				C1F0AC0619F7421A003DB53B /* theoradec.h */,
+				C1F0AC0719F7421A003DB53B /* theoraenc.h */,
+			);
+			name = theora;
+			sourceTree = "<group>";
+		};
+		C1F0AB8919F737E7003DB53B /* vorbis */ = {
+			isa = PBXGroup;
+			children = (
+				C1F0AC0A19F7432D003DB53B /* codec.h */,
+				C1F0AC0B19F7432D003DB53B /* vorbisenc.h */,
+				C1F0AC0C19F7432D003DB53B /* vorbisfile.h */,
+			);
+			name = vorbis;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -3488,6 +3534,12 @@
 					"\"$(SRCROOT)/../../../../third_party/assimp/assimp-3.1.1/contrib/irrXML\"",
 					"\"$(SRCROOT)/../../../../third_party/assimp/assimp-3.1.1/contrib/poly2tri/poly2tri\"/**",
 					"\"$(SRCROOT)/../../../../third_party/assimp/assimp-3.1.1/contrib/unzip\"",
+					"\"$(SRCROOT)/../../../../third_party/ogg/libogg-1.3.1/include\"",
+					"\"$(SRCROOT)/../../../../third_party/ogg/libogg-1.3.1/src\"",
+					"\"$(SRCROOT)/../../../../third_party/theora/libtheora-1.1.1/lib\"/**",
+					"\"$(SRCROOT)/../../../../third_party/theora/libtheora-1.1.1/include\"",
+					"\"$(SRCROOT)/../../../../third_party/vorbis/libvorbis-1.3.3/lib\"/**",
+					"\"$(SRCROOT)/../../../../third_party/vorbis/libvorbis-1.3.3/include\"",
 				);
 				INFOPLIST_FILE = JLIGameEngineTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -3520,6 +3572,12 @@
 					"\"$(SRCROOT)/../../../../third_party/assimp/assimp-3.1.1/contrib/irrXML\"",
 					"\"$(SRCROOT)/../../../../third_party/assimp/assimp-3.1.1/contrib/poly2tri/poly2tri\"/**",
 					"\"$(SRCROOT)/../../../../third_party/assimp/assimp-3.1.1/contrib/unzip\"",
+					"\"$(SRCROOT)/../../../../third_party/ogg/libogg-1.3.1/include\"",
+					"\"$(SRCROOT)/../../../../third_party/ogg/libogg-1.3.1/src\"",
+					"\"$(SRCROOT)/../../../../third_party/theora/libtheora-1.1.1/lib\"/**",
+					"\"$(SRCROOT)/../../../../third_party/theora/libtheora-1.1.1/include\"",
+					"\"$(SRCROOT)/../../../../third_party/vorbis/libvorbis-1.3.3/lib\"/**",
+					"\"$(SRCROOT)/../../../../third_party/vorbis/libvorbis-1.3.3/include\"",
 				);
 				INFOPLIST_FILE = JLIGameEngineTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
