@@ -1,4 +1,4 @@
-APP_MODULES      := game \
+APP_MODULES      := game #\
                     bullet \
                     jli \
                     jpg \
