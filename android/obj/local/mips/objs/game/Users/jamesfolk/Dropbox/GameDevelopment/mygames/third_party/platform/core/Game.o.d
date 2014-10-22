@@ -270,7 +270,8 @@ obj/local/mips/objs/game//Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_
  /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/lua/lua-5.2.3/src/lualib.h \
  /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/lua/lua-5.2.3/src/lua.h \
  /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/lua/lua-5.2.3/src/lauxlib.h \
- /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/lua/lua-5.2.3/src/lua_test.h
+ /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/lua/lua-5.2.3/src/lua_test.h \
+ /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/png/lpng1612/png_test.h
 
 /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/platform/core/File.h:
 
@@ -813,3 +814,5 @@ obj/local/mips/objs/game//Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_
 /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/lua/lua-5.2.3/src/lauxlib.h:
 
 /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/lua/lua-5.2.3/src/lua_test.h:
+
+/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/png/lpng1612/png_test.h:

@@ -1,10 +1,10 @@
 APP_MODULES      := game \
                     bullet \
-                    lua #\
+                    lua \
+                    png #\
                     jli \
                     jpg \
                     lua \
-                    png \
                     zip
 
 APP_PROJECT_PATH := $(call my-dir)/../

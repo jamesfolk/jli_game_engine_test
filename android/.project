@@ -77,6 +77,11 @@
 			<type>2</type>
 			<locationURI>MY_THIRD_PARTY_RELATIVE_PATH/lua/lua-5.2.3/src</locationURI>
 		</link>
+		<link>
+			<name>jni/third_party/png</name>
+			<type>2</type>
+			<locationURI>MY_THIRD_PARTY_RELATIVE_PATH/png/lpng1612</locationURI>
+		</link>
 	</linkedResources>
 	<variableList>
 		<variable>

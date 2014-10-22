@@ -495,7 +495,7 @@
 		C1266C5719F5426E00DDF17D /* lua_test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = lua_test.h; path = "lua-5.2.3/src/lua_test.h"; sourceTree = "<group>"; };
 		C1266C5819F5431500DDF17D /* example.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = example.c; path = lpng1612/example.c; sourceTree = "<group>"; };
 		C1266C5919F5431500DDF17D /* pngtest.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pngtest.c; path = lpng1612/pngtest.c; sourceTree = "<group>"; };
-		C1266C5C19F5434900DDF17D /* png_test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = png_test.h; sourceTree = "<group>"; };
+		C1266C5C19F5434900DDF17D /* png_test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = png_test.h; path = lpng1612/png_test.h; sourceTree = "<group>"; };
 		C1266C5D19F543D800DDF17D /* adler32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = adler32.c; path = "zlib-1.2.8/adler32.c"; sourceTree = "<group>"; };
 		C1266C5E19F543D800DDF17D /* compress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = compress.c; path = "zlib-1.2.8/compress.c"; sourceTree = "<group>"; };
 		C1266C5F19F543D800DDF17D /* crc32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = crc32.c; path = "zlib-1.2.8/crc32.c"; sourceTree = "<group>"; };
