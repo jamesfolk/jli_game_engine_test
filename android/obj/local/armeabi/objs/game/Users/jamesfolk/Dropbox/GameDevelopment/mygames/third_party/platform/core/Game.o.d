@@ -265,7 +265,13 @@ obj/local/armeabi/objs/game//Users/jamesfolk/Dropbox/GameDevelopment/mygames/thi
  /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/bullet/bullet-2.82-r2704/src/LinearMath/btQuickprof.h \
  /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/bullet/bullet-2.82-r2704/src/LinearMath/btIDebugDraw.h \
  /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/bullet/bullet-2.82-r2704/src/LinearMath/btSerializer.h \
- /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/bullet/bullet-2.82-r2704/src/LinearMath/btVector2.h
+ /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/bullet/bullet-2.82-r2704/src/LinearMath/btVector2.h \
+ /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/lua/lua-5.2.3/src/lua.h \
+ /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/lua/lua-5.2.3/src/luaconf.h \
+ /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/lua/lua-5.2.3/src/lualib.h \
+ /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/lua/lua-5.2.3/src/lua.h \
+ /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/lua/lua-5.2.3/src/lauxlib.h \
+ /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/lua/lua-5.2.3/src/lua_test.h
 
 /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/platform/core/File.h:
 
@@ -798,3 +804,15 @@ obj/local/armeabi/objs/game//Users/jamesfolk/Dropbox/GameDevelopment/mygames/thi
 /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/bullet/bullet-2.82-r2704/src/LinearMath/btSerializer.h:
 
 /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/bullet/bullet-2.82-r2704/src/LinearMath/btVector2.h:
+
+/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/lua/lua-5.2.3/src/lua.h:
+
+/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/lua/lua-5.2.3/src/luaconf.h:
+
+/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/lua/lua-5.2.3/src/lualib.h:
+
+/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/lua/lua-5.2.3/src/lua.h:
+
+/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/lua/lua-5.2.3/src/lauxlib.h:
+
+/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/lua/lua-5.2.3/src/lua_test.h:

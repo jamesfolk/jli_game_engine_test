@@ -33,8 +33,7 @@ LOCAL_C_INCLUDES := $(MY_THIRD_PARTY_RELATIVE_PATH)/platform/core/ \
                     $(MY_THIRD_PARTY_RELATIVE_PATH)/BulletDynamics/Vehicle \
                     $(MY_THIRD_PARTY_RELATIVE_PATH)/BulletSoftBody \
                     $(MY_THIRD_PARTY_RELATIVE_PATH)/LinearMath \
-                    $(MY_THIRD_PARTY_RELATIVE_PATH)/lua/lua-5.2.3/src \
-                    $(MY_THIRD_PARTY_RELATIVE_PATH)/lua/lua-5.2.3/ #\
+                    $(MY_THIRD_PARTY_RELATIVE_PATH)/lua/lua-5.2.3/src #\
                     $(MY_THIRD_PARTY_RELATIVE_PATH)/jli_game_engine/ \
                     $(MY_THIRD_PARTY_RELATIVE_PATH)/jpg/ \
                     $(MY_THIRD_PARTY_RELATIVE_PATH)/lua/ \

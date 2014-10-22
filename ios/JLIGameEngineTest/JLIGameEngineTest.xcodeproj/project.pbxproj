@@ -492,7 +492,7 @@
 		C1266C5019F5403000DDF17D /* lib_tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lib_tests.h; sourceTree = "<group>"; };
 		C1266C5319F5422B00DDF17D /* lua.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = lua.c; path = "lua-5.2.3/src/lua.c"; sourceTree = "<group>"; };
 		C1266C5419F5422B00DDF17D /* luac.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = luac.c; path = "lua-5.2.3/src/luac.c"; sourceTree = "<group>"; };
-		C1266C5719F5426E00DDF17D /* lua_test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lua_test.h; sourceTree = "<group>"; };
+		C1266C5719F5426E00DDF17D /* lua_test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = lua_test.h; path = "lua-5.2.3/src/lua_test.h"; sourceTree = "<group>"; };
 		C1266C5819F5431500DDF17D /* example.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = example.c; path = lpng1612/example.c; sourceTree = "<group>"; };
 		C1266C5919F5431500DDF17D /* pngtest.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pngtest.c; path = lpng1612/pngtest.c; sourceTree = "<group>"; };
 		C1266C5C19F5434900DDF17D /* png_test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = png_test.h; sourceTree = "<group>"; };
