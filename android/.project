@@ -72,6 +72,11 @@
 			<type>2</type>
 			<locationURI>MY_THIRD_PARTY_RELATIVE_PATH/platform/core</locationURI>
 		</link>
+		<link>
+			<name>jni/third_party/lua</name>
+			<type>2</type>
+			<locationURI>MY_THIRD_PARTY_RELATIVE_PATH/lua/lua-5.2.3/src</locationURI>
+		</link>
 	</linkedResources>
 	<variableList>
 		<variable>

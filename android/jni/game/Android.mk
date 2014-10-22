@@ -5,13 +5,10 @@ include $(CLEAR_VARS)
 MY_THIRD_PARTY_RELATIVE_PATH := /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party
 #MY_THIRD_PARTY_RELATIVE_PATH := $(LOCAL_PATH)/../../../../../third_party/
 
-LOCAL_STATIC_LIBRARIES := bullet #\
-                          jli \
-                          jpg \
-                          lua \
-                          png \
-                          zip
-                          
+LOCAL_STATIC_LIBRARIES := \
+bullet \
+lua
+                       
 LOCAL_MODULE := game
 LOCAL_SRC_FILES := jni.cpp \
                    $(MY_THIRD_PARTY_RELATIVE_PATH)/platform/core/Game.cpp \
@@ -35,7 +32,9 @@ LOCAL_C_INCLUDES := $(MY_THIRD_PARTY_RELATIVE_PATH)/platform/core/ \
                     $(MY_THIRD_PARTY_RELATIVE_PATH)/BulletDynamics/MLCPSolvers \
                     $(MY_THIRD_PARTY_RELATIVE_PATH)/BulletDynamics/Vehicle \
                     $(MY_THIRD_PARTY_RELATIVE_PATH)/BulletSoftBody \
-                    $(MY_THIRD_PARTY_RELATIVE_PATH)/LinearMath #\
+                    $(MY_THIRD_PARTY_RELATIVE_PATH)/LinearMath \
+                    $(MY_THIRD_PARTY_RELATIVE_PATH)/lua/lua-5.2.3/src \
+                    $(MY_THIRD_PARTY_RELATIVE_PATH)/lua/lua-5.2.3/ #\
                     $(MY_THIRD_PARTY_RELATIVE_PATH)/jli_game_engine/ \
                     $(MY_THIRD_PARTY_RELATIVE_PATH)/jpg/ \
                     $(MY_THIRD_PARTY_RELATIVE_PATH)/lua/ \
