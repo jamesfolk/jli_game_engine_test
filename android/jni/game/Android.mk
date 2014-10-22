@@ -5,7 +5,7 @@ include $(CLEAR_VARS)
 MY_THIRD_PARTY_RELATIVE_PATH := /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party
 #MY_THIRD_PARTY_RELATIVE_PATH := $(LOCAL_PATH)/../../../../../third_party/
 
-LOCAL_STATIC_LIBRARIES := #bullet \
+LOCAL_STATIC_LIBRARIES := bullet #\
                           jli \
                           jpg \
                           lua \
@@ -21,7 +21,7 @@ LOCAL_SRC_FILES := jni.cpp \
                    $(MY_THIRD_PARTY_RELATIVE_PATH)/platform/android/Sound.cpp
 
 LOCAL_C_INCLUDES := $(MY_THIRD_PARTY_RELATIVE_PATH)/platform/core/ \
-                    $(MY_THIRD_PARTY_RELATIVE_PATH)/platform/android/ #\
+                    $(MY_THIRD_PARTY_RELATIVE_PATH)/platform/android/ \
                     $(MY_THIRD_PARTY_RELATIVE_PATH)/bullet/bullet-2.82-r2704/src/ \
                     $(MY_THIRD_PARTY_RELATIVE_PATH)/BulletCollision/BroadphaseCollision \
                     $(MY_THIRD_PARTY_RELATIVE_PATH)/BulletCollision/CollisionDispatch \

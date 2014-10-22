@@ -1,5 +1,5 @@
-APP_MODULES      := game #\
-                    bullet \
+APP_MODULES      := game \
+                    bullet #\
                     jli \
                     jpg \
                     lua \

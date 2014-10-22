@@ -1,5 +1,6 @@
 android/bin
 android/obj
+android/libs
 *.o
 *.d
 *.so
