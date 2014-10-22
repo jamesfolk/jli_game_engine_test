@@ -273,7 +273,8 @@ obj/local/mips/objs/game//Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_
  /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/lua/lua-5.2.3/src/lua_test.h \
  /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/png/lpng1612/png_test.h \
  /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/zlib/zlib-1.2.8/zlib_test.h \
- /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/json/jsoncpp-src-0.5.0/include/json_test.h
+ /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/json/jsoncpp-src-0.5.0/include/json_test.h \
+ /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/xml/tinyxml/xml_test.h
 
 /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/platform/core/File.h:
 
@@ -822,3 +823,5 @@ obj/local/mips/objs/game//Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_
 /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/zlib/zlib-1.2.8/zlib_test.h:
 
 /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/json/jsoncpp-src-0.5.0/include/json_test.h:
+
+/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/xml/tinyxml/xml_test.h:

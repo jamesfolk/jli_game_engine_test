@@ -553,7 +553,7 @@
 		C1266CCC19F5603000DDF17D /* tinyxmlerror.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tinyxmlerror.cpp; path = xml/tinyxml/tinyxmlerror.cpp; sourceTree = "<group>"; };
 		C1266CCD19F5603000DDF17D /* tinyxmlparser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tinyxmlparser.cpp; path = xml/tinyxml/tinyxmlparser.cpp; sourceTree = "<group>"; };
 		C1266CCE19F5603000DDF17D /* xmltest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xmltest.cpp; path = xml/tinyxml/xmltest.cpp; sourceTree = "<group>"; };
-		C1266CD419F5611700DDF17D /* xml_test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = xml_test.h; path = xml/xml_test.h; sourceTree = "<group>"; };
+		C1266CD419F5611700DDF17D /* xml_test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = xml_test.h; path = xml/tinyxml/xml_test.h; sourceTree = "<group>"; };
 		C17DE37519EEB881005D1313 /* JLIGameEngineTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JLIGameEngineTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C17DE37919EEB881005D1313 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C17DE37A19EEB881005D1313 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
