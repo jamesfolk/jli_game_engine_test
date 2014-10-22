@@ -82,6 +82,11 @@
 			<type>2</type>
 			<locationURI>MY_THIRD_PARTY_RELATIVE_PATH/png/lpng1612</locationURI>
 		</link>
+		<link>
+			<name>jni/third_party/zlib</name>
+			<type>2</type>
+			<locationURI>MY_THIRD_PARTY_RELATIVE_PATH/zlib/zlib-1.2.8</locationURI>
+		</link>
 	</linkedResources>
 	<variableList>
 		<variable>

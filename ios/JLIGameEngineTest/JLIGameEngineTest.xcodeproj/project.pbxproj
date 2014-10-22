@@ -522,8 +522,8 @@
 		C1266C7419F543D800DDF17D /* zlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = zlib.h; path = "zlib-1.2.8/zlib.h"; sourceTree = "<group>"; };
 		C1266C7519F543D800DDF17D /* zutil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = zutil.c; path = "zlib-1.2.8/zutil.c"; sourceTree = "<group>"; };
 		C1266C7619F543D800DDF17D /* zutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = zutil.h; path = "zlib-1.2.8/zutil.h"; sourceTree = "<group>"; };
-		C1266C8619F544E200DDF17D /* zlib_test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zlib_test.h; sourceTree = "<group>"; };
-		C1266C8719F544FC00DDF17D /* zpipe.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zpipe.c; sourceTree = "<group>"; };
+		C1266C8619F544E200DDF17D /* zlib_test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = zlib_test.h; path = "zlib-1.2.8/zlib_test.h"; sourceTree = "<group>"; };
+		C1266C8719F544FC00DDF17D /* zpipe.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = zpipe.c; path = "zlib-1.2.8/zpipe.c"; sourceTree = "<group>"; };
 		C1266C8919F5521200DDF17D /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 		C1266C8B19F5521900DDF17D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		C1266CA119F55DF900DDF17D /* autolink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = autolink.h; sourceTree = "<group>"; };
