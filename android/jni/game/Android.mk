@@ -8,7 +8,9 @@ MY_THIRD_PARTY_RELATIVE_PATH := /Users/jamesfolk/Dropbox/GameDevelopment/mygames
 LOCAL_STATIC_LIBRARIES := \
 bullet \
 lua \
-png
+png \
+zlib \
+json \
                        
 LOCAL_MODULE := game
 LOCAL_SRC_FILES := jni.cpp \
@@ -36,7 +38,10 @@ LOCAL_C_INCLUDES := $(MY_THIRD_PARTY_RELATIVE_PATH)/platform/core/ \
                     $(MY_THIRD_PARTY_RELATIVE_PATH)/LinearMath \
                     $(MY_THIRD_PARTY_RELATIVE_PATH)/lua/lua-5.2.3/src \
                     $(MY_THIRD_PARTY_RELATIVE_PATH)/png/lpng1612 \
-                    $(MY_THIRD_PARTY_RELATIVE_PATH)/zlib/zlib-1.2.8 #\
+                    $(MY_THIRD_PARTY_RELATIVE_PATH)/zlib/zlib-1.2.8 \
+                    $(MY_THIRD_PARTY_RELATIVE_PATH)/json/jsoncpp-src-0.5.0/src/lib_json \
+                    $(MY_THIRD_PARTY_RELATIVE_PATH)/json/jsoncpp-src-0.5.0/include \
+                    $(MY_THIRD_PARTY_RELATIVE_PATH)/json/jsoncpp-src-0.5.0/src/test_lib_json #\
                     $(MY_THIRD_PARTY_RELATIVE_PATH)/jli_game_engine/ \
                     $(MY_THIRD_PARTY_RELATIVE_PATH)/jpg/ \
                     $(MY_THIRD_PARTY_RELATIVE_PATH)/lua/ \

@@ -2,7 +2,8 @@ APP_MODULES      := game \
                     bullet \
                     lua \
                     png \
-                    zlib #\
+                    zlib \
+                    json #\
                     jli \
                     jpg \
                     lua \

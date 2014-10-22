@@ -87,6 +87,16 @@
 			<type>2</type>
 			<locationURI>MY_THIRD_PARTY_RELATIVE_PATH/zlib/zlib-1.2.8</locationURI>
 		</link>
+		<link>
+			<name>jni/third_party/json/include</name>
+			<type>2</type>
+			<locationURI>MY_THIRD_PARTY_RELATIVE_PATH/json/jsoncpp-src-0.5.0/include</locationURI>
+		</link>
+		<link>
+			<name>jni/third_party/json/src</name>
+			<type>2</type>
+			<locationURI>MY_THIRD_PARTY_RELATIVE_PATH/json/jsoncpp-src-0.5.0/src</locationURI>
+		</link>
 	</linkedResources>
 	<variableList>
 		<variable>

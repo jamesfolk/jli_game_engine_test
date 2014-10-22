@@ -545,7 +545,7 @@
 		C1266CB719F55E0600DDF17D /* jsontest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = jsontest.cpp; sourceTree = "<group>"; };
 		C1266CB819F55E0600DDF17D /* jsontest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jsontest.h; sourceTree = "<group>"; };
 		C1266CB919F55E0600DDF17D /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		C1266CC719F55ECE00DDF17D /* json_test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = json_test.h; path = json/json_test.h; sourceTree = "<group>"; };
+		C1266CC719F55ECE00DDF17D /* json_test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = json_test.h; path = "json/jsoncpp-src-0.5.0/include/json_test.h"; sourceTree = "<group>"; };
 		C1266CC819F5603000DDF17D /* tinystr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tinystr.cpp; path = xml/tinyxml/tinystr.cpp; sourceTree = "<group>"; };
 		C1266CC919F5603000DDF17D /* tinystr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tinystr.h; path = xml/tinyxml/tinystr.h; sourceTree = "<group>"; };
 		C1266CCA19F5603000DDF17D /* tinyxml.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tinyxml.cpp; path = xml/tinyxml/tinyxml.cpp; sourceTree = "<group>"; };
