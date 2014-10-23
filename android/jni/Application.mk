@@ -4,7 +4,8 @@ APP_MODULES      := game \
                     png \
                     zlib \
                     json \
-                    sqlite #\
+                    sqlite \
+                    ogg #\
                     jli \
                     jpg \
                     lua \

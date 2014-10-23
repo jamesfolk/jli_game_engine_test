@@ -12,7 +12,8 @@ png \
 zlib \
 json \
 xml \
-sqlite
+sqlite \
+ogg
                        
 LOCAL_MODULE := game
 LOCAL_SRC_FILES := jni.cpp \
@@ -45,7 +46,10 @@ LOCAL_C_INCLUDES := $(MY_THIRD_PARTY_RELATIVE_PATH)/platform/core/ \
                     $(MY_THIRD_PARTY_RELATIVE_PATH)/json/jsoncpp-src-0.5.0/include \
                     $(MY_THIRD_PARTY_RELATIVE_PATH)/json/jsoncpp-src-0.5.0/src/test_lib_json \
                     $(MY_THIRD_PARTY_RELATIVE_PATH)/xml/tinyxml \
-                    $(MY_THIRD_PARTY_RELATIVE_PATH)/sqlite/sqlite-amalgamation-3080700 #\
+                    $(MY_THIRD_PARTY_RELATIVE_PATH)/sqlite/sqlite-amalgamation-3080700 \
+                    $(MY_THIRD_PARTY_RELATIVE_PATH)/ogg/libogg-1.3.1/include \
+                    $(MY_THIRD_PARTY_RELATIVE_PATH)/ogg/libogg-1.3.1/include/ogg \
+                    $(MY_THIRD_PARTY_RELATIVE_PATH)/ogg/libogg-1.3.1/src \#\
                     $(MY_THIRD_PARTY_RELATIVE_PATH)/jli_game_engine/ \
                     $(MY_THIRD_PARTY_RELATIVE_PATH)/jpg/ \
                     $(MY_THIRD_PARTY_RELATIVE_PATH)/lua/ \
