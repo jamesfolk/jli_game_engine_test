@@ -1362,7 +1362,7 @@
 		C1F0AB8A19F7389D003DB53B /* ogg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ogg.h; path = "ogg/libogg-1.3.1/include/ogg/ogg.h"; sourceTree = "<group>"; };
 		C1F0AB8B19F7389D003DB53B /* os_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = os_types.h; path = "ogg/libogg-1.3.1/include/ogg/os_types.h"; sourceTree = "<group>"; };
 		C1F0AB9019F73B1F003DB53B /* config_types.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = config_types.h; path = "ogg/libogg-1.3.1/include/ogg/config_types.h"; sourceTree = "<group>"; };
-		C1F0AB9119F73BCF003DB53B /* ogg_test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ogg_test.h; path = ogg/ogg_test.h; sourceTree = "<group>"; };
+		C1F0AB9119F73BCF003DB53B /* ogg_test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ogg_test.h; path = "ogg/libogg-1.3.1/include/ogg_test.h"; sourceTree = "<group>"; };
 		C1F0AC0419F7421A003DB53B /* codec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = codec.h; path = "theora/libtheora-1.1.1/include/theora/codec.h"; sourceTree = "<group>"; };
 		C1F0AC0519F7421A003DB53B /* theora.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = theora.h; path = "theora/libtheora-1.1.1/include/theora/theora.h"; sourceTree = "<group>"; };
 		C1F0AC0619F7421A003DB53B /* theoradec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = theoradec.h; path = "theora/libtheora-1.1.1/include/theora/theoradec.h"; sourceTree = "<group>"; };
