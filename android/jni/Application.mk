@@ -3,7 +3,8 @@ APP_MODULES      := game \
                     lua \
                     png \
                     zlib \
-                    json #\
+                    json \
+                    sqlite #\
                     jli \
                     jpg \
                     lua \
