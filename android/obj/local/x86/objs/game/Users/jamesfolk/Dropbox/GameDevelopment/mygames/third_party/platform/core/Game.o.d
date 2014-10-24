@@ -283,7 +283,8 @@ obj/local/x86/objs/game//Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_p
  /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/ogg/libogg-1.3.1/include/ogg/os_types.h \
  /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/ogg/libogg-1.3.1/include/ogg/config_types.h \
  /Applications/adt-bundle/ndk/platforms/android-L/arch-x86/usr/include/inttypes.h \
- /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/ogg/libogg-1.3.1/include/ogg/os_types.h
+ /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/ogg/libogg-1.3.1/include/ogg/os_types.h \
+ /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/vorbis/libvorbis-1.3.3/include/vorbis_test.h
 
 /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/platform/core/File.h:
 
@@ -852,3 +853,5 @@ obj/local/x86/objs/game//Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_p
 /Applications/adt-bundle/ndk/platforms/android-L/arch-x86/usr/include/inttypes.h:
 
 /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/ogg/libogg-1.3.1/include/ogg/os_types.h:
+
+/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/vorbis/libvorbis-1.3.3/include/vorbis_test.h:

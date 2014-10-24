@@ -5,7 +5,8 @@ APP_MODULES      := game \
                     zlib \
                     json \
                     sqlite \
-                    ogg #\
+                    ogg \
+                    vorbis #\
                     jli \
                     jpg \
                     lua \

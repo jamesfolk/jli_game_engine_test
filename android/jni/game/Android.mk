@@ -13,7 +13,8 @@ zlib \
 json \
 xml \
 sqlite \
-ogg
+ogg \
+vorbis
                        
 LOCAL_MODULE := game
 LOCAL_SRC_FILES := jni.cpp \
@@ -50,7 +51,12 @@ LOCAL_C_INCLUDES := $(MY_THIRD_PARTY_RELATIVE_PATH)/platform/core/ \
                     $(MY_THIRD_PARTY_RELATIVE_PATH)/ogg/libogg-1.3.1 \
                     $(MY_THIRD_PARTY_RELATIVE_PATH)/ogg/libogg-1.3.1/include \
                     $(MY_THIRD_PARTY_RELATIVE_PATH)/ogg/libogg-1.3.1/include/ogg \
-                    $(MY_THIRD_PARTY_RELATIVE_PATH)/ogg/libogg-1.3.1/src \#\
+                    $(MY_THIRD_PARTY_RELATIVE_PATH)/ogg/libogg-1.3.1/src \
+                    $(MY_THIRD_PARTY_RELATIVE_PATH)/vorbis/libvorbis-1.3.3/ \
+                    $(MY_THIRD_PARTY_RELATIVE_PATH)/vorbis/libvorbis-1.3.3/examples/ \
+                    $(MY_THIRD_PARTY_RELATIVE_PATH)/vorbis/libvorbis-1.3.3/test \
+                    $(MY_THIRD_PARTY_RELATIVE_PATH)/vorbis/libvorbis-1.3.3/include \
+                    $(MY_THIRD_PARTY_RELATIVE_PATH)/vorbis/libvorbis-1.3.3/lib #\
                     $(MY_THIRD_PARTY_RELATIVE_PATH)/jli_game_engine/ \
                     $(MY_THIRD_PARTY_RELATIVE_PATH)/jpg/ \
                     $(MY_THIRD_PARTY_RELATIVE_PATH)/lua/ \
