@@ -410,6 +410,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C1021E5219F9F43E002D570A /* theora_test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = theora_test.h; path = "theora/libtheora-1.1.1/include/theora_test.h"; sourceTree = "<group>"; };
 		C1266BCA19F53CD200DDF17D /* lapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = lapi.c; path = "lua-5.2.3/src/lapi.c"; sourceTree = "<group>"; };
 		C1266BCB19F53CD200DDF17D /* lapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = lapi.h; path = "lua-5.2.3/src/lapi.h"; sourceTree = "<group>"; };
 		C1266BCC19F53CD200DDF17D /* lauxlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = lauxlib.c; path = "lua-5.2.3/src/lauxlib.c"; sourceTree = "<group>"; };
@@ -2881,6 +2882,7 @@
 				C1F0AC0519F7421A003DB53B /* theora.h */,
 				C1F0AC0619F7421A003DB53B /* theoradec.h */,
 				C1F0AC0719F7421A003DB53B /* theoraenc.h */,
+				C1021E5219F9F43E002D570A /* theora_test.h */,
 			);
 			name = theora;
 			sourceTree = "<group>";

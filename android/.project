@@ -73,29 +73,34 @@
 			<locationURI>MY_THIRD_PARTY_RELATIVE_PATH/platform/core</locationURI>
 		</link>
 		<link>
+			<name>jni/third_party/json</name>
+			<type>2</type>
+			<locationURI>MY_THIRD_PARTY_RELATIVE_PATH/json</locationURI>
+		</link>
+		<link>
 			<name>jni/third_party/lua</name>
 			<type>2</type>
-			<locationURI>MY_THIRD_PARTY_RELATIVE_PATH/lua/lua-5.2.3/src</locationURI>
+			<locationURI>MY_THIRD_PARTY_RELATIVE_PATH/lua</locationURI>
 		</link>
 		<link>
 			<name>jni/third_party/ogg</name>
 			<type>2</type>
-			<locationURI>MY_THIRD_PARTY_RELATIVE_PATH/ogg/libogg-1.3.1</locationURI>
+			<locationURI>MY_THIRD_PARTY_RELATIVE_PATH/ogg</locationURI>
 		</link>
 		<link>
 			<name>jni/third_party/png</name>
 			<type>2</type>
-			<locationURI>MY_THIRD_PARTY_RELATIVE_PATH/png/lpng1612</locationURI>
+			<locationURI>MY_THIRD_PARTY_RELATIVE_PATH/png</locationURI>
 		</link>
 		<link>
 			<name>jni/third_party/sqlite</name>
 			<type>2</type>
-			<locationURI>MY_THIRD_PARTY_RELATIVE_PATH/sqlite/sqlite-amalgamation-3080700</locationURI>
+			<locationURI>MY_THIRD_PARTY_RELATIVE_PATH/sqlite</locationURI>
 		</link>
 		<link>
-			<name>jni/third_party/tinyxml</name>
+			<name>jni/third_party/theora</name>
 			<type>2</type>
-			<locationURI>MY_THIRD_PARTY_RELATIVE_PATH/xml/tinyxml</locationURI>
+			<locationURI>MY_THIRD_PARTY_RELATIVE_PATH/theora</locationURI>
 		</link>
 		<link>
 			<name>jni/third_party/vorbis</name>
@@ -103,19 +108,14 @@
 			<locationURI>MY_THIRD_PARTY_RELATIVE_PATH/vorbis</locationURI>
 		</link>
 		<link>
+			<name>jni/third_party/xml</name>
+			<type>2</type>
+			<locationURI>MY_THIRD_PARTY_RELATIVE_PATH/xml</locationURI>
+		</link>
+		<link>
 			<name>jni/third_party/zlib</name>
 			<type>2</type>
-			<locationURI>MY_THIRD_PARTY_RELATIVE_PATH/zlib/zlib-1.2.8</locationURI>
-		</link>
-		<link>
-			<name>jni/third_party/json/include</name>
-			<type>2</type>
-			<locationURI>MY_THIRD_PARTY_RELATIVE_PATH/json/jsoncpp-src-0.5.0/include</locationURI>
-		</link>
-		<link>
-			<name>jni/third_party/json/src</name>
-			<type>2</type>
-			<locationURI>MY_THIRD_PARTY_RELATIVE_PATH/json/jsoncpp-src-0.5.0/src</locationURI>
+			<locationURI>MY_THIRD_PARTY_RELATIVE_PATH/zlib</locationURI>
 		</link>
 	</linkedResources>
 	<filteredResources>
@@ -228,34 +228,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1414069962305</id>
-			<name>jni/third_party/json</name>
-			<type>5</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-*.h</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414069962307</id>
-			<name>jni/third_party/json</name>
-			<type>5</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-*.cpp</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414069962326</id>
-			<name>jni/third_party/json</name>
-			<type>5</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-*.c</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414069962328</id>
+			<id>1414117389911</id>
 			<name>jni/third_party/json</name>
 			<type>5</type>
 			<matcher>
@@ -264,7 +237,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1414070139621</id>
+			<id>1414116923291</id>
 			<name>jni/third_party/lua</name>
 			<type>5</type>
 			<matcher>
@@ -273,7 +246,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1414070139623</id>
+			<id>1414116923293</id>
 			<name>jni/third_party/lua</name>
 			<type>5</type>
 			<matcher>
@@ -282,7 +255,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1414070139624</id>
+			<id>1414116923295</id>
 			<name>jni/third_party/lua</name>
 			<type>5</type>
 			<matcher>
@@ -291,7 +264,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1414070139626</id>
+			<id>1414116923297</id>
 			<name>jni/third_party/lua</name>
 			<type>5</type>
 			<matcher>
@@ -300,7 +273,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1414074828591</id>
+			<id>1414115874293</id>
 			<name>jni/third_party/ogg</name>
 			<type>5</type>
 			<matcher>
@@ -309,8 +282,161 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1414074828592</id>
+			<id>1414115874295</id>
 			<name>jni/third_party/ogg</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.mk</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414115874297</id>
+			<name>jni/third_party/ogg</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.c</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414115874298</id>
+			<name>jni/third_party/ogg</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.cpp</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414118003809</id>
+			<name>jni/third_party/png</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.c</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414118003812</id>
+			<name>jni/third_party/png</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.h</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414118003814</id>
+			<name>jni/third_party/png</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.cpp</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414118003817</id>
+			<name>jni/third_party/png</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.mk</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414117894764</id>
+			<name>jni/third_party/sqlite</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.mk</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414117894766</id>
+			<name>jni/third_party/sqlite</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.h</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414117894768</id>
+			<name>jni/third_party/sqlite</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.c</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414117894770</id>
+			<name>jni/third_party/sqlite</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.cpp</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414117894772</id>
+			<name>jni/third_party/sqlite</name>
+			<type>9</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-sqlite-amalgamation*</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414117702279</id>
+			<name>jni/third_party/xml</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.mk</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414118190147</id>
+			<name>jni/third_party/zlib</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.c</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414118190158</id>
+			<name>jni/third_party/zlib</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.h</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414118190163</id>
+			<name>jni/third_party/zlib</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.mk</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414118190169</id>
+			<name>jni/third_party/zlib</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.cpp</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414117454982</id>
+			<name>jni/third_party/json/jsoncpp-src-0.5.0</name>
 			<type>9</type>
 			<matcher>
 				<id>org.eclipse.ui.ide.multiFilter</id>
@@ -318,8 +444,8 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1414074828594</id>
-			<name>jni/third_party/ogg</name>
+			<id>1414117454984</id>
+			<name>jni/third_party/json/jsoncpp-src-0.5.0</name>
 			<type>9</type>
 			<matcher>
 				<id>org.eclipse.ui.ide.multiFilter</id>
@@ -327,44 +453,8 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1414074828596</id>
-			<name>jni/third_party/ogg</name>
-			<type>5</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-*.mk</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414074828597</id>
-			<name>jni/third_party/ogg</name>
-			<type>5</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-*.c</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414074828599</id>
-			<name>jni/third_party/ogg</name>
-			<type>5</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-*.cpp</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414070154655</id>
-			<name>jni/third_party/png</name>
-			<type>5</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-*.c</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414070154656</id>
-			<name>jni/third_party/png</name>
+			<id>1414117454986</id>
+			<name>jni/third_party/json/jsoncpp-src-0.5.0</name>
 			<type>5</type>
 			<matcher>
 				<id>org.eclipse.ui.ide.multiFilter</id>
@@ -372,8 +462,116 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1414070154658</id>
-			<name>jni/third_party/png</name>
+			<id>1414117454988</id>
+			<name>jni/third_party/json/jsoncpp-src-0.5.0</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.c</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414117158921</id>
+			<name>jni/third_party/lua/lua-5.2.3</name>
+			<type>9</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-src</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414117158924</id>
+			<name>jni/third_party/lua/lua-5.2.3</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.h</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414120583231</id>
+			<name>jni/third_party/ogg/libogg-1.3.1</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.h</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414120583234</id>
+			<name>jni/third_party/ogg/libogg-1.3.1</name>
+			<type>9</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-include</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414120583236</id>
+			<name>jni/third_party/ogg/libogg-1.3.1</name>
+			<type>9</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-src</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414115994449</id>
+			<name>jni/third_party/ogg/libogg-1.3.2</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.h</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414115994451</id>
+			<name>jni/third_party/ogg/libogg-1.3.2</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.c</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414115994453</id>
+			<name>jni/third_party/ogg/libogg-1.3.2</name>
+			<type>9</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-include</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414115994456</id>
+			<name>jni/third_party/ogg/libogg-1.3.2</name>
+			<type>9</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-src</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414118118022</id>
+			<name>jni/third_party/png/lpng1612</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.h</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414118118024</id>
+			<name>jni/third_party/png/lpng1612</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.c</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414118118027</id>
+			<name>jni/third_party/png/lpng1612</name>
 			<type>5</type>
 			<matcher>
 				<id>org.eclipse.ui.ide.multiFilter</id>
@@ -381,8 +579,8 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1414070154659</id>
-			<name>jni/third_party/png</name>
+			<id>1414118118029</id>
+			<name>jni/third_party/png/lpng1612</name>
 			<type>10</type>
 			<matcher>
 				<id>org.eclipse.ui.ide.multiFilter</id>
@@ -390,26 +588,8 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1414070154661</id>
-			<name>jni/third_party/png</name>
-			<type>5</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-*.mk</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414070175172</id>
-			<name>jni/third_party/sqlite</name>
-			<type>5</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-*.mk</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414070175174</id>
-			<name>jni/third_party/sqlite</name>
+			<id>1414117933123</id>
+			<name>jni/third_party/sqlite/sqlite-amalgamation-3080700</name>
 			<type>5</type>
 			<matcher>
 				<id>org.eclipse.ui.ide.multiFilter</id>
@@ -417,8 +597,8 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1414070175176</id>
-			<name>jni/third_party/sqlite</name>
+			<id>1414117933125</id>
+			<name>jni/third_party/sqlite/sqlite-amalgamation-3080700</name>
 			<type>5</type>
 			<matcher>
 				<id>org.eclipse.ui.ide.multiFilter</id>
@@ -426,17 +606,8 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1414070175178</id>
-			<name>jni/third_party/sqlite</name>
-			<type>5</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-*.cpp</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414070189944</id>
-			<name>jni/third_party/tinyxml</name>
+			<id>1414118385886</id>
+			<name>jni/third_party/theora/libtheora-1.1.1</name>
 			<type>5</type>
 			<matcher>
 				<id>org.eclipse.ui.ide.multiFilter</id>
@@ -444,44 +615,8 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1414070189945</id>
-			<name>jni/third_party/tinyxml</name>
-			<type>5</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-*.c</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414070189946</id>
-			<name>jni/third_party/tinyxml</name>
-			<type>10</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-*</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414070189948</id>
-			<name>jni/third_party/tinyxml</name>
-			<type>5</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-*.cpp</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414070189950</id>
-			<name>jni/third_party/tinyxml</name>
-			<type>5</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-*.mk</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414070205910</id>
-			<name>jni/third_party/zlib</name>
+			<id>1414118385888</id>
+			<name>jni/third_party/theora/libtheora-1.1.1</name>
 			<type>9</type>
 			<matcher>
 				<id>org.eclipse.ui.ide.multiFilter</id>
@@ -489,57 +624,30 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1414070205912</id>
-			<name>jni/third_party/zlib</name>
-			<type>5</type>
+			<id>1414118385891</id>
+			<name>jni/third_party/theora/libtheora-1.1.1</name>
+			<type>9</type>
 			<matcher>
 				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-*.c</arguments>
+				<arguments>1.0-name-matches-false-false-include</arguments>
 			</matcher>
 		</filter>
 		<filter>
-			<id>1414070205917</id>
-			<name>jni/third_party/zlib</name>
-			<type>5</type>
+			<id>1414118385893</id>
+			<name>jni/third_party/theora/libtheora-1.1.1</name>
+			<type>9</type>
 			<matcher>
 				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-*.h</arguments>
+				<arguments>1.0-name-matches-false-false-lib</arguments>
 			</matcher>
 		</filter>
 		<filter>
-			<id>1414070205919</id>
-			<name>jni/third_party/zlib</name>
-			<type>5</type>
+			<id>1414118385900</id>
+			<name>jni/third_party/theora/libtheora-1.1.1</name>
+			<type>9</type>
 			<matcher>
 				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-*.mk</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414070205920</id>
-			<name>jni/third_party/zlib</name>
-			<type>5</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-*.cpp</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414072443735</id>
-			<name>jni/third_party/ogg/include</name>
-			<type>5</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-*.h</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414072423950</id>
-			<name>jni/third_party/ogg/src</name>
-			<type>5</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-*.c</arguments>
+				<arguments>1.0-name-matches-false-false-tests</arguments>
 			</matcher>
 		</filter>
 		<filter>
@@ -615,8 +723,8 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1414072455836</id>
-			<name>jni/third_party/ogg/include/ogg</name>
+			<id>1414117805530</id>
+			<name>jni/third_party/xml/tinyxml</name>
 			<type>5</type>
 			<matcher>
 				<id>org.eclipse.ui.ide.multiFilter</id>
@@ -624,12 +732,192 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1414072455838</id>
-			<name>jni/third_party/ogg/include/ogg</name>
+			<id>1414117805533</id>
+			<name>jni/third_party/xml/tinyxml</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.cpp</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414117805535</id>
+			<name>jni/third_party/xml/tinyxml</name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-docs</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414118239181</id>
+			<name>jni/third_party/zlib/zlib-1.2.8</name>
+			<type>9</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-examples</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414118239183</id>
+			<name>jni/third_party/zlib/zlib-1.2.8</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.h</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414118239186</id>
+			<name>jni/third_party/zlib/zlib-1.2.8</name>
 			<type>5</type>
 			<matcher>
 				<id>org.eclipse.ui.ide.multiFilter</id>
 				<arguments>1.0-name-matches-false-false-*.c</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414118239188</id>
+			<name>jni/third_party/zlib/zlib-1.2.8</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.cpp</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414117499740</id>
+			<name>jni/third_party/json/jsoncpp-src-0.5.0/include</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.h</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414117178107</id>
+			<name>jni/third_party/lua/lua-5.2.3/src</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.h</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414117178110</id>
+			<name>jni/third_party/lua/lua-5.2.3/src</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.c</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414120597459</id>
+			<name>jni/third_party/ogg/libogg-1.3.1/include</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.h</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414120625989</id>
+			<name>jni/third_party/ogg/libogg-1.3.1/src</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.c</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414119607952</id>
+			<name>jni/third_party/ogg/libogg-1.3.2/include</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.h</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414116020246</id>
+			<name>jni/third_party/ogg/libogg-1.3.2/src</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.h</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414116020249</id>
+			<name>jni/third_party/ogg/libogg-1.3.2/src</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.c</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414115586148</id>
+			<name>jni/third_party/theora/libtheora-1.1.1/examples</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.c</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414115586150</id>
+			<name>jni/third_party/theora/libtheora-1.1.1/examples</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.h</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414118974501</id>
+			<name>jni/third_party/theora/libtheora-1.1.1/include</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.h</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414115697193</id>
+			<name>jni/third_party/theora/libtheora-1.1.1/lib</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.h</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414115697196</id>
+			<name>jni/third_party/theora/libtheora-1.1.1/lib</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.c</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414118401109</id>
+			<name>jni/third_party/theora/libtheora-1.1.1/tests</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.c</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414118401113</id>
+			<name>jni/third_party/theora/libtheora-1.1.1/tests</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.h</arguments>
 			</matcher>
 		</filter>
 		<filter>
@@ -725,6 +1013,141 @@
 		<filter>
 			<id>1414076753905</id>
 			<name>jni/third_party/vorbis/libvorbis-1.3.3/test</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.c</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414117510225</id>
+			<name>jni/third_party/json/jsoncpp-src-0.5.0/include/json</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.h</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414117538762</id>
+			<name>jni/third_party/json/jsoncpp-src-0.5.0/src/jsontestrunner</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.cpp</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414117576986</id>
+			<name>jni/third_party/json/jsoncpp-src-0.5.0/src/lib_json</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.h</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414117576989</id>
+			<name>jni/third_party/json/jsoncpp-src-0.5.0/src/lib_json</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.cpp</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414117603421</id>
+			<name>jni/third_party/json/jsoncpp-src-0.5.0/src/test_lib_json</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.h</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414117603429</id>
+			<name>jni/third_party/json/jsoncpp-src-0.5.0/src/test_lib_json</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.cpp</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414120611631</id>
+			<name>jni/third_party/ogg/libogg-1.3.1/include/ogg</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.h</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414116060334</id>
+			<name>jni/third_party/ogg/libogg-1.3.2/include/ogg</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.h</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414116060338</id>
+			<name>jni/third_party/ogg/libogg-1.3.2/include/ogg</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.c</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414115656122</id>
+			<name>jni/third_party/theora/libtheora-1.1.1/include/theora</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.h</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414115656125</id>
+			<name>jni/third_party/theora/libtheora-1.1.1/include/theora</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.c</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414115721331</id>
+			<name>jni/third_party/theora/libtheora-1.1.1/lib/x86</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.h</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414115721334</id>
+			<name>jni/third_party/theora/libtheora-1.1.1/lib/x86</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.c</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414115735265</id>
+			<name>jni/third_party/theora/libtheora-1.1.1/lib/x86_vc</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.h</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414115735268</id>
+			<name>jni/third_party/theora/libtheora-1.1.1/lib/x86_vc</name>
 			<type>5</type>
 			<matcher>
 				<id>org.eclipse.ui.ide.multiFilter</id>

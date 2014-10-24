@@ -277,13 +277,14 @@ obj/local/armeabi-v7a/objs/game//Users/jamesfolk/Dropbox/GameDevelopment/mygames
  /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/json/jsoncpp-src-0.5.0/include/json_test.h \
  /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/xml/tinyxml/xml_test.h \
  /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/sqlite/sqlite-amalgamation-3080700/sqlite_test.h \
- /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/ogg/libogg-1.3.1/include/ogg_test.h \
- /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/ogg/libogg-1.3.1/include/ogg/ogg.h \
- /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/ogg/libogg-1.3.1/include/ogg/os_types.h \
- /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/ogg/libogg-1.3.1/include/ogg/config_types.h \
+ /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/ogg/libogg-1.3.2/include/ogg_test.h \
+ /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/ogg/libogg-1.3.2/include/ogg/ogg.h \
+ /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/ogg/libogg-1.3.2/include/ogg/os_types.h \
+ /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/ogg/libogg-1.3.2/include/ogg/config_types.h \
  /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/inttypes.h \
- /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/ogg/libogg-1.3.1/include/ogg/os_types.h \
- /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/vorbis/libvorbis-1.3.3/include/vorbis_test.h
+ /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/ogg/libogg-1.3.2/include/ogg/os_types.h \
+ /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/vorbis/libvorbis-1.3.3/include/vorbis_test.h \
+ /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/theora/libtheora-1.1.1/include/theora_test.h
 
 /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/platform/core/File.h:
 
@@ -839,16 +840,18 @@ obj/local/armeabi-v7a/objs/game//Users/jamesfolk/Dropbox/GameDevelopment/mygames
 
 /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/sqlite/sqlite-amalgamation-3080700/sqlite_test.h:
 
-/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/ogg/libogg-1.3.1/include/ogg_test.h:
+/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/ogg/libogg-1.3.2/include/ogg_test.h:
 
-/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/ogg/libogg-1.3.1/include/ogg/ogg.h:
+/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/ogg/libogg-1.3.2/include/ogg/ogg.h:
 
-/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/ogg/libogg-1.3.1/include/ogg/os_types.h:
+/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/ogg/libogg-1.3.2/include/ogg/os_types.h:
 
-/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/ogg/libogg-1.3.1/include/ogg/config_types.h:
+/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/ogg/libogg-1.3.2/include/ogg/config_types.h:
 
 /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/inttypes.h:
 
-/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/ogg/libogg-1.3.1/include/ogg/os_types.h:
+/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/ogg/libogg-1.3.2/include/ogg/os_types.h:
 
 /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/vorbis/libvorbis-1.3.3/include/vorbis_test.h:
+
+/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/theora/libtheora-1.1.1/include/theora_test.h:
