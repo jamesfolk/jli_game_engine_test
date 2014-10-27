@@ -4,6 +4,7 @@ include $(CLEAR_VARS)
 
 MY_THIRD_PARTY_RELATIVE_PATH := /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party
 #MY_THIRD_PARTY_RELATIVE_PATH := $(LOCAL_PATH)/../../../../../third_party/
+#MY_THIRD_PARTY_RELATIVE_PATH := $(LOCAL_PATH)/../../../../../third_party
 
 LOCAL_STATIC_LIBRARIES := \
 bullet \
@@ -19,6 +20,7 @@ theora \
 assimp
                        
 LOCAL_MODULE := game
+
 LOCAL_SRC_FILES := \
 jni.cpp \
 $(MY_THIRD_PARTY_RELATIVE_PATH)/platform/core/Game.cpp \
@@ -81,7 +83,8 @@ $(MY_THIRD_PARTY_RELATIVE_PATH)/lua/ \
 $(MY_THIRD_PARTY_RELATIVE_PATH)/png/ \
 $(MY_THIRD_PARTY_RELATIVE_PATH)/zlib/
 
-LOCAL_LDLIBS := -lGLESv2 -llog -landroid -ldl -lz
+LOCAL_LDLIBS := -lGLESv2 -llog -landroid -ldl
+#LOCAL_LDLIBS := -L$(SYSROOT)/usr/lib -ldl -lm -llog
 
 LOCAL_CFLAGS := -DANDROID_NDK -Werror $(LOCAL_C_INCLUDES:%=-I%)
 
