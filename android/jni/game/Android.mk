@@ -63,7 +63,18 @@ $(MY_THIRD_PARTY_RELATIVE_PATH)/vorbis/libvorbis-1.3.3/include \
 $(MY_THIRD_PARTY_RELATIVE_PATH)/vorbis/libvorbis-1.3.3/lib \
 $(MY_THIRD_PARTY_RELATIVE_PATH)/theora/libtheora-1.1.1/examples/ \
 $(MY_THIRD_PARTY_RELATIVE_PATH)/theora/libtheora-1.1.1/include/ \
-$(MY_THIRD_PARTY_RELATIVE_PATH)/theora/libtheora-1.1.1/lib/ #\
+$(MY_THIRD_PARTY_RELATIVE_PATH)/theora/libtheora-1.1.1/lib/ \
+$(MY_THIRD_PARTY_RELATIVE_PATH)/assimp/assimp-3.1.1/code/ \
+$(MY_THIRD_PARTY_RELATIVE_PATH)/assimp/assimp-3.1.1/contrib/ConvertUTF/ \
+$(MY_THIRD_PARTY_RELATIVE_PATH)/assimp/assimp-3.1.1/contrib/irrXML/ \
+$(MY_THIRD_PARTY_RELATIVE_PATH)/assimp/assimp-3.1.1/contrib/poly2tri/poly2tri/common/ \
+$(MY_THIRD_PARTY_RELATIVE_PATH)/assimp/assimp-3.1.1/contrib/poly2tri/poly2tri/ \
+$(MY_THIRD_PARTY_RELATIVE_PATH)/assimp/assimp-3.1.1/contrib/poly2tri/poly2tri/sweep/ \
+$(MY_THIRD_PARTY_RELATIVE_PATH)/assimp/assimp-3.1.1/contrib/unzip/ \
+$(MY_THIRD_PARTY_RELATIVE_PATH)/assimp/assimp-3.1.1/include/ \
+$(MY_THIRD_PARTY_RELATIVE_PATH)/assimp/assimp-3.1.1/contrib/clipper/ \
+$(MY_THIRD_PARTY_RELATIVE_PATH)/assimp/assimp-3.1.1/code/BoostWorkaround/ \
+#\
 $(MY_THIRD_PARTY_RELATIVE_PATH)/jli_game_engine/ \
 $(MY_THIRD_PARTY_RELATIVE_PATH)/jpg/ \
 $(MY_THIRD_PARTY_RELATIVE_PATH)/lua/ \
