@@ -15,60 +15,65 @@ xml \
 sqlite \
 ogg \
 vorbis \
-theora
+theora \
+assimp
                        
 LOCAL_MODULE := game
-LOCAL_SRC_FILES := jni.cpp \
-                   $(MY_THIRD_PARTY_RELATIVE_PATH)/platform/core/Game.cpp \
-                   $(MY_THIRD_PARTY_RELATIVE_PATH)/platform/android/Log.cpp \
-                   $(MY_THIRD_PARTY_RELATIVE_PATH)/platform/android/File.cpp \
-                   $(MY_THIRD_PARTY_RELATIVE_PATH)/platform/android/Input.cpp \
-                   $(MY_THIRD_PARTY_RELATIVE_PATH)/platform/android/Sound.cpp
+LOCAL_SRC_FILES := \
+jni.cpp \
+$(MY_THIRD_PARTY_RELATIVE_PATH)/platform/core/Game.cpp \
+$(MY_THIRD_PARTY_RELATIVE_PATH)/platform/android/Log.cpp \
+$(MY_THIRD_PARTY_RELATIVE_PATH)/platform/android/File.cpp \
+$(MY_THIRD_PARTY_RELATIVE_PATH)/platform/android/Input.cpp \
+$(MY_THIRD_PARTY_RELATIVE_PATH)/platform/android/Sound.cpp
 
-LOCAL_C_INCLUDES := $(MY_THIRD_PARTY_RELATIVE_PATH)/platform/core/ \
-                    $(MY_THIRD_PARTY_RELATIVE_PATH)/platform/android/ \
-                    $(MY_THIRD_PARTY_RELATIVE_PATH)/bullet/bullet-2.82-r2704/src/ \
-                    $(MY_THIRD_PARTY_RELATIVE_PATH)/BulletCollision/BroadphaseCollision \
-                    $(MY_THIRD_PARTY_RELATIVE_PATH)/BulletCollision/CollisionDispatch \
-                    $(MY_THIRD_PARTY_RELATIVE_PATH)/BulletCollision/CollisionShapes \
-                    $(MY_THIRD_PARTY_RELATIVE_PATH)/BulletCollision/Gimpact \
-                    $(MY_THIRD_PARTY_RELATIVE_PATH)/BulletCollision/NarrowPhaseCollision \
-                    $(MY_THIRD_PARTY_RELATIVE_PATH)/BulletDynamics/Character \
-                    $(MY_THIRD_PARTY_RELATIVE_PATH)/BulletDynamics/ConstraintSolver \
-                    $(MY_THIRD_PARTY_RELATIVE_PATH)/BulletDynamics/Dynamics \
-                    $(MY_THIRD_PARTY_RELATIVE_PATH)/BulletDynamics/Featherstone \
-                    $(MY_THIRD_PARTY_RELATIVE_PATH)/BulletDynamics/MLCPSolvers \
-                    $(MY_THIRD_PARTY_RELATIVE_PATH)/BulletDynamics/Vehicle \
-                    $(MY_THIRD_PARTY_RELATIVE_PATH)/BulletSoftBody \
-                    $(MY_THIRD_PARTY_RELATIVE_PATH)/LinearMath \
-                    $(MY_THIRD_PARTY_RELATIVE_PATH)/lua/lua-5.2.3/src \
-                    $(MY_THIRD_PARTY_RELATIVE_PATH)/png/lpng1612 \
-                    $(MY_THIRD_PARTY_RELATIVE_PATH)/zlib/zlib-1.2.8 \
-                    $(MY_THIRD_PARTY_RELATIVE_PATH)/json/jsoncpp-src-0.5.0/src/lib_json \
-                    $(MY_THIRD_PARTY_RELATIVE_PATH)/json/jsoncpp-src-0.5.0/include \
-                    $(MY_THIRD_PARTY_RELATIVE_PATH)/json/jsoncpp-src-0.5.0/src/test_lib_json \
-                    $(MY_THIRD_PARTY_RELATIVE_PATH)/xml/tinyxml \
-                    $(MY_THIRD_PARTY_RELATIVE_PATH)/sqlite/sqlite-amalgamation-3080700 \
-                    $(MY_THIRD_PARTY_RELATIVE_PATH)/ogg/libogg-1.3.2 \
-                    $(MY_THIRD_PARTY_RELATIVE_PATH)/ogg/libogg-1.3.2/include \
-                    $(MY_THIRD_PARTY_RELATIVE_PATH)/ogg/libogg-1.3.2/include/ogg \
-                    $(MY_THIRD_PARTY_RELATIVE_PATH)/ogg/libogg-1.3.2/src \
-                    $(MY_THIRD_PARTY_RELATIVE_PATH)/vorbis/libvorbis-1.3.3/ \
-                    $(MY_THIRD_PARTY_RELATIVE_PATH)/vorbis/libvorbis-1.3.3/examples/ \
-                    $(MY_THIRD_PARTY_RELATIVE_PATH)/vorbis/libvorbis-1.3.3/test \
-                    $(MY_THIRD_PARTY_RELATIVE_PATH)/vorbis/libvorbis-1.3.3/include \
-                    $(MY_THIRD_PARTY_RELATIVE_PATH)/vorbis/libvorbis-1.3.3/lib \
-                    $(MY_THIRD_PARTY_RELATIVE_PATH)/theora/libtheora-1.1.1/examples/ \
-                    $(MY_THIRD_PARTY_RELATIVE_PATH)/theora/libtheora-1.1.1/include/ \
-                    $(MY_THIRD_PARTY_RELATIVE_PATH)/theora/libtheora-1.1.1/lib/ #\
-                    $(MY_THIRD_PARTY_RELATIVE_PATH)/jli_game_engine/ \
-                    $(MY_THIRD_PARTY_RELATIVE_PATH)/jpg/ \
-                    $(MY_THIRD_PARTY_RELATIVE_PATH)/lua/ \
-                    $(MY_THIRD_PARTY_RELATIVE_PATH)/png/ \
-                    $(MY_THIRD_PARTY_RELATIVE_PATH)/zlib/
+LOCAL_C_INCLUDES := \
+$(MY_THIRD_PARTY_RELATIVE_PATH)/platform/core/ \
+$(MY_THIRD_PARTY_RELATIVE_PATH)/platform/android/ \
+$(MY_THIRD_PARTY_RELATIVE_PATH)/bullet/bullet-2.82-r2704/src/ \
+$(MY_THIRD_PARTY_RELATIVE_PATH)/BulletCollision/BroadphaseCollision \
+$(MY_THIRD_PARTY_RELATIVE_PATH)/BulletCollision/CollisionDispatch \
+$(MY_THIRD_PARTY_RELATIVE_PATH)/BulletCollision/CollisionShapes \
+$(MY_THIRD_PARTY_RELATIVE_PATH)/BulletCollision/Gimpact \
+$(MY_THIRD_PARTY_RELATIVE_PATH)/BulletCollision/NarrowPhaseCollision \
+$(MY_THIRD_PARTY_RELATIVE_PATH)/BulletDynamics/Character \
+$(MY_THIRD_PARTY_RELATIVE_PATH)/BulletDynamics/ConstraintSolver \
+$(MY_THIRD_PARTY_RELATIVE_PATH)/BulletDynamics/Dynamics \
+$(MY_THIRD_PARTY_RELATIVE_PATH)/BulletDynamics/Featherstone \
+$(MY_THIRD_PARTY_RELATIVE_PATH)/BulletDynamics/MLCPSolvers \
+$(MY_THIRD_PARTY_RELATIVE_PATH)/BulletDynamics/Vehicle \
+$(MY_THIRD_PARTY_RELATIVE_PATH)/BulletSoftBody \
+$(MY_THIRD_PARTY_RELATIVE_PATH)/LinearMath \
+$(MY_THIRD_PARTY_RELATIVE_PATH)/lua/lua-5.2.3/src \
+$(MY_THIRD_PARTY_RELATIVE_PATH)/png/lpng1612 \
+$(MY_THIRD_PARTY_RELATIVE_PATH)/zlib/zlib-1.2.8 \
+$(MY_THIRD_PARTY_RELATIVE_PATH)/json/jsoncpp-src-0.5.0/src/lib_json \
+$(MY_THIRD_PARTY_RELATIVE_PATH)/json/jsoncpp-src-0.5.0/include \
+$(MY_THIRD_PARTY_RELATIVE_PATH)/json/jsoncpp-src-0.5.0/src/test_lib_json \
+$(MY_THIRD_PARTY_RELATIVE_PATH)/xml/tinyxml \
+$(MY_THIRD_PARTY_RELATIVE_PATH)/sqlite/sqlite-amalgamation-3080700 \
+$(MY_THIRD_PARTY_RELATIVE_PATH)/ogg/libogg-1.3.2 \
+$(MY_THIRD_PARTY_RELATIVE_PATH)/ogg/libogg-1.3.2/include \
+$(MY_THIRD_PARTY_RELATIVE_PATH)/ogg/libogg-1.3.2/include/ogg \
+$(MY_THIRD_PARTY_RELATIVE_PATH)/ogg/libogg-1.3.2/src \
+$(MY_THIRD_PARTY_RELATIVE_PATH)/vorbis/libvorbis-1.3.3/ \
+$(MY_THIRD_PARTY_RELATIVE_PATH)/vorbis/libvorbis-1.3.3/examples/ \
+$(MY_THIRD_PARTY_RELATIVE_PATH)/vorbis/libvorbis-1.3.3/test \
+$(MY_THIRD_PARTY_RELATIVE_PATH)/vorbis/libvorbis-1.3.3/include \
+$(MY_THIRD_PARTY_RELATIVE_PATH)/vorbis/libvorbis-1.3.3/lib \
+$(MY_THIRD_PARTY_RELATIVE_PATH)/theora/libtheora-1.1.1/examples/ \
+$(MY_THIRD_PARTY_RELATIVE_PATH)/theora/libtheora-1.1.1/include/ \
+$(MY_THIRD_PARTY_RELATIVE_PATH)/theora/libtheora-1.1.1/lib/ #\
+$(MY_THIRD_PARTY_RELATIVE_PATH)/jli_game_engine/ \
+$(MY_THIRD_PARTY_RELATIVE_PATH)/jpg/ \
+$(MY_THIRD_PARTY_RELATIVE_PATH)/lua/ \
+$(MY_THIRD_PARTY_RELATIVE_PATH)/png/ \
+$(MY_THIRD_PARTY_RELATIVE_PATH)/zlib/
 
 LOCAL_LDLIBS := -lGLESv2 -llog -landroid -ldl -lz
 
 LOCAL_CFLAGS := -DANDROID_NDK -Werror $(LOCAL_C_INCLUDES:%=-I%)
+
+LOCAL_CPP_FEATURES := exceptions
 
 include $(BUILD_SHARED_LIBRARY)

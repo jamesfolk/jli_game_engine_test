@@ -75,10 +75,6 @@ obj/local/mips64/objs/game//Users/jamesfolk/Dropbox/GameDevelopment/mygames/thir
  /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/exception \
  /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/../../gabi++/include/exception \
  /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/../../gabi++/include/gabixx_config.h \
- /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_cstdio.h \
- /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stdio.h \
- /Applications/adt-bundle/ndk/platforms/android-L/arch-mips64/usr/include/../include/stdio.h \
- /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stdarg.h \
  /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_construct.h \
  /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_alloc.c \
  /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_string_fwd.h \
@@ -86,6 +82,9 @@ obj/local/mips64/objs/game//Users/jamesfolk/Dropbox/GameDevelopment/mygames/thir
  /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/char_traits.h \
  /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_cwchar.h \
  /Applications/adt-bundle/ndk/platforms/android-L/arch-mips64/usr/include/../include/wchar.h \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stdio.h \
+ /Applications/adt-bundle/ndk/platforms/android-L/arch-mips64/usr/include/../include/stdio.h \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stdarg.h \
  /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/time.h \
  /Applications/adt-bundle/ndk/platforms/android-L/arch-mips64/usr/include/../include/time.h \
  /Applications/adt-bundle/ndk/platforms/android-L/arch-mips64/usr/include/sys/time.h \
@@ -436,14 +435,6 @@ obj/local/mips64/objs/game//Users/jamesfolk/Dropbox/GameDevelopment/mygames/thir
 
 /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/../../gabi++/include/gabixx_config.h:
 
-/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_cstdio.h:
-
-/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stdio.h:
-
-/Applications/adt-bundle/ndk/platforms/android-L/arch-mips64/usr/include/../include/stdio.h:
-
-/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stdarg.h:
-
 /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_construct.h:
 
 /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_alloc.c:
@@ -457,6 +448,12 @@ obj/local/mips64/objs/game//Users/jamesfolk/Dropbox/GameDevelopment/mygames/thir
 /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_cwchar.h:
 
 /Applications/adt-bundle/ndk/platforms/android-L/arch-mips64/usr/include/../include/wchar.h:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stdio.h:
+
+/Applications/adt-bundle/ndk/platforms/android-L/arch-mips64/usr/include/../include/stdio.h:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stdarg.h:
 
 /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/time.h:
 

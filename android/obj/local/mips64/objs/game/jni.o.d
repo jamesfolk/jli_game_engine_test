@@ -78,9 +78,6 @@ obj/local/mips64/objs/game/jni.o: jni/..//jni/game/jni.cpp \
  /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/exception \
  /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/../../gabi++/include/exception \
  /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/../../gabi++/include/gabixx_config.h \
- /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_cstdio.h \
- /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stdio.h \
- /Applications/adt-bundle/ndk/platforms/android-L/arch-mips64/usr/include/../include/stdio.h \
  /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_construct.h \
  /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_alloc.c \
  /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_uninitialized.h \
@@ -246,12 +243,6 @@ obj/local/mips64/objs/game/jni.o: jni/..//jni/game/jni.cpp \
 /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/../../gabi++/include/exception:
 
 /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/../../gabi++/include/gabixx_config.h:
-
-/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_cstdio.h:
-
-/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stdio.h:
-
-/Applications/adt-bundle/ndk/platforms/android-L/arch-mips64/usr/include/../include/stdio.h:
 
 /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_construct.h:
 

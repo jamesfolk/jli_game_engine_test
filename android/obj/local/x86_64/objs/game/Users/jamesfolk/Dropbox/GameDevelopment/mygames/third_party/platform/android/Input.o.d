@@ -80,9 +80,6 @@ obj/local/x86_64/objs/game//Users/jamesfolk/Dropbox/GameDevelopment/mygames/thir
  /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/exception \
  /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/../../gabi++/include/exception \
  /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/../../gabi++/include/gabixx_config.h \
- /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_cstdio.h \
- /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stdio.h \
- /Applications/adt-bundle/ndk/platforms/android-L/arch-x86_64/usr/include/../include/stdio.h \
  /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_construct.h \
  /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_alloc.c \
  /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_uninitialized.h \
@@ -250,12 +247,6 @@ obj/local/x86_64/objs/game//Users/jamesfolk/Dropbox/GameDevelopment/mygames/thir
 /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/../../gabi++/include/exception:
 
 /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/../../gabi++/include/gabixx_config.h:
-
-/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_cstdio.h:
-
-/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stdio.h:
-
-/Applications/adt-bundle/ndk/platforms/android-L/arch-x86_64/usr/include/../include/stdio.h:
 
 /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_construct.h:
 
