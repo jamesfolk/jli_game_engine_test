@@ -68,19 +68,24 @@
 			<locationURI>MY_THIRD_PARTY_RELATIVE_PATH/assimp</locationURI>
 		</link>
 		<link>
-			<name>jni/third_party/boost</name>
-			<type>2</type>
-			<locationURI>MY_THIRD_PARTY_RELATIVE_PATH/boost</locationURI>
-		</link>
-		<link>
 			<name>jni/third_party/bullet</name>
 			<type>2</type>
-			<locationURI>MY_THIRD_PARTY_RELATIVE_PATH/bullet/bullet-2.82-r2704/src</locationURI>
+			<locationURI>MY_THIRD_PARTY_RELATIVE_PATH/bullet</locationURI>
 		</link>
 		<link>
 			<name>jni/third_party/core</name>
 			<type>2</type>
 			<locationURI>MY_THIRD_PARTY_RELATIVE_PATH/platform/core</locationURI>
+		</link>
+		<link>
+			<name>jni/third_party/fmod</name>
+			<type>2</type>
+			<locationURI>MY_THIRD_PARTY_RELATIVE_PATH/fmod/android/fmodstudioapi10503android/api/lowlevel</locationURI>
+		</link>
+		<link>
+			<name>jni/third_party/jli_game_engine</name>
+			<type>2</type>
+			<locationURI>MY_THIRD_PARTY_RELATIVE_PATH/jli_game_engine</locationURI>
 		</link>
 		<link>
 			<name>jni/third_party/json</name>
@@ -184,7 +189,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1414070117487</id>
+			<id>1414456547524</id>
 			<name>jni/third_party/bullet</name>
 			<type>5</type>
 			<matcher>
@@ -193,7 +198,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1414070117496</id>
+			<id>1414456547527</id>
 			<name>jni/third_party/bullet</name>
 			<type>5</type>
 			<matcher>
@@ -202,7 +207,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1414070117498</id>
+			<id>1414456547530</id>
 			<name>jni/third_party/bullet</name>
 			<type>5</type>
 			<matcher>
@@ -211,7 +216,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1414070117500</id>
+			<id>1414456547533</id>
 			<name>jni/third_party/bullet</name>
 			<type>5</type>
 			<matcher>
@@ -244,6 +249,51 @@
 			<matcher>
 				<id>org.eclipse.ui.ide.multiFilter</id>
 				<arguments>1.0-name-matches-false-false-*.c</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414511062762</id>
+			<name>jni/third_party/fmod</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.mk</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414509850642</id>
+			<name>jni/third_party/jli_game_engine</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.h</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414509850645</id>
+			<name>jni/third_party/jli_game_engine</name>
+			<type>9</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-include</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414509850649</id>
+			<name>jni/third_party/jli_game_engine</name>
+			<type>9</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-src</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414509850652</id>
+			<name>jni/third_party/jli_game_engine</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.mk</arguments>
 			</matcher>
 		</filter>
 		<filter>
@@ -454,7 +504,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1414371489764</id>
+			<id>1414385824085</id>
 			<name>jni/third_party/assimp/assimp-3.1.1</name>
 			<type>5</type>
 			<matcher>
@@ -463,7 +513,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1414371489766</id>
+			<id>1414385824088</id>
 			<name>jni/third_party/assimp/assimp-3.1.1</name>
 			<type>5</type>
 			<matcher>
@@ -472,7 +522,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1414371489769</id>
+			<id>1414385824092</id>
 			<name>jni/third_party/assimp/assimp-3.1.1</name>
 			<type>5</type>
 			<matcher>
@@ -481,7 +531,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1414371489772</id>
+			<id>1414385824095</id>
 			<name>jni/third_party/assimp/assimp-3.1.1</name>
 			<type>9</type>
 			<matcher>
@@ -490,7 +540,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1414371489775</id>
+			<id>1414385824098</id>
 			<name>jni/third_party/assimp/assimp-3.1.1</name>
 			<type>9</type>
 			<matcher>
@@ -499,7 +549,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1414371489783</id>
+			<id>1414385824101</id>
 			<name>jni/third_party/assimp/assimp-3.1.1</name>
 			<type>9</type>
 			<matcher>
@@ -508,165 +558,21 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1414371489802</id>
-			<name>jni/third_party/assimp/assimp-3.1.1</name>
-			<type>5</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-*.h</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414371489805</id>
-			<name>jni/third_party/assimp/assimp-3.1.1</name>
-			<type>5</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-*.c</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414371489808</id>
-			<name>jni/third_party/assimp/assimp-3.1.1</name>
-			<type>5</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-*.cpp</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414371489812</id>
-			<name>jni/third_party/assimp/assimp-3.1.1</name>
+			<id>1414456584609</id>
+			<name>jni/third_party/bullet/bullet-2.82-r2704</name>
 			<type>9</type>
 			<matcher>
 				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-include</arguments>
+				<arguments>1.0-name-matches-false-false-src</arguments>
 			</matcher>
 		</filter>
 		<filter>
-			<id>1414371489816</id>
-			<name>jni/third_party/assimp/assimp-3.1.1</name>
-			<type>9</type>
+			<id>1414456584612</id>
+			<name>jni/third_party/bullet/bullet-2.82-r2704</name>
+			<type>6</type>
 			<matcher>
 				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-contrib</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414371489819</id>
-			<name>jni/third_party/assimp/assimp-3.1.1</name>
-			<type>9</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-code</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414371489887</id>
-			<name>jni/third_party/assimp/assimp-3.1.1</name>
-			<type>5</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-*.h</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414371489890</id>
-			<name>jni/third_party/assimp/assimp-3.1.1</name>
-			<type>5</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-*.c</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414371489894</id>
-			<name>jni/third_party/assimp/assimp-3.1.1</name>
-			<type>5</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-*.cpp</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414371489897</id>
-			<name>jni/third_party/assimp/assimp-3.1.1</name>
-			<type>9</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-include</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414371489901</id>
-			<name>jni/third_party/assimp/assimp-3.1.1</name>
-			<type>9</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-contrib</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414371489905</id>
-			<name>jni/third_party/assimp/assimp-3.1.1</name>
-			<type>9</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-code</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414371489932</id>
-			<name>jni/third_party/assimp/assimp-3.1.1</name>
-			<type>5</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-*.h</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414371489936</id>
-			<name>jni/third_party/assimp/assimp-3.1.1</name>
-			<type>5</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-*.c</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414371489939</id>
-			<name>jni/third_party/assimp/assimp-3.1.1</name>
-			<type>5</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-*.cpp</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414371489942</id>
-			<name>jni/third_party/assimp/assimp-3.1.1</name>
-			<type>9</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-include</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414371489945</id>
-			<name>jni/third_party/assimp/assimp-3.1.1</name>
-			<type>9</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-contrib</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414371489953</id>
-			<name>jni/third_party/assimp/assimp-3.1.1</name>
-			<type>9</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-code</arguments>
+				<arguments>1.0-name-matches-false-false-*</arguments>
 			</matcher>
 		</filter>
 		<filter>
@@ -985,7 +891,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1414118239181</id>
+			<id>1414458563644</id>
 			<name>jni/third_party/zlib/zlib-1.2.8</name>
 			<type>9</type>
 			<matcher>
@@ -994,7 +900,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1414118239183</id>
+			<id>1414458563647</id>
 			<name>jni/third_party/zlib/zlib-1.2.8</name>
 			<type>5</type>
 			<matcher>
@@ -1003,7 +909,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1414118239186</id>
+			<id>1414458563650</id>
 			<name>jni/third_party/zlib/zlib-1.2.8</name>
 			<type>5</type>
 			<matcher>
@@ -1012,8 +918,35 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1414118239188</id>
+			<id>1414458563654</id>
 			<name>jni/third_party/zlib/zlib-1.2.8</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.cpp</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414385930905</id>
+			<name>jni/third_party/assimp/assimp-3.1.1/code</name>
+			<type>9</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-BoostWorkaround</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414385930908</id>
+			<name>jni/third_party/assimp/assimp-3.1.1/code</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.h</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414385930911</id>
+			<name>jni/third_party/assimp/assimp-3.1.1/code</name>
 			<type>5</type>
 			<matcher>
 				<id>org.eclipse.ui.ide.multiFilter</id>
@@ -1198,6 +1131,42 @@
 			<matcher>
 				<id>org.eclipse.ui.ide.multiFilter</id>
 				<arguments>1.0-name-matches-false-false-cppunit-1.12.1</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414456742185</id>
+			<name>jni/third_party/bullet/bullet-2.82-r2704/src</name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-BulletMultiThreaded</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414456742187</id>
+			<name>jni/third_party/bullet/bullet-2.82-r2704/src</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.h</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414456742191</id>
+			<name>jni/third_party/bullet/bullet-2.82-r2704/src</name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-vectormath</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414456742193</id>
+			<name>jni/third_party/bullet/bullet-2.82-r2704/src</name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-MiniCL</arguments>
 			</matcher>
 		</filter>
 		<filter>
@@ -1390,7 +1359,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1414076404282</id>
+			<id>1414462742430</id>
 			<name>jni/third_party/vorbis/libvorbis-1.3.3/lib</name>
 			<type>5</type>
 			<matcher>
@@ -1399,7 +1368,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1414076404284</id>
+			<id>1414462742434</id>
 			<name>jni/third_party/vorbis/libvorbis-1.3.3/lib</name>
 			<type>5</type>
 			<matcher>
@@ -1408,12 +1377,174 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1414076404285</id>
+			<id>1414462742437</id>
 			<name>jni/third_party/vorbis/libvorbis-1.3.3/lib</name>
 			<type>5</type>
 			<matcher>
 				<id>org.eclipse.ui.ide.multiFilter</id>
 				<arguments>1.0-name-matches-false-false-*.cpp</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414462742440</id>
+			<name>jni/third_party/vorbis/libvorbis-1.3.3/lib</name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-barmel.c</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414462742444</id>
+			<name>jni/third_party/vorbis/libvorbis-1.3.3/lib</name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-psytune.c</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414462742448</id>
+			<name>jni/third_party/vorbis/libvorbis-1.3.3/lib</name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-sharedbook.c</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414462742453</id>
+			<name>jni/third_party/vorbis/libvorbis-1.3.3/lib</name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-tone.c</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414462742471</id>
+			<name>jni/third_party/vorbis/libvorbis-1.3.3/lib</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.h</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414462742475</id>
+			<name>jni/third_party/vorbis/libvorbis-1.3.3/lib</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.c</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414462742479</id>
+			<name>jni/third_party/vorbis/libvorbis-1.3.3/lib</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.cpp</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414462742484</id>
+			<name>jni/third_party/vorbis/libvorbis-1.3.3/lib</name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-barmel.c</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414462742487</id>
+			<name>jni/third_party/vorbis/libvorbis-1.3.3/lib</name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-psytune.c</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414462742492</id>
+			<name>jni/third_party/vorbis/libvorbis-1.3.3/lib</name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-sharedbook.c</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414462742497</id>
+			<name>jni/third_party/vorbis/libvorbis-1.3.3/lib</name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-tone.c</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414462742533</id>
+			<name>jni/third_party/vorbis/libvorbis-1.3.3/lib</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.h</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414462742539</id>
+			<name>jni/third_party/vorbis/libvorbis-1.3.3/lib</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.c</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414462742545</id>
+			<name>jni/third_party/vorbis/libvorbis-1.3.3/lib</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.cpp</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414462742550</id>
+			<name>jni/third_party/vorbis/libvorbis-1.3.3/lib</name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-barmel.c</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414462742553</id>
+			<name>jni/third_party/vorbis/libvorbis-1.3.3/lib</name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-psytune.c</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414462742557</id>
+			<name>jni/third_party/vorbis/libvorbis-1.3.3/lib</name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-sharedbook.c</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414462742571</id>
+			<name>jni/third_party/vorbis/libvorbis-1.3.3/lib</name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-tone.c</arguments>
 			</matcher>
 		</filter>
 		<filter>
@@ -1432,6 +1563,24 @@
 			<matcher>
 				<id>org.eclipse.ui.ide.multiFilter</id>
 				<arguments>1.0-name-matches-false-false-*.c</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414458628598</id>
+			<name>jni/third_party/zlib/zlib-1.2.8/examples</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.c</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414458628602</id>
+			<name>jni/third_party/zlib/zlib-1.2.8/examples</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.h</arguments>
 			</matcher>
 		</filter>
 		<filter>
@@ -1531,6 +1680,60 @@
 			<matcher>
 				<id>org.eclipse.ui.ide.multiFilter</id>
 				<arguments>1.0-name-matches-false-false-*.c</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414456757811</id>
+			<name>jni/third_party/bullet/bullet-2.82-r2704/src/BulletCollision</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.h</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414456774113</id>
+			<name>jni/third_party/bullet/bullet-2.82-r2704/src/BulletDynamics</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.h</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414457048170</id>
+			<name>jni/third_party/bullet/bullet-2.82-r2704/src/BulletSoftBody</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.h</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414457048173</id>
+			<name>jni/third_party/bullet/bullet-2.82-r2704/src/BulletSoftBody</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.cpp</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414456829041</id>
+			<name>jni/third_party/bullet/bullet-2.82-r2704/src/LinearMath</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.h</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414456829045</id>
+			<name>jni/third_party/bullet/bullet-2.82-r2704/src/LinearMath</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.cpp</arguments>
 			</matcher>
 		</filter>
 		<filter>
@@ -1750,6 +1953,15 @@
 			</matcher>
 		</filter>
 		<filter>
+			<id>1414385958953</id>
+			<name>jni/third_party/assimp/assimp-3.1.1/code/BoostWorkaround/boost</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.hpp</arguments>
+			</matcher>
+		</filter>
+		<filter>
 			<id>1414122380132</id>
 			<name>jni/third_party/assimp/assimp-3.1.1/contrib/poly2tri/poly2tri</name>
 			<type>5</type>
@@ -1770,6 +1982,204 @@
 		<filter>
 			<id>1414122380138</id>
 			<name>jni/third_party/assimp/assimp-3.1.1/contrib/poly2tri/poly2tri</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.cpp</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414456846793</id>
+			<name>jni/third_party/bullet/bullet-2.82-r2704/src/BulletCollision/BroadphaseCollision</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.h</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414456846796</id>
+			<name>jni/third_party/bullet/bullet-2.82-r2704/src/BulletCollision/BroadphaseCollision</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.cpp</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414456862362</id>
+			<name>jni/third_party/bullet/bullet-2.82-r2704/src/BulletCollision/CollisionDispatch</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.h</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414456862366</id>
+			<name>jni/third_party/bullet/bullet-2.82-r2704/src/BulletCollision/CollisionDispatch</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.cpp</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414456876114</id>
+			<name>jni/third_party/bullet/bullet-2.82-r2704/src/BulletCollision/CollisionShapes</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.h</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414456876117</id>
+			<name>jni/third_party/bullet/bullet-2.82-r2704/src/BulletCollision/CollisionShapes</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.cpp</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414456893232</id>
+			<name>jni/third_party/bullet/bullet-2.82-r2704/src/BulletCollision/Gimpact</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.h</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414456893236</id>
+			<name>jni/third_party/bullet/bullet-2.82-r2704/src/BulletCollision/Gimpact</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.cpp</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414456906639</id>
+			<name>jni/third_party/bullet/bullet-2.82-r2704/src/BulletCollision/NarrowPhaseCollision</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.h</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414456906643</id>
+			<name>jni/third_party/bullet/bullet-2.82-r2704/src/BulletCollision/NarrowPhaseCollision</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.cpp</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414456928843</id>
+			<name>jni/third_party/bullet/bullet-2.82-r2704/src/BulletDynamics/Character</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.h</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414456928846</id>
+			<name>jni/third_party/bullet/bullet-2.82-r2704/src/BulletDynamics/Character</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.cpp</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414456948294</id>
+			<name>jni/third_party/bullet/bullet-2.82-r2704/src/BulletDynamics/ConstraintSolver</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.cpp</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414456948297</id>
+			<name>jni/third_party/bullet/bullet-2.82-r2704/src/BulletDynamics/ConstraintSolver</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.h</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414456990964</id>
+			<name>jni/third_party/bullet/bullet-2.82-r2704/src/BulletDynamics/Dynamics</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.h</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414456990967</id>
+			<name>jni/third_party/bullet/bullet-2.82-r2704/src/BulletDynamics/Dynamics</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.cpp</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414457006981</id>
+			<name>jni/third_party/bullet/bullet-2.82-r2704/src/BulletDynamics/Featherstone</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.h</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414457006985</id>
+			<name>jni/third_party/bullet/bullet-2.82-r2704/src/BulletDynamics/Featherstone</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.cpp</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414457020067</id>
+			<name>jni/third_party/bullet/bullet-2.82-r2704/src/BulletDynamics/MLCPSolvers</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.h</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414457020070</id>
+			<name>jni/third_party/bullet/bullet-2.82-r2704/src/BulletDynamics/MLCPSolvers</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.cpp</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414457030335</id>
+			<name>jni/third_party/bullet/bullet-2.82-r2704/src/BulletDynamics/Vehicle</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.h</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1414457030338</id>
+			<name>jni/third_party/bullet/bullet-2.82-r2704/src/BulletDynamics/Vehicle</name>
 			<type>5</type>
 			<matcher>
 				<id>org.eclipse.ui.ide.multiFilter</id>

@@ -2,7 +2,8 @@
 
 echo "building emscripten..."
 
-emmake make -j 8
+emmake make -j 1
+
 open JLIGameEngineTest.html
 
 #MY_APP_NAME=JLIGameEngineTest

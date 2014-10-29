@@ -7,6 +7,21 @@ import android.view.MotionEvent.PointerCoords;
 
 public class JLIGameEngineTestLib {
 	static {
+//		// Try debug libraries...
+//    	try { System.loadLibrary("fmodD");
+//    		  System.loadLibrary("fmodstudioD"); }
+//    	catch (UnsatisfiedLinkError e) { }
+//    	// Try logging libraries...
+//    	try { System.loadLibrary("fmodL");
+//    		  System.loadLibrary("fmodstudioL"); }
+//    	catch (UnsatisfiedLinkError e) { }
+//		// Try release libraries...
+//		try { System.loadLibrary("fmod");
+//		      System.loadLibrary("fmodstudio"); }
+//		catch (UnsatisfiedLinkError e) { }
+		
+//		System.loadLibrary("fmod");
+//	      System.loadLibrary("fmodstudio");
 		System.loadLibrary("stlport_shared");
         System.loadLibrary("game");
     }

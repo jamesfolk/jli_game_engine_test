@@ -156,6 +156,16 @@ obj/local/armeabi-v7a/objs/game//Users/jamesfolk/Dropbox/GameDevelopment/mygames
  /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/platform/core/Input.h \
  /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/platform/core/Log.h \
  /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/platform/core/Sound.h \
+ /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/jli_game_engine/include/AbstractSingleton.h \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/assert.h \
+ /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/../include/assert.h \
+ /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/fmod/android/fmodstudioapi10503android/api/lowlevel/inc/fmod.hpp \
+ /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/fmod/android/fmodstudioapi10503android/api/lowlevel/inc/fmod_common.h \
+ /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/fmod/android/fmodstudioapi10503android/api/lowlevel/inc/fmod_codec.h \
+ /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/fmod/android/fmodstudioapi10503android/api/lowlevel/inc/fmod_dsp.h \
+ /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/fmod/android/fmodstudioapi10503android/api/lowlevel/inc/fmod_dsp_effects.h \
+ /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/fmod/android/fmodstudioapi10503android/api/lowlevel/inc/fmod.h \
+ /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/fmod/android/fmodstudioapi10503android/api/lowlevel/inc/fmod_errors.h \
  /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/platform/core/Game.h \
  /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/vector \
  /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_vector.h \
@@ -166,8 +176,7 @@ obj/local/armeabi-v7a/objs/game//Users/jamesfolk/Dropbox/GameDevelopment/mygames
  /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/GLES2/gl2.h \
  /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/GLES2/gl2platform.h \
  /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/KHR/khrplatform.h \
- /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/GLES2/gl2ext.h \
- /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/platform/core/lib_tests.h
+ /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/GLES2/gl2ext.h
 
 /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/platform/core/File.h:
 
@@ -481,6 +490,26 @@ obj/local/armeabi-v7a/objs/game//Users/jamesfolk/Dropbox/GameDevelopment/mygames
 
 /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/platform/core/Sound.h:
 
+/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/jli_game_engine/include/AbstractSingleton.h:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/assert.h:
+
+/Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/../include/assert.h:
+
+/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/fmod/android/fmodstudioapi10503android/api/lowlevel/inc/fmod.hpp:
+
+/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/fmod/android/fmodstudioapi10503android/api/lowlevel/inc/fmod_common.h:
+
+/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/fmod/android/fmodstudioapi10503android/api/lowlevel/inc/fmod_codec.h:
+
+/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/fmod/android/fmodstudioapi10503android/api/lowlevel/inc/fmod_dsp.h:
+
+/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/fmod/android/fmodstudioapi10503android/api/lowlevel/inc/fmod_dsp_effects.h:
+
+/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/fmod/android/fmodstudioapi10503android/api/lowlevel/inc/fmod.h:
+
+/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/fmod/android/fmodstudioapi10503android/api/lowlevel/inc/fmod_errors.h:
+
 /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/platform/core/Game.h:
 
 /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/vector:
@@ -502,5 +531,3 @@ obj/local/armeabi-v7a/objs/game//Users/jamesfolk/Dropbox/GameDevelopment/mygames
 /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/KHR/khrplatform.h:
 
 /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/GLES2/gl2ext.h:
-
-/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/platform/core/lib_tests.h:

@@ -94,8 +94,6 @@
 		C17DE38A19EEB881005D1313 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C17DE38919EEB881005D1313 /* Images.xcassets */; };
 		C17DE38D19EEB881005D1313 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C17DE38B19EEB881005D1313 /* LaunchScreen.xib */; };
 		C17DE39919EEB881005D1313 /* JLIGameEngineTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C17DE39819EEB881005D1313 /* JLIGameEngineTestTests.m */; };
-		C17DE3FF19EEBA58005D1313 /* basic.fsh in Resources */ = {isa = PBXBuildFile; fileRef = C17DE3CA19EEBA58005D1313 /* basic.fsh */; };
-		C17DE40019EEBA58005D1313 /* basic.vsh in Resources */ = {isa = PBXBuildFile; fileRef = C17DE3CB19EEBA58005D1313 /* basic.vsh */; };
 		C17DE40919EEBA58005D1313 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C17DE3DB19EEBA58005D1313 /* Game.cpp */; };
 		C17DE40F19EEBA58005D1313 /* File.mm in Sources */ = {isa = PBXBuildFile; fileRef = C17DE3E819EEBA58005D1313 /* File.mm */; };
 		C17DE41019EEBA58005D1313 /* Input.mm in Sources */ = {isa = PBXBuildFile; fileRef = C17DE3EA19EEBA58005D1313 /* Input.mm */; };
@@ -103,8 +101,8 @@
 		C17DE41219EEBA58005D1313 /* Sound.mm in Sources */ = {isa = PBXBuildFile; fileRef = C17DE3EC19EEBA58005D1313 /* Sound.mm */; };
 		C17DE41D19EEBCA0005D1313 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C17DE41C19EEBCA0005D1313 /* GLKit.framework */; };
 		C17DE41F19EEBCA8005D1313 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C17DE41E19EEBCA8005D1313 /* OpenGLES.framework */; };
-		C17DE4B219F2202A005D1313 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = C17DE4B119F2202A005D1313 /* assets */; };
-		C17DE4B319F22040005D1313 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = C17DE4B119F2202A005D1313 /* assets */; };
+		C19402F41A00654A0055CBFD /* Lua.i in Sources */ = {isa = PBXBuildFile; fileRef = C19402EE1A00654A0055CBFD /* Lua.i */; };
+		C19402F61A0066A90055CBFD /* assets in Resources */ = {isa = PBXBuildFile; fileRef = C19402F51A0066A90055CBFD /* assets */; };
 		C198946519F4D08F00E16B3A /* btAxisSweep3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C19892F119F4D08F00E16B3A /* btAxisSweep3.cpp */; };
 		C198946619F4D08F00E16B3A /* btBroadphaseProxy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C19892F419F4D08F00E16B3A /* btBroadphaseProxy.cpp */; };
 		C198946719F4D08F00E16B3A /* btCollisionAlgorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C19892F619F4D08F00E16B3A /* btCollisionAlgorithm.cpp */; };
@@ -569,10 +567,6 @@
 		C17DE39719EEB881005D1313 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C17DE39819EEB881005D1313 /* JLIGameEngineTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLIGameEngineTestTests.m; sourceTree = "<group>"; };
 		C17DE3BF19EEBA58005D1313 /* Lua.i */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c.preprocessed; path = Lua.i; sourceTree = "<group>"; };
-		C17DE3C519EEBA58005D1313 /* JLIGameEngine_Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLIGameEngine_Common.h; sourceTree = "<group>"; };
-		C17DE3C619EEBA58005D1313 /* Lua.i */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c.preprocessed; path = Lua.i; sourceTree = "<group>"; };
-		C17DE3CA19EEBA58005D1313 /* basic.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = basic.fsh; sourceTree = "<group>"; };
-		C17DE3CB19EEBA58005D1313 /* basic.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = basic.vsh; sourceTree = "<group>"; };
 		C17DE3CE19EEBA58005D1313 /* Lua.i */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c.preprocessed; path = Lua.i; sourceTree = "<group>"; };
 		C17DE3D119EEBA58005D1313 /* Lua.i */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c.preprocessed; path = Lua.i; sourceTree = "<group>"; };
 		C17DE3DA19EEBA58005D1313 /* File.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = File.h; sourceTree = "<group>"; };
@@ -591,7 +585,9 @@
 		C17DE3F919EEBA58005D1313 /* Lua.i */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c.preprocessed; path = Lua.i; sourceTree = "<group>"; };
 		C17DE41C19EEBCA0005D1313 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		C17DE41E19EEBCA8005D1313 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
-		C17DE4B119F2202A005D1313 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = assets; path = ../../../COMMON/assets; sourceTree = "<group>"; };
+		C19402ED1A00654A0055CBFD /* AbstractSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractSingleton.h; sourceTree = "<group>"; };
+		C19402EE1A00654A0055CBFD /* Lua.i */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c.preprocessed; path = Lua.i; sourceTree = "<group>"; };
+		C19402F51A0066A90055CBFD /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = assets; path = ../../../COMMON/assets; sourceTree = "<group>"; };
 		C19892EC19F4D08F00E16B3A /* btBulletCollisionCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = btBulletCollisionCommon.h; path = "bullet-2.82-r2704/src/btBulletCollisionCommon.h"; sourceTree = "<group>"; };
 		C19892ED19F4D08F00E16B3A /* btBulletDynamicsCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = btBulletDynamicsCommon.h; path = "bullet-2.82-r2704/src/btBulletDynamicsCommon.h"; sourceTree = "<group>"; };
 		C19892EE19F4D08F00E16B3A /* Bullet-C-Api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Bullet-C-Api.h"; path = "bullet-2.82-r2704/src/Bullet-C-Api.h"; sourceTree = "<group>"; };
@@ -1513,7 +1509,7 @@
 		C17DE37719EEB881005D1313 /* JLIGameEngineTest */ = {
 			isa = PBXGroup;
 			children = (
-				C17DE4B119F2202A005D1313 /* assets */,
+				C19402F51A0066A90055CBFD /* assets */,
 				C17DE37C19EEB881005D1313 /* AppDelegate.h */,
 				C17DE37D19EEB881005D1313 /* AppDelegate.mm */,
 				C17DE38319EEB881005D1313 /* GameViewController.h */,
@@ -1593,60 +1589,11 @@
 		C17DE3C019EEBA58005D1313 /* jli_game_engine */ = {
 			isa = PBXGroup;
 			children = (
-				C17DE3C119EEBA58005D1313 /* abstract */,
-				C17DE3C319EEBA58005D1313 /* controller */,
-				C17DE3C419EEBA58005D1313 /* doc */,
-				C17DE3C519EEBA58005D1313 /* JLIGameEngine_Common.h */,
-				C17DE3C619EEBA58005D1313 /* Lua.i */,
-				C17DE3C719EEBA58005D1313 /* model */,
-				C17DE3C819EEBA58005D1313 /* view */,
+				C19402EC1A00654A0055CBFD /* include */,
+				C19402EE1A00654A0055CBFD /* Lua.i */,
+				C19402EF1A00654A0055CBFD /* src */,
 			);
 			path = jli_game_engine;
-			sourceTree = "<group>";
-		};
-		C17DE3C119EEBA58005D1313 /* abstract */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = abstract;
-			sourceTree = "<group>";
-		};
-		C17DE3C319EEBA58005D1313 /* controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = controller;
-			sourceTree = "<group>";
-		};
-		C17DE3C419EEBA58005D1313 /* doc */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = doc;
-			sourceTree = "<group>";
-		};
-		C17DE3C719EEBA58005D1313 /* model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = model;
-			sourceTree = "<group>";
-		};
-		C17DE3C819EEBA58005D1313 /* view */ = {
-			isa = PBXGroup;
-			children = (
-				C17DE3C919EEBA58005D1313 /* shaders */,
-			);
-			path = view;
-			sourceTree = "<group>";
-		};
-		C17DE3C919EEBA58005D1313 /* shaders */ = {
-			isa = PBXGroup;
-			children = (
-				C17DE3CA19EEBA58005D1313 /* basic.fsh */,
-				C17DE3CB19EEBA58005D1313 /* basic.vsh */,
-			);
-			path = shaders;
 			sourceTree = "<group>";
 		};
 		C17DE3CC19EEBA58005D1313 /* jpg */ = {
@@ -1828,6 +1775,53 @@
 				C17DE3F919EEBA58005D1313 /* Lua.i */,
 			);
 			path = zlib;
+			sourceTree = "<group>";
+		};
+		C19402EC1A00654A0055CBFD /* include */ = {
+			isa = PBXGroup;
+			children = (
+				C19402ED1A00654A0055CBFD /* AbstractSingleton.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		C19402EF1A00654A0055CBFD /* src */ = {
+			isa = PBXGroup;
+			children = (
+				C19402F01A00654A0055CBFD /* abstract */,
+				C19402F11A00654A0055CBFD /* controller */,
+				C19402F21A00654A0055CBFD /* model */,
+				C19402F31A00654A0055CBFD /* view */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		C19402F01A00654A0055CBFD /* abstract */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = abstract;
+			sourceTree = "<group>";
+		};
+		C19402F11A00654A0055CBFD /* controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		C19402F21A00654A0055CBFD /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		C19402F31A00654A0055CBFD /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 		C19892EF19F4D08F00E16B3A /* BulletCollision */ = {
@@ -2978,12 +2972,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C17DE3FF19EEBA58005D1313 /* basic.fsh in Resources */,
 				C17DE38D19EEB881005D1313 /* LaunchScreen.xib in Resources */,
 				C17DE38819EEB881005D1313 /* Main.storyboard in Resources */,
-				C17DE4B219F2202A005D1313 /* assets in Resources */,
+				C19402F61A0066A90055CBFD /* assets in Resources */,
 				C17DE38A19EEB881005D1313 /* Images.xcassets in Resources */,
-				C17DE40019EEBA58005D1313 /* basic.vsh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2991,7 +2983,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C17DE4B319F22040005D1313 /* assets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3341,6 +3332,7 @@
 				C1266C8819F544FC00DDF17D /* zpipe.c in Sources */,
 				C1F0AA3A19F6BD00003DB53B /* ColladaParser.cpp in Sources */,
 				C198947C19F4D08F00E16B3A /* btConvexPlaneCollisionAlgorithm.cpp in Sources */,
+				C19402F41A00654A0055CBFD /* Lua.i in Sources */,
 				C198948A19F4D08F00E16B3A /* btBoxShape.cpp in Sources */,
 				C1F0AA5C19F6BD00003DB53B /* IFCGeometry.cpp in Sources */,
 				C198949B19F4D08F00E16B3A /* btMinkowskiSumShape.cpp in Sources */,
@@ -3546,7 +3538,7 @@
 				INFOPLIST_FILE = JLIGameEngineTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../../../../third_party/fmod/ios/FMOD Programmers API/api/lowlevel/lib/\"";
-				OTHER_LDFLAGS = "";
+				OTHER_LDFLAGS = "-lfmodL_$PLATFORM_NAME";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -3584,7 +3576,7 @@
 				INFOPLIST_FILE = JLIGameEngineTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../../../../third_party/fmod/ios/FMOD Programmers API/api/lowlevel/lib/\"";
-				OTHER_LDFLAGS = "-fmodex_$PLATFORM_NAME";
+				OTHER_LDFLAGS = "-lfmod_$PLATFORM_NAME";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

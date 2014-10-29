@@ -1,10 +1,10 @@
 LOCAL_PATH := $(call my-dir)
 
-include $(CLEAR_VARS)
-
 MY_THIRD_PARTY_RELATIVE_PATH := /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party
 #MY_THIRD_PARTY_RELATIVE_PATH := $(LOCAL_PATH)/../../../../../third_party/
 #MY_THIRD_PARTY_RELATIVE_PATH := $(LOCAL_PATH)/../../../../../third_party
+
+include $(CLEAR_VARS)
 
 LOCAL_STATIC_LIBRARIES := \
 bullet \
@@ -17,8 +17,10 @@ sqlite \
 ogg \
 vorbis \
 theora \
-assimp
-                       
+assimp \
+jli \
+fmod
+                 
 LOCAL_MODULE := game
 
 LOCAL_SRC_FILES := \
@@ -76,14 +78,15 @@ $(MY_THIRD_PARTY_RELATIVE_PATH)/assimp/assimp-3.1.1/contrib/unzip/ \
 $(MY_THIRD_PARTY_RELATIVE_PATH)/assimp/assimp-3.1.1/include/ \
 $(MY_THIRD_PARTY_RELATIVE_PATH)/assimp/assimp-3.1.1/contrib/clipper/ \
 $(MY_THIRD_PARTY_RELATIVE_PATH)/assimp/assimp-3.1.1/code/BoostWorkaround/ \
+$(MY_THIRD_PARTY_RELATIVE_PATH)/fmod/android/fmodstudioapi10503android/api/lowlevel/inc \
+$(MY_THIRD_PARTY_RELATIVE_PATH)/jli_game_engine/include \
 #\
-$(MY_THIRD_PARTY_RELATIVE_PATH)/jli_game_engine/ \
 $(MY_THIRD_PARTY_RELATIVE_PATH)/jpg/ \
 $(MY_THIRD_PARTY_RELATIVE_PATH)/lua/ \
 $(MY_THIRD_PARTY_RELATIVE_PATH)/png/ \
 $(MY_THIRD_PARTY_RELATIVE_PATH)/zlib/
 
-LOCAL_LDLIBS := -lGLESv2 -llog -landroid -ldl
+LOCAL_LDLIBS := -L$(SYSROOT)/usr/lib -lGLESv2 -llog -landroid -ldl
 #LOCAL_LDLIBS := -L$(SYSROOT)/usr/lib -ldl -lm -llog
 
 LOCAL_CFLAGS := -DANDROID_NDK -Werror $(LOCAL_C_INCLUDES:%=-I%)
