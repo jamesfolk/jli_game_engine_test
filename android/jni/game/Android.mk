@@ -4,22 +4,18 @@ MY_THIRD_PARTY_RELATIVE_PATH := /Users/jamesfolk/Dropbox/GameDevelopment/mygames
 #MY_THIRD_PARTY_RELATIVE_PATH := $(LOCAL_PATH)/../../../../../third_party/
 #MY_THIRD_PARTY_RELATIVE_PATH := $(LOCAL_PATH)/../../../../../third_party
 
+#
+# FMOD Shared Library
+# 
 include $(CLEAR_VARS)
 
-LOCAL_STATIC_LIBRARIES := \
-bullet \
-lua \
-png \
-zlib \
-json \
-xml \
-sqlite \
-ogg \
-vorbis \
-theora \
-assimp \
-jli \
-fmod
+LOCAL_MODULE            := fmod
+LOCAL_SRC_FILES         := $(MY_THIRD_PARTY_RELATIVE_PATH)/fmod/android/fmodstudioapi10503android/api/lowlevel/lib/$(TARGET_ARCH_ABI)/libfmod.so
+LOCAL_EXPORT_C_INCLUDES := $(MY_THIRD_PARTY_RELATIVE_PATH)/fmod/android/fmodstudioapi10503android/api/lowlevel/inc
+
+include $(PREBUILT_SHARED_LIBRARY)
+
+include $(CLEAR_VARS)
                  
 LOCAL_MODULE := game
 
@@ -93,4 +89,23 @@ LOCAL_CFLAGS := -DANDROID_NDK -Werror $(LOCAL_C_INCLUDES:%=-I%)
 
 LOCAL_CPP_FEATURES := exceptions
 
+LOCAL_STATIC_LIBRARIES := \
+bullet \
+lua \
+png \
+zlib \
+json \
+xml \
+sqlite \
+ogg \
+vorbis \
+theora \
+assimp \
+jli \
+android_native_app_glue
+
+LOCAL_SHARED_LIBRARIES  := fmod
+
 include $(BUILD_SHARED_LIBRARY)
+
+$(call import-module,android/native_app_glue)
