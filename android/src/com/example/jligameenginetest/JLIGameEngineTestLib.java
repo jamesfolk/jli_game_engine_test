@@ -5,8 +5,7 @@ import java.util.Vector;
 import android.content.res.AssetManager;
 import android.view.MotionEvent.PointerCoords;
 
-public class JLIGameEngineTestLib extends android.app.NativeActivity
-{
+public class JLIGameEngineTestLib {
 	static {
 
 		// Try debug libraries...

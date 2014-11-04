@@ -18,10 +18,12 @@ public class MainActivity extends Activity {
     {
     	super.onCreate(icicle);
     	
+//    	FMODAudioDevice.init(this);
         JLIGameEngineTestLib.initAssetManager(getAssets());
 
         glSurfaceView = new GLView(getApplication());
         setContentView(glSurfaceView);
+        org.fmod.FMOD.init(this);
     }
 
     @Override protected void onPause() {
@@ -32,5 +34,13 @@ public class MainActivity extends Activity {
     @Override protected void onResume() {
         super.onResume();
         glSurfaceView.onResume();
+    }
+    
+    @Override
+    protected void onDestroy()
+    {	
+    	org.fmod.FMOD.close();
+    	
+    	super.onDestroy();
     }
 }
