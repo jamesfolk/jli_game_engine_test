@@ -11,12 +11,12 @@
 #include "State.h"
 
 State::State(const AbstractBuilder &builder) :
-AbstractState<State>(builder)
+AbstractState<AbstractFactoryObject>(builder)
 {
     
 }
 State::State(const State &copy) :
-AbstractState<State>(copy)
+AbstractState<AbstractFactoryObject>(copy)
 {
     
 }
@@ -29,27 +29,27 @@ State &State::operator=(const State &rhs)
 {
     if(this != &rhs)
     {
-        AbstractState<State>::operator =(rhs);
+        AbstractState<AbstractFactoryObject>::operator =(rhs);
     }
     return *this;
 }
 
-void State::enter(State *object)
+void State::enter(AbstractFactoryObject *object)
 {
-    Log("Entering state %s:%d for object %s", getName(), this, object->getName());
+    Log("Entering state %s:%d for object %s\n", getName(), this, object->getName());
 }
 
-void State::update(State *object, f32 deltaTimeStep)
+void State::update(AbstractFactoryObject *object, f32 deltaTimeStep)
 {
-    Log("Updating state %s:%d for object %s : %f", getName(), this, object->getName(), deltaTimeStep);
+    Log("Updating state %s:%d for object %s : %f\n", getName(), this, object->getName(), deltaTimeStep);
 }
 
-void State::exit(State *object)
+void State::exit(AbstractFactoryObject *object)
 {
-    Log("Exiting state %s:%d for object %s", getName(), this, object->getName());
+    Log("Exiting state %s:%d for object %s\n", getName(), this, object->getName());
 }
 
-bool State::onMessage(State *object, const Telegram &telegram)
+bool State::onMessage(AbstractFactoryObject *object, const Telegram &telegram)
 {
     return false;
 }

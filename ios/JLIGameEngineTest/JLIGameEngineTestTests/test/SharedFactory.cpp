@@ -34,9 +34,9 @@ AbstractFactoryObject *SharedFactory::ctor(const AbstractBuilder &builder)
         case JLI_TEST_OBJECT_OBJECT_WITH_DECORATOR:
             obj = new Object_With_Decorator(builder);
             break;
-            //        case JLI_TEST_OBJECT_OBJECT_WITH_STATEMACHINE_BEHAVIOR:
-            //            obj = new Object_With_StateMachine_Behavior(builder);
-            //            break;
+        case JLI_TEST_OBJECT_OBJECT_WITH_STATEMACHINE_BEHAVIOR:
+            obj = new Object_With_StateMachine_Behavior(builder);
+            break;
         default:
             break;
     }

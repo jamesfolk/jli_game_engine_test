@@ -11,10 +11,11 @@
 
 #include "AbstractBuilder.h"
 #include "AbstractState.h"
+#include "AbstractFactoryObject.h"
 #include "Util.h"
 
 ATTRIBUTE_ALIGNED16(class) State :
-public AbstractState<State>
+public AbstractState<AbstractFactoryObject>
 {
     friend class Factory;
     friend class SharedFactory;
@@ -32,10 +33,10 @@ public:
     virtual const char *getName()const;
     virtual u32 getType()const;
     
-    virtual void enter(State *object);
-    virtual void update(State *object, f32 deltaTimeStep);
-    virtual void exit(State *object);
-    virtual bool onMessage(State *object, const Telegram &telegram);
+    virtual void enter(AbstractFactoryObject *object);
+    virtual void update(AbstractFactoryObject *object, f32 deltaTimeStep);
+    virtual void exit(AbstractFactoryObject *object);
+    virtual bool onMessage(AbstractFactoryObject *object, const Telegram &telegram);
     
     //!!!TODO: Fill in Object specific functions...
 };

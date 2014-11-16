@@ -10,11 +10,13 @@
 
 #include "Object_With_StateMachine_Behavior.h"
 
-Object_With_StateMachine_Behavior::Object_With_StateMachine_Behavior(const AbstractBuilder &builder)
+Object_With_StateMachine_Behavior::Object_With_StateMachine_Behavior(const AbstractBuilder &builder):
+m_ObjectStateMachine(NULL)
 {
     
 }
-Object_With_StateMachine_Behavior::Object_With_StateMachine_Behavior(const Object_With_StateMachine_Behavior &rhs)
+Object_With_StateMachine_Behavior::Object_With_StateMachine_Behavior(const Object_With_StateMachine_Behavior &rhs):
+m_ObjectStateMachine(NULL)
 {
     
 }
@@ -28,7 +30,7 @@ Object_With_StateMachine_Behavior &Object_With_StateMachine_Behavior::operator=(
 {
     if(this != &rhs)
     {
-        
+        m_ObjectStateMachine = rhs.m_ObjectStateMachine;
     }
     return *this;
 }
@@ -46,9 +48,13 @@ u32 Object_With_StateMachine_Behavior::getType()const
 
 void Object_With_StateMachine_Behavior::setStateMachine(StateMachine *sm)
 {
-    m_ObjectStateMachine->setOwner(NULL);
+    if(m_ObjectStateMachine)
+        m_ObjectStateMachine->setOwner(NULL);
+    
     m_ObjectStateMachine = sm;
-    m_ObjectStateMachine->setOwner(this);
+    
+    if(m_ObjectStateMachine)
+        m_ObjectStateMachine->setOwner(this);
 }
 
 StateMachine *Object_With_StateMachine_Behavior::getStateMachine()
