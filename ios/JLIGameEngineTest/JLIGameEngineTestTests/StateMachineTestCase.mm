@@ -28,6 +28,8 @@
 #include "StateMachine.h"
 #include "Object_With_StateMachine_Behavior.h"
 
+#include "Object_With_Decorator.h"
+
 @interface StateMachineTestCase : XCTestCase
 
 @end
@@ -48,7 +50,7 @@
 {
     Builder builder;
     State *state;
-    StateMachine *statemachine;
+    
     Object_With_StateMachine_Behavior *object;
     
     Factory::createInstance();
@@ -92,35 +94,17 @@
     object->getStateMachine()->update(0.1);
     object->getStateMachine()->update(0.1);
     
-//    statemachine->pushState(states.at(0));
     
     
+    builder.setType(JLI_TEST_OBJECT_OBJECT_WITH_DECORATOR);
+    Object_With_Decorator *owd = dynamic_cast<Object_With_Decorator*>(Factory::getInstance()->create(builder));
     
+    owd->addDecorator(owd);
+    owd->addDecorator(owd);
     
     
     Factory::getInstance()->destroyAll();
     Factory::destroyInstance();
-    
-//    StateMachineFactoryTest::createInstance();
-//    StateFactoryTest::createInstance();
-//    
-//    BuilderTest builder;
-//    
-//    StateMachineTest *sm = StateMachineFactoryTest::getInstance()->create(builder);
-//    XCTAssert(sm != NULL, @"Pass");
-//    
-//    StateTest *st = StateFactoryTest::getInstance()->create(builder);
-//    
-//    StateMachineFactoryObjectTest *so = new StateMachineFactoryObjectTest(builder);
-//    
-//    so->setStateMachine(sm);
-//    
-//    
-//    StateFactoryTest::destroyInstance();
-//    StateMachineFactoryTest::destroyInstance();
-    
-    
-    
 }
 
 - (void)testExample {

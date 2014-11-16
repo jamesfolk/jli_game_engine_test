@@ -34,14 +34,14 @@ public AbstractBehavior<Object_With_StateMachine_Behavior>
     
     Object_With_StateMachine_Behavior();
     
-    StateMachine *m_ObjectStateMachine;
-    
 public:
     virtual const char *getName()const;
     virtual u32 getType()const;
     
     void setStateMachine(StateMachine *sm);
     StateMachine *getStateMachine();
+private:
+    StateMachine *m_ObjectStateMachine;
 };
 
 #endif /* defined(__JLIGameEngineTest__StateMachineFactoryObjectTest__) */

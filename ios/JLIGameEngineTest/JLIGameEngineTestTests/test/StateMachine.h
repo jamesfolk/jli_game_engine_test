@@ -10,9 +10,6 @@
 #define __JLIGameEngineTest__StateMachineTest__
 
 #include "AbstractFactoryObject.h"
-
-
-#include "AbstractFactoryObject.h"
 #include "AbstractStateMachine.h"
 #include "AbstractBehavior.h"
 

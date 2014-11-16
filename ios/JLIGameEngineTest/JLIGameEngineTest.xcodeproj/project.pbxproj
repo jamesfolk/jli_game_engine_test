@@ -714,7 +714,6 @@
 		C157CFAC1A184D2F00E3BD29 /* State.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = State.cpp; sourceTree = "<group>"; };
 		C157CFAE1A1850B100E3BD29 /* Object.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Object.cpp; sourceTree = "<group>"; };
 		C157CFB01A18512800E3BD29 /* Object_With_Decorator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Object_With_Decorator.cpp; sourceTree = "<group>"; };
-		C157CFB51A1856F600E3BD29 /* AbstractStateMachineBehavior.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractStateMachineBehavior.h; sourceTree = "<group>"; };
 		C157CFB61A185BE200E3BD29 /* Object_With_StateMachine_Behavior.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Object_With_StateMachine_Behavior.cpp; sourceTree = "<group>"; };
 		C157CFB71A185BE200E3BD29 /* Object_With_StateMachine_Behavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Object_With_StateMachine_Behavior.h; sourceTree = "<group>"; };
 		C157D0461A18717200E3BD29 /* StateMachineTestCase.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = StateMachineTestCase.mm; sourceTree = "<group>"; };
@@ -1990,7 +1989,6 @@
 				C19402ED1A00654A0055CBFD /* AbstractSingleton.h */,
 				C1EBEBFC1A0FD7F0007BD189 /* AbstractFactory.h */,
 				C1EBEC011A100A73007BD189 /* AbstractSharedFactory.h */,
-				C157CFB51A1856F600E3BD29 /* AbstractStateMachineBehavior.h */,
 			);
 			path = include;
 			sourceTree = "<group>";
