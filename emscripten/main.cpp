@@ -20,8 +20,9 @@ int main()
 {
     if (init_gl() == GL_TRUE) {
         
-        resize(0, 0, width, height);
-        emscripten_set_main_loop(do_frame, 0, 1);
+    
+        //resize(0, 0, width, height);
+        //emscripten_set_main_loop(do_frame, 0, 1);
     }
     
     shutdown_gl();
@@ -35,14 +36,14 @@ int init_gl()
         printf("glfwInit() failed\n");
         return GL_FALSE;
     }
-    
+   /* 
     if (glfwOpenWindow(width, height, 8, 8, 8, 8, 16, 0, GLFW_WINDOW) != GL_TRUE) {
         printf("glfwOpenWindow() failed\n");
         return GL_FALSE;
     }
     
-    create();
-    
+create();
+   */ 
     return GL_TRUE;
 }
 

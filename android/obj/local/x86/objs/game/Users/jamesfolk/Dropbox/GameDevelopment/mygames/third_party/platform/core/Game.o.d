@@ -157,6 +157,9 @@ obj/local/x86/objs/game//Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_p
  /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/platform/core/Input.h \
  /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/platform/core/Log.h \
  /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/platform/core/Sound.h \
+ /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/jli_game_engine/include/AbstractSingleton.h \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/assert.h \
+ /Applications/adt-bundle/ndk/platforms/android-L/arch-x86/usr/include/../include/assert.h \
  /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/fmod/android/fmodstudioapi10503android/api/lowlevel/inc/fmod.hpp \
  /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/fmod/android/fmodstudioapi10503android/api/lowlevel/inc/fmod_common.h \
  /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/fmod/android/fmodstudioapi10503android/api/lowlevel/inc/fmod_codec.h \
@@ -170,6 +173,10 @@ obj/local/x86/objs/game//Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_p
  /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_vector.c \
  /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_bvector.h \
  /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_relops_cont.h \
+ /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/platform/core/Util.h \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/csignal \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_csignal.h \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/cstdlib \
  /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/platform/android/GLPlatform.h \
  /Applications/adt-bundle/ndk/platforms/android-L/arch-x86/usr/include/GLES2/gl2.h \
  /Applications/adt-bundle/ndk/platforms/android-L/arch-x86/usr/include/GLES2/gl2platform.h \
@@ -180,8 +187,6 @@ obj/local/x86/objs/game//Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_p
  /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/bullet/bullet-2.82-r2704/src/BulletCollision/CollisionDispatch/btCollisionWorld.h \
  /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/bullet/bullet-2.82-r2704/src/LinearMath/btVector3.h \
  /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/bullet/bullet-2.82-r2704/src/LinearMath/btScalar.h \
- /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/assert.h \
- /Applications/adt-bundle/ndk/platforms/android-L/arch-x86/usr/include/../include/assert.h \
  /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/bullet/bullet-2.82-r2704/src/LinearMath/btMinMax.h \
  /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/bullet/bullet-2.82-r2704/src/LinearMath/btAlignedAllocator.h \
  /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/bullet/bullet-2.82-r2704/src/LinearMath/btTransform.h \
@@ -589,6 +594,12 @@ obj/local/x86/objs/game//Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_p
 
 /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/platform/core/Sound.h:
 
+/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/jli_game_engine/include/AbstractSingleton.h:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/assert.h:
+
+/Applications/adt-bundle/ndk/platforms/android-L/arch-x86/usr/include/../include/assert.h:
+
 /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/fmod/android/fmodstudioapi10503android/api/lowlevel/inc/fmod.hpp:
 
 /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/fmod/android/fmodstudioapi10503android/api/lowlevel/inc/fmod_common.h:
@@ -615,6 +626,14 @@ obj/local/x86/objs/game//Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_p
 
 /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_relops_cont.h:
 
+/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/platform/core/Util.h:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/csignal:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_csignal.h:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/cstdlib:
+
 /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/platform/android/GLPlatform.h:
 
 /Applications/adt-bundle/ndk/platforms/android-L/arch-x86/usr/include/GLES2/gl2.h:
@@ -634,10 +653,6 @@ obj/local/x86/objs/game//Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_p
 /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/bullet/bullet-2.82-r2704/src/LinearMath/btVector3.h:
 
 /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/bullet/bullet-2.82-r2704/src/LinearMath/btScalar.h:
-
-/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/assert.h:
-
-/Applications/adt-bundle/ndk/platforms/android-L/arch-x86/usr/include/../include/assert.h:
 
 /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/bullet/bullet-2.82-r2704/src/LinearMath/btMinMax.h:
 

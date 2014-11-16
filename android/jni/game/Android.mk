@@ -4,14 +4,26 @@ MY_THIRD_PARTY_RELATIVE_PATH := /Users/jamesfolk/Dropbox/GameDevelopment/mygames
 #MY_THIRD_PARTY_RELATIVE_PATH := $(LOCAL_PATH)/../../../../../third_party/
 #MY_THIRD_PARTY_RELATIVE_PATH := $(LOCAL_PATH)/../../../../../third_party
 
+
 #
 # FMOD Shared Library
 # 
 include $(CLEAR_VARS)
 
 LOCAL_MODULE            := fmod
-LOCAL_SRC_FILES         := $(MY_THIRD_PARTY_RELATIVE_PATH)/fmod/android/fmodstudioapi10503android/api/lowlevel/lib/$(TARGET_ARCH_ABI)/libfmod.so
+LOCAL_SRC_FILES         := $(MY_THIRD_PARTY_RELATIVE_PATH)/fmod/android/fmodstudioapi10503android/api/lowlevel/lib/$(TARGET_ARCH_ABI)/libfmodL.so
 LOCAL_EXPORT_C_INCLUDES := $(MY_THIRD_PARTY_RELATIVE_PATH)/fmod/android/fmodstudioapi10503android/api/lowlevel/inc
+
+include $(PREBUILT_SHARED_LIBRARY)
+
+#
+# FMOD Studio Shared Library
+# 
+include $(CLEAR_VARS)
+
+LOCAL_MODULE            := fmodstudio
+LOCAL_SRC_FILES         := $(MY_THIRD_PARTY_RELATIVE_PATH)/fmod/android/fmodstudioapi10503android/api/studio/lib/$(TARGET_ARCH_ABI)/libfmodstudioL.so
+LOCAL_EXPORT_C_INCLUDES := $(MY_THIRD_PARTY_RELATIVE_PATH)/fmod/android/fmodstudioapi10503android/api/studio/inc
 
 include $(PREBUILT_SHARED_LIBRARY)
 
@@ -104,7 +116,7 @@ assimp \
 jli \
 android_native_app_glue
 
-LOCAL_SHARED_LIBRARIES  := fmod
+LOCAL_SHARED_LIBRARIES  := fmod fmodstudio
 
 include $(BUILD_SHARED_LIBRARY)
 
