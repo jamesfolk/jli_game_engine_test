@@ -38,8 +38,16 @@ public:
     virtual const char *getName()const;
     virtual u32 getType()const;
     
+    virtual AbstractFactoryObject *create(const AbstractBuilder &builder, bool shared = false)const;
+    virtual AbstractFactoryObject *clone(bool shared = false)const;
+    virtual AbstractFactoryObject *destroy(bool shared = false);
+    
+    virtual	s32	calculateSerializeBufferSize() const;
+    virtual	const char*	serialize(void* dataBuffer, btSerializer* serializer) const;
+    
     void setStateMachine(StateMachine *sm);
     StateMachine *getStateMachine();
+    
 private:
     StateMachine *m_ObjectStateMachine;
 };

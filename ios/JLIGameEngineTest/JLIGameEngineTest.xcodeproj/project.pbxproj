@@ -92,7 +92,6 @@
 		C157CFAB1A184C3E00E3BD29 /* SharedFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C157CFAA1A184C3E00E3BD29 /* SharedFactory.cpp */; };
 		C157CFAD1A184D2F00E3BD29 /* State.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C157CFAC1A184D2F00E3BD29 /* State.cpp */; };
 		C157CFAF1A1850B100E3BD29 /* Object.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C157CFAE1A1850B100E3BD29 /* Object.cpp */; };
-		C157CFB11A18512800E3BD29 /* Object_With_Decorator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C157CFB01A18512800E3BD29 /* Object_With_Decorator.cpp */; };
 		C157CFB81A185BE200E3BD29 /* Object_With_StateMachine_Behavior.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C157CFB61A185BE200E3BD29 /* Object_With_StateMachine_Behavior.cpp */; };
 		C157CFBA1A186E6F00E3BD29 /* btAxisSweep3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C19892F119F4D08F00E16B3A /* btAxisSweep3.cpp */; };
 		C157CFBB1A186E6F00E3BD29 /* btBroadphaseProxy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C19892F419F4D08F00E16B3A /* btBroadphaseProxy.cpp */; };
@@ -235,6 +234,7 @@
 		C157D0441A186EA900E3BD29 /* gim_tri_collision.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C19893B219F4D08F00E16B3A /* gim_tri_collision.cpp */; };
 		C157D0451A186EA900E3BD29 /* Bullet-C-API.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C198940419F4D08F00E16B3A /* Bullet-C-API.cpp */; };
 		C157D0471A18717200E3BD29 /* StateMachineTestCase.mm in Sources */ = {isa = PBXBuildFile; fileRef = C157D0461A18717200E3BD29 /* StateMachineTestCase.mm */; };
+		C157D05D1A19D65900E3BD29 /* nanovg.c in Sources */ = {isa = PBXBuildFile; fileRef = C157D0571A19D65900E3BD29 /* nanovg.c */; };
 		C17DE37B19EEB881005D1313 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C17DE37A19EEB881005D1313 /* main.m */; };
 		C17DE37E19EEB881005D1313 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = C17DE37D19EEB881005D1313 /* AppDelegate.mm */; };
 		C17DE38519EEB881005D1313 /* GameViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = C17DE38419EEB881005D1313 /* GameViewController.mm */; };
@@ -704,7 +704,6 @@
 		C1266CCE19F5603000DDF17D /* xmltest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xmltest.cpp; path = xml/tinyxml/xmltest.cpp; sourceTree = "<group>"; };
 		C1266CD419F5611700DDF17D /* xml_test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = xml_test.h; path = xml/tinyxml/xml_test.h; sourceTree = "<group>"; };
 		C157CF9B1A183CF400E3BD29 /* AbstractDecorator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractDecorator.h; sourceTree = "<group>"; };
-		C157CF9F1A183FCC00E3BD29 /* Object_With_Decorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Object_With_Decorator.h; sourceTree = "<group>"; };
 		C157CFA21A18429600E3BD29 /* Object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Object.h; sourceTree = "<group>"; };
 		C157CFA41A18458400E3BD29 /* Builder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Builder.h; sourceTree = "<group>"; };
 		C157CFA51A18492300E3BD29 /* State.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = State.h; sourceTree = "<group>"; };
@@ -713,11 +712,17 @@
 		C157CFAA1A184C3E00E3BD29 /* SharedFactory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SharedFactory.cpp; sourceTree = "<group>"; };
 		C157CFAC1A184D2F00E3BD29 /* State.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = State.cpp; sourceTree = "<group>"; };
 		C157CFAE1A1850B100E3BD29 /* Object.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Object.cpp; sourceTree = "<group>"; };
-		C157CFB01A18512800E3BD29 /* Object_With_Decorator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Object_With_Decorator.cpp; sourceTree = "<group>"; };
 		C157CFB61A185BE200E3BD29 /* Object_With_StateMachine_Behavior.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Object_With_StateMachine_Behavior.cpp; sourceTree = "<group>"; };
 		C157CFB71A185BE200E3BD29 /* Object_With_StateMachine_Behavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Object_With_StateMachine_Behavior.h; sourceTree = "<group>"; };
 		C157D0461A18717200E3BD29 /* StateMachineTestCase.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = StateMachineTestCase.mm; sourceTree = "<group>"; };
 		C157D04B1A19257600E3BD29 /* TestObjectTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestObjectTypes.h; sourceTree = "<group>"; };
+		C157D0561A19D65900E3BD29 /* fontstash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fontstash.h; sourceTree = "<group>"; };
+		C157D0571A19D65900E3BD29 /* nanovg.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = nanovg.c; sourceTree = "<group>"; };
+		C157D0581A19D65900E3BD29 /* nanovg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nanovg.h; sourceTree = "<group>"; };
+		C157D0591A19D65900E3BD29 /* nanovg_gl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nanovg_gl.h; sourceTree = "<group>"; };
+		C157D05A1A19D65900E3BD29 /* nanovg_gl_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nanovg_gl_utils.h; sourceTree = "<group>"; };
+		C157D05B1A19D65900E3BD29 /* stb_image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stb_image.h; sourceTree = "<group>"; };
+		C157D05C1A19D65900E3BD29 /* stb_truetype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stb_truetype.h; sourceTree = "<group>"; };
 		C17DE37519EEB881005D1313 /* JLIGameEngineTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JLIGameEngineTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C17DE37919EEB881005D1313 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C17DE37A19EEB881005D1313 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -1576,8 +1581,6 @@
 				C157CFA61A184ADB00E3BD29 /* Builder.cpp */,
 				C157CFA21A18429600E3BD29 /* Object.h */,
 				C157CFAE1A1850B100E3BD29 /* Object.cpp */,
-				C157CF9F1A183FCC00E3BD29 /* Object_With_Decorator.h */,
-				C157CFB01A18512800E3BD29 /* Object_With_Decorator.cpp */,
 				C157CFB71A185BE200E3BD29 /* Object_With_StateMachine_Behavior.h */,
 				C157CFB61A185BE200E3BD29 /* Object_With_StateMachine_Behavior.cpp */,
 				C157CFA51A18492300E3BD29 /* State.h */,
@@ -1680,6 +1683,21 @@
 			path = test_lib_json;
 			sourceTree = "<group>";
 		};
+		C157D0551A19D65900E3BD29 /* nanovg */ = {
+			isa = PBXGroup;
+			children = (
+				C157D0561A19D65900E3BD29 /* fontstash.h */,
+				C157D0571A19D65900E3BD29 /* nanovg.c */,
+				C157D0581A19D65900E3BD29 /* nanovg.h */,
+				C157D0591A19D65900E3BD29 /* nanovg_gl.h */,
+				C157D05A1A19D65900E3BD29 /* nanovg_gl_utils.h */,
+				C157D05B1A19D65900E3BD29 /* stb_image.h */,
+				C157D05C1A19D65900E3BD29 /* stb_truetype.h */,
+			);
+			name = nanovg;
+			path = nanovg/nanovg/src;
+			sourceTree = "<group>";
+		};
 		C17DE36C19EEB881005D1313 = {
 			isa = PBXGroup;
 			children = (
@@ -1759,6 +1777,7 @@
 				C17DE3CC19EEBA58005D1313 /* jpg */,
 				C1266C9019F55C0600DDF17D /* json */,
 				C17DE3CF19EEBA58005D1313 /* lua */,
+				C157D0551A19D65900E3BD29 /* nanovg */,
 				C1F0AB8719F737C0003DB53B /* ogg */,
 				C17DE3D219EEBA58005D1313 /* platform */,
 				C17DE3F319EEBA58005D1313 /* png */,
@@ -1979,11 +1998,11 @@
 		C19402EC1A00654A0055CBFD /* include */ = {
 			isa = PBXGroup;
 			children = (
-				C157CF9B1A183CF400E3BD29 /* AbstractDecorator.h */,
 				C1EBEBFE1A0FDF14007BD189 /* AbstractObject.h */,
+				C1EBEC001A0FDF34007BD189 /* AbstractBuilder.h */,
+				C157CF9B1A183CF400E3BD29 /* AbstractDecorator.h */,
 				C1EBEC0D1A112A10007BD189 /* AbstractState.h */,
 				C1EBEC0B1A112689007BD189 /* AbstractBehavior.h */,
-				C1EBEC001A0FDF34007BD189 /* AbstractBuilder.h */,
 				C1EBEBFF1A0FDF25007BD189 /* AbstractFactoryObject.h */,
 				C1EBEC0C1A1128D8007BD189 /* AbstractStateMachine.h */,
 				C19402ED1A00654A0055CBFD /* AbstractSingleton.h */,
@@ -3354,6 +3373,7 @@
 				C1F0AAA919F6BD00003DB53B /* TerragenLoader.cpp in Sources */,
 				C1F0AA6B19F6BD00003DB53B /* LWOAnimation.cpp in Sources */,
 				C19894E619F4D08F00E16B3A /* btDefaultSoftBodySolver.cpp in Sources */,
+				C157D05D1A19D65900E3BD29 /* nanovg.c in Sources */,
 				C1F0AA1819F6BD00003DB53B /* ACLoader.cpp in Sources */,
 				C1F0AA5419F6BD00003DB53B /* FindInstancesProcess.cpp in Sources */,
 				C198947819F4D08F00E16B3A /* btCompoundCompoundCollisionAlgorithm.cpp in Sources */,
@@ -3731,7 +3751,6 @@
 				C157CFA71A184ADB00E3BD29 /* Builder.cpp in Sources */,
 				C157CFAB1A184C3E00E3BD29 /* SharedFactory.cpp in Sources */,
 				C10284D91A15ACFE00FBD31C /* SharedFactoryTestCase.mm in Sources */,
-				C157CFB11A18512800E3BD29 /* Object_With_Decorator.cpp in Sources */,
 				C157CFAD1A184D2F00E3BD29 /* State.cpp in Sources */,
 				C10284E41A15ADD800FBD31C /* StateMachine.cpp in Sources */,
 			);

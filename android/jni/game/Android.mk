@@ -87,6 +87,7 @@ $(MY_THIRD_PARTY_RELATIVE_PATH)/assimp/assimp-3.1.1/include/ \
 $(MY_THIRD_PARTY_RELATIVE_PATH)/assimp/assimp-3.1.1/contrib/clipper/ \
 $(MY_THIRD_PARTY_RELATIVE_PATH)/assimp/assimp-3.1.1/code/BoostWorkaround/ \
 $(MY_THIRD_PARTY_RELATIVE_PATH)/fmod/android/fmodstudioapi10503android/api/lowlevel/inc \
+$(MY_THIRD_PARTY_RELATIVE_PATH)/nanovg/nanovg/src \
 $(MY_THIRD_PARTY_RELATIVE_PATH)/jli_game_engine/include \
 #\
 $(MY_THIRD_PARTY_RELATIVE_PATH)/jpg/ \

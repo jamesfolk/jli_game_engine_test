@@ -28,7 +28,6 @@
 #include "StateMachine.h"
 #include "Object_With_StateMachine_Behavior.h"
 
-#include "Object_With_Decorator.h"
 
 @interface StateMachineTestCase : XCTestCase
 
@@ -96,11 +95,12 @@
     
     
     
-    builder.setType(JLI_TEST_OBJECT_OBJECT_WITH_DECORATOR);
-    Object_With_Decorator *owd = dynamic_cast<Object_With_Decorator*>(Factory::getInstance()->create(builder));
-    
-    owd->addDecorator(owd);
-    owd->addDecorator(owd);
+//    builder.setType(JLI_TEST_OBJECT_OBJECT_WITH_DECORATOR);
+//    Object_With_Decorator *owd = dynamic_cast<Object_With_Decorator*>(Factory::getInstance()->create(builder));
+//    Object_With_Decorator *owd2 = dynamic_cast<Object_With_Decorator*>(Factory::getInstance()->create(builder));
+//    
+//    owd->addChild(owd2);
+//    owd2->addChild(owd);
     
     
     Factory::getInstance()->destroyAll();

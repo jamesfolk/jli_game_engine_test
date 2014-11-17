@@ -98,6 +98,11 @@
 			<locationURI>MY_THIRD_PARTY_RELATIVE_PATH/lua</locationURI>
 		</link>
 		<link>
+			<name>jni/third_party/nanovg</name>
+			<type>2</type>
+			<locationURI>MY_THIRD_PARTY_RELATIVE_PATH/nanovg</locationURI>
+		</link>
+		<link>
 			<name>jni/third_party/ogg</name>
 			<type>2</type>
 			<locationURI>MY_THIRD_PARTY_RELATIVE_PATH/ogg</locationURI>
@@ -335,6 +340,15 @@
 		<filter>
 			<id>1414116923297</id>
 			<name>jni/third_party/lua</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.mk</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1416208317601</id>
+			<name>jni/third_party/nanovg</name>
 			<type>5</type>
 			<matcher>
 				<id>org.eclipse.ui.ide.multiFilter</id>
@@ -627,6 +641,42 @@
 			<matcher>
 				<id>org.eclipse.ui.ide.multiFilter</id>
 				<arguments>1.0-name-matches-false-false-*.h</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1416208245548</id>
+			<name>jni/third_party/nanovg/nanovg</name>
+			<type>9</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-src</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1416208245552</id>
+			<name>jni/third_party/nanovg/nanovg</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.h</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1416208245557</id>
+			<name>jni/third_party/nanovg/nanovg</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.c</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1416208245564</id>
+			<name>jni/third_party/nanovg/nanovg</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.cpp</arguments>
 			</matcher>
 		</filter>
 		<filter>
@@ -1194,6 +1244,33 @@
 			<matcher>
 				<id>org.eclipse.ui.ide.multiFilter</id>
 				<arguments>1.0-name-matches-false-false-*.c</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1416208270389</id>
+			<name>jni/third_party/nanovg/nanovg/src</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.h</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1416208270395</id>
+			<name>jni/third_party/nanovg/nanovg/src</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.c</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1416208270399</id>
+			<name>jni/third_party/nanovg/nanovg/src</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.cpp</arguments>
 			</matcher>
 		</filter>
 		<filter>

@@ -278,7 +278,8 @@ obj/local/x86/objs/game//Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_p
  /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/bullet/bullet-2.82-r2704/src/LinearMath/btQuickprof.h \
  /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/bullet/bullet-2.82-r2704/src/LinearMath/btIDebugDraw.h \
  /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/bullet/bullet-2.82-r2704/src/LinearMath/btSerializer.h \
- /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/bullet/bullet-2.82-r2704/src/LinearMath/btVector2.h
+ /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/bullet/bullet-2.82-r2704/src/LinearMath/btVector2.h \
+ /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/nanovg/nanovg/src/nanovg.h
 
 /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/platform/core/File.h:
 
@@ -837,3 +838,5 @@ obj/local/x86/objs/game//Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_p
 /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/bullet/bullet-2.82-r2704/src/LinearMath/btSerializer.h:
 
 /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/bullet/bullet-2.82-r2704/src/LinearMath/btVector2.h:
+
+/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/nanovg/nanovg/src/nanovg.h:

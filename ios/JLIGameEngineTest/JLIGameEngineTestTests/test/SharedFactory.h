@@ -18,6 +18,7 @@ public AbstractSharedFactory<SharedFactory, AbstractFactoryObject>
 {
 public:
     virtual AbstractFactoryObject *ctor(const AbstractBuilder &builder);
+    virtual AbstractFactoryObject *ctor(const AbstractFactoryObject &object);
 };
 
 #endif /* defined(__JLIGameEngineTest__SharedFactoryTest__) */
