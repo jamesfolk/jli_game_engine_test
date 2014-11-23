@@ -9,9 +9,15 @@
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-#include "Factory.h"
-#include "Builder.h"
-#include "Object.h"
+//#include "Factory.h"
+//#include "Builder.h"
+//#include "Object.h"
+
+#include "World.h"
+#include "Resource.h"
+#include "ResourceBuilder.h"
+
+using namespace jli;
 
 @interface FactoryTestCase : XCTestCase
 
@@ -29,56 +35,80 @@
     [super tearDown];
 }
 
-- (void)testAll
+-(void)testAll
 {
-    Builder builder;
-    Object *obj, *obj2;
+    World::createInstance();
     
+    WorldFactory *factory = World::getInstance()->getWorldFactory();
     
-    Factory::createInstance();
-    jliAssertMsg(Factory::hasInstance(), "should have an instance");
+    ResourceBuilder *resourceBuilder1 = dynamic_cast<ResourceBuilder*>(factory->create(type::ResourceBuilder));
+    ResourceBuilder *resourceBuilder2 = dynamic_cast<ResourceBuilder*>(factory->clone(*resourceBuilder1));
     
+    Resource *resource1 = dynamic_cast<Resource*>(factory->create(type::Resource));
+    Resource *resource2 = dynamic_cast<Resource*>(factory->clone(*resource1));
+    Resource *resource3 = dynamic_cast<Resource*>(factory->create(*resourceBuilder1));
     
-    builder.setType(JLI_TEST_OBJECT_OBJECT);
-    obj = dynamic_cast<Object*>(Factory::getInstance()->create(builder));
-    XCTAssert(Factory::getInstance()->has(obj));
+    Resource *resource4 = dynamic_cast<Resource*>(resource1->create(*resourceBuilder1));
     
-    obj2 = dynamic_cast<Object*>(Factory::getInstance()->clone(*obj));
-    XCTAssert(Factory::getInstance()->has(obj2));
+    factory->destroyAll();
+//    ResourceBuilder resourceBuilder;
     
-    Factory::getInstance()->destroy(obj2);
-    XCTAssert(!Factory::getInstance()->has(obj2));
+//    ResourceBuilder resourceBuilder;
     
-    Factory::getInstance()->destroy(obj);
-    XCTAssert(!Factory::getInstance()->has(obj));
-    
-    XCTAssert(Factory::getInstance()->size() == 0);
-    
-    
-    
-    for(u32 i = 0; i < 100; i++)
-        Factory::getInstance()->create(builder);
-    Factory::getInstance()->destroyAll();
-    
-    XCTAssert(Factory::getInstance()->size() == 0);
-    
-    
-    obj = dynamic_cast<Object*>(Factory::getInstance()->create(builder));
-    XCTAssert(Factory::getInstance()->has(obj));
-    XCTAssert(Factory::getInstance()->index(obj) == 0);
-    obj2 = dynamic_cast<Object*>(Factory::getInstance()->get(0));
-    XCTAssert(Factory::getInstance()->has(obj));
-    XCTAssert(obj == obj2);
-    
-    
-    Factory::getInstance()->destroyAll();
-    
-    XCTAssert(Factory::getInstance()->size() == 0);
-    
-    Factory::destroyInstance();
-    XCTAssert(!Factory::hasInstance());
-
+//    Resource *resource = World::getInstance()->getWorldFactory()->create(resourceBuilder);
+    World::destroyInstance();
 }
+
+//- (void)testAll
+//{
+//    Builder builder;
+//    Object *obj, *obj2;
+//    
+//    
+//    Factory::createInstance();
+//    jliAssertMsg(Factory::hasInstance(), "should have an instance");
+//    
+//    
+//    builder.setType(JLI_TEST_OBJECT_OBJECT);
+//    obj = dynamic_cast<Object*>(Factory::getInstance()->create(builder));
+//    XCTAssert(Factory::getInstance()->has(obj));
+//    
+//    obj2 = dynamic_cast<Object*>(Factory::getInstance()->clone(*obj));
+//    XCTAssert(Factory::getInstance()->has(obj2));
+//    
+//    Factory::getInstance()->destroy(obj2);
+//    XCTAssert(!Factory::getInstance()->has(obj2));
+//    
+//    Factory::getInstance()->destroy(obj);
+//    XCTAssert(!Factory::getInstance()->has(obj));
+//    
+//    XCTAssert(Factory::getInstance()->size() == 0);
+//    
+//    
+//    
+//    for(u32 i = 0; i < 100; i++)
+//        Factory::getInstance()->create(builder);
+//    Factory::getInstance()->destroyAll();
+//    
+//    XCTAssert(Factory::getInstance()->size() == 0);
+//    
+//    
+//    obj = dynamic_cast<Object*>(Factory::getInstance()->create(builder));
+//    XCTAssert(Factory::getInstance()->has(obj));
+//    XCTAssert(Factory::getInstance()->index(obj) == 0);
+//    obj2 = dynamic_cast<Object*>(Factory::getInstance()->get(0));
+//    XCTAssert(Factory::getInstance()->has(obj));
+//    XCTAssert(obj == obj2);
+//    
+//    
+//    Factory::getInstance()->destroyAll();
+//    
+//    XCTAssert(Factory::getInstance()->size() == 0);
+//    
+//    Factory::destroyInstance();
+//    XCTAssert(!Factory::hasInstance());
+//
+//}
 
 - (void)testExample {
     // This is an example of a functional test case.

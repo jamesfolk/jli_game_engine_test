@@ -9,6 +9,9 @@
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
+//#include "Logan.h"
+//#include "James.h"
+
 @interface JLIGameEngineTestTests : XCTestCase
 
 @end
@@ -25,10 +28,15 @@
     [super tearDown];
 }
 
-- (void)testAll
-{
-    
-}
+//- (void)testAll
+//{
+//    Logan *myLoganVariable = new Logan();
+//    James *myJamesVariable = new James();
+//    
+////    myLoganVariable->james = myJamesVariable;
+////    myJamesVariable->logan = myLoganVariable;
+//    
+//}
 
 - (void)testExample {
     // This is an example of a functional test case.

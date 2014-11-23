@@ -155,10 +155,7 @@ obj/local/armeabi/objs/game//Users/jamesfolk/Dropbox/GameDevelopment/mygames/thi
  /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_config_compat_post.h \
  /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/platform/core/Input.h \
  /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/platform/core/Log.h \
- /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/platform/core/Sound.h \
- /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/jli_game_engine/include/AbstractSingleton.h \
- /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/assert.h \
- /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/../include/assert.h \
+ /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/platform/core/SoundCore.h \
  /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/fmod/android/fmodstudioapi10503android/api/lowlevel/inc/fmod.hpp \
  /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/fmod/android/fmodstudioapi10503android/api/lowlevel/inc/fmod_common.h \
  /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/fmod/android/fmodstudioapi10503android/api/lowlevel/inc/fmod_codec.h \
@@ -186,6 +183,8 @@ obj/local/armeabi/objs/game//Users/jamesfolk/Dropbox/GameDevelopment/mygames/thi
  /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/bullet/bullet-2.82-r2704/src/BulletCollision/CollisionDispatch/btCollisionWorld.h \
  /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/bullet/bullet-2.82-r2704/src/LinearMath/btVector3.h \
  /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/bullet/bullet-2.82-r2704/src/LinearMath/btScalar.h \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/assert.h \
+ /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/../include/assert.h \
  /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/bullet/bullet-2.82-r2704/src/LinearMath/btMinMax.h \
  /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/bullet/bullet-2.82-r2704/src/LinearMath/btAlignedAllocator.h \
  /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/bullet/bullet-2.82-r2704/src/LinearMath/btTransform.h \
@@ -590,13 +589,7 @@ obj/local/armeabi/objs/game//Users/jamesfolk/Dropbox/GameDevelopment/mygames/thi
 
 /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/platform/core/Log.h:
 
-/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/platform/core/Sound.h:
-
-/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/jli_game_engine/include/AbstractSingleton.h:
-
-/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/assert.h:
-
-/Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/../include/assert.h:
+/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/platform/core/SoundCore.h:
 
 /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/fmod/android/fmodstudioapi10503android/api/lowlevel/inc/fmod.hpp:
 
@@ -651,6 +644,10 @@ obj/local/armeabi/objs/game//Users/jamesfolk/Dropbox/GameDevelopment/mygames/thi
 /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/bullet/bullet-2.82-r2704/src/LinearMath/btVector3.h:
 
 /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/bullet/bullet-2.82-r2704/src/LinearMath/btScalar.h:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/assert.h:
+
+/Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/../include/assert.h:
 
 /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/bullet/bullet-2.82-r2704/src/LinearMath/btMinMax.h:
 
