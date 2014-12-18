@@ -86,6 +86,8 @@
 //    
 //    GLuint _vertexArray;
 //    GLuint _vertexBuffer;
+    jli::DeviceTouch *m_AllTouches[10];
+    jli::DeviceTouch *m_CurrentTouches[10];
 }
 @property (strong, nonatomic) EAGLContext *context;
 //@property (strong, nonatomic) GLKBaseEffect *effect;
@@ -116,10 +118,20 @@
     view.drawableDepthFormat = GLKViewDrawableDepthFormat24;
     
     [self setupGL];
+    
+    for (u32 i = 0; i < 10; ++i)
+    {
+        m_AllTouches[i] = new jli::DeviceTouch();
+    }
 }
 
 - (void)dealloc
-{    
+{
+    for (u32 i = 0; i < 10; ++i)
+    {
+        delete m_AllTouches[i];
+    }
+    
     [self tearDownGL];
     
     if ([EAGLContext currentContext] == self.context) {
@@ -176,38 +188,62 @@
 }
 
 //TODO create touch vector
-void createTouchVector(NSSet *touches)
+//void createTouchVector(NSSet *touches)
+//{
+//    u32 i = 0;
+//    for(UITouch *touch in touches)
+//    {
+//        m_CurrentTouches[i]->set(touch, i,);
+//        ++i;
+//    }
+//}
+
+-(void) createTouchVector:(NSSet*)touches
 {
+    u32 i = 0, j;
     for(UITouch *touch in touches)
     {
-        
+        m_CurrentTouches[i] = m_AllTouches[i];
+        m_CurrentTouches[i]->set((__bridge void*)touch, i, touches.count);
+        ++i;
+    }
+    for (j = i; j < 10; ++j)
+    {
+        m_CurrentTouches[i] = NULL;
     }
 }
-
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
-    createTouchVector(touches);
-    touch_down();
+    [self createTouchVector:touches];
+    touch_down(m_CurrentTouches);
+//    createTouchVector(touches);
+    //touch_down();
 }
 
 
 - (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event
 {
-    createTouchVector(touches);
-    touch_move();
+    [self createTouchVector:touches];
+    touch_move(m_CurrentTouches);
+//    createTouchVector(touches);
+    //touch_move();
 }
 
 
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
 {
-    createTouchVector(touches);
-    touch_up();
+    [self createTouchVector:touches];
+    touch_up(m_CurrentTouches);
+//    createTouchVector(touches);
+//    touch_up();
 }
 
 - (void)touchesCancelled:(NSSet *)touches withEvent:(UIEvent *)event
 {
-    createTouchVector(touches);
-    touch_cancelled();
+    [self createTouchVector:touches];
+    touch_cancelled(m_CurrentTouches);
+//    createTouchVector(touches);
+//    touch_cancelled();
 }
 
 @end

@@ -37,26 +37,26 @@ using namespace jli;
 
 -(void)testAll
 {
-    World::createInstance();
-    
-    WorldFactory *factory = World::getInstance()->getWorldFactory();
-    
-    ResourceBuilder *resourceBuilder1 = dynamic_cast<ResourceBuilder*>(factory->create(type::ResourceBuilder));
-    ResourceBuilder *resourceBuilder2 = dynamic_cast<ResourceBuilder*>(factory->clone(*resourceBuilder1));
-    
-    Resource *resource1 = dynamic_cast<Resource*>(factory->create(type::Resource));
-    Resource *resource2 = dynamic_cast<Resource*>(factory->clone(*resource1));
-    Resource *resource3 = dynamic_cast<Resource*>(factory->create(*resourceBuilder1));
-    
-    Resource *resource4 = dynamic_cast<Resource*>(resource1->create(*resourceBuilder1));
-    
-    factory->destroyAll();
-//    ResourceBuilder resourceBuilder;
-    
-//    ResourceBuilder resourceBuilder;
-    
-//    Resource *resource = World::getInstance()->getWorldFactory()->create(resourceBuilder);
-    World::destroyInstance();
+//    World::createInstance();
+//    
+//    WorldFactory *factory = World::getInstance()->getWorldFactory();
+//    
+//    ResourceBuilder *resourceBuilder1 = dynamic_cast<ResourceBuilder*>(factory->create(type::ResourceBuilder));
+//    ResourceBuilder *resourceBuilder2 = dynamic_cast<ResourceBuilder*>(factory->clone(*resourceBuilder1));
+//    
+//    Resource *resource1 = dynamic_cast<Resource*>(factory->create(type::Resource));
+//    Resource *resource2 = dynamic_cast<Resource*>(factory->clone(*resource1));
+//    Resource *resource3 = dynamic_cast<Resource*>(factory->create(*resourceBuilder1));
+//    
+//    Resource *resource4 = dynamic_cast<Resource*>(resource1->create(*resourceBuilder1));
+//    
+//    factory->destroyAll();
+////    ResourceBuilder resourceBuilder;
+//    
+////    ResourceBuilder resourceBuilder;
+//    
+////    Resource *resource = World::getInstance()->getWorldFactory()->create(resourceBuilder);
+//    World::destroyInstance();
 }
 
 //- (void)testAll
