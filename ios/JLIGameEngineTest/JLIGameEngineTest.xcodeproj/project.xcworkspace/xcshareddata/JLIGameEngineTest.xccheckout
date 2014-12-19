@@ -14,6 +14,8 @@
 		<string>https://github.com/JLIGames/GameThirdPartyLibs.git</string>
 		<key>A7C24B7D7BB9995AE4FEDA94D48D55B99798D2BF</key>
 		<string>https://github.com/jamesfolk/jli_game_engine_test.git</string>
+		<key>CD02AD23789515AF5D416F876100FE38242DE7E4</key>
+		<string>https://github.com/bulletphysics/bullet3.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>ios/JLIGameEngineTest/JLIGameEngineTest.xcodeproj</string>
@@ -23,6 +25,8 @@
 		<string>../../../../../third_party</string>
 		<key>A7C24B7D7BB9995AE4FEDA94D48D55B99798D2BF</key>
 		<string>../../../..</string>
+		<key>CD02AD23789515AF5D416F876100FE38242DE7E4</key>
+		<string>../../../../../../third_party/bullet/bullet3</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/jamesfolk/jli_game_engine_test.git</string>
@@ -32,6 +36,14 @@
 	<string>A7C24B7D7BB9995AE4FEDA94D48D55B99798D2BF</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CD02AD23789515AF5D416F876100FE38242DE7E4</string>
+			<key>IDESourceControlWCCName</key>
+			<string>bullet3</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
