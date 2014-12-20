@@ -109,8 +109,6 @@ obj/local/armeabi/objs/game//Users/jamesfolk/Dropbox/GameDevelopment/mygames/thi
  /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/cstdlib \
  /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stdio.h \
  /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/../include/stdio.h \
- /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/jli_game_engine/version-1.0/src/AbstractObject.h \
- /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/platform/core/Util.h \
  /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/string \
  /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_string.h \
  /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_string_fwd.h \
@@ -167,21 +165,7 @@ obj/local/armeabi/objs/game//Users/jamesfolk/Dropbox/GameDevelopment/mygames/thi
  /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_istream.c \
  /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_num_get.h \
  /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_num_get.c \
- /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_string_io.c \
- /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/jli_game_engine/version-1.0/src/WorldFactory.h \
- /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/bullet/bullet-2.82-r2704/src/LinearMath/btHashMap.h \
- /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/bullet/bullet-2.82-r2704/src/LinearMath/btAlignedObjectArray.h \
- /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/bullet/bullet-2.82-r2704/src/LinearMath/btScalar.h \
- /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/assert.h \
- /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/../include/assert.h \
- /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/bullet/bullet-2.82-r2704/src/LinearMath/btAlignedAllocator.h \
- /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/new \
- /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/bullet/bullet-2.82-r2704/src/LinearMath/btSerializer.h \
- /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/bullet/bullet-2.82-r2704/src/LinearMath/btHashMap.h \
- /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/bullet/bullet-2.82-r2704/src/LinearMath/btAlignedObjectArray.h \
- /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/jli_game_engine/version-1.0/src/AbstractBuilder.h \
- /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/jli_game_engine/version-1.0/src/AbstractFactoryObject.h \
- /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/jli_game_engine/version-1.0/src/AbstractObject.h
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_string_io.c
 
 /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/jni.h:
 
@@ -401,10 +385,6 @@ obj/local/armeabi/objs/game//Users/jamesfolk/Dropbox/GameDevelopment/mygames/thi
 
 /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/../include/stdio.h:
 
-/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/jli_game_engine/version-1.0/src/AbstractObject.h:
-
-/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/platform/core/Util.h:
-
 /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/string:
 
 /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_string.h:
@@ -518,31 +498,3 @@ obj/local/armeabi/objs/game//Users/jamesfolk/Dropbox/GameDevelopment/mygames/thi
 /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_num_get.c:
 
 /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_string_io.c:
-
-/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/jli_game_engine/version-1.0/src/WorldFactory.h:
-
-/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/bullet/bullet-2.82-r2704/src/LinearMath/btHashMap.h:
-
-/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/bullet/bullet-2.82-r2704/src/LinearMath/btAlignedObjectArray.h:
-
-/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/bullet/bullet-2.82-r2704/src/LinearMath/btScalar.h:
-
-/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/assert.h:
-
-/Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/../include/assert.h:
-
-/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/bullet/bullet-2.82-r2704/src/LinearMath/btAlignedAllocator.h:
-
-/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/new:
-
-/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/bullet/bullet-2.82-r2704/src/LinearMath/btSerializer.h:
-
-/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/bullet/bullet-2.82-r2704/src/LinearMath/btHashMap.h:
-
-/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/bullet/bullet-2.82-r2704/src/LinearMath/btAlignedObjectArray.h:
-
-/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/jli_game_engine/version-1.0/src/AbstractBuilder.h:
-
-/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/jli_game_engine/version-1.0/src/AbstractFactoryObject.h:
-
-/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/jli_game_engine/version-1.0/src/AbstractObject.h:
