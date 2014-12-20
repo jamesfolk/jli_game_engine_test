@@ -58,11 +58,6 @@
 			<location>/Users/jamesfolk/Dropbox/GameDevelopment/mygames/games/jli_game_engine_test/COMMON/script</location>
 		</link>
 		<link>
-			<name>jni/third_party/android</name>
-			<type>2</type>
-			<locationURI>MY_THIRD_PARTY_RELATIVE_PATH/platform/android</locationURI>
-		</link>
-		<link>
 			<name>jni/third_party/assimp</name>
 			<type>2</type>
 			<locationURI>MY_THIRD_PARTY_RELATIVE_PATH/assimp</locationURI>
@@ -71,11 +66,6 @@
 			<name>jni/third_party/bullet</name>
 			<type>2</type>
 			<locationURI>MY_THIRD_PARTY_RELATIVE_PATH/bullet</locationURI>
-		</link>
-		<link>
-			<name>jni/third_party/core</name>
-			<type>2</type>
-			<locationURI>MY_THIRD_PARTY_RELATIVE_PATH/platform/core</locationURI>
 		</link>
 		<link>
 			<name>jni/third_party/fmod</name>
@@ -106,6 +96,11 @@
 			<name>jni/third_party/ogg</name>
 			<type>2</type>
 			<locationURI>MY_THIRD_PARTY_RELATIVE_PATH/ogg</locationURI>
+		</link>
+		<link>
+			<name>jni/third_party/platform</name>
+			<type>2</type>
+			<locationURI>MY_THIRD_PARTY_RELATIVE_PATH/platform</locationURI>
 		</link>
 		<link>
 			<name>jni/third_party/png</name>
@@ -149,42 +144,6 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1414070107400</id>
-			<name>jni/third_party/android</name>
-			<type>5</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-*.mk</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414070107402</id>
-			<name>jni/third_party/android</name>
-			<type>5</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-*.h</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414070107404</id>
-			<name>jni/third_party/android</name>
-			<type>5</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-*.c</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414070107407</id>
-			<name>jni/third_party/android</name>
-			<type>5</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-*.cpp</arguments>
-			</matcher>
-		</filter>
-		<filter>
 			<id>1414121973347</id>
 			<name>jni/third_party/assimp</name>
 			<type>5</type>
@@ -194,66 +153,21 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1414456547524</id>
+			<id>1419006006349</id>
 			<name>jni/third_party/bullet</name>
-			<type>5</type>
+			<type>9</type>
 			<matcher>
 				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-*.h</arguments>
+				<arguments>1.0-name-matches-false-false-bullet-2.82-r2704</arguments>
 			</matcher>
 		</filter>
 		<filter>
-			<id>1414456547527</id>
-			<name>jni/third_party/bullet</name>
-			<type>5</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-*.cpp</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414456547530</id>
-			<name>jni/third_party/bullet</name>
-			<type>5</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-*.c</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414456547533</id>
+			<id>1419006006353</id>
 			<name>jni/third_party/bullet</name>
 			<type>5</type>
 			<matcher>
 				<id>org.eclipse.ui.ide.multiFilter</id>
 				<arguments>1.0-name-matches-false-false-*.mk</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414069162379</id>
-			<name>jni/third_party/core</name>
-			<type>5</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-*.cpp</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414069162381</id>
-			<name>jni/third_party/core</name>
-			<type>5</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-*.h</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414069162382</id>
-			<name>jni/third_party/core</name>
-			<type>5</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-*.c</arguments>
 			</matcher>
 		</filter>
 		<filter>
@@ -266,7 +180,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1414509850642</id>
+			<id>1419002998497</id>
 			<name>jni/third_party/jli_game_engine</name>
 			<type>5</type>
 			<matcher>
@@ -275,30 +189,21 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1414509850645</id>
-			<name>jni/third_party/jli_game_engine</name>
-			<type>9</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-include</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414509850649</id>
-			<name>jni/third_party/jli_game_engine</name>
-			<type>9</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-src</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414509850652</id>
+			<id>1419002998500</id>
 			<name>jni/third_party/jli_game_engine</name>
 			<type>5</type>
 			<matcher>
 				<id>org.eclipse.ui.ide.multiFilter</id>
 				<arguments>1.0-name-matches-false-false-*.mk</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1419002998503</id>
+			<name>jni/third_party/jli_game_engine</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-version-1.0</arguments>
 			</matcher>
 		</filter>
 		<filter>
@@ -356,7 +261,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1414115874293</id>
+			<id>1419001680178</id>
 			<name>jni/third_party/ogg</name>
 			<type>5</type>
 			<matcher>
@@ -365,7 +270,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1414115874295</id>
+			<id>1419001680182</id>
 			<name>jni/third_party/ogg</name>
 			<type>5</type>
 			<matcher>
@@ -374,7 +279,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1414115874297</id>
+			<id>1419001680186</id>
 			<name>jni/third_party/ogg</name>
 			<type>5</type>
 			<matcher>
@@ -383,12 +288,48 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1414115874298</id>
+			<id>1419001680190</id>
 			<name>jni/third_party/ogg</name>
 			<type>5</type>
 			<matcher>
 				<id>org.eclipse.ui.ide.multiFilter</id>
 				<arguments>1.0-name-matches-false-false-*.cpp</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1419001680193</id>
+			<name>jni/third_party/ogg</name>
+			<type>9</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-libogg-1.3.1</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1418961122454</id>
+			<name>jni/third_party/platform</name>
+			<type>9</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-android</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1418961122458</id>
+			<name>jni/third_party/platform</name>
+			<type>9</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-core</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1418961122463</id>
+			<name>jni/third_party/platform</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.mk</arguments>
 			</matcher>
 		</filter>
 		<filter>
@@ -572,7 +513,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1414456584609</id>
+			<id>1418970235528</id>
 			<name>jni/third_party/bullet/bullet-2.82-r2704</name>
 			<type>9</type>
 			<matcher>
@@ -581,12 +522,30 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1414456584612</id>
+			<id>1418970235533</id>
 			<name>jni/third_party/bullet/bullet-2.82-r2704</name>
-			<type>6</type>
+			<type>5</type>
 			<matcher>
 				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-*</arguments>
+				<arguments>1.0-name-matches-false-false-*.h</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1418970235538</id>
+			<name>jni/third_party/bullet/bullet-2.82-r2704</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.cpp</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1419003013321</id>
+			<name>jni/third_party/jli_game_engine/version-1.0</name>
+			<type>9</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-src</arguments>
 			</matcher>
 		</filter>
 		<filter>
@@ -707,8 +666,8 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1414115994449</id>
-			<name>jni/third_party/ogg/libogg-1.3.2</name>
+			<id>1418961204964</id>
+			<name>jni/third_party/platform/android</name>
 			<type>5</type>
 			<matcher>
 				<id>org.eclipse.ui.ide.multiFilter</id>
@@ -716,30 +675,48 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1414115994451</id>
-			<name>jni/third_party/ogg/libogg-1.3.2</name>
+			<id>1418961204967</id>
+			<name>jni/third_party/platform/android</name>
 			<type>5</type>
 			<matcher>
 				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-*.c</arguments>
+				<arguments>1.0-name-matches-false-false-*.cpp</arguments>
 			</matcher>
 		</filter>
 		<filter>
-			<id>1414115994453</id>
-			<name>jni/third_party/ogg/libogg-1.3.2</name>
-			<type>9</type>
+			<id>1418961204970</id>
+			<name>jni/third_party/platform/android</name>
+			<type>5</type>
 			<matcher>
 				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-include</arguments>
+				<arguments>1.0-name-matches-false-false-*.mk</arguments>
 			</matcher>
 		</filter>
 		<filter>
-			<id>1414115994456</id>
-			<name>jni/third_party/ogg/libogg-1.3.2</name>
-			<type>9</type>
+			<id>1418961196445</id>
+			<name>jni/third_party/platform/core</name>
+			<type>5</type>
 			<matcher>
 				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-src</arguments>
+				<arguments>1.0-name-matches-false-false-*.h</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1418961196449</id>
+			<name>jni/third_party/platform/core</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.cpp</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1418961196452</id>
+			<name>jni/third_party/platform/core</name>
+			<type>5</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-*.mk</arguments>
 			</matcher>
 		</filter>
 		<filter>
@@ -1184,16 +1161,43 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1414456742185</id>
+			<id>1418970310405</id>
 			<name>jni/third_party/bullet/bullet-2.82-r2704/src</name>
-			<type>10</type>
+			<type>9</type>
 			<matcher>
 				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-BulletMultiThreaded</arguments>
+				<arguments>1.0-name-matches-false-false-BulletCollision</arguments>
 			</matcher>
 		</filter>
 		<filter>
-			<id>1414456742187</id>
+			<id>1418970310411</id>
+			<name>jni/third_party/bullet/bullet-2.82-r2704/src</name>
+			<type>9</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-BulletDynamics</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1418970310416</id>
+			<name>jni/third_party/bullet/bullet-2.82-r2704/src</name>
+			<type>9</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-BulletSoftBody</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1418970310420</id>
+			<name>jni/third_party/bullet/bullet-2.82-r2704/src</name>
+			<type>9</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-LinearMath</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1418970310426</id>
 			<name>jni/third_party/bullet/bullet-2.82-r2704/src</name>
 			<type>5</type>
 			<matcher>
@@ -1202,21 +1206,12 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1414456742191</id>
+			<id>1418970310429</id>
 			<name>jni/third_party/bullet/bullet-2.82-r2704/src</name>
-			<type>10</type>
+			<type>5</type>
 			<matcher>
 				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-vectormath</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414456742193</id>
-			<name>jni/third_party/bullet/bullet-2.82-r2704/src</name>
-			<type>10</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-MiniCL</arguments>
+				<arguments>1.0-name-matches-false-false-*.cpp</arguments>
 			</matcher>
 		</filter>
 		<filter>
@@ -1285,33 +1280,6 @@
 		<filter>
 			<id>1414120625989</id>
 			<name>jni/third_party/ogg/libogg-1.3.1/src</name>
-			<type>5</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-*.c</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414119607952</id>
-			<name>jni/third_party/ogg/libogg-1.3.2/include</name>
-			<type>5</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-*.h</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414116020246</id>
-			<name>jni/third_party/ogg/libogg-1.3.2/src</name>
-			<type>5</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-*.h</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414116020249</id>
-			<name>jni/third_party/ogg/libogg-1.3.2/src</name>
 			<type>5</type>
 			<matcher>
 				<id>org.eclipse.ui.ide.multiFilter</id>
@@ -1760,7 +1728,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1414456757811</id>
+			<id>1418970336582</id>
 			<name>jni/third_party/bullet/bullet-2.82-r2704/src/BulletCollision</name>
 			<type>5</type>
 			<matcher>
@@ -1769,7 +1737,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1414456774113</id>
+			<id>1418970355919</id>
 			<name>jni/third_party/bullet/bullet-2.82-r2704/src/BulletDynamics</name>
 			<type>5</type>
 			<matcher>
@@ -1778,7 +1746,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1414457048170</id>
+			<id>1418970368636</id>
 			<name>jni/third_party/bullet/bullet-2.82-r2704/src/BulletSoftBody</name>
 			<type>5</type>
 			<matcher>
@@ -1787,30 +1755,12 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1414457048173</id>
-			<name>jni/third_party/bullet/bullet-2.82-r2704/src/BulletSoftBody</name>
-			<type>5</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-*.cpp</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414456829041</id>
+			<id>1418970380420</id>
 			<name>jni/third_party/bullet/bullet-2.82-r2704/src/LinearMath</name>
 			<type>5</type>
 			<matcher>
 				<id>org.eclipse.ui.ide.multiFilter</id>
 				<arguments>1.0-name-matches-false-false-*.h</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414456829045</id>
-			<name>jni/third_party/bullet/bullet-2.82-r2704/src/LinearMath</name>
-			<type>5</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-*.cpp</arguments>
 			</matcher>
 		</filter>
 		<filter>
@@ -1874,24 +1824,6 @@
 			<matcher>
 				<id>org.eclipse.ui.ide.multiFilter</id>
 				<arguments>1.0-name-matches-false-false-*.h</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414116060334</id>
-			<name>jni/third_party/ogg/libogg-1.3.2/include/ogg</name>
-			<type>5</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-*.h</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414116060338</id>
-			<name>jni/third_party/ogg/libogg-1.3.2/include/ogg</name>
-			<type>5</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-*.c</arguments>
 			</matcher>
 		</filter>
 		<filter>
@@ -2059,204 +1991,6 @@
 		<filter>
 			<id>1414122380138</id>
 			<name>jni/third_party/assimp/assimp-3.1.1/contrib/poly2tri/poly2tri</name>
-			<type>5</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-*.cpp</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414456846793</id>
-			<name>jni/third_party/bullet/bullet-2.82-r2704/src/BulletCollision/BroadphaseCollision</name>
-			<type>5</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-*.h</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414456846796</id>
-			<name>jni/third_party/bullet/bullet-2.82-r2704/src/BulletCollision/BroadphaseCollision</name>
-			<type>5</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-*.cpp</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414456862362</id>
-			<name>jni/third_party/bullet/bullet-2.82-r2704/src/BulletCollision/CollisionDispatch</name>
-			<type>5</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-*.h</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414456862366</id>
-			<name>jni/third_party/bullet/bullet-2.82-r2704/src/BulletCollision/CollisionDispatch</name>
-			<type>5</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-*.cpp</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414456876114</id>
-			<name>jni/third_party/bullet/bullet-2.82-r2704/src/BulletCollision/CollisionShapes</name>
-			<type>5</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-*.h</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414456876117</id>
-			<name>jni/third_party/bullet/bullet-2.82-r2704/src/BulletCollision/CollisionShapes</name>
-			<type>5</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-*.cpp</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414456893232</id>
-			<name>jni/third_party/bullet/bullet-2.82-r2704/src/BulletCollision/Gimpact</name>
-			<type>5</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-*.h</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414456893236</id>
-			<name>jni/third_party/bullet/bullet-2.82-r2704/src/BulletCollision/Gimpact</name>
-			<type>5</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-*.cpp</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414456906639</id>
-			<name>jni/third_party/bullet/bullet-2.82-r2704/src/BulletCollision/NarrowPhaseCollision</name>
-			<type>5</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-*.h</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414456906643</id>
-			<name>jni/third_party/bullet/bullet-2.82-r2704/src/BulletCollision/NarrowPhaseCollision</name>
-			<type>5</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-*.cpp</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414456928843</id>
-			<name>jni/third_party/bullet/bullet-2.82-r2704/src/BulletDynamics/Character</name>
-			<type>5</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-*.h</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414456928846</id>
-			<name>jni/third_party/bullet/bullet-2.82-r2704/src/BulletDynamics/Character</name>
-			<type>5</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-*.cpp</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414456948294</id>
-			<name>jni/third_party/bullet/bullet-2.82-r2704/src/BulletDynamics/ConstraintSolver</name>
-			<type>5</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-*.cpp</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414456948297</id>
-			<name>jni/third_party/bullet/bullet-2.82-r2704/src/BulletDynamics/ConstraintSolver</name>
-			<type>5</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-*.h</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414456990964</id>
-			<name>jni/third_party/bullet/bullet-2.82-r2704/src/BulletDynamics/Dynamics</name>
-			<type>5</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-*.h</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414456990967</id>
-			<name>jni/third_party/bullet/bullet-2.82-r2704/src/BulletDynamics/Dynamics</name>
-			<type>5</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-*.cpp</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414457006981</id>
-			<name>jni/third_party/bullet/bullet-2.82-r2704/src/BulletDynamics/Featherstone</name>
-			<type>5</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-*.h</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414457006985</id>
-			<name>jni/third_party/bullet/bullet-2.82-r2704/src/BulletDynamics/Featherstone</name>
-			<type>5</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-*.cpp</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414457020067</id>
-			<name>jni/third_party/bullet/bullet-2.82-r2704/src/BulletDynamics/MLCPSolvers</name>
-			<type>5</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-*.h</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414457020070</id>
-			<name>jni/third_party/bullet/bullet-2.82-r2704/src/BulletDynamics/MLCPSolvers</name>
-			<type>5</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-*.cpp</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414457030335</id>
-			<name>jni/third_party/bullet/bullet-2.82-r2704/src/BulletDynamics/Vehicle</name>
-			<type>5</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-*.h</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1414457030338</id>
-			<name>jni/third_party/bullet/bullet-2.82-r2704/src/BulletDynamics/Vehicle</name>
 			<type>5</type>
 			<matcher>
 				<id>org.eclipse.ui.ide.multiFilter</id>

@@ -1,4 +1,4 @@
-obj/local/armeabi/objs/game/jni.o: jni/..//jni/game/jni.cpp \
+obj/local/armeabi/objs/game/jni.o: jni/../jni/game/jni.cpp \
  /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/jni.h \
  /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/sys/cdefs.h \
  /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/sys/cdefs_elf.h \
@@ -84,7 +84,103 @@ obj/local/armeabi/objs/game/jni.o: jni/..//jni/game/jni.cpp \
  /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_vector.c \
  /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_range_errors.h \
  /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_bvector.h \
- /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_relops_cont.h
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_relops_cont.h \
+ /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/platform/core/DeviceTouch.h \
+ /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/platform/core/DeviceInputTime.h \
+ /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/platform/core/Util.h \
+ /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/platform/core/Log.h \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/csignal \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_csignal.h \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/signal.h \
+ /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/../include/signal.h \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/errno.h \
+ /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/../include/errno.h \
+ /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/linux/errno.h \
+ /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/asm/errno.h \
+ /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/asm-generic/errno.h \
+ /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/asm-generic/errno-base.h \
+ /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/asm/sigcontext.h \
+ /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/linux/signal.h \
+ /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/asm/signal.h \
+ /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/asm-generic/signal-defs.h \
+ /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/asm/siginfo.h \
+ /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/asm-generic/siginfo.h \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/cstdlib \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stdio.h \
+ /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/../include/stdio.h \
+ /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/jli_game_engine/version-1.0/src/AbstractObject.h \
+ /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/platform/core/Util.h \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/string \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_string.h \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_string_fwd.h \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_iosfwd.h \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/char_traits.h \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_cwchar.h \
+ /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/../include/wchar.h \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/time.h \
+ /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/../include/time.h \
+ /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/sys/time.h \
+ /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/linux/time.h \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_mbstate_t.h \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_string_base.h \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_string_npos.h \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_string_operators.h \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_string.c \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_ctraits_fns.h \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_function.h \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_function_adaptors.h \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_string_hash.h \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_hash_fun.h \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_string_io.h \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_ostream.h \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_ios.h \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_ios_base.h \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_stdexcept_base.h \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_exception.h \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_locale.h \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_threads.h \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/pthread.h \
+ /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/../include/pthread.h \
+ /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/sched.h \
+ /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/linux/sched.h \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_threads.c \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_ctime.h \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_facets_fwd.h \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_ctype.h \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/c_locale.h \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_numpunct.h \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_ios.c \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_streambuf.h \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_streambuf.c \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_ostreambuf_iterator.h \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_ostream.c \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_num_put.h \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_iostream_string.h \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_num_put.c \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_limits.h \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/cfloat \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/float.h \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_limits.c \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_istream.h \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_istreambuf_iterator.h \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_istream.c \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_num_get.h \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_num_get.c \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_string_io.c \
+ /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/jli_game_engine/version-1.0/src/WorldFactory.h \
+ /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/bullet/bullet-2.82-r2704/src/LinearMath/btHashMap.h \
+ /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/bullet/bullet-2.82-r2704/src/LinearMath/btAlignedObjectArray.h \
+ /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/bullet/bullet-2.82-r2704/src/LinearMath/btScalar.h \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/assert.h \
+ /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/../include/assert.h \
+ /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/bullet/bullet-2.82-r2704/src/LinearMath/btAlignedAllocator.h \
+ /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/new \
+ /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/bullet/bullet-2.82-r2704/src/LinearMath/btSerializer.h \
+ /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/bullet/bullet-2.82-r2704/src/LinearMath/btHashMap.h \
+ /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/bullet/bullet-2.82-r2704/src/LinearMath/btAlignedObjectArray.h \
+ /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/jli_game_engine/version-1.0/src/AbstractBuilder.h \
+ /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/jli_game_engine/version-1.0/src/AbstractFactoryObject.h \
+ /Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/jli_game_engine/version-1.0/src/AbstractObject.h
 
 /Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/jni.h:
 
@@ -257,3 +353,195 @@ obj/local/armeabi/objs/game/jni.o: jni/..//jni/game/jni.cpp \
 /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_bvector.h:
 
 /Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_relops_cont.h:
+
+/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/platform/core/DeviceTouch.h:
+
+/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/platform/core/DeviceInputTime.h:
+
+/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/platform/core/Util.h:
+
+/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/platform/core/Log.h:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/csignal:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_csignal.h:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/signal.h:
+
+/Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/../include/signal.h:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/errno.h:
+
+/Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/../include/errno.h:
+
+/Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/linux/errno.h:
+
+/Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/asm/errno.h:
+
+/Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/asm-generic/errno.h:
+
+/Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/asm-generic/errno-base.h:
+
+/Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/asm/sigcontext.h:
+
+/Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/linux/signal.h:
+
+/Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/asm/signal.h:
+
+/Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/asm-generic/signal-defs.h:
+
+/Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/asm/siginfo.h:
+
+/Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/asm-generic/siginfo.h:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/cstdlib:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stdio.h:
+
+/Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/../include/stdio.h:
+
+/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/jli_game_engine/version-1.0/src/AbstractObject.h:
+
+/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/platform/core/Util.h:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/string:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_string.h:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_string_fwd.h:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_iosfwd.h:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/char_traits.h:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_cwchar.h:
+
+/Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/../include/wchar.h:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/time.h:
+
+/Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/../include/time.h:
+
+/Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/sys/time.h:
+
+/Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/linux/time.h:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_mbstate_t.h:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_string_base.h:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_string_npos.h:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_string_operators.h:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_string.c:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_ctraits_fns.h:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_function.h:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_function_adaptors.h:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_string_hash.h:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_hash_fun.h:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_string_io.h:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_ostream.h:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_ios.h:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_ios_base.h:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_stdexcept_base.h:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_exception.h:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_locale.h:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_threads.h:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/pthread.h:
+
+/Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/../include/pthread.h:
+
+/Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/sched.h:
+
+/Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/linux/sched.h:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_threads.c:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_ctime.h:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_facets_fwd.h:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_ctype.h:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/c_locale.h:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_numpunct.h:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_ios.c:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_streambuf.h:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_streambuf.c:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_ostreambuf_iterator.h:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_ostream.c:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_num_put.h:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_iostream_string.h:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_num_put.c:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_limits.h:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/cfloat:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/float.h:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_limits.c:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_istream.h:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_istreambuf_iterator.h:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_istream.c:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_num_get.h:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_num_get.c:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/stl/_string_io.c:
+
+/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/jli_game_engine/version-1.0/src/WorldFactory.h:
+
+/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/bullet/bullet-2.82-r2704/src/LinearMath/btHashMap.h:
+
+/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/bullet/bullet-2.82-r2704/src/LinearMath/btAlignedObjectArray.h:
+
+/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/bullet/bullet-2.82-r2704/src/LinearMath/btScalar.h:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/assert.h:
+
+/Applications/adt-bundle/ndk/platforms/android-L/arch-arm/usr/include/../include/assert.h:
+
+/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/bullet/bullet-2.82-r2704/src/LinearMath/btAlignedAllocator.h:
+
+/Applications/adt-bundle/ndk/sources/cxx-stl/stlport/stlport/new:
+
+/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/bullet/bullet-2.82-r2704/src/LinearMath/btSerializer.h:
+
+/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/bullet/bullet-2.82-r2704/src/LinearMath/btHashMap.h:
+
+/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/bullet/bullet-2.82-r2704/src/LinearMath/btAlignedObjectArray.h:
+
+/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/jli_game_engine/version-1.0/src/AbstractBuilder.h:
+
+/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/jli_game_engine/version-1.0/src/AbstractFactoryObject.h:
+
+/Users/jamesfolk/Dropbox/GameDevelopment/mygames/third_party/jli_game_engine/version-1.0/src/AbstractObject.h:
