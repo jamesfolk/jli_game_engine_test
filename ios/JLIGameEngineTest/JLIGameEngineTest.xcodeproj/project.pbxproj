@@ -1384,6 +1384,7 @@
 		C1B3D1DE1A44A59000C8DA0E /* WorldStateMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorldStateMachine.h; sourceTree = "<group>"; };
 		C1B3D1DF1A44A59000C8DA0E /* WorldStateMachineBuilder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WorldStateMachineBuilder.cpp; sourceTree = "<group>"; };
 		C1B3D1E01A44A59000C8DA0E /* WorldStateMachineBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorldStateMachineBuilder.h; sourceTree = "<group>"; };
+		C1B3D2891A4545A500C8DA0E /* Lua.i */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c.preprocessed; name = Lua.i; path = ../../Lua.i; sourceTree = "<group>"; };
 		C1C338B519F6ACC00055CA83 /* sqlite3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sqlite3.c; path = "sqlite/sqlite-amalgamation-3080700/sqlite3.c"; sourceTree = "<group>"; };
 		C1C338B619F6ACC00055CA83 /* sqlite3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sqlite3.h; path = "sqlite/sqlite-amalgamation-3080700/sqlite3.h"; sourceTree = "<group>"; };
 		C1C338B719F6ACC00055CA83 /* sqlite3ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sqlite3ext.h; path = "sqlite/sqlite-amalgamation-3080700/sqlite3ext.h"; sourceTree = "<group>"; };
@@ -2225,6 +2226,7 @@
 		C1B3CD531A43F95C00C8DA0E /* bullet */ = {
 			isa = PBXGroup;
 			children = (
+				C1B3D2891A4545A500C8DA0E /* Lua.i */,
 				C1B3CD541A43F95C00C8DA0E /* btBulletCollisionCommon.h */,
 				C1B3CD551A43F95C00C8DA0E /* btBulletDynamicsCommon.h */,
 				C1B3CD561A43F95C00C8DA0E /* Bullet-C-Api.h */,
